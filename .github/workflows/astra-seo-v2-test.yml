@@ -1,0 +1,54 @@
+name: ASTRA SEO Lab V2 Test
+
+on:
+  push:
+    branches: [astra-seo-free]
+    paths:
+      - 'astra-seo-free/**'
+      - '.github/workflows/astra-seo-v2-test.yml'
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install
+        working-directory: astra-seo-free
+        run: npm install
+      - name: Syntax check
+        working-directory: astra-seo-free
+        run: node --check server.js
+      - name: Start server
+        working-directory: astra-seo-free
+        run: |
+          node server.js > /tmp/astra.log 2>&1 &
+          echo $! > /tmp/astra.pid
+          for i in {1..20}; do
+            curl -fsS http://127.0.0.1:3000/api/health && exit 0
+            sleep 1
+          done
+          cat /tmp/astra.log
+          exit 1
+      - name: Verify health contract
+        run: |
+          curl -fsS http://127.0.0.1:3000/api/health > /tmp/health.json
+          cat /tmp/health.json
+          node -e "const x=require('/tmp/health.json'); if(x.version!=='2.0.0'||!x.modules.includes('cpc-hunter')) process.exit(1)"
+      - name: Verify public network audit
+        run: |
+          curl -fsS --max-time 30 'http://127.0.0.1:3000/api/audit?url=https%3A%2F%2Fexample.com' > /tmp/audit.json
+          cat /tmp/audit.json
+          node -e "const x=require('/tmp/audit.json'); if(x.evidence!=='VERIFIED_FROM_LIVE_HTML') process.exit(1)"
+      - name: Verify CPC Hunter runtime
+        run: |
+          curl -fsS --max-time 120 'http://127.0.0.1:3000/api/hunter?q=business%20insurance&lang=en&mode=fast&limit=3' > /tmp/hunter.json
+          cat /tmp/hunter.json
+          node -e "const x=require('/tmp/hunter.json'); if(!Array.isArray(x.results)||x.results.length<1||!x.methodology) process.exit(1)"
+      - name: Server logs
+        if: always()
+        run: cat /tmp/astra.log || true
