@@ -38,7 +38,7 @@ jobs:
         run: |
           curl -fsS http://127.0.0.1:3000/api/health > /tmp/health.json
           cat /tmp/health.json
-          node -e "const x=require('/tmp/health.json'); if(x.version!=='2.0.1'||!x.modules.includes('cpc-hunter')) process.exit(1)"
+          node -e "const x=require('/tmp/health.json'); if(x.version!=='2.0.2'||!x.modules.includes('cpc-hunter')) process.exit(1)"
       - name: Verify frontend JavaScript syntax
         run: |
           python - <<'PY'
@@ -62,7 +62,7 @@ jobs:
         run: |
           curl -fsS --max-time 180 'http://127.0.0.1:3000/api/hunter?q=business%20insurance&lang=en&mode=deep&limit=3' > /tmp/hunter-deep.json
           cat /tmp/hunter-deep.json
-          node -e "const x=require('/tmp/hunter-deep.json'); if(!Array.isArray(x.results)||x.results.length<1||!x.results.some(r=>r.top_domain_link_signal)) process.exit(1)"
+          node -e "const x=require('/tmp/hunter-deep.json'); if(!Array.isArray(x.results)||x.results.length<1||!x.results.some(r=>r.top_domain_link_signal)||!x.results.every(r=>r.backlink_gate)) process.exit(1)"
       - name: Package V2 artifact
         run: zip -qr /tmp/astra-seo-lab-v2.zip astra-seo-free
       - uses: actions/upload-artifact@v4
