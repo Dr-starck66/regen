@@ -1,0 +1,72 @@
+name: ASTRA Single Candidate Chełm
+
+on:
+  push:
+    branches: [astra-seo-free]
+    paths:
+      - '.github/workflows/astra-single-chelm.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Start ASTRA
+        working-directory: astra-seo-free
+        run: |
+          npm install
+          node server.js > /tmp/astra-single.log 2>&1 &
+          for i in {1..30}; do
+            curl -fsS http://127.0.0.1:3000/api/health && break
+            sleep 1
+          done
+      - name: Check candidate
+        run: |
+          node --input-type=module <<'EOF'
+          import fs from 'node:fs';
+          const base='http://127.0.0.1:3000';
+          const get=async p=>{const r=await fetch(base+p);if(!r.ok)throw new Error(r.status+' '+await r.text());return r.json()};
+          const host=u=>{try{return new URL(u).hostname.replace(/^www\./,'')}catch{return''}};
+          const query='upadłość konsumencka chełm';
+          const domain='ryzynski.eu';
+          const target='https://ryzynski.eu/kancelaria-doradcy-restrukturyzacyjnego/kancelaria-chelm/upadlosc-konsumencka-chelm';
+          const serp=await get('/api/serp?q='+encodeURIComponent(query)+'&lang=pl&limit=10');
+          const hit=(serp.results||[]).find(x=>host(x.url)===domain);
+          const backlinks=await get('/api/backlinks?domain='+encodeURIComponent(domain)+'&limit=11');
+          const audit=await get('/api/audit?url='+encodeURIComponent(target));
+          const report={
+            generated_at:new Date().toISOString(),
+            engine:'ASTRA SEO Lab 2.0.2',
+            query,
+            domain,
+            target,
+            serp_source:serp.source,
+            serp_evidence:serp.evidence,
+            position:hit?.position??null,
+            ranking_url:hit?.url??null,
+            top3:!!hit&&hit.position<=3,
+            backlinks,
+            under_10_confirmed:backlinks.confirmed_backlinks<=10,
+            total_under_10_status:backlinks.confirmed_backlinks<=10?'UNVERIFIED_TOTAL_COULD_EXCEED_10':'FAIL_CONFIRMED_OVER_10',
+            audit
+          };
+          fs.mkdirSync('astra-seo-free/research',{recursive:true});
+          fs.writeFileSync('astra-seo-free/research/single-chelm.json',JSON.stringify(report,null,2));
+          console.log(JSON.stringify(report,null,2));
+          EOF
+      - name: Persist
+        run: |
+          git config user.name "ASTRA SEO Lab"
+          git config user.email "actions@users.noreply.github.com"
+          git add astra-seo-free/research/single-chelm.json
+          git diff --cached --quiet && exit 0
+          git commit -m "ASTRA: persist Chełm candidate check"
+          git push origin HEAD:astra-seo-free
