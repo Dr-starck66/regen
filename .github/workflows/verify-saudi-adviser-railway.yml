@@ -1,0 +1,25 @@
+name: Verify Saudi Adviser Railway
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/verify-saudi-adviser-railway.yml'
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify public homepage
+        run: |
+          set -euo pipefail
+          URL="https://saudi-adviser-prod-production.up.railway.app"
+          for path in "/" "/robots.txt" "/sitemap.xml"; do
+            code=$(curl -L -sS -o /tmp/out -w "%{http_code}" "$URL$path")
+            echo "$path HTTP $code"
+            test "$code" = "200"
+            test -s /tmp/out
+          done
+          curl -L -sS "$URL/" | grep -qi "<html"
+          curl -L -sS "$URL/robots.txt" | grep -qi "User-agent"
+          curl -L -sS "$URL/sitemap.xml" | grep -qi "<urlset\|<sitemapindex"
+          echo "PUBLIC_HTTP_GATE=PASS"
