@@ -1,3 +1,1 @@
-FROM caddy:2-alpine
-COPY Caddyfile /etc/caddy/Caddyfile
-COPY . /usr/share/caddy
+FROM node:22-alpine\nWORKDIR /app\nCOPY . .\nENV NODE_ENV=production\nCMD ["node","server.js"]\n
