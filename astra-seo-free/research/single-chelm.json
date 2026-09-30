@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-09-30T21:23:59.036Z",
+  "engine": "ASTRA SEO Lab 2.0.2",
+  "query": "upadłość konsumencka chełm",
+  "domain": "ryzynski.eu",
+  "target": "https://ryzynski.eu/kancelaria-doradcy-restrukturyzacyjnego/kancelaria-chelm/upadlosc-konsumencka-chelm",
+  "serp_source": "duckduckgo_fallback",
+  "serp_evidence": "VERIFIED_FALLBACK_SERP_NOT_GOOGLE",
+  "position": 2,
+  "ranking_url": "https://ryzynski.eu/kancelaria-doradcy-restrukturyzacyjnego/kancelaria-chelm/upadlosc-konsumencka-chelm",
+  "top3": true,
+  "backlinks": {
+    "domain": "ryzynski.eu",
+    "discovered_candidates": 1,
+    "confirmed_backlinks": 0,
+    "referring_domains_confirmed": 0,
+    "backlinks": [],
+    "evidence": "CONFIRMED_BY_FETCHING_SOURCE_PAGES",
+    "coverage": "PARTIAL_DISCOVERY_NOT_A_FULL_WEB_LINK_INDEX",
+    "note": "Le compteur est un minimum confirmé, pas le total absolu du Web."
+  },
+  "under_10_confirmed": true,
+  "total_under_10_status": "UNVERIFIED_TOTAL_COULD_EXCEED_10",
+  "audit": {
+    "requested_url": "https://ryzynski.eu/kancelaria-doradcy-restrukturyzacyjnego/kancelaria-chelm/upadlosc-konsumencka-chelm",
+    "final_url": "https://ryzynski.eu/kancelaria-doradcy-restrukturyzacyjnego/kancelaria-chelm/upadlosc-konsumencka-chelm",
+    "http_status": 200,
+    "response_ms": 1766,
+    "https": true,
+    "content_type": "text/html; charset=utf-8",
+    "content_bytes": 30014,
+    "title": "Upadłość konsumencka Chełm – kompleksowe wsparcie prawne",
+    "meta_description": "Zyskaj wsparcie w upadłości konsumenckiej w Chełmie. Oferujemy fachowe doradztwo i reprezentację sądową. Skontaktuj się i odzyskaj stabilność finansową.",
+    "canonical": null,
+    "robots_meta": "",
+    "googlebot_meta": "",
+    "noindex": false,
+    "h1": [
+      "Upadłość konsumencka Chełm"
+    ],
+    "h2_count": 1,
+    "images_total": 13,
+    "images_missing_alt": 0,
+    "schema_count": 0,
+    "word_count": 386,
+    "internal_links": 57,
+    "external_links": 11,
+    "robots_accessible": true,
+    "sitemap_accessible": true,
+    "score": 90,
+    "issues": [
+      {
+        "code": "CANONICAL",
+        "severity": "medium",
+        "message": "Canonical absente."
+      },
+      {
+        "code": "SCHEMA",
+        "severity": "low",
+        "message": "Aucun JSON-LD détecté."
+      }
+    ],
+    "evidence": "VERIFIED_FROM_LIVE_HTML"
+  }
+}
