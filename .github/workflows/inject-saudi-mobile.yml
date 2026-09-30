@@ -1,0 +1,45 @@
+name: Inject Saudi Adviser Mobile Script
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'saudi-adviser-site/assets/style.css'
+      - 'saudi-adviser-site/assets/mobile.js'
+      - '.github/workflows/inject-saudi-mobile.yml'
+permissions:
+  contents: write
+jobs:
+  inject:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Add mobile script to all HTML pages
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          root=Path('saudi-adviser-site')
+          tag='<script defer src="/assets/mobile.js"></script>'
+          changed=0
+          for p in root.rglob('*.html'):
+              s=p.read_text(encoding='utf-8')
+              if tag not in s:
+                  s=s.replace('</body>', tag+'</body>')
+                  p.write_text(s, encoding='utf-8')
+                  changed+=1
+          print('updated_html=', changed)
+          PY
+      - name: Commit HTML enhancement
+        shell: bash
+        run: |
+          git config user.name "astra-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add saudi-adviser-site
+          if git diff --cached --quiet; then
+            echo "No HTML changes needed"
+            exit 0
+          fi
+          git commit -m "fix: apply mobile navigation to Saudi Adviser pages"
+          git push origin HEAD:main
