@@ -38,7 +38,7 @@ jobs:
         run: |
           curl -fsS http://127.0.0.1:3000/api/health > /tmp/health.json
           cat /tmp/health.json
-          node -e "const x=require('/tmp/health.json'); if(x.version!=='2.0.0'||!x.modules.includes('cpc-hunter')) process.exit(1)"
+          node -e "const x=require('/tmp/health.json'); if(x.version!=='2.0.1'||!x.modules.includes('cpc-hunter')) process.exit(1)"
       - name: Verify public network audit
         run: |
           curl -fsS --max-time 30 'http://127.0.0.1:3000/api/audit?url=https%3A%2F%2Fexample.com' > /tmp/audit.json
