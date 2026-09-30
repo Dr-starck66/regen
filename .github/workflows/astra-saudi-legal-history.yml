@@ -1,0 +1,50 @@
+name: ASTRA Saudi Legal Services History
+
+on:
+  push:
+    branches: [astra-seo-free]
+    paths:
+      - '.github/workflows/astra-saudi-legal-history.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Inspect archived site
+        run: |
+          python - <<'PY'
+          import json,re,urllib.request,html
+          urls=[
+            'https://web.archive.org/web/20201021023916id_/https://saudilegalservices.com/',
+            'https://web.archive.org/web/20201021014819id_/https://saudilegalservices.com/about/',
+            'https://web.archive.org/web/20201129104431id_/https://saudilegalservices.com/?lang=ar'
+          ]
+          out=[]
+          for u in urls:
+            try:
+              req=urllib.request.Request(u,headers={'User-Agent':'Mozilla/5.0 ASTRA-SEO-Lab'})
+              data=urllib.request.urlopen(req,timeout=30).read().decode('utf-8','ignore')
+              title=re.search(r'<title[^>]*>(.*?)</title>',data,re.I|re.S)
+              body=re.sub(r'<script.*?</script>|<style.*?</style>',' ',data,flags=re.I|re.S)
+              body=re.sub(r'<[^>]+>',' ',body)
+              body=html.unescape(re.sub(r'\s+',' ',body)).strip()
+              out.append({'url':u,'ok':True,'title':re.sub(r'\s+',' ',title.group(1)).strip() if title else None,'text_sample':body[:3000]})
+            except Exception as e:
+              out.append({'url':u,'ok':False,'error':str(e)})
+          p='astra-seo-free/research/saudilegalservices-history.json'
+          import os
+          os.makedirs(os.path.dirname(p),exist_ok=True)
+          open(p,'w',encoding='utf8').write(json.dumps(out,ensure_ascii=False,indent=2))
+          print(json.dumps(out,ensure_ascii=False,indent=2))
+          PY
+      - name: Persist
+        run: |
+          git config user.name "ASTRA SEO Lab"
+          git config user.email "actions@users.noreply.github.com"
+          git add astra-seo-free/research/saudilegalservices-history.json
+          git diff --cached --quiet || (git commit -m "ASTRA: verify Saudi Legal Services archive" && git push origin HEAD:astra-seo-free)
