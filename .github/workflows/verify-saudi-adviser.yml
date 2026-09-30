@@ -1,0 +1,30 @@
+name: Verify Saudi Adviser Railway
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/verify-saudi-adviser.yml'
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify public Railway endpoints
+        shell: bash
+        run: |
+          set -euo pipefail
+          BASE="https://saudi-adviser-prod-production.up.railway.app"
+          check() {
+            path="$1"
+            expected="$2"
+            code=$(curl -L -sS -o /tmp/body -w "%{http_code}" --max-time 30 "$BASE$path")
+            echo "$path => HTTP $code"
+            test "$code" = "200"
+            grep -Fq "$expected" /tmp/body
+            echo "CONTENT_OK $expected"
+          }
+          check "/" "Saudi Adviser"
+          check "/jeddah/compensation-lawyer/" "محامي"
+          check "/robots.txt" "Sitemap:"
+          check "/sitemap.xml" "https://saudi-adviser.com/"
+          echo "PUBLIC_HEALTH_GATE=PASS"
