@@ -1,0 +1,111 @@
+name: ASTRA Finalists Retest
+
+on:
+  push:
+    branches: [astra-seo-free]
+    paths:
+      - '.github/workflows/astra-finalists-retest.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  retest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Start ASTRA
+        working-directory: astra-seo-free
+        run: |
+          npm install
+          node server.js > /tmp/astra-finalists.log 2>&1 &
+          for i in {1..30}; do
+            curl -fsS http://127.0.0.1:3000/api/health && break
+            sleep 1
+          done
+
+      - name: Retest finalists
+        run: |
+          cat > /tmp/finalists.mjs <<'EOF'
+          import fs from 'node:fs';
+          const tests=[
+            {country:'Poland',lang:'pl',query:'upadłość konsumencka chełm',domain:'ryzynski.eu',target:'https://ryzynski.eu/kancelaria-doradcy-restrukturyzacyjnego/kancelaria-chelm/upadlosc-konsumencka-chelm',vertical:'consumer bankruptcy'},
+            {country:'Poland',lang:'pl',query:'upadłość konsumencka siedlce',domain:'adwokatsiedlce.com.pl',target:'https://adwokatsiedlce.com.pl/oferta/upadlosc-konsumencka/',vertical:'consumer bankruptcy'},
+            {country:'Poland',lang:'pl',query:'adwokat rozwodowy zamość',domain:'adwokatchomontowska.pl',target:'https://adwokatchomontowska.pl/rozwod-przed-sadem-okregowym-w-zamosciu-adwokat-do-spraw-rozwodowych-z-chelma/',vertical:'divorce lawyer'},
+            {country:'Poland',lang:'pl',query:'upadłość konsumencka zamość',domain:'sbslegal.pl',target:'https://sbslegal.pl/oddluzanie-zamosc/',vertical:'consumer bankruptcy'},
+            {country:'Poland',lang:'pl',query:'adwokat rozwodowy łomża',domain:'kownacka.lomza.pl',target:'https://kownacka.lomza.pl/oferta/rozwody/',vertical:'divorce lawyer'},
+            {country:'Portugal',lang:'pt',query:'credito empresas braga',domain:'dsicreditobragacentro.pt',target:'https://www.dsicreditobragacentro.pt/',vertical:'business credit'}
+          ];
+          const base='http://127.0.0.1:3000';
+          const get=async p=>{const r=await fetch(base+p);if(!r.ok)throw new Error(r.status+' '+await r.text());return r.json()};
+          const host=u=>{try{return new URL(u).hostname.replace(/^www\./,'')}catch{return''}};
+          const rows=[];
+          for(const t of tests){
+            const row={...t};
+            try{
+              const s=await get('/api/serp?q='+encodeURIComponent(t.query)+'&lang='+encodeURIComponent(t.lang)+'&limit=10');
+              row.serp_source=s.source;
+              row.serp_evidence=s.evidence;
+              const hit=(s.results||[]).find(x=>host(x.url)===t.domain);
+              row.position=hit?.position??null;
+              row.ranking_url=hit?.url??null;
+              row.top3=!!hit && hit.position<=3;
+            }catch(e){row.serp_error=String(e)}
+            try{
+              const b=await get('/api/backlinks?domain='+encodeURIComponent(t.domain)+'&limit=11');
+              row.backlinks={
+                confirmed_backlinks_min:b.confirmed_backlinks,
+                confirmed_ref_domains_min:b.referring_domains_confirmed,
+                discovered_candidates:b.discovered_candidates,
+                coverage:b.coverage,
+                evidence:b.evidence,
+                rows:b.backlinks
+              };
+              row.under_10_confirmed = b.confirmed_backlinks<=10;
+              row.total_under_10_status = b.confirmed_backlinks<=10 ? 'UNVERIFIED_TOTAL_COULD_EXCEED_10' : 'FAIL_CONFIRMED_OVER_10';
+            }catch(e){row.backlinks_error=String(e)}
+            try{
+              const a=await get('/api/audit?url='+encodeURIComponent(t.target));
+              row.audit={
+                http_status:a.http_status,
+                score:a.score,
+                title:a.title,
+                h1:a.h1,
+                word_count:a.word_count,
+                schema_count:a.schema_count,
+                canonical:a.canonical,
+                internal_links:a.internal_links,
+                external_links:a.external_links,
+                robots_accessible:a.robots_accessible,
+                sitemap_accessible:a.sitemap_accessible,
+                evidence:a.evidence
+              };
+            }catch(e){row.audit_error=String(e)}
+            rows.push(row);
+          }
+          const shortlist=rows.filter(r=>r.top3 && r.under_10_confirmed).sort((a,b)=>(a.backlinks?.confirmed_backlinks_min??999)-(b.backlinks?.confirmed_backlinks_min??999));
+          const report={generated_at:new Date().toISOString(),engine:'ASTRA SEO Lab 2.0.2',shortlist,rows,methodology_note:'ASTRA confirms discovered live backlinks; counts are lower bounds, therefore <=10 total remains unverified unless an exhaustive independent index confirms it.'};
+          fs.mkdirSync('astra-seo-free/research',{recursive:true});
+          fs.writeFileSync('astra-seo-free/research/finalists-latest.json',JSON.stringify(report,null,2));
+          console.log(JSON.stringify(report,null,2));
+          EOF
+          node /tmp/finalists.mjs
+
+      - name: Persist report
+        run: |
+          git config user.name "ASTRA SEO Lab"
+          git config user.email "actions@users.noreply.github.com"
+          git add astra-seo-free/research/finalists-latest.json
+          git diff --cached --quiet && exit 0
+          git commit -m "ASTRA: persist finalists retest"
+          git push origin HEAD:astra-seo-free
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: astra-finalists-retest
+          path: astra-seo-free/research/finalists-latest.json
