@@ -256,7 +256,7 @@ function commercialIntent(q) {
   return Math.min(100, score * 4);
 }
 
-app.get('/api/health', (_,res) => res.json({ ok:true, service:'ASTRA SEO Lab', version:'2.0.1', modules:['audit','serp','backlinks','keyword','cpc-hunter'] }));
+app.get('/api/health', (_,res) => res.json({ ok:true, service:'ASTRA SEO Lab', version:'2.0.2', modules:['audit','serp','backlinks','keyword','cpc-hunter'] }));
 app.get('/api/audit', async (req,res) => {
   try { const url=String(req.query.url||'').trim(); if(!url) return res.status(400).json({error:'url requis'}); res.json(await auditUrl(url)); }
   catch(e){ res.status(400).json({error:e.message||'audit_failed'}); }
@@ -419,10 +419,11 @@ async function analyzeHunterKeyword(keyword, lang='en', mode='fast') {
   const serpWeakness=Math.min(100,Math.round(avgWeakness + weakPages*5 + exactishDomains*4));
   const diversity=Math.min(100,domains.length*10);
   let opportunity=Math.round(Math.sqrt(Math.max(1,commercial.score)*Math.max(1,serpWeakness))*0.72 + serpWeakness*0.18 + commercial.score*0.07 + diversity*0.03);
-  if (linkSignal && Number.isFinite(linkSignal.confirmed_ref_domains_min)) {
-    const scarcity=Math.max(0,20-linkSignal.confirmed_ref_domains_min*2);
-    opportunity=Math.min(100,opportunity+Math.round(scarcity*0.35));
-  }
+  const backlinkGate = !linkSignal ? 'NOT_CHECKED' :
+    linkSignal.error ? 'UNVERIFIED' :
+    linkSignal.confirmed_ref_domains_min > 10 ? 'FAIL_CONFIRMED_OVER_10' :
+    'UNVERIFIED_TOTAL_COULD_EXCEED_10';
+  if (backlinkGate === 'FAIL_CONFIRMED_OVER_10') opportunity=Math.max(0,opportunity-20);
   return {
     keyword,
     opportunity_score:opportunity,
@@ -438,6 +439,8 @@ async function analyzeHunterKeyword(keyword, lang='en', mode='fast') {
     inspected_pages:pageChecks,
     top_domains:domains,
     top_domain_link_signal:linkSignal,
+    backlink_gate:backlinkGate,
+    qualifies_under_10_ref_domains:backlinkGate==='FAIL_CONFIRMED_OVER_10'?false:null,
     backlink_interpretation:linkSignal?'CONFIRMED_MINIMUM_ONLY_NOT_TOTAL':'NOT_CHECKED_IN_FAST_MODE',
     evidence:'LIVE_SERP_PLUS_LIVE_PAGE_INSPECTION'
   };
@@ -457,7 +460,7 @@ async function runHunter(seed,lang='en',mode='fast',limit=6) {
       exact_cpc:'UNVERIFIED_WITHOUT_GOOGLE_ADS_OR_PAID_PROVIDER',
       exact_volume:'UNVERIFIED_WITHOUT_GOOGLE_ADS_OR_PAID_PROVIDER',
       backlink_counts:'CONFIRMED_MINIMUMS_ONLY',
-      opportunity_score:'geometric balance: commercial value cannot compensate for a strong SERP; verified SERP weakness dominates, with a small domain-diversity term; deep mode adds only a small confirmed-link scarcity bonus'
+      opportunity_score:'geometric balance: commercial value cannot compensate for a strong SERP; verified SERP weakness dominates, with a small domain-diversity term. Backlink discovery never adds score; it can only disqualify when >10 referring domains are already confirmed.'
     },
     candidates_generated:candidates.length,
     results,
