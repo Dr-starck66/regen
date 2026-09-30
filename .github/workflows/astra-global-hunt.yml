@@ -7,41 +7,58 @@ on:
     paths:
       - '.github/workflows/astra-global-hunt.yml'
 
+permissions:
+  contents: write
+
 jobs:
   hunt:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
+
       - name: Install and start ASTRA
         working-directory: astra-seo-free
         run: |
           npm install
           node server.js > /tmp/astra.log 2>&1 &
-          for i in {1..20}; do
+          for i in {1..30}; do
             curl -fsS http://127.0.0.1:3000/api/health && break
             sleep 1
           done
+
       - name: Run global hunt with ASTRA only
         run: |
           cat > /tmp/hunt.mjs <<'EOF'
           import fs from 'node:fs';
+
           const targets = [
-            {country:'South Africa',lang:'en',query:'financial advisor bloemfontein',value:'VERY_HIGH',evidence:'2026 SA benchmark: financial advisor top-of-page bid up to R190.64'},
-            {country:'South Africa',lang:'en',query:'attorney bloemfontein',value:'VERY_HIGH',evidence:'2026 SA legal search CPC commonly R45-R150+'},
-            {country:'South Africa',lang:'en',query:'business insurance bloemfontein',value:'VERY_HIGH',evidence:'2026 SA insurance/financial CPC R30-R120+'},
-            {country:'Poland',lang:'pl',query:'adwokat rozwodowy kielce',value:'HIGH',evidence:'2026 PL benchmark: divorce lawyer + city 15-22 PLN CPC'},
-            {country:'Poland',lang:'pl',query:'kancelaria podatkowa lublin',value:'HIGH',evidence:'2026 PL benchmark: tax law office Warsaw 12-17 PLN; local variant used for weaker SERP hunt'},
-            {country:'Portugal',lang:'pt',query:'advogado divórcio braga',value:'HIGH',evidence:'2026 PT legal-sector avg CPC about EUR8.54'},
-            {country:'Romania',lang:'ro',query:'servicii financiare credit firme cluj',value:'HIGH',evidence:'2026 RO financial services estimated CPC 5-12 RON'},
-            {country:'Romania',lang:'ro',query:'avocat divorț sibiu',value:'HIGH',evidence:'2026 RO legal estimated CPC 4-10 RON'}
+            {country:'Poland',lang:'pl',query:'upadłość konsumencka chełm',vertical:'debt law'},
+            {country:'Poland',lang:'pl',query:'upadłość konsumencka siedlce',vertical:'debt law'},
+            {country:'Poland',lang:'pl',query:'adwokat rozwodowy zamość',vertical:'divorce lawyer'},
+            {country:'Poland',lang:'pl',query:'adwokat odszkodowania zamość',vertical:'compensation lawyer'},
+            {country:'Poland',lang:'pl',query:'kancelaria podatkowa lublin',vertical:'tax law'},
+            {country:'Portugal',lang:'pt',query:'advogado divórcio braga',vertical:'divorce lawyer'},
+            {country:'Portugal',lang:'pt',query:'crédito empresas braga',vertical:'business credit'},
+            {country:'Romania',lang:'ro',query:'avocat divorț sibiu',vertical:'divorce lawyer'},
+            {country:'Romania',lang:'ro',query:'insolvență persoane fizice cluj',vertical:'debt law'},
+            {country:'Bulgaria',lang:'bg',query:'адвокат развод пловдив',vertical:'divorce lawyer'},
+            {country:'Bulgaria',lang:'bg',query:'застраховка професионална отговорност варна',vertical:'professional insurance'},
+            {country:'South Africa',lang:'en',query:'financial advisor bloemfontein',vertical:'financial advisor'},
+            {country:'South Africa',lang:'en',query:'attorney bloemfontein',vertical:'lawyer'}
           ];
+
           const base='http://127.0.0.1:3000';
-          const get=async p=>{const r=await fetch(base+p); if(!r.ok) throw new Error(r.status+' '+await r.text()); return r.json()};
+          const get=async p=>{
+            const r=await fetch(base+p);
+            if(!r.ok) throw new Error(r.status+' '+await r.text());
+            return r.json();
+          };
           const host=u=>{try{return new URL(u).hostname.replace(/^www\./,'')}catch{return''}};
+
           const out=[];
           for(const t of targets){
             const row={...t,serp:null,candidates:[],errors:[]};
@@ -49,31 +66,109 @@ jobs:
               const serp=await get('/api/serp?q='+encodeURIComponent(t.query)+'&lang='+encodeURIComponent(t.lang)+'&limit=10');
               row.serp={source:serp.source,partial:serp.partial,evidence:serp.evidence};
               const top=(serp.results||[]).slice(0,3);
+
               for(const x of top){
-                const domain=host(x.url); if(!domain) continue;
+                const domain=host(x.url);
+                if(!domain) continue;
                 const c={position:x.position,title:x.title,url:x.url,domain};
+
                 try{
                   const a=await get('/api/audit?url='+encodeURIComponent(x.url));
-                  c.audit={score:a.score,word_count:a.word_count,schema_count:a.schema_count,h1:a.h1,title:a.title,evidence:a.evidence};
-                }catch(e){c.audit={error:String(e)}}
+                  c.audit={
+                    score:a.score,
+                    word_count:a.word_count,
+                    schema_count:a.schema_count,
+                    h1:a.h1,
+                    title:a.title,
+                    canonical:a.canonical,
+                    internal_links:a.internal_links,
+                    external_links:a.external_links,
+                    robots_accessible:a.robots_accessible,
+                    sitemap_accessible:a.sitemap_accessible,
+                    evidence:a.evidence
+                  };
+                }catch(e){
+                  c.audit={error:String(e)};
+                }
+
                 try{
                   const b=await get('/api/backlinks?domain='+encodeURIComponent(domain)+'&limit=11');
-                  c.links={confirmed_backlinks_min:b.confirmed_backlinks,confirmed_ref_domains_min:b.referring_domains_confirmed,discovered_candidates:b.discovered_candidates,coverage:b.coverage,evidence:b.evidence};
-                  c.under_10_gate=b.referring_domains_confirmed>10?'FAIL_CONFIRMED_OVER_10':'CANDIDATE_UNVERIFIED_TOTAL';
-                }catch(e){c.links={error:String(e)};c.under_10_gate='UNVERIFIED'}
+                  c.links={
+                    confirmed_backlinks_min:b.confirmed_backlinks,
+                    confirmed_ref_domains_min:b.referring_domains_confirmed,
+                    discovered_candidates:b.discovered_candidates,
+                    coverage:b.coverage,
+                    evidence:b.evidence,
+                    backlinks:b.backlinks
+                  };
+                  c.link_gate =
+                    b.confirmed_backlinks>10 || b.referring_domains_confirmed>10
+                    ? 'FAIL_CONFIRMED_OVER_10'
+                    : 'CANDIDATE_UNVERIFIED_TOTAL';
+                }catch(e){
+                  c.links={error:String(e)};
+                  c.link_gate='UNVERIFIED';
+                }
+
                 row.candidates.push(c);
               }
-            }catch(e){row.errors.push(String(e))}
+            }catch(e){
+              row.errors.push(String(e));
+            }
             out.push(row);
           }
-          fs.writeFileSync('/tmp/global-hunt.json',JSON.stringify({generated_at:new Date().toISOString(),engine:'ASTRA SEO Lab 2.0.2',method:'live SERP + live page audit + confirmed-link discovery; no proprietary SEO provider',results:out},null,2));
-          console.log(fs.readFileSync('/tmp/global-hunt.json','utf8'));
+
+          const flat=out.flatMap(r=>r.candidates.map(c=>({
+            country:r.country,
+            query:r.query,
+            vertical:r.vertical,
+            ...c
+          })));
+
+          const shortlist=flat
+            .filter(c=>c.position<=3 && c.link_gate==='CANDIDATE_UNVERIFIED_TOTAL')
+            .sort((a,b)=>{
+              const ar=a.links?.confirmed_backlinks_min ?? 999;
+              const br=b.links?.confirmed_backlinks_min ?? 999;
+              if(ar!==br) return ar-br;
+              const ad=a.links?.discovered_candidates ?? 999;
+              const bd=b.links?.discovered_candidates ?? 999;
+              return ad-bd;
+            });
+
+          const report={
+            generated_at:new Date().toISOString(),
+            engine:'ASTRA SEO Lab 2.0.2',
+            methodology:{
+              serp:'live Google HTML when available, DuckDuckGo fallback otherwise',
+              links:'confirmed by fetching discovered source pages',
+              caveat:'backlink count is a confirmed minimum, not an exhaustive web index; <=10 remains UNVERIFIED_TOTAL unless independently confirmed'
+            },
+            shortlist,
+            results:out
+          };
+
+          fs.mkdirSync('astra-seo-free/research',{recursive:true});
+          fs.writeFileSync('astra-seo-free/research/global-hunt-latest.json',JSON.stringify(report,null,2));
+          console.log(JSON.stringify(report,null,2));
           EOF
+
           node /tmp/hunt.mjs
+
+      - name: Commit latest ASTRA report
+        run: |
+          git config user.name "ASTRA SEO Lab"
+          git config user.email "actions@users.noreply.github.com"
+          git add astra-seo-free/research/global-hunt-latest.json
+          git diff --cached --quiet && exit 0
+          git commit -m "ASTRA: update global high-CPC hunt report"
+          git push origin HEAD:astra-seo-free
+
       - uses: actions/upload-artifact@v4
         with:
           name: astra-global-hunt
-          path: /tmp/global-hunt.json
+          path: astra-seo-free/research/global-hunt-latest.json
+
       - name: Server logs
         if: always()
         run: cat /tmp/astra.log || true
