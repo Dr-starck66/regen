@@ -5,21 +5,26 @@ on:
     paths:
       - '.github/workflows/verify-saudi-adviser-railway.yml'
   workflow_dispatch:
+permissions:
+  contents: read
 jobs:
   verify:
     runs-on: ubuntu-latest
     steps:
-      - name: Verify public homepage
+      - name: Verify public mobile V2
+        shell: bash
         run: |
           set -euo pipefail
-          URL="https://saudi-adviser-prod-production.up.railway.app"
-          for path in "/" "/robots.txt" "/sitemap.xml"; do
-            code=$(curl -L -sS -o /tmp/out -w "%{http_code}" "$URL$path")
+          BASE="https://saudi-adviser-live-production.up.railway.app"
+          for path in "/" "/robots.txt" "/sitemap.xml" "/assets/style.css" "/assets/mobile.js" "/jeddah/compensation-lawyer/"; do
+            code=$(curl -L -sS -o /tmp/body -w "%{http_code}" "$BASE$path")
             echo "$path HTTP $code"
             test "$code" = "200"
-            test -s /tmp/out
+            test -s /tmp/body
           done
-          curl -L -sS "$URL/" | grep -qi "<html"
-          curl -L -sS "$URL/robots.txt" | grep -qi "User-agent"
-          curl -L -sS "$URL/sitemap.xml" | grep -qi "<urlset\|<sitemapindex"
-          echo "PUBLIC_HTTP_GATE=PASS"
+          curl -L -sS "$BASE/assets/style.css" | grep -q 'scroll-snap-type:x proximity'
+          curl -L -sS "$BASE/assets/style.css" | grep -q 'grid-template-columns:minmax(0,1fr)'
+          curl -L -sS "$BASE/assets/mobile.js" | grep -q 'عرض الفهرس كاملاً'
+          curl -L -sS "$BASE/" | grep -q '/assets/mobile.js'
+          curl -L -sS "$BASE/jeddah/compensation-lawyer/" | grep -q '/assets/mobile.js'
+          echo "MOBILE_V2_HTTP_GATE=PASS"
