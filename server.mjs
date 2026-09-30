@@ -1,0 +1,44 @@
+import http from 'node:http';
+import crypto from 'node:crypto';
+
+const SITE='https://wyyldeavisfrance.wordpress.com/';
+const BLOG='wyyldeavisfrance.wordpress.com';
+const BLOG_ID='257604911';
+const COOKIE='astra_gsc_bridge';
+const TTL=1200;
+
+const need=n=>{const v=(process.env[n]||'').trim();if(!v)throw new Error('missing_env:'+n);return v};
+const origin=()=>need('PUBLIC_ORIGIN').replace(/\/$/,'');
+const key=()=>crypto.createHash('sha256').update([need('GOOGLE_CLIENT_ID'),need('GOOGLE_CLIENT_SECRET'),need('WPCOM_CLIENT_ID'),need('WPCOM_CLIENT_SECRET')].join('|')).digest();
+const enc=v=>Buffer.from(v).toString('base64url');
+const dec=v=>Buffer.from(v,'base64url');
+const state=(stage,job)=>{const b=enc(JSON.stringify({stage,job,site:SITE,iat:Date.now(),n:enc(crypto.randomBytes(12))}));return b+'.'+crypto.createHmac('sha256',key()).update(b).digest('base64url')};
+const readState=(stage,s)=>{const [b,h]=String(s||'').split('.');if(!b||!h)throw new Error('bad_state');const a=crypto.createHmac('sha256',key()).update(b).digest();const z=dec(h);if(a.length!==z.length||!crypto.timingSafeEqual(a,z))throw new Error('bad_state_sig');const p=JSON.parse(dec(b));if(p.stage!==stage||p.site!==SITE||Date.now()-p.iat>TTL*1000)throw new Error('bad_state_payload');return p};
+const seal=o=>{const iv=crypto.randomBytes(12),c=crypto.createCipheriv('aes-256-gcm',key(),iv),d=Buffer.concat([c.update(JSON.stringify(o)),c.final()]);return [enc(iv),enc(c.getAuthTag()),enc(d)].join('.')};
+const open=s=>{const [a,b,c]=String(s||'').split('.');const d=crypto.createDecipheriv('aes-256-gcm',key(),dec(a));d.setAuthTag(dec(b));return JSON.parse(Buffer.concat([d.update(dec(c)),d.final()]).toString())};
+const cookies=req=>Object.fromEntries(String(req.headers.cookie||'').split(';').map(x=>x.trim().split('=').map(decodeURIComponent)).filter(x=>x[0]));
+const setCookie=(v,age=TTL)=>COOKIE+'='+encodeURIComponent(v)+'; HttpOnly; Secure; SameSite=Lax; Path=/; Max-Age='+age;
+const esc=x=>String(x).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const json=(res,n,o,h={})=>{res.writeHead(n,{'content-type':'application/json','cache-control':'no-store',...h});res.end(JSON.stringify(o))};
+const page=(res,n,t,b,h={})=>{res.writeHead(n,{'content-type':'text/html; charset=utf-8','cache-control':'no-store',...h});res.end('<!doctype html><meta charset=utf-8><title>'+esc(t)+'</title><main style="font:16px system-ui;max-width:760px;margin:50px auto"><h1>'+esc(t)+'</h1>'+b+'</main>')};
+const redir=(res,u,h={})=>{res.writeHead(302,{location:u,'cache-control':'no-store',...h});res.end()};
+const cfg=()=>Object.fromEntries(['PUBLIC_ORIGIN','GOOGLE_CLIENT_ID','GOOGLE_CLIENT_SECRET','WPCOM_CLIENT_ID','WPCOM_CLIENT_SECRET'].map(n=>[n,!!(process.env[n]||'').trim()]));
+const gcb=()=>origin()+'/callback/google', wcb=()=>origin()+'/callback/wordpress';
+
+async function token(url,body){const r=await fetch(url,{method:'POST',headers:{'content-type':'application/x-www-form-urlencoded'},body:new URLSearchParams(body)});const j=await r.json();if(!r.ok||!j.access_token)throw new Error('oauth_token_failed:'+(j.error_description||j.error||r.status));return j}
+async function gMeta(a){const r=await fetch('https://www.googleapis.com/siteVerification/v1/token',{method:'POST',headers:{authorization:'Bearer '+a,'content-type':'application/json'},body:JSON.stringify({verificationMethod:'META',site:{type:'SITE',identifier:SITE}})});const j=await r.json();if(!r.ok||!j.token)throw new Error('google_meta_failed:'+(j.error?.message||r.status));const raw=String(j.token).trim(),content=raw.match(/content=["']([^"']+)["']/i)?.[1]||raw;return{content,tag:'<meta name="google-site-verification" content="'+content+'" />'}}
+async function wpWrite(a,tag){const b=new URLSearchParams();b.set('verification_services_codes[google]',tag);const r=await fetch('https://public-api.wordpress.com/rest/v1.4/sites/'+BLOG_ID+'/settings',{method:'POST',headers:{authorization:'Bearer '+a,'content-type':'application/x-www-form-urlencoded'},body:b});if(!r.ok)throw new Error('wp_write_failed:'+(await r.text()))}
+async function headHas(v){for(let i=0;i<8;i++){const r=await fetch(SITE,{cache:'no-store',headers:{'user-agent':'Astra-GSC-Bridge/1.0'}}),t=await r.text();if(r.ok&&t.includes('google-site-verification')&&t.includes(v))return true;await new Promise(x=>setTimeout(x,1250))}return false}
+async function gVerify(a){const r=await fetch('https://www.googleapis.com/siteVerification/v1/webResource?verificationMethod=META',{method:'POST',headers:{authorization:'Bearer '+a,'content-type':'application/json'},body:JSON.stringify({site:{type:'SITE',identifier:SITE}})});if(!r.ok)throw new Error('google_verify_failed:'+(await r.text()))}
+async function gsc(a){let r=await fetch('https://www.googleapis.com/webmasters/v3/sites/'+encodeURIComponent(SITE),{method:'PUT',headers:{authorization:'Bearer '+a}});if(!r.ok)throw new Error('gsc_add_failed:'+(await r.text()));for(const f of ['sitemap.xml','news-sitemap.xml']){const s=new URL(f,SITE).toString();r=await fetch('https://www.googleapis.com/webmasters/v3/sites/'+encodeURIComponent(SITE)+'/sitemaps/'+encodeURIComponent(s),{method:'PUT',headers:{authorization:'Bearer '+a}});if(!r.ok)throw new Error('sitemap_failed:'+f+':'+(await r.text()))}r=await fetch('https://www.googleapis.com/webmasters/v3/sites/'+encodeURIComponent(SITE),{headers:{authorization:'Bearer '+a}});const j=await r.json();if(!r.ok)throw new Error('gsc_confirm_failed');return j}
+
+async function app(req,res){
+ const u=new URL(req.url,origin());
+ if(u.pathname==='/health')return json(res,200,{ok:true,target:SITE,configured:cfg()});
+ if(u.pathname==='/')return page(res,200,'ASTRA GSC Bridge',Object.values(cfg()).every(Boolean)?'<p>Bridge prêt.</p><p><a href="/start">Connecter Search Console</a></p>':'<p>Configuration OAuth incomplète.</p><pre>'+esc(JSON.stringify(cfg(),null,2))+'</pre>');
+ if(u.pathname==='/start'){try{const job='wyylde-'+crypto.randomUUID();const q=new URLSearchParams({client_id:need('GOOGLE_CLIENT_ID'),redirect_uri:gcb(),response_type:'code',access_type:'offline',prompt:'consent',scope:'https://www.googleapis.com/auth/siteverification https://www.googleapis.com/auth/webmasters',state:state('google',job)});return redir(res,'https://accounts.google.com/o/oauth2/v2/auth?'+q)}catch(e){return json(res,503,{status:'CONFIG_PENDING',error:e.message,configured:cfg()})}}
+ if(u.pathname==='/callback/google'){try{if(u.searchParams.get('error'))throw new Error('google_denied');const s=readState('google',u.searchParams.get('state')),code=u.searchParams.get('code');if(!code)throw new Error('google_code_missing');const g=await token('https://oauth2.googleapis.com/token',{client_id:need('GOOGLE_CLIENT_ID'),client_secret:need('GOOGLE_CLIENT_SECRET'),code,redirect_uri:gcb(),grant_type:'authorization_code'}),meta=await gMeta(g.access_token),cookie=seal({job:s.job,site:SITE,g,meta,iat:Date.now()});const q=new URLSearchParams({client_id:need('WPCOM_CLIENT_ID'),redirect_uri:wcb(),response_type:'code',blog:BLOG,state:state('wordpress',s.job)});return redir(res,'https://public-api.wordpress.com/oauth2/authorize?'+q,{'set-cookie':setCookie(cookie)})}catch(e){return page(res,400,'Google incomplet','<p>FAIL fermé: <code>'+esc(e.message)+'</code></p>')}}
+ if(u.pathname==='/callback/wordpress'){try{if(u.searchParams.get('error'))throw new Error('wordpress_denied');const s=readState('wordpress',u.searchParams.get('state')),code=u.searchParams.get('code'),session=open(cookies(req)[COOKIE]);if(!code||session.job!==s.job||session.site!==SITE||Date.now()-session.iat>TTL*1000)throw new Error('bridge_session_invalid');const wp=await token('https://public-api.wordpress.com/oauth2/token',{client_id:need('WPCOM_CLIENT_ID'),client_secret:need('WPCOM_CLIENT_SECRET'),code,redirect_uri:wcb(),grant_type:'authorization_code'});if(wp.blog_id&&String(wp.blog_id)!==BLOG_ID)throw new Error('wrong_wordpress_blog');await wpWrite(wp.access_token,session.meta.tag);if(!await headHas(session.meta.content))throw new Error('meta_not_public');await gVerify(session.g.access_token);const p=await gsc(session.g.access_token);return page(res,200,'Search Console connecté','<p><strong>PASS</strong> — propriété vérifiée, ajoutée à Search Console et sitemaps soumis.</p><p>Permission: <code>'+esc(p.permissionLevel||'verified')+'</code></p>',{'set-cookie':setCookie('',0)})}catch(e){return page(res,400,'Search Console incomplet','<p><strong>FAIL fermé</strong>: <code>'+esc(e.message)+'</code></p>',{'set-cookie':setCookie('',0)})}}
+ return json(res,404,{error:'not_found'});
+}
+http.createServer((req,res)=>app(req,res).catch(e=>{console.error(e);if(!res.headersSent)json(res,500,{error:'internal_error'});else res.end()})).listen(Number(process.env.PORT||3000),'0.0.0.0');
