@@ -63,6 +63,57 @@ jobs:
           curl -fsS --max-time 180 'http://127.0.0.1:3000/api/hunter?q=business%20insurance&lang=en&mode=deep&limit=3' > /tmp/hunter-deep.json
           cat /tmp/hunter-deep.json
           node -e "const x=require('/tmp/hunter-deep.json'); if(!Array.isArray(x.results)||x.results.length<1||!x.results.some(r=>r.top_domain_link_signal)||!x.results.every(r=>r.backlink_gate)) process.exit(1)"
+      - name: ASTRA global high-CPC hunt
+        run: |
+          cat > /tmp/global-hunt.mjs <<'EOF'
+          import fs from 'node:fs';
+          const targets = [
+            {country:'South Africa',lang:'en',query:'financial advisor bloemfontein',value:'VERY_HIGH'},
+            {country:'South Africa',lang:'en',query:'attorney bloemfontein',value:'VERY_HIGH'},
+            {country:'South Africa',lang:'en',query:'business insurance bloemfontein',value:'VERY_HIGH'},
+            {country:'Poland',lang:'pl',query:'adwokat rozwodowy kielce',value:'HIGH'},
+            {country:'Poland',lang:'pl',query:'kancelaria podatkowa lublin',value:'HIGH'},
+            {country:'Portugal',lang:'pt',query:'advogado divórcio braga',value:'HIGH'},
+            {country:'Romania',lang:'ro',query:'servicii financiare credit firme cluj',value:'HIGH'},
+            {country:'Romania',lang:'ro',query:'avocat divorț sibiu',value:'HIGH'}
+          ];
+          const base='http://127.0.0.1:3000';
+          const get=async p=>{const r=await fetch(base+p); if(!r.ok) throw new Error(r.status+' '+await r.text()); return r.json()};
+          const host=u=>{try{return new URL(u).hostname.replace(/^www\\./,'')}catch{return''}};
+          const out=[];
+          for(const t of targets){
+            const row={...t,candidates:[],errors:[]};
+            try{
+              const serp=await get('/api/serp?q='+encodeURIComponent(t.query)+'&lang='+encodeURIComponent(t.lang)+'&limit=10');
+              row.serp={source:serp.source,partial:serp.partial,evidence:serp.evidence};
+              for(const x of (serp.results||[]).slice(0,3)){
+                const domain=host(x.url); if(!domain) continue;
+                const cc={position:x.position,title:x.title,url:x.url,domain};
+                try {
+                  const a=await get('/api/audit?url='+encodeURIComponent(x.url));
+                  cc.audit={score:a.score,word_count:a.word_count,schema_count:a.schema_count,title:a.title,h1:a.h1,evidence:a.evidence};
+                } catch(e){cc.audit={error:String(e)}}
+                try {
+                  const b=await get('/api/backlinks?domain='+encodeURIComponent(domain)+'&limit=11');
+                  cc.links={confirmed_backlinks_min:b.confirmed_backlinks,confirmed_ref_domains_min:b.referring_domains_confirmed,discovered_candidates:b.discovered_candidates,coverage:b.coverage,evidence:b.evidence};
+                  cc.gate=b.referring_domains_confirmed>10?'FAIL_CONFIRMED_OVER_10':'CANDIDATE_UNVERIFIED_TOTAL';
+                } catch(e){cc.links={error:String(e)};cc.gate='UNVERIFIED'}
+                row.candidates.push(cc);
+              }
+            }catch(e){row.errors.push(String(e))}
+            out.push(row);
+          }
+          const report={generated_at:new Date().toISOString(),engine:'ASTRA SEO Lab 2.0.2',results:out};
+          fs.writeFileSync('/tmp/global-hunt.json',JSON.stringify(report,null,2));
+          console.log('ASTRA_GLOBAL_HUNT_BEGIN');
+          console.log(JSON.stringify(report));
+          console.log('ASTRA_GLOBAL_HUNT_END');
+          EOF
+          node /tmp/global-hunt.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: astra-global-hunt
+          path: /tmp/global-hunt.json
       - name: Package V2 artifact
         run: zip -qr /tmp/astra-seo-lab-v2.zip astra-seo-free
       - uses: actions/upload-artifact@v4
