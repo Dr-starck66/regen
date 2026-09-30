@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-09-30T21:31:58.734Z",
+  "rows": [
+    {
+      "domain": "jeddahlawyers.com",
+      "links": {
+        "domain": "jeddahlawyers.com",
+        "discovered_candidates": 1,
+        "confirmed_backlinks": 0,
+        "referring_domains_confirmed": 0,
+        "backlinks": [],
+        "evidence": "CONFIRMED_BY_FETCHING_SOURCE_PAGES",
+        "coverage": "PARTIAL_DISCOVERY_NOT_A_FULL_WEB_LINK_INDEX",
+        "note": "Le compteur est un minimum confirmé, pas le total absolu du Web."
+      },
+      "wayback": {
+        "verified": true,
+        "snapshots": 5,
+        "first": "20240809100819",
+        "last": "20250928103639",
+        "sample": [
+          [
+            "20240809100819",
+            "http://www.jeddahlawyers.com/"
+          ],
+          [
+            "20240809100820",
+            "https://www.jeddahlawyers.com/"
+          ],
+          [
+            "20240809100835",
+            "http://jeddahlawyers.com/"
+          ],
+          [
+            "20250925201413",
+            "http://jeddahlawyers.com/"
+          ],
+          [
+            "20250928103639",
+            "http://jeddahlawyers.com/index-en.html"
+          ]
+        ]
+      }
+    },
+    {
+      "domain": "jebelalilawyer.com",
+      "links": {
+        "domain": "jebelalilawyer.com",
+        "discovered_candidates": 0,
+        "confirmed_backlinks": 0,
+        "referring_domains_confirmed": 0,
+        "backlinks": [],
+        "evidence": "CONFIRMED_BY_FETCHING_SOURCE_PAGES",
+        "coverage": "PARTIAL_DISCOVERY_NOT_A_FULL_WEB_LINK_INDEX",
+        "note": "Le compteur est un minimum confirmé, pas le total absolu du Web."
+      },
+      "wayback": {
+        "verified": true,
+        "snapshots": 0,
+        "first": null,
+        "last": null,
+        "sample": []
+      }
+    },
+    {
+      "domain": "saudilawonline.com",
+      "links": {
+        "domain": "saudilawonline.com",
+        "discovered_candidates": 0,
+        "confirmed_backlinks": 0,
+        "referring_domains_confirmed": 0,
+        "backlinks": [],
+        "evidence": "CONFIRMED_BY_FETCHING_SOURCE_PAGES",
+        "coverage": "PARTIAL_DISCOVERY_NOT_A_FULL_WEB_LINK_INDEX",
+        "note": "Le compteur est un minimum confirmé, pas le total absolu du Web."
+      },
+      "wayback": {
+        "verified": true,
+        "snapshots": 4,
+        "first": "20130620130123",
+        "last": "20160205104641",
+        "sample": [
+          [
+            "20130620130123",
+            "http://saudilawonline.com/"
+          ],
+          [
+            "20160110172124",
+            "http://saudilawonline.com/"
+          ],
+          [
+            "20211224011642",
+            "http://saudilawonline.com/"
+          ],
+          [
+            "20160205104641",
+            "http://saudilawonline.com/favicon.ico"
+          ]
+        ]
+      }
+    }
+  ]
+}
