@@ -1,0 +1,100 @@
+name: ASTRA Expired Legal Domain Scan
+
+on:
+  push:
+    branches: [astra-seo-free]
+    paths:
+      - '.github/workflows/astra-expired-domain-scan.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Start ASTRA
+        working-directory: astra-seo-free
+        run: |
+          npm install
+          node server.js > /tmp/astra-expired.log 2>&1 &
+          for i in {1..30}; do
+            curl -fsS http://127.0.0.1:3000/api/health && break
+            sleep 1
+          done
+      - name: Scan expired legal domains
+        run: |
+          cat > /tmp/scan.mjs <<'EOF'
+          import fs from 'node:fs';
+          const domains=[
+            'jeddahlawyers.com',
+            'saudilegalguide.com',
+            'saudilawyer.net',
+            'jeddahlawguide.com',
+            'riyadhlawyer.net',
+            'saudilegalhelp.com',
+            'saudilegalservices.com',
+            'saudilawhelp.com',
+            'saudilawportal.com'
+          ];
+          const base='http://127.0.0.1:3000';
+          const get=async p=>{const r=await fetch(base+p);if(!r.ok)throw new Error(r.status+' '+await r.text());return r.json()};
+          async function wayback(domain){
+            const u='https://web.archive.org/cdx/search/cdx?url='+encodeURIComponent(domain+'/*')+'&output=json&filter=statuscode:200&filter=mimetype:text/html&collapse=digest&fl=timestamp,original,statuscode&from=2000&to=2026&limit=200';
+            try{
+              const r=await fetch(u,{headers:{'user-agent':'Mozilla/5.0 ASTRA-SEO-Lab'}});
+              if(!r.ok) return {status:'UNVERIFIED',http_status:r.status};
+              const j=await r.json();
+              const rows=Array.isArray(j)?j.slice(1):[];
+              return {status:'VERIFIED',snapshots:rows.length,first:rows[0]?.[0]||null,last:rows.at(-1)?.[0]||null,sample:rows.slice(0,8)};
+            }catch(e){return {status:'UNVERIFIED',error:String(e)}}
+          }
+          const rows=[];
+          for(const domain of domains){
+            const row={domain};
+            try{row.links=await get('/api/backlinks?domain='+encodeURIComponent(domain)+'&limit=20')}catch(e){row.links_error=String(e)}
+            row.wayback=await wayback(domain);
+            const spamQueries=['casino','viagra','porn','bet','crypto'];
+            row.spam_mentions=[];
+            for(const term of spamQueries){
+              try{
+                const s=await get('/api/serp?q='+encodeURIComponent('"'+domain+'" '+term)+'&lang=en&limit=5');
+                if((s.results||[]).length) row.spam_mentions.push({term,count:s.results.length,source:s.source});
+              }catch{}
+            }
+            rows.push(row);
+          }
+          rows.sort((a,b)=>{
+            const ar=a.links?.referring_domains_confirmed??0, br=b.links?.referring_domains_confirmed??0;
+            if(br!==ar) return br-ar;
+            const ab=a.links?.confirmed_backlinks??0, bb=b.links?.confirmed_backlinks??0;
+            if(bb!==ab) return bb-ab;
+            return (b.wayback?.snapshots??0)-(a.wayback?.snapshots??0);
+          });
+          const report={generated_at:new Date().toISOString(),engine:'ASTRA SEO Lab 2.0.2',methodology_note:'Confirmed live backlinks are lower bounds, not exhaustive totals. Wayback snapshot counts are deduplicated HTML captures returned by CDX when reachable.',rows};
+          fs.mkdirSync('astra-seo-free/research',{recursive:true});
+          fs.writeFileSync('astra-seo-free/research/expired-legal-domains-latest.json',JSON.stringify(report,null,2));
+          console.log(JSON.stringify(report,null,2));
+          EOF
+          node /tmp/scan.mjs
+      - name: Persist report
+        run: |
+          git config user.name "ASTRA SEO Lab"
+          git config user.email "actions@users.noreply.github.com"
+          git add astra-seo-free/research/expired-legal-domains-latest.json
+          git diff --cached --quiet && exit 0
+          git commit -m "ASTRA: scan expired Saudi legal domains"
+          git push origin HEAD:astra-seo-free
+      - uses: actions/upload-artifact@v4
+        with:
+          name: astra-expired-legal-domain-scan
+          path: astra-seo-free/research/expired-legal-domains-latest.json
+      - name: Logs
+        if: always()
+        run: cat /tmp/astra-expired.log || true
