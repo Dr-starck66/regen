@@ -59,7 +59,7 @@ async function fetchText(raw, options = {}) {
   } finally { clearTimeout(timer); }
 }
 
-function absoluteUrl(href, base) { try { return new URL(href, base).toString(); } catch { return null; } }
+function absoluteUrl(href, base) { if (!href || typeof href !== 'string') return null; try { return new URL(href, base).toString(); } catch { return null; } }
 function uniq(arr) { return [...new Set(arr.filter(Boolean))]; }
 
 function scoreAudit(a) {
@@ -256,7 +256,7 @@ function commercialIntent(q) {
   return Math.min(100, score * 4);
 }
 
-app.get('/api/health', (_,res) => res.json({ ok:true, service:'ASTRA SEO Lab', version:'2.0.0', modules:['audit','serp','backlinks','keyword','cpc-hunter'] }));
+app.get('/api/health', (_,res) => res.json({ ok:true, service:'ASTRA SEO Lab', version:'2.0.1', modules:['audit','serp','backlinks','keyword','cpc-hunter'] }));
 app.get('/api/audit', async (req,res) => {
   try { const url=String(req.query.url||'').trim(); if(!url) return res.status(400).json({error:'url requis'}); res.json(await auditUrl(url)); }
   catch(e){ res.status(400).json({error:e.message||'audit_failed'}); }
@@ -418,7 +418,7 @@ async function analyzeHunterKeyword(keyword, lang='en', mode='fast') {
   const commercial=commercialSignal(keyword);
   const serpWeakness=Math.min(100,Math.round(avgWeakness + weakPages*5 + exactishDomains*4));
   const diversity=Math.min(100,domains.length*10);
-  let opportunity=Math.round(commercial.score*0.52 + serpWeakness*0.38 + diversity*0.10);
+  let opportunity=Math.round(Math.sqrt(Math.max(1,commercial.score)*Math.max(1,serpWeakness))*0.72 + serpWeakness*0.18 + commercial.score*0.07 + diversity*0.03);
   if (linkSignal && Number.isFinite(linkSignal.confirmed_ref_domains_min)) {
     const scarcity=Math.max(0,20-linkSignal.confirmed_ref_domains_min*2);
     opportunity=Math.min(100,opportunity+Math.round(scarcity*0.35));
@@ -457,7 +457,7 @@ async function runHunter(seed,lang='en',mode='fast',limit=6) {
       exact_cpc:'UNVERIFIED_WITHOUT_GOOGLE_ADS_OR_PAID_PROVIDER',
       exact_volume:'UNVERIFIED_WITHOUT_GOOGLE_ADS_OR_PAID_PROVIDER',
       backlink_counts:'CONFIRMED_MINIMUMS_ONLY',
-      opportunity_score:'52% commercial signal + 38% verified SERP on-page weakness + 10% domain diversity; deep mode adds a small confirmed-link scarcity bonus'
+      opportunity_score:'geometric balance: commercial value cannot compensate for a strong SERP; verified SERP weakness dominates, with a small domain-diversity term; deep mode adds only a small confirmed-link scarcity bonus'
     },
     candidates_generated:candidates.length,
     results,
