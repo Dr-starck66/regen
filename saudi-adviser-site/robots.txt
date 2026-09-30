@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://saudi-adviser.com/sitemap.xml
