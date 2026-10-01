@@ -114,6 +114,44 @@ jobs:
         with:
           name: astra-global-hunt
           path: /tmp/global-hunt.json
+      - name: ASTRA BetGPT Money SEO hunt
+        run: |
+          cat > /tmp/betgpt-money-hunt.mjs <<'EOF'
+          import fs from 'node:fs';
+          const targets = [
+            {query:'comparateur de cotes football',lang:'fr'},
+            {query:'meilleures cotes football',lang:'fr'},
+            {query:'pari du jour football',lang:'fr'},
+            {query:'pronostic foot aujourd hui',lang:'fr'},
+            {query:'pronostic ligue 1',lang:'fr'},
+            {query:'pronostic ligue des champions',lang:'fr'},
+            {query:'meilleur site pronostic foot',lang:'fr'},
+            {query:'value bet football',lang:'fr'},
+            {query:'marge bookmaker',lang:'fr'},
+            {query:'probabilite implicite cote',lang:'fr'}
+          ];
+          const base='http://127.0.0.1:3000';
+          const get=async p=>{const r=await fetch(base+p); if(!r.ok) throw new Error(r.status+' '+await r.text()); return r.json()};
+          const out=[];
+          for (const t of targets) {
+            try {
+              const x=await get('/api/hunter?q='+encodeURIComponent(t.query)+'&lang='+t.lang+'&mode=deep&limit=3');
+              out.push({seed:t.query,status:x.status,results:x.results,methodology:x.methodology});
+            } catch (e) {
+              out.push({seed:t.query,status:'FAIL',error:String(e)});
+            }
+          }
+          const report={generated_at:new Date().toISOString(),engine:'ASTRA SEO Lab 2.0.2 CPC Hunter',site:'betgpt.live',results:out};
+          fs.writeFileSync('/tmp/betgpt-money-hunt.json',JSON.stringify(report,null,2));
+          console.log('ASTRA_BETGPT_MONEY_HUNT_BEGIN');
+          console.log(JSON.stringify(report));
+          console.log('ASTRA_BETGPT_MONEY_HUNT_END');
+          EOF
+          node /tmp/betgpt-money-hunt.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: astra-betgpt-money-hunt
+          path: /tmp/betgpt-money-hunt.json
       - name: Package V2 artifact
         run: zip -qr /tmp/astra-seo-lab-v2.zip astra-seo-free
       - uses: actions/upload-artifact@v4
