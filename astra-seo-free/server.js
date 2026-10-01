@@ -246,7 +246,11 @@ async function backlinkDiscovery(domain, limit = 20) {
 const commercialTerms = new Map([
   ['insurance',10],['assurance',10],['lawyer',10],['avocat',9],['loan',9],['credit',8],
   ['mortgage',10],['quote',8],['devis',8],['attorney',10],['software',6],['saas',7],
-  ['hosting',7],['hébergement',7],['casino',9],['trading',8],['broker',8],['rehab',9]
+  ['hosting',7],['hébergement',7],['casino',9],['trading',8],['broker',8],['rehab',9],
+  ['bookmaker',10],['pari sportif',10],['paris sportifs',10],['cote',8],['cotes',8],
+  ['meilleure cote',10],['comparateur de cotes',10],['pronostic foot',8],['pronostic football',8],
+  ['pari du jour',9],['value bet',9],['bonus bookmaker',10],['bonus paris sportifs',10],
+  ['site de pari',10],['site de paris',10],['trj',7],['marge bookmaker',8]
 ]);
 function commercialIntent(q) {
   const x = q.toLowerCase();
@@ -348,7 +352,9 @@ const verticalBoost = [
   {re:/\b(mesothelioma|asbestos|attorney|lawyer|avocat|injury|accident)\b/i, boost:24, band:'VERY_HIGH'},
   {re:/\b(insurance|assurance|mortgage|hypotheque|loan|credit|refinance)\b/i, boost:22, band:'VERY_HIGH'},
   {re:/\b(cybersecurity|cyber insurance|erp|crm|saas|hosting|cloud|software)\b/i, boost:14, band:'HIGH'},
-  {re:/\b(rehab|addiction|detox|trading|broker|casino)\b/i, boost:16, band:'HIGH'}
+  {re:/\b(rehab|addiction|detox|trading|broker|casino)\b/i, boost:16, band:'HIGH'},
+  {re:/\b(bookmaker|pari sportif|paris sportifs|site de pari|site de paris|bonus bookmaker|bonus paris sportifs|comparateur de cotes|meilleure cote)\b/i, boost:18, band:'HIGH'},
+  {re:/\b(pronostic foot|pronostic football|pari du jour|value bet|marge bookmaker|trj)\b/i, boost:12, band:'HIGH'}
 ];
 function commercialSignal(q) {
   let score = commercialIntent(q);
