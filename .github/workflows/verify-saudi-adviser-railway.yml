@@ -11,20 +11,32 @@ jobs:
   verify:
     runs-on: ubuntu-latest
     steps:
-      - name: Verify public mobile V2
+      - name: Verify public pages and lead capture
         shell: bash
         run: |
           set -euo pipefail
-          BASE="https://saudi-adviser-live-production.up.railway.app"
-          for path in "/" "/robots.txt" "/sitemap.xml" "/assets/style.css" "/assets/mobile.js" "/jeddah/compensation-lawyer/"; do
+          BASE="https://saudi-adviser-prod-production.up.railway.app"
+
+          for path in             "/"             "/healthz"             "/cities/"             "/tabuk/"             "/qassim-buraydah/"             "/gcc/"             "/gcc/uae/dubai/"             "/gcc/qatar/doha/"             "/gcc/oman/muscat/"             "/contact/"             "/robots.txt"             "/sitemap.xml"             "/jeddah/compensation-lawyer/"
+          do
             code=$(curl -L -sS -o /tmp/body -w "%{http_code}" "$BASE$path")
             echo "$path HTTP $code"
             test "$code" = "200"
             test -s /tmp/body
           done
-          curl -L -sS "$BASE/assets/style.css" | grep -q 'scroll-snap-type:x proximity'
-          curl -L -sS "$BASE/assets/style.css" | grep -q 'grid-template-columns:minmax(0,1fr)'
-          curl -L -sS "$BASE/assets/mobile.js" | grep -q 'عرض الفهرس كاملاً'
-          curl -L -sS "$BASE/" | grep -q '/assets/mobile.js'
-          curl -L -sS "$BASE/jeddah/compensation-lawyer/" | grep -q '/assets/mobile.js'
-          echo "MOBILE_V2_HTTP_GATE=PASS"
+
+          curl -L -sS "$BASE/cities/" | grep -q "16 مدينة"
+          curl -L -sS "$BASE/gcc/" | grep -q "الإمارات"
+          curl -L -sS "$BASE/gcc/qatar/doha/" | grep -q "الدوحة"
+          curl -L -sS "$BASE/gcc/oman/muscat/" | grep -q "مسقط"
+          curl -L -sS "$BASE/sitemap.xml" | grep -q "gcc/uae/dubai"
+          curl -L -sS "$BASE/contact/" | grep -q "/api/leads"
+
+          lead_code=$(curl -sS -o /tmp/lead.json -w "%{http_code}"             -X POST "$BASE/api/leads"             -H 'Content-Type: application/json'             --data '{"first_name":"AstraTest","country":"SA","city":"Jeddah","topic":"compensation","contact":"qa@example.invalid","consent":"yes","summary":"synthetic QA lead","page":"/qa"}')
+          echo "lead POST HTTP $lead_code"
+          cat /tmp/lead.json
+          test "$lead_code" = "201"
+          grep -q '"ok":true' /tmp/lead.json
+          grep -q '"id":"L-' /tmp/lead.json
+
+          echo "ASTRA_PUBLIC_AND_LEAD_GATE=PASS"
