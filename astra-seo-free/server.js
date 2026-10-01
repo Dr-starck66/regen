@@ -153,6 +153,26 @@ async function searchDdg(query, limit = 20) {
   return extractDdg(r.text).slice(0, limit);
 }
 
+function extractBing(html) {
+  const $ = cheerio.load(html);
+  const out = [];
+  $('li.b_algo').each((_, el) => {
+    const a = $(el).find('h2 a').first();
+    const href = a.attr('href') || '';
+    const title = a.text().trim();
+    const snippet = $(el).find('.b_caption p').first().text().trim();
+    if (/^https?:\/\//i.test(href) && title) out.push({ title, url: href, snippet });
+  });
+  return out;
+}
+
+async function searchBing(query, limit = 20, language = 'fr') {
+  const url = 'https://www.bing.com/search?q=' + encodeURIComponent(query) + '&count=' + Math.min(limit, 30) + '&setlang=' + encodeURIComponent(language);
+  const r = await fetchText(url, { timeout: 10000, language: language + ',en;q=0.8' });
+  if (!r.ok) throw new Error('Bing HTTP ' + r.status);
+  return extractBing(r.text).slice(0, limit);
+}
+
 function extractGoogle(html) {
   const $ = cheerio.load(html);
   const out = [];
@@ -180,8 +200,15 @@ async function searchSerp(query, limit = 20, language = 'en') {
     if (r.ok && rows.length >= 3) return { source: 'google_live_html', partial: false, results: rows };
     googleError = 'Google returned ' + r.status + ', ' + rows.length + ' parsed results';
   } catch (e) { googleError = e.message; }
-  const rows = await searchDdg(query, limit);
-  return { source: 'duckduckgo_fallback', partial: true, note: googleError, results: rows };
+  try {
+    const rows = await searchDdg(query, limit);
+    if (rows.length >= 3) return { source: 'duckduckgo_fallback', partial: true, note: googleError, results: rows };
+  } catch {}
+  try {
+    const rows = await searchBing(query, limit, language);
+    if (rows.length) return { source: 'bing_live_html_fallback', partial: true, note: googleError, results: rows };
+  } catch {}
+  return { source: 'public_serp_unavailable', partial: true, note: googleError, results: [] };
 }
 
 async function getSuggestions(q, lang = 'fr') {
@@ -407,7 +434,9 @@ async function analyzeHunterKeyword(keyword, lang='en', mode='fast') {
     return qt.length && qt.filter(t=>compact.includes(t)).length >= Math.min(2,qt.length);
   }).length;
   let linkSignal=null;
-  if (mode==='deep' && domains[0]) {
+  if (mode==='deep' && !domains.length) {
+    linkSignal={domain:null,error:'NO_SERP_DOMAINS_TO_VERIFY',coverage:'UNVERIFIED'};
+  } else if (mode==='deep' && domains[0]) {
     try {
       const b=await cachedBacklinkSignal(domains[0]);
       linkSignal={
