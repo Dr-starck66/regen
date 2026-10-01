@@ -22,18 +22,31 @@ jobs:
             test "$code" = "200"
             test -s /tmp/body
           done
-          curl -L -sS "$BASE/cities/" | grep -q "16 مدينة"
+
+          curl -L -sS "$BASE/cities/" -o /tmp/cities
+          grep -q "16 مدينة" /tmp/cities
           echo "cities content PASS"
-          curl -L -sS "$BASE/gcc/" | grep -q "الإمارات"
+
+          curl -L -sS "$BASE/gcc/" -o /tmp/gcc
+          grep -q "الإمارات" /tmp/gcc
           echo "gcc hub content PASS"
-          curl -L -sS "$BASE/gcc/qatar/doha/" | grep -q "الدوحة"
+
+          curl -L -sS "$BASE/gcc/qatar/doha/" -o /tmp/qatar
+          grep -q "الدوحة" /tmp/qatar
           echo "qatar content PASS"
-          curl -L -sS "$BASE/gcc/oman/muscat/" | grep -q "مسقط"
+
+          curl -L -sS "$BASE/gcc/oman/muscat/" -o /tmp/oman
+          grep -q "مسقط" /tmp/oman
           echo "oman content PASS"
-          curl -L -sS "$BASE/sitemap.xml" | grep -q "gcc/uae/dubai"
+
+          curl -L -sS "$BASE/sitemap.xml" -o /tmp/sitemap
+          grep -q "gcc/uae/dubai" /tmp/sitemap
           echo "sitemap GCC PASS"
-          curl -L -sS "$BASE/contact/" | grep -q 'id="leadForm"'
-          curl -L -sS "$BASE/assets/mobile.js" | grep -q "/api/leads"
+
+          curl -L -sS "$BASE/contact/" -o /tmp/contact
+          grep -q 'id="leadForm"' /tmp/contact
+          curl -L -sS "$BASE/assets/mobile.js" -o /tmp/mobile
+          grep -q "/api/leads" /tmp/mobile
           echo "lead frontend wiring PASS"
 
       - name: Verify real lead POST
