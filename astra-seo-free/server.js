@@ -2,7 +2,7 @@ import express from 'express';
 import * as cheerio from 'cheerio';
 import dns from 'node:dns/promises';
 import net from 'node:net';
-import { unwrapBingHref } from './serp-utils.js';
+import { unwrapBingHref, serpRowsRelevant } from './serp-utils.js';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -209,11 +209,13 @@ async function searchSerp(query, limit = 20, language = 'en') {
     const rows = await searchDdg(query, limit);
     if (rows.length >= 3) return { source: 'duckduckgo_fallback', partial: true, note: googleError, results: rows };
   } catch {}
+  let bingRejected = false;
   try {
     const rows = await searchBing(query, limit, language);
-    if (rows.length) return { source: 'bing_live_html_fallback', partial: true, note: googleError, results: rows };
+    if (rows.length && serpRowsRelevant(query, rows)) return { source: 'bing_live_html_fallback', partial: true, note: googleError, results: rows };
+    if (rows.length) bingRejected = true;
   } catch {}
-  return { source: 'public_serp_unavailable', partial: true, note: googleError, results: [] };
+  return { source: 'public_serp_unavailable', partial: true, note: [googleError, bingRejected ? 'Bing fallback rejected by relevance gate' : null].filter(Boolean).join('; '), results: [] };
 }
 
 async function getSuggestions(q, lang = 'fr') {
