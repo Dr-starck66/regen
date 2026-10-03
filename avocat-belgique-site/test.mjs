@@ -58,6 +58,8 @@ try{
     if(!html.includes('application/ld+json')) throw new Error(path+' missing schema');
     if(!html.includes('name="description"')) throw new Error(path+' missing description');
     if(!html.includes('justice-belgique.svg')) throw new Error(path+' missing image');
+    if(!/<img[^>]+justice-belgique\.svg[^>]+width="1280"[^>]+height="720"/i.test(html)) throw new Error(path+' hero must expose real 1280x720 dimensions');
+    if(!html.includes('property="og:image:width" content="1280"')) throw new Error(path+' missing og image width');
     if(editorial.includes(path)){
       const wc=visibleWords(html);
       console.log('WORDCOUNT',path,wc);
