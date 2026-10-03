@@ -2,6 +2,7 @@ import express from 'express';
 import * as cheerio from 'cheerio';
 import dns from 'node:dns/promises';
 import net from 'node:net';
+import { unwrapBingHref } from './serp-utils.js';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -151,26 +152,6 @@ async function searchDdg(query, limit = 20) {
   const r = await fetchText('https://html.duckduckgo.com/html/?q=' + encodeURIComponent(query), { timeout: 10000 });
   if (!r.ok) throw new Error('DuckDuckGo HTTP ' + r.status);
   return extractDdg(r.text).slice(0, limit);
-}
-
-function unwrapBingHref(rawHref) {
-  if (!rawHref) return '';
-  try {
-    const u = new URL(rawHref, 'https://www.bing.com');
-    const host = u.hostname.toLowerCase();
-    if (/(^|\\.)bing\\.com$/.test(host) && u.pathname.startsWith('/ck/a')) {
-      const encoded = u.searchParams.get('u') || '';
-      if (encoded.startsWith('a1') && encoded.length > 2) {
-        let b64 = encoded.slice(2).replace(/-/g, '+').replace(/_/g, '/');
-        b64 += '='.repeat((4 - (b64.length % 4)) % 4);
-        const decoded = Buffer.from(b64, 'base64').toString('utf8');
-        if (/^https?:\/\//i.test(decoded)) return decoded;
-      }
-    }
-    return u.toString();
-  } catch {
-    return rawHref;
-  }
 }
 
 function extractBing(html) {
