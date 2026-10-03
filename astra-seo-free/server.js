@@ -153,15 +153,39 @@ async function searchDdg(query, limit = 20) {
   return extractDdg(r.text).slice(0, limit);
 }
 
+function unwrapBingHref(rawHref) {
+  if (!rawHref) return '';
+  try {
+    const u = new URL(rawHref, 'https://www.bing.com');
+    const host = u.hostname.toLowerCase();
+    if (/(^|\\.)bing\\.com$/.test(host) && u.pathname.startsWith('/ck/a')) {
+      const encoded = u.searchParams.get('u') || '';
+      if (encoded.startsWith('a1') && encoded.length > 2) {
+        let b64 = encoded.slice(2).replace(/-/g, '+').replace(/_/g, '/');
+        b64 += '='.repeat((4 - (b64.length % 4)) % 4);
+        const decoded = Buffer.from(b64, 'base64').toString('utf8');
+        if (/^https?:\/\//i.test(decoded)) return decoded;
+      }
+    }
+    return u.toString();
+  } catch {
+    return rawHref;
+  }
+}
+
 function extractBing(html) {
   const $ = cheerio.load(html);
   const out = [];
   $('li.b_algo').each((_, el) => {
     const a = $(el).find('h2 a').first();
-    const href = a.attr('href') || '';
+    const href = unwrapBingHref(a.attr('href') || '');
     const title = a.text().trim();
     const snippet = $(el).find('.b_caption p').first().text().trim();
-    if (/^https?:\/\//i.test(href) && title) out.push({ title, url: href, snippet });
+    if (!/^https?:\/\//i.test(href) || !title) return;
+    let host = '';
+    try { host = new URL(href).hostname.toLowerCase(); } catch {}
+    if (/(^|\\.)bing\\.com$/.test(host)) return;
+    out.push({ title, url: href, snippet });
   });
   return out;
 }
