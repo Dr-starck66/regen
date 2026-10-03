@@ -295,19 +295,23 @@ async function backlinkDiscovery(domain, limit = 20) {
 }
 
 const commercialTerms = new Map([
-  ['insurance',10],['assurance',10],['lawyer',10],['avocat',9],['loan',9],['credit',8],
-  ['mortgage',10],['quote',8],['devis',8],['attorney',10],['software',6],['saas',7],
-  ['hosting',7],['hébergement',7],['casino',9],['trading',8],['broker',8],['rehab',9],
+  ['insurance',10],['assurance',10],['seguro',10],['seguros',10],
+  ['lawyer',10],['avocat',9],['attorney',10],['abogado',10],['abogada',10],['abogados',10],
+  ['loan',9],['prestamo',9],['credit',8],['credito',8],['mortgage',10],['hipoteca',10],
+  ['quote',8],['devis',8],['cotizacion',8],['presupuesto',8],
+  ['software',6],['saas',7],['hosting',7],['hebergement',7],['alojamiento',6],
+  ['casino',9],['trading',8],['broker',8],['rehab',9],
+  ['inmobiliaria',7],['inmueble',6],['inmuebles',6],['hotel',6],['hoteles',6],
   ['bookmaker',10],['pari sportif',10],['paris sportifs',10],['cote',8],['cotes',8],
   ['meilleure cote',10],['comparateur de cotes',10],['pronostic foot',8],['pronostic football',8],
   ['pari du jour',9],['value bet',9],['bonus bookmaker',10],['bonus paris sportifs',10],
   ['site de pari',10],['site de paris',10],['trj',7],['marge bookmaker',8]
 ]);
 function commercialIntent(q) {
-  const x = q.toLowerCase();
+  const x = String(q).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
   let score = 0;
   for (const [term,weight] of commercialTerms) if (x.includes(term)) score += weight;
-  if (/\b(buy|acheter|prix|price|cost|tarif|best|meilleur|compare|comparatif|quote|devis)\b/i.test(x)) score += 8;
+  if (/\b(buy|acheter|prix|price|cost|tarif|best|meilleur|compare|comparatif|quote|devis|comprar|precio|precios|coste|mejor|mejores|comparar|cotizacion|presupuesto)\b/i.test(x)) score += 8;
   return Math.min(100, score * 4);
 }
 
@@ -400,24 +404,26 @@ async function inspectRankingPage(url, query) {
   }
 }
 const verticalBoost = [
-  {re:/\b(mesothelioma|asbestos|attorney|lawyer|avocat|injury|accident)\b/i, boost:24, band:'VERY_HIGH'},
-  {re:/\b(insurance|assurance|mortgage|hypotheque|loan|credit|refinance)\b/i, boost:22, band:'VERY_HIGH'},
+  {re:/\b(mesothelioma|asbestos|attorney|lawyer|avocat|abogado|abogada|abogados|injury|accident)\b/i, boost:24, band:'VERY_HIGH'},
+  {re:/\b(insurance|assurance|seguro|seguros|mortgage|hypotheque|hipoteca|loan|prestamo|credit|credito|refinance)\b/i, boost:22, band:'VERY_HIGH'},
   {re:/\b(cybersecurity|cyber insurance|erp|crm|saas|hosting|cloud|software)\b/i, boost:14, band:'HIGH'},
   {re:/\b(rehab|addiction|detox|trading|broker|casino)\b/i, boost:16, band:'HIGH'},
+  {re:/\b(inmobiliaria|inmueble|inmuebles|real estate|hotel|hoteles)\b/i, boost:10, band:'HIGH'},
   {re:/\b(bookmaker|pari sportif|paris sportifs|site de pari|site de paris|bonus bookmaker|bonus paris sportifs|comparateur de cotes|meilleure cote)\b/i, boost:18, band:'HIGH'},
   {re:/\b(pronostic foot|pronostic football|pari du jour|value bet|marge bookmaker|trj)\b/i, boost:12, band:'HIGH'}
 ];
 function commercialSignal(q) {
   let score = commercialIntent(q);
   let band = score >= 65 ? 'HIGH' : score >= 35 ? 'MEDIUM' : 'LOW';
+  const normalized = normText(q);
   for (const x of verticalBoost) {
-    if (x.re.test(q)) {
+    if (x.re.test(normalized)) {
       score = Math.min(100, score + x.boost);
       if (x.band === 'VERY_HIGH') band='VERY_HIGH';
       else if (band !== 'VERY_HIGH') band='HIGH';
     }
   }
-  if (/\b(near me|nearby|local|ville|city|paris|london|new york|los angeles)\b/i.test(q)) score = Math.min(100,score+6);
+  if (/\b(near me|nearby|local|ville|city|ciudad|cerca|paris|london|new york|los angeles|bruxelles|santiago|tarija)\b/i.test(normalized)) score = Math.min(100,score+6);
   return { score, band };
 }
 function localeModifiers(lang) {
