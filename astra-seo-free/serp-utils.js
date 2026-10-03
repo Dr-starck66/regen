@@ -17,3 +17,21 @@ export function unwrapBingHref(rawHref) {
     return rawHref;
   }
 }
+
+export function serpRowsRelevant(query, rows = []) {
+  const normalize = v => String(v || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  const stop = new Set(['the','and','for','with','from','des','les','une','dans','pour','con','del','las','los','una','por','para']);
+  const tokens = [...new Set(normalize(query).split(/[^a-z0-9]+/).filter(t => t.length > 2 && !stop.has(t)))];
+  if (!tokens.length) return rows.length >= 3;
+  const required = Math.max(1, Math.ceil(tokens.length * 0.67));
+  const sample = rows.slice(0, 8);
+  let relevant = 0;
+  for (const row of sample) {
+    let host = '';
+    try { host = new URL(row.url || '').hostname; } catch {}
+    const haystack = normalize([row.title, row.snippet, host].filter(Boolean).join(' '));
+    const hits = tokens.filter(t => haystack.includes(t)).length;
+    if (hits >= required) relevant++;
+  }
+  return relevant >= Math.min(3, sample.length);
+}
