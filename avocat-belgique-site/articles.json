@@ -1,0 +1,850 @@
+{
+  "divorce-belgique": {
+    "title": "Divorce en Belgique : préparer sa consultation avec un avocat",
+    "h1": "Divorce en Belgique : comment préparer son dossier",
+    "description": "Guide complet pour préparer une consultation en matière de divorce en Belgique : documents, enfants, logement, finances, médiation et questions à poser.",
+    "overview": "Un divorce ne se résume pas à la fin du mariage. Il peut toucher simultanément au logement, aux enfants, aux comptes, aux dettes, aux biens communs ou propres et parfois à des mesures urgentes. L’objectif de ce guide est de vous aider à organiser ces sujets avant de consulter un avocat, sans confondre information générale et conseil juridique personnalisé.",
+    "sources": [
+      [
+        "SPF Justice — Médiation",
+        "https://www.justice.belgium.be/fr/themes_et_dossiers/mediation"
+      ],
+      [
+        "AVOCATS.BE",
+        "https://avocats.be/"
+      ]
+    ],
+    "sections": [
+      [
+        "Identifier le type de séparation à traiter",
+        "distinguer ce qui relève de la rupture elle-même, des conséquences financières et de l’organisation familiale",
+        "l’acte de mariage, les conventions existantes, les courriers échangés et une chronologie simple",
+        "quelle procédure correspond à votre situation, ce qui peut être négocié et ce qui nécessite une décision judiciaire",
+        "Ne partez pas du principe qu’un modèle trouvé en ligne correspond à votre situation."
+      ],
+      [
+        "Enfants et organisation familiale",
+        "clarifier l’hébergement, les trajets, les périodes scolaires, les dépenses et les décisions importantes concernant les enfants",
+        "les décisions antérieures, calendriers, justificatifs de frais, échanges utiles et informations scolaires si elles sont pertinentes",
+        "quels points doivent être formalisés, quelles mesures peuvent être temporaires et comment documenter un désaccord",
+        "Évitez d’utiliser les enfants comme messagers entre adultes ou comme moyen de pression."
+      ],
+      [
+        "Logement, comptes et charges",
+        "faire l’inventaire de ce qui doit continuer à être payé pendant la séparation et de ce qui doit être sécurisé",
+        "contrats de prêt, bail, extraits utiles, factures récurrentes, assurances et preuves de propriété",
+        "quelles dépenses doivent continuer, quelles décisions nécessitent un accord et comment éviter d’aggraver un conflit financier",
+        "Ne videz pas un compte ou ne modifiez pas un engagement commun sans comprendre les conséquences juridiques."
+      ],
+      [
+        "Patrimoine et dettes",
+        "distinguer les biens, engagements et dettes afin que l’avocat puisse comprendre le patrimoine à partager ou à préserver",
+        "titres de propriété, contrats de crédit, relevés de comptes, documents de société, inventaires et actes notariés disponibles",
+        "quels biens sont concernés, comment les valoriser et quelles pièces manquent avant toute discussion sérieuse",
+        "Une estimation approximative peut servir de point de départ, mais ne remplace pas une évaluation adaptée."
+      ],
+      [
+        "Médiation ou procédure judiciaire",
+        "évaluer si une discussion structurée est encore possible ou si la protection des droits exige une autre voie",
+        "les propositions déjà formulées, refus reçus, comptes rendus de médiation et tout élément montrant l’état des discussions",
+        "si une médiation est réaliste, ce qui doit rester confidentiel et quand une procédure devient nécessaire",
+        "La médiation suppose une participation réelle des parties et ne convient pas à toutes les situations."
+      ]
+    ]
+  },
+  "aide-juridique-pro-deo-belgique": {
+    "title": "Aide juridique et avocat pro deo en Belgique : démarches et préparation",
+    "h1": "Avocat pro deo en Belgique : comprendre l’aide juridique",
+    "description": "Guide pratique sur l’aide juridique en Belgique, les premières démarches, les documents à préparer et les points à vérifier avant de demander un avocat.",
+    "overview": "Lorsqu’une personne hésite à consulter un avocat pour des raisons financières, elle peut perdre du temps alors qu’un délai continue à courir. L’enjeu n’est pas seulement de savoir si une aide existe, mais de comprendre quel service contacter, quelles informations préparer et comment distinguer un premier renseignement d’une véritable prise en charge du dossier.",
+    "sources": [
+      [
+        "SPF Justice — Besoin d’un avis juridique ?",
+        "https://www.justice.belgium.be/fr/besoin_dun_avis_juridique"
+      ],
+      [
+        "AVOCATS.BE",
+        "https://avocats.be/"
+      ]
+    ],
+    "sections": [
+      [
+        "Commencer par qualifier le besoin",
+        "déterminer si vous avez besoin d’une information générale, d’un avis ponctuel, d’une assistance pour une procédure ou d’une défense urgente",
+        "la décision reçue, la date limite éventuelle, les documents essentiels et un résumé du problème",
+        "quel type d’aide correspond à la situation et vers quel service vous orienter",
+        "Un renseignement général ne suspend pas un délai de recours."
+      ],
+      [
+        "Préparer les informations financières",
+        "réunir les éléments susceptibles d’être demandés pour apprécier l’accès à une aide ou une prise en charge",
+        "preuves de revenus, composition de ménage, attestations utiles et documents relatifs à la situation économique",
+        "quels justificatifs sont requis au moment de la demande et s’ils doivent être récents",
+        "N’envoyez pas de documents financiers sensibles à une adresse non vérifiée."
+      ],
+      [
+        "Distinguer orientation et dossier suivi",
+        "comprendre qu’une consultation initiale n’équivaut pas nécessairement à un avocat chargé de toute la procédure",
+        "la liste de vos questions, la décision principale et les échéances immédiates",
+        "ce que couvre exactement le service proposé et à partir de quand un avocat est effectivement mandaté",
+        "Demandez toujours qui est responsable du suivi et comment les prochains échanges seront organisés."
+      ],
+      [
+        "Urgence et délais",
+        "signaler immédiatement toute audience, convocation, décision, expulsion, saisie ou autre échéance proche",
+        "les enveloppes de notification, actes officiels, convocations et preuves de réception",
+        "quelle date est juridiquement déterminante et quelles démarches doivent être faites en priorité",
+        "Ne calculez pas seul un délai complexe si la perte du délai peut avoir des conséquences importantes."
+      ],
+      [
+        "Après la désignation d’un avocat",
+        "faciliter le travail du professionnel en fournissant un dossier lisible et une chronologie courte",
+        "un index des pièces, une chronologie, les coordonnées des parties et les procédures déjà engagées",
+        "quelles pièces transmettre d’abord, comment communiquer les nouvelles informations et quelles étapes sont prévues",
+        "La qualité de la préparation peut faire gagner du temps sans garantir le résultat du dossier."
+      ]
+    ]
+  },
+  "avocat-droit-des-etrangers-belgique": {
+    "title": "Avocat en droit des étrangers en Belgique : séjour, regroupement et recours",
+    "h1": "Trouver un avocat en droit des étrangers en Belgique",
+    "description": "Préparer un dossier en droit des étrangers en Belgique : séjour, regroupement familial, nationalité, décisions administratives, pièces et délais.",
+    "overview": "Les dossiers de séjour, de regroupement familial, de nationalité ou de recours administratif reposent souvent sur une combinaison de statut, de dates, de documents étrangers et de décisions déjà reçues. Une consultation efficace commence donc par un dossier très ordonné : chronologie du séjour, copies complètes des décisions et preuve de la date à laquelle elles ont été notifiées.",
+    "sources": [
+      [
+        "Office des étrangers",
+        "https://dofi.ibz.be/"
+      ],
+      [
+        "SPF Justice",
+        "https://www.justice.belgium.be/"
+      ]
+    ],
+    "sections": [
+      [
+        "Identifier la procédure exacte",
+        "distinguer demande de séjour, renouvellement, regroupement familial, protection, nationalité ou recours contre une décision",
+        "passeport, titre de séjour, annexes communales, décisions reçues et preuves de dépôt",
+        "quelle procédure est en cours, quelle autorité est compétente et quel est le prochain acte attendu",
+        "Deux procédures proches en apparence peuvent avoir des conditions et délais différents."
+      ],
+      [
+        "Construire une chronologie du séjour",
+        "présenter les entrées, sorties, adresses, demandes et décisions dans l’ordre",
+        "tampons de passeport, anciens titres, preuves de résidence, récépissés et courriers officiels",
+        "quelles périodes sont juridiquement pertinentes et quelles lacunes doivent être documentées",
+        "Une chronologie approximative rend l’analyse plus difficile lorsque plusieurs statuts se succèdent."
+      ],
+      [
+        "Documents étrangers et état civil",
+        "vérifier quels actes étrangers sont utilisés et sous quelle forme",
+        "actes de naissance, mariage, filiation, traductions, légalisations et décisions étrangères",
+        "quels documents doivent être traduits, légalisés ou remplacés par une version récente",
+        "Ne payez pas une formalité coûteuse avant de confirmer qu’elle est réellement nécessaire."
+      ],
+      [
+        "Décision négative et recours",
+        "réagir méthodiquement lorsqu’une décision défavorable est reçue",
+        "la décision complète, son enveloppe ou preuve de notification, le dossier envoyé et les courriers précédents",
+        "quel délai s’applique, quelle juridiction ou autorité est compétente et quelles pièces manquent",
+        "La date de réception peut être aussi importante que le contenu de la décision."
+      ],
+      [
+        "Préparer l’entretien avec l’avocat",
+        "séparer les faits certains, les objectifs recherchés et les points qui restent à vérifier",
+        "une chronologie d’une page, la liste des pièces, les références de dossier et les coordonnées administratives utiles",
+        "quelle stratégie est réaliste, quel calendrier prévoir et comment seront suivies les nouvelles demandes de documents",
+        "Évitez les promesses de résultat et privilégiez un professionnel qui explique les étapes et limites du dossier."
+      ]
+    ]
+  },
+  "licenciement-droit-travail-belgique": {
+    "title": "Licenciement et droit du travail en Belgique : préparer un dossier avec un avocat",
+    "h1": "Licenciement en Belgique : préparer sa consultation juridique",
+    "description": "Que rassembler après un licenciement ou un conflit de travail en Belgique : contrat, rémunération, échanges, délais et questions à poser.",
+    "overview": "Un conflit de travail se joue souvent sur des documents très concrets : contrat, règlement, fiches de paie, courriers, avertissements, certificat, décision de licenciement et échanges sur les prestations. Avant toute conclusion juridique, il faut reconstituer la relation de travail et distinguer ce qui a été écrit de ce qui a été dit oralement.",
+    "sources": [
+      [
+        "SPF Emploi",
+        "https://emploi.belgique.be/"
+      ],
+      [
+        "AVOCATS.BE",
+        "https://avocats.be/"
+      ]
+    ],
+    "sections": [
+      [
+        "Reconstituer la relation de travail",
+        "identifier la fonction, l’ancienneté, le régime de travail, la rémunération et les principales modifications intervenues",
+        "contrat, avenants, règlement de travail, fiches de paie et évaluations",
+        "quels documents définissent réellement vos conditions de travail et quelles modifications ont une portée juridique",
+        "Ne vous limitez pas à l’intitulé de fonction si les tâches réellement exercées ont évolué."
+      ],
+      [
+        "Analyser la rupture",
+        "déterminer la date, la forme et les motifs communiqués lors de la fin de la relation",
+        "lettre de licenciement, recommandé, courriel, documents sociaux et preuve de réception",
+        "quelles conséquences découlent du mode de rupture et quelles contestations doivent être examinées rapidement",
+        "La formulation exacte d’un courrier peut compter davantage qu’un résumé oral."
+      ],
+      [
+        "Rémunération et avantages",
+        "dresser un tableau des montants habituels et des éléments variables ou extralégaux",
+        "fiches de paie, bonus, commissions, chèques-repas, véhicule, assurance et remboursements",
+        "quels éléments doivent être intégrés aux calculs et quelles sommes restent contestées",
+        "Évitez de calculer une indemnité à partir d’un simulateur sans faire vérifier les données utilisées."
+      ],
+      [
+        "Preuves d’un conflit au travail",
+        "organiser les échanges utiles sans produire des centaines de messages non triés",
+        "courriels importants, évaluations, avertissements, attestations et calendrier des incidents",
+        "quelles preuves sont utiles et proportionnées au problème à démontrer",
+        "Conservez les documents légalement accessibles sans emporter des données confidentielles qui ne vous appartiennent pas."
+      ],
+      [
+        "Décider de la suite",
+        "comparer négociation, mise en demeure, médiation ou procédure selon l’objectif et les risques",
+        "propositions reçues, calculs, chronologie et documents clés",
+        "quels résultats sont réalistes, quels coûts prévoir et quelles échéances conditionnent la stratégie",
+        "Une solution rapide n’est pas toujours la meilleure, mais une procédure longue n’est pas automatiquement plus protectrice."
+      ]
+    ]
+  },
+  "succession-avocat-belgique": {
+    "title": "Succession en Belgique : quand consulter un avocat et comment préparer le dossier",
+    "h1": "Succession en Belgique : préparer un dossier clair",
+    "description": "Guide pour organiser une succession conflictuelle ou complexe en Belgique : héritiers, testament, dettes, indivision, documents et professionnels à contacter.",
+    "overview": "Une succession peut être simple sur le papier et devenir difficile dès qu’apparaissent un testament, une donation ancienne, un bien indivis, une entreprise, des dettes ou un désaccord entre héritiers. L’avocat n’est pas toujours le seul professionnel impliqué : le notaire joue un rôle central dans de nombreuses démarches successorales.",
+    "sources": [
+      [
+        "Notaire.be — Héritage",
+        "https://www.notaire.be/heritage-et-donations/heritage"
+      ],
+      [
+        "AVOCATS.BE",
+        "https://avocats.be/"
+      ]
+    ],
+    "sections": [
+      [
+        "Identifier les héritiers et les actes existants",
+        "reconstituer les liens familiaux et vérifier s’il existe testament, pacte ou donation pertinente",
+        "actes d’état civil, testament connu, contrat de mariage, conventions et correspondances notariales",
+        "quels documents déterminent les droits de chacun et quelles vérifications doivent être faites par le notaire",
+        "Évitez de conclure à une part successorale à partir d’un arbre généalogique incomplet."
+      ],
+      [
+        "Inventorier l’actif et le passif",
+        "dresser une liste des biens, comptes, créances, dettes et garanties sans les confondre avec leur valeur finale",
+        "relevés bancaires, titres de propriété, crédits, assurances, factures et documents de société",
+        "quels éléments doivent être évalués et quelles dettes peuvent affecter la succession",
+        "Une liste approximative sert à démarrer, mais les valeurs et droits doivent ensuite être vérifiés."
+      ],
+      [
+        "Indivision et occupation d’un bien",
+        "clarifier qui utilise le bien, qui paie les charges et quelles décisions sont bloquées",
+        "titre de propriété, factures, preuves d’occupation, échanges entre héritiers et estimations",
+        "quelles solutions existent pour gérer ou sortir de l’indivision et comment répartir les charges en attendant",
+        "Ne transformez pas une occupation de fait en accord supposé sans documenter ce qui a été convenu."
+      ],
+      [
+        "Désaccord entre héritiers",
+        "isoler les points réellement contestés au lieu de mélanger toutes les tensions familiales",
+        "propositions écrites, comptes rendus de réunion, projets d’acte et pièces liées au point litigieux",
+        "ce qui peut encore être négocié et ce qui nécessite une démarche judiciaire",
+        "Le conflit personnel et la question juridique ne se recouvrent pas toujours."
+      ],
+      [
+        "Coordination avocat-notaire",
+        "définir le rôle de chaque professionnel et éviter les doubles demandes ou les informations contradictoires",
+        "coordonnées du notaire, état d’avancement, projets d’actes et liste des questions non résolues",
+        "qui pilote chaque étape, quelles pièces doivent circuler et à quel moment une intervention contentieuse devient utile",
+        "Une bonne coordination réduit les pertes de temps lorsque plusieurs héritiers ont leurs propres conseils."
+      ]
+    ]
+  },
+  "avocat-droit-penal-belgique": {
+    "title": "Avocat pénal en Belgique : audition, victime, poursuites et préparation du dossier",
+    "h1": "Droit pénal en Belgique : préparer une consultation avec un avocat",
+    "description": "Guide de préparation pour une consultation en droit pénal en Belgique, que vous soyez suspect, prévenu, victime ou proche.",
+    "overview": "En matière pénale, la première question n’est pas de raconter toute l’histoire dans les moindres détails mais d’identifier votre statut, l’autorité qui vous contacte, la prochaine échéance et les actes déjà posés. Une audition, une convocation, une constitution de partie civile ou une citation ne se préparent pas de la même manière.",
+    "sources": [
+      [
+        "SPF Justice — Déroulement de la procédure",
+        "https://www.justice.belgium.be/fr/themes_et_dossiers/que_faire_comme/victime/procedure/deroulement_de_la_procedure"
+      ],
+      [
+        "AVOCATS.BE",
+        "https://avocats.be/"
+      ]
+    ],
+    "sections": [
+      [
+        "Identifier votre statut dans la procédure",
+        "déterminer si vous êtes entendu, poursuivi, convoqué comme victime, témoin ou personne concernée à un autre titre",
+        "convocation, procès-verbal, citation, courrier du parquet et références du dossier",
+        "quels droits et obligations découlent de votre statut précis",
+        "Ne transposez pas les droits d’un témoin à ceux d’une personne suspectée ou inversement."
+      ],
+      [
+        "Urgence d’une audition ou d’une convocation",
+        "préparer la prochaine étape sans improviser une version détaillée sous la pression",
+        "convocation complète, pièces remises par la police ou le parquet et chronologie courte",
+        "ce que vous devez apporter, si une assistance est possible et comment se déroule l’étape annoncée",
+        "N’attendez pas la veille si la convocation soulève des questions importantes."
+      ],
+      [
+        "Victime et réparation",
+        "distinguer le suivi pénal, la preuve du dommage et les démarches d’indemnisation",
+        "certificats, factures, attestations, plaintes, photos et preuves des conséquences",
+        "comment documenter le dommage et à quel stade intervenir dans la procédure",
+        "Conservez les originaux et évitez de publier publiquement des éléments sensibles du dossier."
+      ],
+      [
+        "Preuves numériques et communications",
+        "préserver les éléments utiles sans modifier leur contexte ni créer de copies difficiles à authentifier",
+        "messages, courriels, captures, appareils, sauvegardes et métadonnées disponibles",
+        "quels éléments doivent être conservés dans leur format d’origine et quelles extractions sont utiles",
+        "Une capture d’écran peut aider à comprendre, mais elle n’est pas toujours équivalente à la source originale."
+      ],
+      [
+        "Comprendre les scénarios de procédure",
+        "demander une explication des étapes possibles plutôt qu’une promesse sur l’issue",
+        "documents de procédure, décisions précédentes et liste de questions",
+        "quelles décisions peuvent être prises par le parquet ou le juge et quels délais peuvent suivre",
+        "Le résultat d’un autre dossier trouvé en ligne ne permet pas de prédire le vôtre."
+      ]
+    ]
+  },
+  "avocat-droit-roulage-belgique": {
+    "title": "Avocat en droit de roulage en Belgique : permis, vitesse, alcool et accident",
+    "h1": "Droit de roulage en Belgique : préparer son dossier",
+    "description": "Préparer une consultation en droit de roulage en Belgique : procès-verbal, permis, vitesse, alcool, assurance, accident et audience.",
+    "overview": "Une affaire de roulage peut concerner une contestation factuelle, un problème de permis, une infraction de vitesse, l’alcool ou les stupéfiants, un accident ou plusieurs de ces éléments à la fois. Pour éviter une analyse approximative, il faut partir du procès-verbal, de la convocation ou de la décision réellement reçue.",
+    "sources": [
+      [
+        "Police fédérale — Infractions routières",
+        "https://www.police.be/statistiques/fr/circulation/infractions-routieres/tableau"
+      ],
+      [
+        "AVOCATS.BE",
+        "https://avocats.be/"
+      ]
+    ],
+    "sections": [
+      [
+        "Procès-verbal et convocation",
+        "identifier précisément l’infraction reprochée, la date, le lieu et l’autorité qui poursuit",
+        "procès-verbal, citation, proposition de transaction et preuve de réception",
+        "quelle qualification est retenue et quelle échéance doit être respectée",
+        "Ne vous contentez pas du montant d’une amende pour comprendre la portée complète du dossier."
+      ],
+      [
+        "Permis de conduire",
+        "vérifier la catégorie de permis, les antécédents pertinents et l’usage professionnel éventuel",
+        "copie du permis, historique disponible, contrat de travail si la conduite est essentielle et décisions antérieures",
+        "quelles conséquences sont possibles sur le permis et quels éléments professionnels sont pertinents",
+        "L’importance professionnelle du permis n’efface pas l’infraction mais peut être un élément à expliquer."
+      ],
+      [
+        "Alcool, stupéfiants ou contrôle",
+        "distinguer les mesures prises sur place, les résultats communiqués et les suites ultérieures",
+        "procès-verbal, résultats de contrôle, documents médicaux pertinents et décisions administratives",
+        "quelle valeur ont les mesures effectuées et si des vérifications procédurales sont nécessaires",
+        "Évitez les interprétations techniques sans disposer du document complet."
+      ],
+      [
+        "Accident et assurance",
+        "séparer la question pénale de la responsabilité civile et de l’indemnisation",
+        "constat, photos, témoignages, déclarations d’assurance, expertise et certificats",
+        "quelles démarches relèvent de l’assureur et lesquelles nécessitent une défense distincte",
+        "Une discussion avec l’assureur ne remplace pas nécessairement la préparation d’une audience pénale."
+      ],
+      [
+        "Audience au tribunal de police",
+        "préparer les faits, les pièces et les conséquences pratiques avant l’audience",
+        "citation, dossier de pièces, justificatifs professionnels ou personnels utiles et éventuelles décisions antérieures",
+        "comment se déroule l’audience, quelles pièces déposer et quelles demandes peuvent être formulées",
+        "Arriver avec un dossier trié est plus utile qu’un grand volume de documents non classés."
+      ]
+    ]
+  },
+  "avocat-droit-immobilier-belgique": {
+    "title": "Avocat immobilier en Belgique : achat, copropriété, voisinage et litiges",
+    "h1": "Droit immobilier en Belgique : préparer un litige",
+    "description": "Guide pour préparer un dossier immobilier en Belgique : achat, vente, copropriété, voisinage, vices, documents et expertise.",
+    "overview": "Les litiges immobiliers produisent rapidement beaucoup de documents : compromis, acte, plans, procès-verbaux de copropriété, devis, factures, courriels et expertises. Pour qu’un avocat comprenne rapidement le problème, il faut isoler le contrat ou l’acte central, la chronologie des événements et le dommage réellement allégué.",
+    "sources": [
+      [
+        "AVOCATS.BE",
+        "https://avocats.be/"
+      ],
+      [
+        "SPF Justice — Médiation",
+        "https://www.justice.belgium.be/fr/themes_et_dossiers/mediation"
+      ]
+    ],
+    "sections": [
+      [
+        "Achat ou vente d’un bien",
+        "identifier l’acte ou le contrat qui structure la relation entre les parties",
+        "offre, compromis, acte, annexes, diagnostics et correspondances",
+        "quelles obligations découlent du document signé et quels délais ont été convenus",
+        "Un échange verbal ne doit pas être analysé isolément des documents signés."
+      ],
+      [
+        "Vices et défauts",
+        "décrire le défaut, sa date de découverte, son évolution et les interventions déjà réalisées",
+        "photos datées, rapports, factures, devis, expertise et échanges avec le vendeur ou entrepreneur",
+        "quelle preuve technique faut-il obtenir et faut-il éviter certains travaux avant constat",
+        "Réparer immédiatement peut être nécessaire pour limiter un dommage, mais documentez l’état avant intervention lorsque c’est possible."
+      ],
+      [
+        "Copropriété",
+        "distinguer problème privatif, partie commune, décision d’assemblée et exécution par le syndic",
+        "acte de base, règlement, procès-verbaux, appels de fonds et courriers du syndic",
+        "quelle décision est contestée, quel délai s’applique et qui doit être mis en cause",
+        "Une discussion entre copropriétaires n’a pas toujours la même portée qu’une décision formelle."
+      ],
+      [
+        "Voisinage et limites",
+        "objectiver le trouble ou le désaccord avant de le transformer en conflit durable",
+        "plans, titres, photos, constats, échanges et mesures disponibles",
+        "quelle preuve est nécessaire et si une solution amiable ou une médiation est réaliste",
+        "Évitez les travaux irréversibles sur une limite contestée avant clarification."
+      ],
+      [
+        "Expertise et stratégie",
+        "savoir quand une expertise technique peut aider et ce qu’elle doit réellement établir",
+        "rapports existants, devis, liste des défauts et questions techniques précises",
+        "s’il faut une expertise amiable, contradictoire ou judiciaire et comment formuler la mission",
+        "Une expertise coûteuse n’est utile que si elle répond aux questions déterminantes du litige."
+      ]
+    ]
+  },
+  "avocat-bail-location-belgique": {
+    "title": "Bail et location en Belgique : préparer un litige locatif avec un avocat",
+    "h1": "Litige locatif en Belgique : préparer son dossier",
+    "description": "Guide pour locataire ou propriétaire en Belgique : bail, loyers, état des lieux, garantie, travaux, congé et preuve.",
+    "overview": "Un conflit locatif se comprend rarement à partir d’un seul message. Il faut relire le bail, l’état des lieux, les preuves de paiement, les demandes de travaux, les mises en demeure et les éventuels congés. Les règles peuvent aussi varier selon la région et le type de bail, ce qui rend la localisation du logement et la date du contrat importantes.",
+    "sources": [
+      [
+        "SPF Justice — Médiation",
+        "https://www.justice.belgium.be/fr/themes_et_dossiers/mediation"
+      ],
+      [
+        "AVOCATS.BE",
+        "https://avocats.be/"
+      ]
+    ],
+    "sections": [
+      [
+        "Identifier le bail applicable",
+        "vérifier le type de bail, la date de signature, la région et les parties exactes au contrat",
+        "bail complet, annexes, preuve d’enregistrement si disponible et état des lieux",
+        "quelle réglementation s’applique et quelles clauses nécessitent une lecture particulière",
+        "Ne supposez pas qu’une règle lue pour Bruxelles s’applique automatiquement en Wallonie ou en Flandre."
+      ],
+      [
+        "Loyers et charges",
+        "reconstituer les montants dus, payés, contestés et la méthode de calcul des charges",
+        "preuves de virement, décomptes, indexations, factures et courriers",
+        "quelles sommes sont réellement contestées et comment les justifier",
+        "Un tableau mois par mois est souvent plus utile qu’un total global difficile à vérifier."
+      ],
+      [
+        "Travaux et état du logement",
+        "documenter les défauts, demandes d’intervention et conséquences concrètes",
+        "photos datées, courriels, devis, rapports, factures et état des lieux",
+        "qui devait intervenir, quelles demandes ont été faites et quelles preuves manquent",
+        "Évitez de supprimer les preuves du défaut lorsque vous faites réaliser une réparation urgente."
+      ],
+      [
+        "Congé et fin du bail",
+        "contrôler la forme, la date et le motif d’un congé ou d’une résiliation",
+        "courrier de congé, recommandé, preuve de réception, bail et échanges ultérieurs",
+        "si le congé respecte les conditions applicables et quelles conséquences financières peuvent suivre",
+        "La date d’envoi et la date de réception peuvent avoir des effets différents selon le contexte."
+      ],
+      [
+        "Justice de paix et solution amiable",
+        "préparer une éventuelle procédure tout en évaluant la possibilité d’un accord",
+        "dossier de pièces, calculs, propositions d’accord et chronologie",
+        "ce qui peut être demandé, comment présenter les pièces et si une médiation reste utile",
+        "Un accord écrit clair est généralement préférable à un arrangement oral difficile à prouver."
+      ]
+    ]
+  },
+  "avocat-droit-affaires-belgique": {
+    "title": "Avocat en droit des affaires en Belgique : contrats, sociétés et litiges",
+    "h1": "Droit des affaires en Belgique : préparer une consultation",
+    "description": "Préparer un dossier en droit des affaires en Belgique : société, contrat, associés, impayés, propriété intellectuelle et contentieux.",
+    "overview": "Un dirigeant consulte souvent trop tard, lorsque plusieurs problèmes se sont superposés : contrat mal exécuté, facture impayée, désaccord entre associés ou décision urgente à prendre. Une consultation utile commence par l’identification de l’entreprise concernée, du contrat ou de la décision à l’origine du problème et de l’objectif commercial réel.",
+    "sources": [
+      [
+        "SPF Economie — Créer une entreprise",
+        "https://economie.fgov.be/fr/themes/entreprises/creer-une-entreprise"
+      ],
+      [
+        "SPF Economie — Formes de sociétés",
+        "https://economie.fgov.be/fr/themes/entreprises/creer-une-entreprise/demarches-pour-creer-une/les-formes-de-societes"
+      ]
+    ],
+    "sections": [
+      [
+        "Société et gouvernance",
+        "identifier la forme de société, les organes, les pouvoirs et les décisions déjà adoptées",
+        "statuts, pacte d’actionnaires, procès-verbaux, registre des titres et délégations",
+        "qui peut décider, quelles majorités sont requises et quelle décision est contestée",
+        "Ne confondez pas la pratique habituelle de l’entreprise avec les pouvoirs prévus par les statuts."
+      ],
+      [
+        "Contrats commerciaux",
+        "isoler les obligations principales, les délais, les conditions de résiliation et les clauses de responsabilité",
+        "contrat signé, conditions générales, bons de commande, livraisons et échanges essentiels",
+        "quelle obligation n’a pas été exécutée et quelles solutions contractuelles existent",
+        "Lisez les annexes et conditions générales avec le contrat principal, pas séparément."
+      ],
+      [
+        "Impayés et créances",
+        "documenter la prestation, la facture, les relances et les contestations du client",
+        "factures, bons, preuves de livraison, mises en demeure et réponse du débiteur",
+        "si la créance est suffisamment documentée et quelle procédure est proportionnée",
+        "Engager une procédure sans vérifier la solvabilité du débiteur peut augmenter les coûts sans améliorer le recouvrement."
+      ],
+      [
+        "Conflit entre associés",
+        "séparer le désaccord de gouvernance, la valeur économique des titres et les éventuelles fautes reprochées",
+        "statuts, pacte, comptes, procès-verbaux, échanges et évaluations disponibles",
+        "quelles sorties sont envisageables et quelles décisions peuvent encore être prises pendant le conflit",
+        "Évitez de bloquer inutilement l’activité opérationnelle si une mesure ciblée suffit à protéger vos droits."
+      ],
+      [
+        "Prévenir plutôt que réparer",
+        "utiliser la consultation juridique pour sécuriser une opération avant signature",
+        "projet de contrat, term sheet, calendrier, budget et points non négociables",
+        "quels risques méritent une clause particulière et quels points peuvent être négociés",
+        "Une revue préventive coûte souvent moins cher qu’un contentieux portant sur une clause ambiguë."
+      ]
+    ]
+  },
+  "mediation-belgique": {
+    "title": "Médiation en Belgique : familiale, civile, commerciale ou sociale",
+    "h1": "Médiation en Belgique : quand et comment l’envisager",
+    "description": "Comprendre la médiation en Belgique, ses principaux domaines, sa préparation et les questions à poser avant d’engager le processus.",
+    "overview": "La médiation est une méthode de résolution des conflits dans laquelle les parties cherchent elles-mêmes un accord avec l’aide d’un tiers neutre. Elle ne doit pas être confondue avec une simple discussion informelle ni avec toutes les fonctions portant le titre de médiateur. Pour être utile, elle doit avoir un objet clair, des participants capables de négocier et un cadre qui protège la qualité des échanges.",
+    "sources": [
+      [
+        "SPF Justice — Médiation",
+        "https://www.justice.belgium.be/fr/themes_et_dossiers/mediation"
+      ],
+      [
+        "SPF Justice — Types de médiation",
+        "https://www.justice.belgium.be/fr/themes_et_dossiers/mediation/types"
+      ]
+    ],
+    "sections": [
+      [
+        "Définir le conflit à médiatiser",
+        "réduire le conflit à quelques questions concrètes qui peuvent être discutées",
+        "chronologie courte, contrats ou décisions utiles et liste des points d’accord et de désaccord",
+        "quels sujets peuvent entrer dans la médiation et lesquels nécessitent une autre procédure",
+        "Une médiation sans objet défini risque de reproduire le conflit sans avancer."
+      ],
+      [
+        "Choisir le bon cadre",
+        "distinguer médiation familiale, civile et commerciale, sociale ou autre mécanisme portant un nom proche",
+        "nature du litige, identité des parties, procédure éventuelle déjà ouverte et objectifs recherchés",
+        "quel type de médiation correspond au dossier et si le médiateur doit disposer d’une compétence particulière",
+        "Le mot médiation est utilisé dans plusieurs contextes qui n’obéissent pas toujours aux mêmes règles."
+      ],
+      [
+        "Préparer les propositions",
+        "arriver avec des intérêts et priorités plutôt qu’une seule position rigide",
+        "budget, contraintes de calendrier, besoins pratiques et options alternatives",
+        "quels éléments sont négociables et lesquels doivent rester protégés",
+        "Une proposition utile explique ce qu’elle résout pour chaque partie et pas seulement ce qu’elle exige."
+      ],
+      [
+        "Confidentialité et échanges",
+        "comprendre ce qui peut être utilisé, transmis ou repris en dehors du processus",
+        "convention de médiation, règles communiquées par le médiateur et liste des documents partagés",
+        "quelles informations sont confidentielles et comment seront conservés les documents",
+        "Ne transmettez pas un document sensible sans comprendre le cadre dans lequel il sera utilisé."
+      ],
+      [
+        "Formaliser l’accord",
+        "transformer les compromis en engagements précis, exécutables et compréhensibles",
+        "projet d’accord, calendrier, modalités de paiement ou d’exécution et éventuelles garanties",
+        "comment l’accord sera formalisé et quelles démarches supplémentaires sont nécessaires",
+        "Un accord ambigu peut créer un nouveau conflit ; les obligations doivent être suffisamment précises."
+      ]
+    ]
+  },
+  "avocat-construction-belgique": {
+    "title": "Avocat construction en Belgique : malfaçons, retards, chantier et expertise",
+    "h1": "Litige de construction en Belgique : préparer un dossier",
+    "description": "Préparer un litige de construction en Belgique : contrat, devis, plans, chantier, malfaçons, retards, paiements et expertise.",
+    "overview": "Dans un litige de construction, les faits techniques et les engagements contractuels sont étroitement liés. Une fissure, un retard ou un défaut de conformité ne se comprend pas sans le contrat, les plans, les devis, les avenants et les échanges de chantier. L’objectif est de permettre à l’avocat et, si nécessaire, à un expert technique de travailler à partir d’une chronologie commune.",
+    "sources": [
+      [
+        "AVOCATS.BE",
+        "https://avocats.be/"
+      ],
+      [
+        "SPF Justice — Médiation",
+        "https://www.justice.belgium.be/fr/themes_et_dossiers/mediation"
+      ]
+    ],
+    "sections": [
+      [
+        "Contrat, devis et plans",
+        "identifier ce qui a réellement été commandé, modifié et accepté",
+        "contrat, devis, cahier des charges, plans, avenants et bons de commande",
+        "quels documents fixent le périmètre des travaux et comment ont été validées les modifications",
+        "Une modification de chantier non documentée devient rapidement une source de désaccord."
+      ],
+      [
+        "Chronologie du chantier",
+        "reconstituer les dates importantes, interruptions, demandes et réserves",
+        "planning, comptes rendus, courriels, photos datées et rapports de chantier",
+        "quels événements expliquent le retard ou l’apparition du défaut",
+        "Une chronologie précise aide à distinguer cause technique, décision du maître d’ouvrage et intervention d’un tiers."
+      ],
+      [
+        "Malfaçons et preuve technique",
+        "décrire chaque défaut sans lui attribuer trop vite une cause",
+        "photos, rapports, mesures, constats, devis de réparation et avis techniques",
+        "faut-il une expertise et quelles questions l’expert devra-t-il trancher",
+        "Évitez une réparation irréversible avant d’avoir documenté la situation, sauf urgence de sécurité."
+      ],
+      [
+        "Paiements et retenues",
+        "dresser un état clair des montants facturés, payés, retenus ou contestés",
+        "factures, preuves de paiement, décomptes et demandes de supplément",
+        "quels montants correspondent à des travaux réalisés, supplémentaires ou contestés",
+        "Retenir un paiement sans justification claire peut déplacer le conflit au lieu de le résoudre."
+      ],
+      [
+        "Expertise et issue du litige",
+        "préparer les scénarios d’accord, de reprise des travaux, d’indemnisation ou de procédure",
+        "rapport technique, estimations, propositions de correction et calendrier",
+        "quelle solution technique est réaliste et comment chiffrer les conséquences",
+        "L’objectif d’une expertise est de répondre à des questions précises, pas de remplacer la stratégie juridique."
+      ]
+    ]
+  },
+  "avocat-marches-publics-belgique": {
+    "title": "Avocat marchés publics en Belgique : candidature, attribution et exécution",
+    "h1": "Marchés publics en Belgique : préparer un dossier juridique",
+    "description": "Guide de préparation d’un dossier de marché public en Belgique : cahier spécial des charges, offre, attribution, exécution et contestation.",
+    "overview": "Les marchés publics reposent sur des documents structurés et des délais qui laissent peu de place à l’improvisation. Une entreprise ou une autorité qui consulte un avocat doit être capable d’identifier le marché concerné, la phase exacte de la procédure, la décision contestée et la date à laquelle elle a été notifiée.",
+    "sources": [
+      [
+        "BOSA — Marchés publics",
+        "https://bosa.belgium.be/fr/themes/marches-publics"
+      ],
+      [
+        "AVOCATS.BE",
+        "https://avocats.be/"
+      ]
+    ],
+    "sections": [
+      [
+        "Phase de passation",
+        "situer le dossier avant ou après le dépôt de l’offre et identifier les documents qui gouvernent la procédure",
+        "avis de marché, cahier spécial des charges, questions-réponses, offre et annexes",
+        "quelles exigences sont obligatoires et quelles irrégularités peuvent être régularisées",
+        "Une exigence apparemment formelle peut avoir des conséquences importantes si elle conditionne la recevabilité."
+      ],
+      [
+        "Analyse et attribution",
+        "comprendre les critères appliqués, les motifs de la décision et les éléments effectivement évalués",
+        "décision motivée, rapport d’analyse, offre, critères et notification",
+        "si la motivation permet de comprendre le classement et quelles questions nécessitent un contrôle",
+        "Ne raisonnez pas uniquement à partir du prix si plusieurs critères ont été annoncés."
+      ],
+      [
+        "Délais de réaction",
+        "identifier immédiatement la date de notification et la voie envisagée",
+        "courriel ou recommandé de notification, décision complète et preuve de réception",
+        "quel délai s’applique et quelle démarche doit être sécurisée en priorité",
+        "Dans ce domaine, perdre un délai peut rendre inutile une analyse pourtant solide."
+      ],
+      [
+        "Exécution du marché",
+        "documenter les ordres, modifications, retards, pénalités et réclamations pendant l’exécution",
+        "ordres de service, procès-verbaux, décomptes, courriers et calendrier contractuel",
+        "quelles réserves ont été formulées et dans quel délai",
+        "Un problème d’exécution doit être documenté au moment où il survient et pas seulement à la fin du marché."
+      ],
+      [
+        "Stratégie et proportionnalité",
+        "mettre en balance l’enjeu économique, la relation contractuelle et le coût d’une contestation",
+        "montant du marché, marge, risques opérationnels et solutions proposées",
+        "quelle action protège réellement l’objectif commercial ou public poursuivi",
+        "Une procédure juridiquement possible n’est pas toujours la solution la plus utile à l’organisation."
+      ]
+    ]
+  },
+  "avocat-accident-route-assurance-belgique": {
+    "title": "Accident de la route et assurance en Belgique : préparer un dossier",
+    "h1": "Accident de la route en Belgique : organiser les preuves et l’indemnisation",
+    "description": "Guide pour préparer un dossier après un accident de la route en Belgique : constat, blessures, assurance, responsabilité, expertise et avocat.",
+    "overview": "Après un accident, plusieurs dossiers avancent en parallèle : constat des faits, déclaration à l’assureur, éventuelle procédure pénale, expertise du véhicule, suivi médical et chiffrage des dommages. Mélanger ces dimensions crée vite de la confusion. Une bonne préparation consiste à créer un dossier par thème et une chronologie commune.",
+    "sources": [
+      [
+        "Police fédérale — Circulation",
+        "https://www.police.be/statistiques/fr/circulation/infractions-routieres/tableau"
+      ],
+      [
+        "AVOCATS.BE",
+        "https://avocats.be/"
+      ]
+    ],
+    "sections": [
+      [
+        "Constat et circonstances",
+        "fixer les circonstances matérielles de l’accident avant que les souvenirs divergent",
+        "constat, photos, coordonnées des témoins, plan et procès-verbal éventuel",
+        "quels faits sont établis, contestés ou encore à vérifier",
+        "Évitez de modifier a posteriori un constat signé sans documenter clairement la raison et la nouvelle information."
+      ],
+      [
+        "Déclaration d’assurance",
+        "identifier les contrats concernés et suivre les demandes adressées aux assureurs",
+        "polices, déclaration, échanges, numéros de sinistre et propositions reçues",
+        "quel assureur traite quel dommage et quelles expertises sont prévues",
+        "Une offre d’indemnisation doit être lue avec les postes qu’elle couvre et ceux qu’elle laisse de côté."
+      ],
+      [
+        "Blessures et suivi médical",
+        "documenter l’évolution réelle de l’état de santé sans réduire le dossier à un certificat initial",
+        "certificats, rapports, prescriptions, frais, arrêts de travail et rendez-vous",
+        "quels documents permettent d’établir la durée et les conséquences du dommage",
+        "Ne publiez pas de détails médicaux sur des canaux non sécurisés pour accélérer un échange administratif."
+      ],
+      [
+        "Préjudices matériels et professionnels",
+        "chiffrer séparément véhicule, objets, frais, pertes de revenus et autres conséquences",
+        "factures, devis, fiches de paie, attestations et justificatifs de déplacement",
+        "quels postes peuvent être documentés et quelles preuves complémentaires sont nécessaires",
+        "Un montant global sans pièces est plus difficile à discuter qu’un tableau détaillé et sourcé."
+      ],
+      [
+        "Responsabilité et procédure",
+        "comprendre comment la discussion avec l’assureur s’articule avec une éventuelle procédure judiciaire",
+        "procès-verbal, décisions, correspondance des assureurs et expertises",
+        "si une contestation de responsabilité nécessite une démarche spécifique et à quel moment",
+        "L’absence d’accord avec l’assureur ne signifie pas automatiquement qu’une procédure judiciaire est la seule option."
+      ]
+    ]
+  },
+  "adoption-filiation-avocat-belgique": {
+    "title": "Adoption et filiation en Belgique : préparer une consultation juridique",
+    "h1": "Adoption et filiation en Belgique : comprendre les démarches",
+    "description": "Guide pour préparer une consultation sur l’adoption ou la filiation en Belgique : actes d’état civil, consentements, tribunal de la famille et documents.",
+    "overview": "Les questions d’adoption et de filiation touchent à l’identité juridique de l’enfant ou de l’adulte concerné et ne doivent pas être traitées comme une simple formalité administrative. Les démarches diffèrent selon qu’il s’agit d’une adoption interne, internationale, simple ou plénière, d’une reconnaissance, d’une contestation ou d’une action judiciaire.",
+    "sources": [
+      [
+        "SPF Justice — Adoption",
+        "https://www.justice.belgium.be/fr/themes_et_dossiers/personnes_et_familles/adoption/definition"
+      ],
+      [
+        "SPF Justice — Filiation",
+        "https://www.justice.belgium.be/fr/themes_et_dossiers/enfants_et_jeunes/filiation/du_cote_paternel/voie_judiciaire"
+      ]
+    ],
+    "sections": [
+      [
+        "Identifier la démarche familiale",
+        "distinguer adoption, reconnaissance, établissement judiciaire ou contestation de filiation",
+        "actes d’état civil, décisions existantes, documents d’adoption et pièces d’identité",
+        "quelle procédure correspond exactement à l’objectif recherché",
+        "Les conséquences juridiques d’une adoption et d’un établissement de filiation ne sont pas interchangeables."
+      ],
+      [
+        "Adoption interne ou internationale",
+        "situer le pays de résidence de l’enfant, celui des adoptants et les autorités déjà contactées",
+        "certificats de préparation, jugements, rapports sociaux et décisions étrangères éventuelles",
+        "quelles autorités sont compétentes et quelles reconnaissances sont nécessaires",
+        "Une décision étrangère peut nécessiter une procédure de reconnaissance avant de produire tous ses effets en Belgique."
+      ],
+      [
+        "Consentements et intérêt de l’enfant",
+        "identifier les personnes dont le consentement ou l’audition peut être requis et l’âge de l’enfant",
+        "actes de naissance, décisions d’autorité parentale et documents relatifs au consentement",
+        "quelles personnes doivent intervenir dans la procédure et comment l’intérêt de l’enfant est apprécié",
+        "N’interprétez pas l’absence de contact familial comme un consentement juridique."
+      ],
+      [
+        "Tribunal de la famille",
+        "préparer les pièces et comprendre le rôle du juge lorsque la procédure devient judiciaire",
+        "requête ou citation, actes d’état civil, décisions précédentes et preuves pertinentes",
+        "quelle demande doit être formulée et quelles mesures d’enquête peuvent intervenir",
+        "Les délais et la preuve dépendent du type d’action ; faites vérifier la qualification exacte."
+      ],
+      [
+        "Documents étrangers et traduction",
+        "organiser les actes provenant de l’étranger et vérifier leur forme avant de multiplier les démarches",
+        "originaux, copies certifiées, traductions, légalisations et apostilles éventuelles",
+        "quels documents doivent être traduits ou légalisés et par qui",
+        "Confirmez les exigences avant d’engager des frais de traduction ou de légalisation importants."
+      ]
+    ]
+  },
+  "avocat-droit-famille-belgique": {
+    "title": "Avocat droit de la famille en Belgique : enfants, pension, filiation et séparation",
+    "h1": "Droit de la famille en Belgique : préparer une consultation",
+    "description": "Guide général pour préparer un dossier de droit de la famille en Belgique : enfants, pension, filiation, séparation, adoption et documents.",
+    "overview": "Le droit de la famille rassemble des situations très différentes : séparation, hébergement des enfants, contribution alimentaire, filiation, adoption, autorité parentale ou conflit sur une décision importante. Une consultation utile commence par identifier la question précise plutôt que de présenter le dossier comme un conflit familial global.",
+    "sources": [
+      [
+        "SPF Justice — Personnes et familles",
+        "https://www.justice.belgium.be/fr/themes_et_dossiers/personnes_et_familles"
+      ],
+      [
+        "AVOCATS.BE",
+        "https://avocats.be/"
+      ]
+    ],
+    "sections": [
+      [
+        "Définir la question familiale",
+        "séparer les sujets relatifs au couple, aux enfants, aux finances et aux actes d’état civil",
+        "décisions antérieures, actes d’état civil, conventions et chronologie",
+        "quelle question doit être traitée en premier et quelles autres peuvent être réglées séparément",
+        "Un conflit familial global contient souvent plusieurs problèmes juridiques distincts."
+      ],
+      [
+        "Enfants et décisions importantes",
+        "documenter l’organisation actuelle, les décisions scolaires ou médicales et les désaccords précis",
+        "calendriers, décisions, échanges utiles et documents administratifs",
+        "quelles décisions nécessitent un accord et comment formaliser une organisation stable",
+        "Évitez de transformer chaque désaccord pratique en accusation juridique."
+      ],
+      [
+        "Contributions et dépenses",
+        "dresser un tableau lisible des revenus, dépenses régulières et frais liés aux enfants",
+        "revenus, frais, justificatifs et conventions existantes",
+        "quels postes doivent être documentés et comment présenter les changements de situation",
+        "Un chiffre isolé est moins utile qu’un budget expliqué et vérifiable."
+      ],
+      [
+        "Filiation et état civil",
+        "identifier les actes existants et la procédure déjà engagée",
+        "actes de naissance, reconnaissances, jugements et documents d’identité",
+        "quelle procédure correspond à l’objectif recherché et quelle juridiction est compétente",
+        "Les règles de filiation comportent des délais et conditions qui doivent être vérifiés précisément."
+      ],
+      [
+        "Accord ou procédure",
+        "évaluer ce qui peut être convenu et ce qui nécessite une décision du tribunal de la famille",
+        "propositions écrites, conventions, décisions antérieures et calendrier",
+        "quels points peuvent être négociés et comment rendre l’accord suffisamment précis",
+        "Un accord durable décrit concrètement qui fait quoi, quand et comment les changements seront gérés."
+      ]
+    ]
+  }
+}
