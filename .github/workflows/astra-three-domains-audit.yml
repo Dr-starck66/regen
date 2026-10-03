@@ -1,0 +1,128 @@
+name: ASTRA Three Acquired Domains Audit
+
+on:
+  push:
+    branches: [astra-seo-free]
+    paths:
+      - '.github/workflows/astra-three-domains-audit.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: astra-seo-free
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install ASTRA SEO Lab
+        working-directory: astra-seo-free
+        run: npm install
+      - name: Start ASTRA SEO Lab
+        working-directory: astra-seo-free
+        run: |
+          node server.js > /tmp/astra-three-domains.log 2>&1 &
+          echo $! > /tmp/astra.pid
+          for i in {1..30}; do
+            if curl -fsS http://127.0.0.1:3000/api/health > /tmp/health.json; then
+              cat /tmp/health.json
+              exit 0
+            fi
+            sleep 1
+          done
+          cat /tmp/astra-three-domains.log
+          exit 1
+      - name: Run reproducible three-domain audit
+        run: |
+          cat > /tmp/audit-three.mjs <<'EOF'
+          import fs from 'node:fs';
+          const base='http://127.0.0.1:3000';
+          const targets=[
+            {
+              domain:'avocat-belgique.com',
+              lang:'fr',
+              seeds:['avocat belgique','avocat bruxelles','avocat divorce belgique','avocat succession belgique','avocat droit des étrangers belgique']
+            },
+            {
+              domain:'eldiariodelcibao.com',
+              lang:'es',
+              seeds:['noticias cibao','noticias santiago republica dominicana','empleos santiago republica dominicana','inmobiliaria santiago republica dominicana','abogado santiago republica dominicana']
+            },
+            {
+              domain:'andaluztarija.com',
+              lang:'es',
+              seeds:['noticias tarija','empleos tarija','inmobiliaria tarija','hoteles tarija','abogado tarija']
+            }
+          ];
+          async function get(path, timeout=120000){
+            const controller=new AbortController();
+            const timer=setTimeout(()=>controller.abort(),timeout);
+            try{
+              const r=await fetch(base+path,{signal:controller.signal});
+              const txt=await r.text();
+              if(!r.ok) throw new Error('HTTP '+r.status+' '+txt.slice(0,500));
+              return JSON.parse(txt);
+            } finally { clearTimeout(timer); }
+          }
+          async function safe(path, timeout){
+            try { return {ok:true,data:await get(path,timeout)}; }
+            catch(e) { return {ok:false,error:String(e)}; }
+          }
+          const report={
+            generated_at:new Date().toISOString(),
+            engine:'ASTRA SEO Lab 2.0.2',
+            methodology:{
+              live_page_audit:'VERIFIED_FROM_LIVE_HTML when reachable',
+              backlinks:'confirmed only by fetching live source pages; minimum, not exhaustive',
+              serp:'live public SERP; fallback disclosed by engine',
+              exact_cpc:'UNVERIFIED; no paid provider',
+              exact_volume:'UNVERIFIED; no paid provider',
+              status_policy:'No PASS from inferred or unavailable evidence'
+            },
+            domains:[]
+          };
+          for(const t of targets){
+            const row={domain:t.domain,lang:t.lang};
+            row.current_http=await safe('/api/audit?url='+encodeURIComponent('https://'+t.domain),45000);
+            row.backlinks=await safe('/api/backlinks?domain='+encodeURIComponent(t.domain)+'&limit=30',120000);
+            row.brand_serp=await safe('/api/serp?q='+encodeURIComponent('"'+t.domain+'" -site:'+t.domain)+'&lang='+t.lang+'&limit=20',60000);
+            row.site_serp=await safe('/api/serp?q='+encodeURIComponent('site:'+t.domain)+'&lang='+t.lang+'&limit=20',60000);
+            row.seeds=[];
+            for(const q of t.seeds){
+              const x={query:q};
+              x.keyword=await safe('/api/keyword?q='+encodeURIComponent(q)+'&lang='+t.lang,60000);
+              x.hunter=await safe('/api/hunter?q='+encodeURIComponent(q)+'&lang='+t.lang+'&mode=fast&limit=4',120000);
+              row.seeds.push(x);
+            }
+            const links=row.backlinks?.data?.backlinks || [];
+            row.recovered_target_urls=[...new Set(links.map(x=>x.target_url).filter(Boolean))];
+            const brandRows=row.brand_serp?.data?.results || [];
+            row.external_mentions=brandRows.filter(x=>{
+              try{return !new URL(x.url).hostname.replace(/^www\./,'').endsWith(t.domain)}catch{return false}
+            });
+            report.domains.push(row);
+          }
+          fs.mkdirSync('astra-seo-free/research',{recursive:true});
+          fs.writeFileSync('astra-seo-free/research/acquired-domains-audit-2026-10-03.json',JSON.stringify(report,null,2));
+          console.log('ASTRA_THREE_DOMAIN_AUDIT_BEGIN');
+          console.log(JSON.stringify(report));
+          console.log('ASTRA_THREE_DOMAIN_AUDIT_END');
+          EOF
+          node /tmp/audit-three.mjs
+      - name: Commit audit evidence
+        run: |
+          git config user.name "ASTRA SEO Lab"
+          git config user.email "actions@users.noreply.github.com"
+          git add astra-seo-free/research/acquired-domains-audit-2026-10-03.json
+          git diff --cached --quiet && exit 0
+          git commit -m "ASTRA: audit three acquired domains"
+          git push origin HEAD:astra-seo-free
+      - name: Logs
+        if: always()
+        run: cat /tmp/astra-three-domains.log || true
