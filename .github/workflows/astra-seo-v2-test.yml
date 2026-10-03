@@ -33,6 +33,24 @@ jobs:
           console.log(got);
           if (got !== 'https://www.hoteles.com/') process.exit(1);
           NODE
+      - name: Unit test fallback SERP relevance gate
+        working-directory: astra-seo-free
+        run: |
+          node --input-type=module <<'NODE'
+          import { serpRowsRelevant } from './serp-utils.js';
+          const wrong=[
+            {title:'Hoteles en San Antonio',snippet:'Texas hotels',url:'https://example.com/san-antonio'},
+            {title:'Booking San Antonio',snippet:'Reserva hoteles',url:'https://example.org/texas'},
+            {title:'San Antonio hotel deals',snippet:'Ofertas de hoteles',url:'https://example.net/deals'}
+          ];
+          const right=[
+            {title:'Hoteles en Tarija',snippet:'Reserva en Tarija Bolivia',url:'https://example.com/tarija'},
+            {title:'Mejores hoteles Tarija',snippet:'Alojamiento en Tarija',url:'https://example.org/tarija'},
+            {title:'Hotel Tarija centro',snippet:'Hoteles y precios en Tarija',url:'https://example.net/tarija'}
+          ];
+          if (serpRowsRelevant('hoteles tarija', wrong)) process.exit(1);
+          if (!serpRowsRelevant('hoteles tarija', right)) process.exit(1);
+          NODE
       - name: Start server
         working-directory: astra-seo-free
         run: |
