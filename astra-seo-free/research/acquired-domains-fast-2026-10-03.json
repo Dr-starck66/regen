@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T16:04:40.795Z",
+  "generated_at": "2026-10-03T16:08:29.655Z",
   "engine": "ASTRA SEO Lab 2.0.2",
   "mode": "FAST_PARALLEL",
   "evidence_policy": {
@@ -18,7 +18,7 @@
           "requested_url": "https://avocat-belgique.com",
           "final_url": "https://avocat-belgique.com/",
           "http_status": 200,
-          "response_ms": 560,
+          "response_ms": 477,
           "https": true,
           "content_type": "text/html; charset=UTF-8",
           "content_bytes": 1030,
@@ -95,19 +95,13 @@
             {
               "position": 1,
               "title": "Avocat en ligne| Belgique",
-              "url": "https://www.bing.com/ck/a?!&&p=57dfae2a3c932f85960f2ee13653b401a2d4d89964871b1cd5882832bf2ab458JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1a16ebc8-921d-621a-2ba2-fc2f93586322&u=a1aHR0cHM6Ly9jb25zdWx0ZXJ1bmF2b2NhdGVubGlnbmUuYmUv&ntb=1",
+              "url": "https://consulterunavocatenligne.be/",
               "snippet": "Consultation avocat droit Belge, consultation juridique en ligne pour tous les domaines juridiques. Consulter un avocat en ligne vous …"
             },
             {
               "position": 2,
-              "title": "Avocat-belgique - Facebook",
-              "url": "https://www.bing.com/ck/a?!&&p=5345d76a17ce47f848e413fc977f1740e4edbd9f2007ce9d7a3b76bf455f9117JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1a16ebc8-921d-621a-2ba2-fc2f93586322&u=a1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL2F2b2NhdC5iZWxnaXF1ZS8&ntb=1",
-              "snippet": "25 juin 2020 · Avocat-belgique. 1,142 likes · 1 talking about this. Website"
-            },
-            {
-              "position": 3,
               "title": "Avocats Belgique : Guide pour trouver un avocat facilement en Belgique",
-              "url": "https://www.bing.com/ck/a?!&&p=35dfabcecda7ae2981ff8090be8a8a0286153d53c6e7f138ce9ba0dcbc161befJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1a16ebc8-921d-621a-2ba2-fc2f93586322&u=a1aHR0cHM6Ly90aGVvdWViLmNvbS9zaXRlLTE2MzAxLWF2b2NhdHMtYmVsZ2lxdWU&ntb=1",
+              "url": "https://theoueb.com/site-16301-avocats-belgique",
               "snippet": "13 janv. 2021 · Pour trouver un avocat capable de mieux vous défendre en Belgique, vous pouvez vous rendre sur ce site qui vous …"
             }
           ],
@@ -150,10 +144,61 @@
                 "avocat belgique charleroi"
               ],
               "serp": {
-                "source": "public_serp_unavailable",
+                "source": "duckduckgo_fallback",
                 "partial": true,
                 "note": "Google returned 200, 0 parsed results",
-                "results": []
+                "results": [
+                  {
+                    "title": "L'Ordre des barreaux francophones et germanophone de Belgique | AVOCATS ...",
+                    "url": "https://avocats.be/",
+                    "snippet": "L'Ordre des barreaux francophones et germanophone de Belgique AVOCATS.BE réunit les 10 barreaux francophones et germanophone du pays. Sa mission est de représenter et défendre la profession d'avocat, tout en veillant à la protection des intérêts des justiciables."
+                  },
+                  {
+                    "title": "Accueil | AVOCATS.BE",
+                    "url": "https://avocats.be/fr",
+                    "snippet": "L'avocat est un professionnel du droit et de la justice. Son rôle est triple : il conseille, concilie et défend au quotidien les particuliers et les entreprises, sur des questions d'ordre privé ou professionnel."
+                  },
+                  {
+                    "title": "Avocat Belgique : 458 avocats et cabinets d'avocats - Justifit",
+                    "url": "https://www.justifit.be/trouver/avocats/belgique/",
+                    "snippet": "Trouvez un avocat en Belgique. Choisissez parmi les avocats experts Justifit le meilleur avocat pour votre besoin. Mise en relation simple, rapide et gratuite."
+                  },
+                  {
+                    "title": "Trouvez un avocat | Advocaat.be",
+                    "url": "https://www.advocaat.be/fr/chercher-un-avocat",
+                    "snippet": "Vous cherchez un avocat près de chez vous ? Trouvez ici celui qui vous convient en fonction de vos attentes."
+                  },
+                  {
+                    "title": "Avocats en ligne en Belgique | Consultation gratuite rapide - Justifit",
+                    "url": "https://www.justifit.be/trouver/avocats/belgique/avocat-en-ligne/",
+                    "snippet": "Consultez un avocat belge en ligne. Recevez un premier avis juridique gratuit et sans engagement grâce à une consultation rapide et fiable."
+                  },
+                  {
+                    "title": "Cabinets d'avocats spécialisés en Belgique",
+                    "url": "https://www.avocats-belgique.be/",
+                    "snippet": "De plus amples informations sur les avocats de Belgique Faire appel à un avocat implique généralement une situation délicate voire conflictuelle. Toutefois, les professionnels du barreau sont amenés à intervenir dans tout type de cas, plus ou moins critiques."
+                  },
+                  {
+                    "title": "Legalow — Trouvez l'avocat adapté à votre situation",
+                    "url": "https://www.legalow.be/",
+                    "snippet": "Vous n'avez pas besoin de savoir quel avocat chercher.On le fait pour vous. Sur Legalow, la mise en relation avec un avocat spécialisé en Belgique est 100 % gratuite, sans engagement ni création de compte. Grâce à un espace sécurisé et confidentiel, suivez ensuite l'avancement de votre dossier juridique aux côtés de votre avocat."
+                  },
+                  {
+                    "title": "Thales - Avocats",
+                    "url": "https://www.thales.be/",
+                    "snippet": "THALES est un cabinet d'avocats spécialisés dans le droit des affaires, établi à Bruxelles, Anvers et Namur"
+                  },
+                  {
+                    "title": "Bienvenue chez Eubelius",
+                    "url": "https://www.eubelius.com/fr",
+                    "snippet": "Eubelius est le plus grand cabinet d'avocats indépendant en Belgique, avec des bureaux situés à Bruxelles, à Courtrai et à Anvers."
+                  },
+                  {
+                    "title": "Les 10 meilleurs avocats et cabinets d'avocats en Belgique (2026)",
+                    "url": "https://lawzana.com/fr/lawyers/belgium",
+                    "snippet": "Vous cherchez un avocat à en Belgique ? Découvrez les profils détaillés de notre sélection des meilleurs cabinets à en Belgique."
+                  }
+                ]
               },
               "evidence": "MIXED_LIVE_PUBLIC_SOURCES"
             }
@@ -183,10 +228,61 @@
                 "avocat bruxelles marocain"
               ],
               "serp": {
-                "source": "public_serp_unavailable",
+                "source": "duckduckgo_fallback",
                 "partial": true,
                 "note": "Google returned 200, 0 parsed results",
-                "results": []
+                "results": [
+                  {
+                    "title": "Barreau de Bruxelles - Ordre français",
+                    "url": "https://barreaubruxelles.be/",
+                    "snippet": "Choisir son avocat Cette page vous guide sur les critères essentiels pour choisir un avocat, vous offre accès à notre annuaire et vous informe sur les options de règlement alternatif des conflits. Consultez ces ressources pour faire un choix éclairé. En savoir plus Exercer comme avocat Vous souhaitez devenir avocat, vous inscrire au barreau de Bruxelles ou renouveler votre inscription ..."
+                  },
+                  {
+                    "title": "Avocat Bruxelles : 196 avocats et cabinet d'avocats Bruxelles - Justifit",
+                    "url": "https://www.justifit.be/trouver/avocats/bruxelles/",
+                    "snippet": "Trouvez un avocat à Bruxelles et préparez votre dossier par téléphone, en visio ou en cabinet."
+                  },
+                  {
+                    "title": "Avocat Bruxelles - Accueil - Cabinet d'avocat Altea",
+                    "url": "https://www.altea.be/fr/",
+                    "snippet": "Droit administratif, droit des étrangers, droit international privé : Altea, votre cabinet d'avocats à Bruxelles."
+                  },
+                  {
+                    "title": "Barreau de Bruxelles | Le barreau de Bruxelles - Public",
+                    "url": "https://barreaubruxelles.be/le-barreau-de-bruxelles",
+                    "snippet": "Le barreau de Bruxelles assure également une fonction disciplinaire importante. Il reçoit les plaintes de clients, d'avocats, de magistrats, et de toute personne concernée, et saisit le conseil de discipline lorsqu'un avocat semble avoir manqué à ses devoirs professionnels."
+                  },
+                  {
+                    "title": "Cairn Legal · Avocats Bruxelles",
+                    "url": "https://www.cairnlegal.be/",
+                    "snippet": "Avocats à Bruxelles, droit immobilier, droit commercial, contrats, droit du travail, droit du transport, assurances, IT, bail,"
+                  },
+                  {
+                    "title": "Legalia - bureau d'avocats - Bruxelles",
+                    "url": "https://www.legalia.be/",
+                    "snippet": "Avocats spécialisés en droit pénal, droit familial, droit de la jeunesse, droit des étrangers, aide aux personnes vulnérables, aide aux victimes, droit de la circulation routière, récupération de créances, droit social"
+                  },
+                  {
+                    "title": "Barreau de Bruxelles - AVOCATS.BE",
+                    "url": "https://avocats.be/fr/barreaux/barreau-de-bruxelles",
+                    "snippet": "Barreau de Bruxelles Palais de Justice Place Poelaert • B-1000 Bruxelles Tél.: +32 2 335 24 60 Ouveture du secrétariat : Lundi au vendredi : 8h30 - 12h30 et 13h30 - 16h (fermé le mercredi et vendredi après-midi). ordre@barreaudebruxelles.be www.barreaudebruxelles.be"
+                  },
+                  {
+                    "title": "328 Avocats à Bruxelles (Brussel) | - Bottin.be",
+                    "url": "https://www.bottin.be/fr/annuaire/avocat-a-bruxelles-21004.htm",
+                    "snippet": "Annuaire des Avocats à Bruxelles (Brussel) : numéro de téléphone, adresse, horaires, avis. Trouvez votre Avocat à Bruxelles facilement et avec toutes les infos nécessaires."
+                  },
+                  {
+                    "title": "Nous contacter | AVOCATS.BE | Ordre des Barreaux Francophones et ...",
+                    "url": "https://avocats.be/nous-contacter",
+                    "snippet": "AVOCATS.BE est l'Ordre des barreaux francophones et germanophone de Belgique. Cette page vous indique comment nous joindre, et vers qui vous tourner selon votre question.AVOCATS.BEAVOCATS.BEOrdre des Barreaux Francophones et Germanophonerue Haute 139 bte 201000 Bruxelles+32 2 648 20 98accueil@obfg.beNos bureaux sont joignables du lundi au vendredi, de 9h à 17h."
+                  },
+                  {
+                    "title": "Avocat Bruxelles : Cabinet pluridisciplinaire | APM Law",
+                    "url": "https://www.apmlaw.net/",
+                    "snippet": "APM Law, votre cabinet d'avocats à Bruxelles, vous conseille et défend dans les domaines du droit familial, pénal, commercial, et plus. Contactez-nous."
+                  }
+                ]
               },
               "evidence": "MIXED_LIVE_PUBLIC_SOURCES"
             }
@@ -222,17 +318,17 @@
                   {
                     "title": "Avocat en cas de divorce",
                     "url": "https://www.droitdelafamille.be/fr-be/Avocat/Avocat-en-cas-de-divorce",
+                    "snippet": "Contactez sans engagement de part et d'autre un avocat spécialisé en droit de la famille pour obtenir des conseils juridiques sur le divorce Dans la pratique, il est souvent possible de ne pas recourir aux tribunaux dans le cadre d'un divorce. Cliquez ici pour en savoir plus sur la médiation en matière de divorce."
+                  },
+                  {
+                    "title": "Avocats spécialistes Divorce par ville & Cabinet d'avocats Divorce en ...",
+                    "url": "https://www.justifit.be/avocats/az/domaines-de-competences/divorce/",
+                    "snippet": "Trouvez un avocat spécialiste du Divorce et préparez votre dossier par téléphone, en visio ou en cabinet."
+                  },
+                  {
+                    "title": "Avocat en cas de divorce",
+                    "url": "https://www.chercheunavocat.be/Cherche-un-avocat/Avocats-droit-des-personnes-de-la-famille/Avocat-en-cas-de-divorce",
                     "snippet": "Avocat en cas de divorce Avocats spécialisés en droit de la famille en cas de divorce - Conseils et assistance juridique dans votre région Comment un avocat peut-il vous aider en cas de divorce? Vous avez reçu une citation à comparaître. Il est nécessaire de prendre des mesures urgentes et provisoires avant de procéder à un divorce."
-                  },
-                  {
-                    "title": "Avocat Divorce Bruxelles - Justifit",
-                    "url": "https://www.justifit.be/trouver/avocats/bruxelles/divorce/",
-                    "snippet": "Trouvez un avocat spécialisé en Divorce à Bruxelles. Choisissez parmi les avocats experts Justifit le meilleur avocat pour votre besoin. Mise en relation…"
-                  },
-                  {
-                    "title": "Avocats droit des personnes / de la famille",
-                    "url": "https://www.droitdelafamille.be/fr-be/Avocat/Avocats-droit-des-personnes-de-la-famille",
-                    "snippet": "Plusieurs cabinets d'avocats spécialisés en Wallonie et à Bruxelles interviennent en qualité d'avocats spécialisés en droit de la famille dans les affaires de divorce auprès des tribunaux de la famille de Arlon, Bruxelles (néerlandophones et francophones), Charleroi, Dinant, Huy, Liège, Marche-en-Famenne, Mons, Namur, Neufchâteau, Nivelles, Tournai, Verviers. Contactez sans ..."
                   },
                   {
                     "title": "Avocat - Accompagnement séparation & divorce à Bruxelles",
@@ -240,9 +336,9 @@
                     "snippet": "Avocats, médiateurs, psychologues et experts financiers réunis en un seul lieu à Bruxelles pour vous accompagner dans votre divorce ou séparation."
                   },
                   {
-                    "title": "⚖️Avocat Divorce à Bruxelles - Avocats à Bruxelles",
-                    "url": "https://avocatsbruxelles.be/divorce/",
-                    "snippet": "FAQ - Avocat divorce à Bruxelles 1. Quel est le coût d'un divorce avec avocat à Bruxelles ? Le coût dépend du type de divorce (amiable ou contentieux), de la complexité du dossier et de l'avocat choisi. Il faut compter entre 700 et 1 500 € pour un divorce amiable, et davantage si le conflit est important."
+                    "title": "Lawyer divorce Brussels Belgium - fluent english - Avocat VDB",
+                    "url": "https://www.avocat-vdb.be/en/",
+                    "snippet": "Maître Nathalie Van den Bossche is a lawyer based in Brussels specialised in divorce and family mediation Availability, listening, advice and assistance Fluent in english, has been a lawyer at the Brussels Bar since 1997 and is an approved family mediator. Her activity is exclusively focused on family law. She covers all aspects of family litigation: divorce procedures, separation, parental ..."
                   },
                   {
                     "title": "Meilleurs avocats en Divorce et séparation en Belgique",
@@ -250,19 +346,19 @@
                     "snippet": "Vous cherchez un avocat en Divorce et séparation à en Belgique ? Découvrez les profils détaillés de notre sélection des meilleurs cabinets à en Belgique."
                   },
                   {
-                    "title": "Avocats en droit du divorce et de la séparation - Centrius",
-                    "url": "https://www.centrius.be/competences/avocats-droit-divorce/",
-                    "snippet": "Avocats en droit du divorce et de la séparation Au Cabinet Centrius, nous comprenons que traverser un divorce ou une séparation peut être l'un des moments les plus difficiles de votre vie. Notre équipe d'avocats spécialisés en droit de divorce et séparation est dédiée à vous fournir le soutien juridique et l'assistance dont vous avez besoin pendant cette période éprouvante."
+                    "title": "Avocats droit des personnes / de la famille",
+                    "url": "https://www.droitdelafamille.be/fr-be/Avocat/Avocats-droit-des-personnes-de-la-famille",
+                    "snippet": "Trouvez ici un AVOCAT spécialisé en DROIT DE LA FAMILLE DANS VOTRE RÉGION. Conseils juridiques en matière de divorce, d'héritage, de succession, d'adoption, de problèmes avec la pension alimentaire et les modalités d'hébergement,.... . Contactez un avocat sans engagement. Ils vous offriront à tout moment leur soutien en partant d'une attitude médiatrice."
                   },
                   {
-                    "title": "Trouvez un avocat | Advocaat.be",
-                    "url": "https://www.advocaat.be/fr/chercher-un-avocat",
-                    "snippet": "Au travail Dans les relations de travail, des questions juridiques se posent parfois. Un avocat est à vos côtés, vous conseille et joue le rôle de médiateur si nécessaire."
+                    "title": "Avocat divorce Saint-Gilles - Droit famille Bruxelles | Me Madani",
+                    "url": "https://www.avocat-madani.be/",
+                    "snippet": "Votre avocat en procédure de divorce, droit de la famille, Saint-Gilles Vous avez besoin de l'assistance d'un avocat à Bruxelles, Saint-Gilles ? Rendez-vous au cabinet de Maître MADANI. Quels que soient votre situation ou vos problèmes juridiques, votre avocat possède les compétences nécessaires pour vous accompagner et vous conseiller."
                   },
                   {
-                    "title": "⚖️ Comment divorcer en Belgique ? Démarches, Procédure et Conseils",
-                    "url": "https://avocatsbruxelles.be/comment-divorcer-belgique/",
-                    "snippet": "Vous envisagez de divorcer en Belgique ? Découvrez les étapes, types de divorce, coûts et démarches pour réussir votre séparation en toute clarté."
+                    "title": "Avocat en droit de la famille et divorce - Aurélie Jonkers",
+                    "url": "https://www.avocat-jonkers.be/avocat-droit-famille/",
+                    "snippet": "Avocat droit de la famille spécialisé pour les activités de divorce, pension alimentaire, contribution alimentaire, autorité parentale et partage des biens. Aurélie Jonkers vous accueille dans son cabinet pour définir les bases de votre dossier."
                   }
                 ]
               },
@@ -278,19 +374,13 @@
         {
           "position": 1,
           "title": "Avocat en ligne| Belgique",
-          "url": "https://www.bing.com/ck/a?!&&p=57dfae2a3c932f85960f2ee13653b401a2d4d89964871b1cd5882832bf2ab458JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1a16ebc8-921d-621a-2ba2-fc2f93586322&u=a1aHR0cHM6Ly9jb25zdWx0ZXJ1bmF2b2NhdGVubGlnbmUuYmUv&ntb=1",
+          "url": "https://consulterunavocatenligne.be/",
           "snippet": "Consultation avocat droit Belge, consultation juridique en ligne pour tous les domaines juridiques. Consulter un avocat en ligne vous …"
         },
         {
           "position": 2,
-          "title": "Avocat-belgique - Facebook",
-          "url": "https://www.bing.com/ck/a?!&&p=5345d76a17ce47f848e413fc977f1740e4edbd9f2007ce9d7a3b76bf455f9117JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1a16ebc8-921d-621a-2ba2-fc2f93586322&u=a1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL2F2b2NhdC5iZWxnaXF1ZS8&ntb=1",
-          "snippet": "25 juin 2020 · Avocat-belgique. 1,142 likes · 1 talking about this. Website"
-        },
-        {
-          "position": 3,
           "title": "Avocats Belgique : Guide pour trouver un avocat facilement en Belgique",
-          "url": "https://www.bing.com/ck/a?!&&p=35dfabcecda7ae2981ff8090be8a8a0286153d53c6e7f138ce9ba0dcbc161befJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1a16ebc8-921d-621a-2ba2-fc2f93586322&u=a1aHR0cHM6Ly90aGVvdWViLmNvbS9zaXRlLTE2MzAxLWF2b2NhdHMtYmVsZ2lxdWU&ntb=1",
+          "url": "https://theoueb.com/site-16301-avocats-belgique",
           "snippet": "13 janv. 2021 · Pour trouver un avocat capable de mieux vous défendre en Belgique, vous pouvez vous rendre sur ce site qui vous …"
         }
       ]
@@ -306,7 +396,7 @@
         "ok": true,
         "data": {
           "domain": "eldiariodelcibao.com",
-          "discovered_candidates": 4,
+          "discovered_candidates": 7,
           "confirmed_backlinks": 0,
           "referring_domains_confirmed": 0,
           "backlinks": [],
@@ -325,63 +415,63 @@
           "results": [
             {
               "position": 1,
-              "title": "上傳 YouTube 影片 - 電腦 - YouTube說明 - Google Help",
-              "url": "https://www.bing.com/ck/a?!&&p=77618fdeb4fae73dca28fbe7b8a43139fb1e9038d687708db48be55c87fa7f48JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZS9hbnN3ZXIvNTc0MDc_aGw9emgtSGFudCZjbz1HRU5JRS5QbGF0Zm9ybSUzRERlc2t0b3A&ntb=1",
-              "snippet": "只需幾個簡單步驟，就能輕鬆將影片上傳到 YouTube。以下說明如何透過電腦或行動裝置上傳影片。 注意：使用 YouTube 的受監護 …"
+              "title": "LeJDD or JDD",
+              "url": "https://www.lejdd.fr/",
+              "snippet": "23 de feb de 2014 · Suivez l'actualité politique, internationale et toute l'info société avec le Journal du dimanche. Découvrez tous nos …"
             },
             {
               "position": 2,
-              "title": "Comunidade YouTube - Google Help",
-              "url": "https://www.bing.com/ck/a?!&&p=255db69450b316b76269210583fbd5c8378845f4c4512cf44fdd66308bb9fa92JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZS9jb21tdW5pdHk_aGw9cHQtQlI&ntb=1",
-              "snippet": "37 respostas Sobre o programa Colaboradores do YouTube Atualizações de @TeamYouTube Experimentos Sobre a comunidade …"
+              "title": "Société - LeJDD or JDD",
+              "url": "https://www.lejdd.fr/Societe",
+              "snippet": "Suivez l'actualité importante de la Société en France sur lejdd.fr : faits divers, justice, emploi, éducation..."
             },
             {
               "position": 3,
-              "title": "youtube | OBS Forums",
-              "url": "https://www.bing.com/ck/a?!&&p=4414a9ac05280c8389a7b59acb49d4442ecf344f41f4e206b4107571e459389bJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9vYnNwcm9qZWN0LmNvbS9mb3J1bS90YWdzL3lvdXR1YmUv&ntb=1",
-              "snippet": "15 de abr de 2026 · Bitrate lowering and rising randomly whilst streaming I've been streaming on YouTube, and the bitrate keeps …"
+              "title": "Découvrez les newsletters du JDD | JDD",
+              "url": "https://newsletter.lejdd.fr/",
+              "snippet": "Découvrez toutes les newsletters du journal du dimanche. La newsletter du matin, Le journal de demain, Bon dimanche à …"
             },
             {
               "position": 4,
-              "title": "Displaying YouTube LiveChat Comments on Stream - OBS",
-              "url": "https://www.bing.com/ck/a?!&&p=26c28d0c481b7be27505055cefe351071ce27cabb60c5d32d7c4ff36240f6fc0JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9vYnNwcm9qZWN0LmNvbS9mb3J1bS90aHJlYWRzL2Rpc3BsYXlpbmcteW91dHViZS1saXZlY2hhdC1jb21tZW50cy1vbi1zdHJlYW0td2l0aG91dC1zdHJlYW15YXJkLWZyZWUuMTQ0ODk3Lw&ntb=1",
-              "snippet": "11 de jun de 2021 · Displaying and selecting youtube stream comments in your stream is a pretty simple task. Although, this feature …"
+              "title": "Aide en ligne - Le Journal du Dimanche",
+              "url": "https://abonnement.lejdd.fr/aide-et-contact",
+              "snippet": "Accédez à l'aide en ligne du Journal du Dimanche pour toute question ou assistance concernant votre abonnement."
             },
             {
               "position": 5,
-              "title": "YouTube-video's uploaden - Computer - YouTube Help - Google Help",
-              "url": "https://www.bing.com/ck/a?!&&p=3c78e79868e23ced79719e6355e51d3fa37333f619770e57fffdf5dbb02b0f93JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZS9hbnN3ZXIvNTc0MDc_aGw9bmwmY289R0VOSUUuUGxhdGZvcm0lM0REZXNrdG9w&ntb=1",
-              "snippet": "Je kunt video's in een paar eenvoudige stappen uploaden naar YouTube. Volg de instructies hieronder om je video's te uploaden …"
+              "title": "Abonnement Le JDD : toutes nos offres et formules",
+              "url": "https://abo.lejdd.fr/",
+              "snippet": "Abonnez-vous au JDD pour 1€ le premier mois puis 6,90€/mois sans engagement. Découvrez nos offres : 100% numériques, papier …"
             },
             {
               "position": 6,
-              "title": "YouTube Trợ giúp",
-              "url": "https://www.bing.com/ck/a?!&&p=d02738ecf439fb8fde17caea0c74878ff6304f77f5c2ae62ff84bb43307ccd49JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZS8_aGw9dmk&ntb=1",
-              "snippet": "Trung tâm Trợ giúp YouTube chính thức, nơi bạn có thể tìm thấy các mẹo và hướng dẫn sử dụng sản phẩm và các câu trả lời khác …"
+              "title": "Actualités Internationales | JDD",
+              "url": "https://www.lejdd.fr/International",
+              "snippet": "25 de sept de 2021 · Suivez l'actualité internationale et toute l'info dans le monde avec le JDD. Découvrez tous nos décryptages d'actu."
             },
             {
               "position": 7,
-              "title": "Βοήθεια YouTube",
-              "url": "https://www.bing.com/ck/a?!&&p=f0d45e7b7c4b87cbcc24966b12164bdfc56912a4d42905be5a52c182a02b5cd9JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZS8_aGw9ZWw&ntb=1",
-              "snippet": "Επίσημο Κέντρο βοήθειας του YouTube, όπου μπορείτε να βρείτε συμβουλές και οδηγούς σχετικά με τη χρήση του προϊόντος και …"
+              "title": "Politique : L'actualité politique décryptée | JDD",
+              "url": "https://www.lejdd.fr/politique",
+              "snippet": "L’actualité politique décryptée par la rédaction du Journal du Dimanche : nos interviews exclusives, sondages, analyses et indiscrets."
             },
             {
               "position": 8,
-              "title": "Manage your home area or current location for YouTube TV",
-              "url": "https://www.bing.com/ck/a?!&&p=9af6aef7be992bbd7b2b4db31f084b8febbb13c4933c9d9b529ed0573de413e4JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZXR2L2Fuc3dlci83MTI5NzY4P2hsPWVuJmNvPUdFTklFLlBsYXRmb3JtJTNERGVza3RvcA&ntb=1",
-              "snippet": "When you sign up for YouTube TV, we’ll ask you to share your home zip code. We may also ask you to verify your area location via …"
+              "title": "Le JDNews - LeJDD or JDD",
+              "url": "https://www.lejdd.fr/lejdnews",
+              "snippet": "18 de oct de 2024 · Retrouvez facilement votre JDNews en version papier grâce à notre carte interactive. Indiquez votre adresse ou …"
             },
             {
               "position": 9,
-              "title": "Ayuda de YouTube",
-              "url": "https://www.bing.com/ck/a?!&&p=63b78efa23b7b1d186e1f6fd6a3b149beb45ed387b13b4a2d7431ff9eb914033JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZS8_aGw9ZXM&ntb=1",
-              "snippet": "Centro de asistencia oficial de YouTube donde puedes encontrar sugerencias y tutoriales para aprender a utilizar el producto y …"
+              "title": "Top 50 du JDD - Les personnalités préférées des Français",
+              "url": "https://www.lejdd.fr/top50",
+              "snippet": "Retrouvez la liste des personnalités préférées des Français, année après année, d'après le baromètre JDD."
             },
             {
               "position": 10,
-              "title": "Gerenciar configurações do canal - Ajuda do YouTube",
-              "url": "https://www.bing.com/ck/a?!&&p=66a48df17a38252d12d0c0a9e50c747202a332c53d6569c24edc587b14fcc0c0JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZS9hbnN3ZXIvMjk3NjgxND9obD1wdC1CUg&ntb=1",
-              "snippet": "Gerenciar configurações do canal Você pode gerenciar as configurações do seu canal no YouTube Studio. É possível mudar desde …"
+              "title": "Pascal Praud - LeJDD or JDD",
+              "url": "https://www.lejdd.fr/bio/pascal-praud",
+              "snippet": "20 de jul de 2026 · Journaliste et animateur de télévision français, Pascal Praud anime “L’Heure des Pros” sur CNews et Pascal …"
             }
           ],
           "evidence": "VERIFIED_FALLBACK_SERP_NOT_GOOGLE"
@@ -397,63 +487,63 @@
           "results": [
             {
               "position": 1,
-              "title": "How to use the distance formula to find the radius of a circle?",
-              "url": "https://www.bing.com/ck/a?!&&p=a38e97e46cc1643dda14ecbd1a5d6981cf5ef55be221909fbfad4509e651dd76JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=296497f2-d344-6157-380f-8015d23a6088&u=a1aHR0cHM6Ly9zb2NyYXRpYy5vcmcvcXVlc3Rpb25zL2hvdy10by11c2UtdGhlLWRpc3RhbmNlLWZvcm11bGEtdG8tZmluZC10aGUtcmFkaXVzLW9mLWEtY2lyY2xlP3NvdXJjZT1zZWFyY2g&ntb=1",
-              "snippet": "Find the center of the circle. Find any point on the circle. Use these two points in the distance formula to find the radius of the circle."
+              "title": "Molipollo Congelado X 500 Grs - Mac Pollo",
+              "url": "https://web.macpollo.com/producto/molipollo/",
+              "snippet": "Molipollo Congelado X 500 Grs Carne de pollo embutida procesada y condimentada, lista para prepararse sin ningún condimento …"
             },
             {
               "position": 2,
-              "title": "A solid consists of a cone on top of a cylinder with a ... - Socratic",
-              "url": "https://www.bing.com/ck/a?!&&p=c239843ed0409948c6474d7f80b11d50a4b0d4a24f23388bbea954f479306df7JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=296497f2-d344-6157-380f-8015d23a6088&u=a1aHR0cHM6Ly9zb2NyYXRpYy5vcmcvcXVlc3Rpb25zL2Etc29saWQtY29uc2lzdHMtb2YtYS1jb25lLW9uLXRvcC1vZi1hLWN5bGluZGVyLXdpdGgtYS1yYWRpdXMtZXF1YWwtdG8tdGhhdC1vZi10LTcz&ntb=1",
-              "snippet": "V_T=pir^2 (h_1/3+h_2) We need to calculate r in order to calculate the area of the base of the cylinder, hence we fill in the data …"
+              "title": "Molipollo - exito.com",
+              "url": "https://www.exito.com/t/molipollo",
+              "snippet": "Molipollo en Almacenes Éxito ofrece opciones confiables para tus preparaciones, combinando calidad y buen precio en productos …"
             },
             {
               "position": 3,
-              "title": "A triangle has corners at (5 ,1 ), (2 ,7 ), and (7 ,3 ). What is the ...",
-              "url": "https://www.bing.com/ck/a?!&&p=a904d6a8b540650df653c0233fd468c39e95bf0b7ade81cc4624b72bf5b26877JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=296497f2-d344-6157-380f-8015d23a6088&u=a1aHR0cHM6Ly9zb2NyYXRpYy5vcmcvcXVlc3Rpb25zL2EtdHJpYW5nbGUtaGFzLWNvcm5lcnMtYXQtNS0xLTItNy1hbmQtNy0zLXdoYXQtaXMtdGhlLWFyZWEtb2YtdGhlLXRyaWFuZ2xlLXMtY2ly&ntb=1",
-              "snippet": "Area of triangle's circumscribed circle is 35.78 sq.unit. The three corners are A (5,1) B (2,7) and C (7,3) Distance between two points …"
+              "title": "Molipollo archivos - Mac Pollo",
+              "url": "https://web.macpollo.com/productos/salsamentaria/molipollo/",
+              "snippet": "Molipollo Carne de pollo embutida procesada y condimentada, lista para prepararse, infaltable en tus mas deliciosas recetas, se …"
             },
             {
               "position": 4,
-              "title": "How do you use Heron's formula to find the area of a ... - Socratic",
-              "url": "https://www.bing.com/ck/a?!&&p=7b4fbe34edf0b9df21293fc2c727ee564e2150c3d627da7a2ff0594ae14e0c03JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=296497f2-d344-6157-380f-8015d23a6088&u=a1aHR0cHM6Ly9zb2NyYXRpYy5vcmcvcXVlc3Rpb25zL2hvdy1kby15b3UtdXNlLWhlcm9uLXMtZm9ybXVsYS10by1maW5kLXRoZS1hcmVhLW9mLWEtdHJpYW5nbGUtd2l0aC1zaWRlcy1vZi1sZW5nLTE0&ntb=1",
-              "snippet": "How do you use Heron's formula to find the area of a triangle with sides of lengths #9 #, #5 #, and #12 #?"
+              "title": "Pollo molido adobado de 500 gr al mejor precio | Campollo",
+              "url": "https://campollo.com/productos/carne-molida-pollo-adobada-500-gr/",
+              "snippet": "Conoce todos los detalles del pollo molido adobado de 500 gr de Campollo. ¡Conócelo y cómpralo al mejor precio en nuestros …"
             },
             {
               "position": 5,
-              "title": "Circle A has a center at # (3 ,2 )# and an area of #96 pi ... - Socratic",
-              "url": "https://www.bing.com/ck/a?!&&p=4e8671dc73f6cf2b36ebaee756448d08d44931c3188f43e5c0b147a9a945ddcbJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=296497f2-d344-6157-380f-8015d23a6088&u=a1aHR0cHM6Ly9zb2NyYXRpYy5vcmcvcXVlc3Rpb25zL2NpcmNsZS1hLWhhcy1hLWNlbnRlci1hdC0zLTItYW5kLWFuLWFyZWEtb2YtOTYtcGktY2lyY2xlLWItaGFzLWEtY2VudGVyLWF0LTEyLTct&ntb=1",
-              "snippet": "Circle A has a center at # (3 ,2 )# and an area of #96 pi#. Circle B has a center at # (12 ,7 )# and an area of #48 pi#. Do the circles …"
+              "title": "Aprovecha: Pollo Molipollo Congelado 500g Frescura Total - Olímpica",
+              "url": "https://www.olimpica.com/pollo-molipollo-mac-pollo-cong-500g-7700741220202-10368/p",
+              "snippet": "Disfruta del Pollo Molipollo Congelado 500g, fresco y de calidad superior. Ideal para tus recetas y comidas familiares. ¡Compra y …"
             },
             {
               "position": 6,
-              "title": "A chord with a length of 4 runs from pi/8 to pi/6 radians on a circle ...",
-              "url": "https://www.bing.com/ck/a?!&&p=63dd4bb2689678be47bab62ed4643cc49ba4bffa6b469a881202f16cb60c3f7dJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=296497f2-d344-6157-380f-8015d23a6088&u=a1aHR0cHM6Ly9zb2NyYXRpYy5vcmcvcXVlc3Rpb25zL2EtY2hvcmQtd2l0aC1hLWxlbmd0aC1vZi00LXJ1bnMtZnJvbS1waS04LXRvLXBpLTYtcmFkaWFucy1vbi1hLWNpcmNsZS13aGF0LWlzLXRo&ntb=1",
-              "snippet": "A chord with a length of #4 # runs from #pi/8 # to #pi/6 # radians on a circle. What is the area of the circle? GeometryPerimeter, …"
+              "title": "Mac Pollo número 1 en Colombia, Mac Pollo el sabor de la confianza",
+              "url": "https://www.macpollo.com/productos/salsamentaria/molipollo-congelado-x-500-grs",
+              "snippet": "Pasta de pollo finamente molida y condimentada, sin conservantes y con sal reducida en sodio, ideal para recetas deliciosas."
             },
             {
               "position": 7,
-              "title": "A triangle has corners at (5 ,8 ), (2 ,7 ), and (7 ,3 ). What is the ...",
-              "url": "https://www.bing.com/ck/a?!&&p=c6c3829f44349f31ea36739c0b27180ce0ac481ea2acd5f11bfc2980263a9a3dJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=296497f2-d344-6157-380f-8015d23a6088&u=a1aHR0cHM6Ly9zb2NyYXRpYy5vcmcvcXVlc3Rpb25zL2EtdHJpYW5nbGUtaGFzLWNvcm5lcnMtYXQtNS04LTItNy1hbmQtNy0zLXdoYXQtaXMtdGhlLWFyZWEtb2YtdGhlLXRyaWFuZ2xlLXMtY2ly&ntb=1",
-              "snippet": "A triangle has corners at # (5 ,8 )#, # (2 ,7 )#, and # (7 ,3 )#. What is the area of the triangle's circumscribed circle? …"
+              "title": "Molipollo MAC POLLO x500 g - mercaldas.com",
+              "url": "https://www.mercaldas.com/molipollo-mac-pollo-x500-g-/p",
+              "snippet": "En Mercaldas compra Molipollo MAC POLLO x500 g Carne de pollo embutida procesada y condimentada, lista para prepararse sin …"
             },
             {
               "position": 8,
-              "title": "Circle A has a center at (5 ,1 ) and an area of 4 pi. Circle ... - Socratic",
-              "url": "https://www.bing.com/ck/a?!&&p=2e7ad5e0d2e044eb2c351c8aca132559cb240be82b3c75cf26504e2213641fc3JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=296497f2-d344-6157-380f-8015d23a6088&u=a1aHR0cHM6Ly9zb2NyYXRpYy5vcmcvcXVlc3Rpb25zL2NpcmNsZS1hLWhhcy1hLWNlbnRlci1hdC01LTEtYW5kLWFuLWFyZWEtb2YtNC1waS1jaXJjbGUtYi1oYXMtYS1jZW50ZXItYXQtMi04LWFu&ntb=1",
-              "snippet": "Circle A has a center at # (5 ,1 )# and an area of #4 pi#. Circle B has a center at # (2 ,8 )# and an area of #16 pi#. Do the circles …"
+              "title": "Mac Pollo: Número 1 en Colombia en productos de pollo, res y cerdo.",
+              "url": "https://www.macpollo.com/",
+              "snippet": "Mac Pollo, la marca de pollo #1 en Colombia, ofrece productos de alta calidad y frescura. Descubre opciones nutritivas y deliciosas …"
             },
             {
               "position": 9,
-              "title": "How do you use Heron's formula to find the area of a ... - Socratic",
-              "url": "https://www.bing.com/ck/a?!&&p=3896ed1c7890671af2f5918f380e0615be5e2a21e3b8a01ad9b04438c1e8bceeJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=296497f2-d344-6157-380f-8015d23a6088&u=a1aHR0cHM6Ly9zb2NyYXRpYy5vcmcvcXVlc3Rpb25zL2hvdy1kby15b3UtdXNlLWhlcm9uLXMtZm9ybXVsYS10by1maW5kLXRoZS1hcmVhLW9mLWEtdHJpYW5nbGUtd2l0aC1zaWRlcy1vZi1sZW5nLTYw&ntb=1",
-              "snippet": "How do you use Heron's formula to find the area of a triangle with sides of lengths #6 #, #7 #, and #7 #?"
+              "title": "Carne de pollo molipollo (500 gr) - exito.com",
+              "url": "https://www.exito.com/molipollo-500-gr-491756/p",
+              "snippet": "Carne de pollo molipollo (500 gr) SM -PLU: 24595 Producto no disponible Este producto no está disponible en este momento."
             },
             {
               "position": 10,
-              "title": "Question #d444c - Socratic",
-              "url": "https://www.bing.com/ck/a?!&&p=b353ef51e71bb3371962bcc9f527b201d534c14a0284d1f556f0cbd0fbe6f46dJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=296497f2-d344-6157-380f-8015d23a6088&u=a1aHR0cHM6Ly9zb2NyYXRpYy5vcmcvcXVlc3Rpb25zLzVhNzZkZjQyYjcyY2ZmNDgxMjFkNDQ0Yw&ntb=1",
-              "snippet": "Where the double angle formula comes from is a bit of a rabbit hole, so I'm going to stop there."
+              "title": "Preparados de Pollo - undefined",
+              "url": "https://www.mercaldas.com/carnes-pollo-y-pescado/pollo/preparados-de-pollo",
+              "snippet": "Preparados de Pollo Filete SERRANOVA de pechuga 10 unds x110 g c/u"
             }
           ],
           "evidence": "VERIFIED_FALLBACK_SERP_NOT_GOOGLE"
@@ -479,59 +569,59 @@
                 "aeropuerto cibao noticias"
               ],
               "serp": {
-                "source": "duckduckgo_fallback",
+                "source": "bing_live_html_fallback",
                 "partial": true,
                 "note": "Google returned 200, 0 parsed results",
                 "results": [
                   {
-                    "title": "Diario Cibao - El periódico de los cibaeños. Noticias de hoy",
-                    "url": "https://diariocibao.com/",
-                    "snippet": "Noticias actualizadas del Cibao y toda República Dominicana. Política, Sociales, deportes y más en Diario Cibao."
+                    "title": "Google Noticias",
+                    "url": "https://news.google.com/?hl=es",
+                    "snippet": "Amplia cobertura actualizada de noticias, agregada a partir de fuentes de noticias de todo el mundo por Google Noticias"
                   },
                   {
-                    "title": "Cibao.News",
-                    "url": "https://cibao.news/",
-                    "snippet": "Cibao: noticias actuales de la República Dominicana, enfocándonos en Santiago y temas de interés local."
+                    "title": "Google Noticias",
+                    "url": "https://news.google.com/?hl=es&ned=es_mx",
+                    "snippet": "Amplia cobertura actualizada de noticias, agregada a partir de fuentes de noticias de todo el mundo por Google Noticias"
                   },
                   {
-                    "title": "Noticias de Santiago de los Caballeros y el Cibao",
-                    "url": "https://noticia.do/",
-                    "snippet": "Últimas noticias de Santiago de los Caballeros, el Cibao y República Dominicana. Sucesos, política, justicia, economía y deportes al momento."
+                    "title": "Noticias Telemundo: Últimas noticias en español de Estados Unidos y …",
+                    "url": "https://www.telemundo.com/noticias",
+                    "snippet": "Sitio oficial de Noticias Telemundo: las noticias de última hora en español de EE.UU., México, Latinoamérica y el mundo. …"
                   },
                   {
-                    "title": "Cibao Aldía - El diario del Cibao",
-                    "url": "https://cibaoaldia.com/",
-                    "snippet": "Por Ramón Mercedes NUEVA YORK.- La calidad del aire en esta ciudad alcanzó niveles peligrosos"
+                    "title": "Últimas noticias de Estados Unidos, Latinoamérica y el mundo, hoy",
+                    "url": "https://cnnespanol.cnn.com/",
+                    "snippet": "Últimas hora y noticias recientes de Estados Unidos, México, Colombia, Argentina, Latinoamérica y el mundo. Actualidad de hoy …"
                   },
                   {
-                    "title": "Noticias del Cibao - El Pais y el Mundo al dia con la Noticias del Momento",
-                    "url": "https://noticiasdelcibao.com/",
-                    "snippet": "Buscar Buscar Noticias Recientes CESAC registra cumplimiento integral en auditoría de seguimiento ISO 9001:2015 Protecom pone a disposición de los usuarios Calculadora de Factura Eléctrica Club Deportivo y Cultural Calero celebra su 43 aniversario con gran encuentro deportivo y comunitario"
+                    "title": "Últimas noticias: la última hora de hoy en EL PAÍS",
+                    "url": "https://elpais.com/ultimas-noticias/",
+                    "snippet": "Hace 4 horas · Consulta las últimas noticias de actualidad al minuto y la última hora de España, México, América y el mundo en EL …"
                   },
                   {
-                    "title": "Noticias de Cibao - Acento",
-                    "url": "https://www.acento.com.do/tags/?tag=cibao",
-                    "snippet": "Noticias de Cibao Entérate de las últimas noticias de Cibao en Acento Actualidad Abinader coloca obras del Cibao en el centro de su agenda y anuncia proyectos para Manzanillo, Puerto Plata y Samaná Historia y memoria Santiago contará con un archivo para la preservación del patrimonio documental de la región Opinión"
+                    "title": "Noticias, la última hora de España y el mundo - RTVE.es",
+                    "url": "https://www.rtve.es/noticias/",
+                    "snippet": "Noticias de última hora en España y el mundo. Toda la actualidad y las últimas noticias nacionales e internacionales aquí, en RTVE.es"
                   },
                   {
-                    "title": "Noticias - cibao.com.do",
-                    "url": "https://www.cibao.com.do/banca-personal/noticias/",
-                    "snippet": "Asociación Cibao destaca oportunidades y desafíos de la Inteligencia Artificial para el periodismo Durante el encuentro anual con periodistas, el especialista en Ciencia de Datos e Inteligencia Artificial Renato González abordó las oportunidades y riesgos de estas tecnologías para la investigación, verificación y producción de contenidos. Leer"
+                    "title": "N+ Univision | Noticias en Vivo, Última Hora y Cobertura Minuto a ...",
+                    "url": "https://www.univision.com/noticias",
+                    "snippet": "17 de may de 2013 · Sigue las últimas noticias de hoy en N+ Univision. Información en vivo sobre inmigración, política, sucesos de …"
                   },
                   {
-                    "title": "Noticias de Santiago de los Caballeros | Noticia.do",
-                    "url": "https://noticia.do/santiago/",
-                    "snippet": "Noticias de Santiago de los Caballeros: última hora, política, economía y sociedad desde el corazón del Cibao dominicano."
+                    "title": "Antena 3 Noticias: Última hora en España y el mundo",
+                    "url": "https://www.antena3.com/noticias/",
+                    "snippet": "Últimas noticias de hoy. Sigue toda la actualidad de España, Internacional, Sociedad, Sucesos, Economía y la última hora en …"
                   },
                   {
-                    "title": "Cinco muertos en operativos policiales en la región del Cibao",
-                    "url": "https://www.elcaribe.com.do/panorama/region-norte/cinco-muertos-en-operativos-policiales-en-la-region-del-cibao/",
-                    "snippet": "Santiago. Cinco hombres murieron por disparos de agentes policiales durante intervenciones en Santiago, Villa Vásquez, Puerto Plata y Gaspar Hernández, mientras la Policía afirma que en dos de los casos de Santiago sus agentes fueron atacados, familiares de los involucrados en los demás hechos ..."
+                    "title": "MILENIO | Noticias de hoy en México y el mundo al momento",
+                    "url": "https://www.milenio.com/",
+                    "snippet": "23 de oct de 2024 · Noticias de última hora de México y el mundo. Entérate aquí de la información más importante sobre política, …"
                   },
                   {
-                    "title": "El Diario Cibao Norcentral - Noticias regionales de Santiago, Puerto ...",
-                    "url": "https://eldiariocibaonorcentral.com/",
-                    "snippet": "Últimas noticias 1 Sep 2026 · 01:42 Cibao Norcentral · Conéctate con nosotros El Diario Cibao Norcentral Noticias regionales de Santiago, Puerto Plata y Espaillat."
+                    "title": "Noticias - BBC News Mundo",
+                    "url": "https://www.bbc.com/mundo",
+                    "snippet": "Hace 2 días · Las últimas noticias e información en materia internacional, sobre América Latina, tecnología, ciencia, salud, …"
                   }
                 ]
               },
@@ -559,59 +649,59 @@
                 "noticias de santiago republica dominicana today"
               ],
               "serp": {
-                "source": "bing_live_html_fallback",
+                "source": "duckduckgo_fallback",
                 "partial": true,
                 "note": "Google returned 200, 0 parsed results",
                 "results": [
                   {
-                    "title": "Google Noticias",
-                    "url": "https://www.bing.com/ck/a?!&&p=3f76a81c7ee836ff5bcd762354edd2768f36c2985b12c407759b7fad73e44ebaJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=069dae41-876d-6ba3-1f12-b9a6860c6a3e&u=a1aHR0cHM6Ly9uZXdzLmdvb2dsZS5jb20vP2hsPWVz&ntb=1",
-                    "snippet": "Amplia cobertura actualizada de noticias, agregada a partir de fuentes de noticias de todo el mundo por Google Noticias"
+                    "title": "El Sol de Santiago | Periódico Dominicano",
+                    "url": "https://elsoldesantiago.com/",
+                    "snippet": "Periódico dominicano en línea con las últimas noticias hoy de RD y el mundo, consejos, historia, salud, economía, gente y deportes."
                   },
                   {
-                    "title": "Google Noticias",
-                    "url": "https://www.bing.com/ck/a?!&&p=e3e0ce7fa20ba2f1c9935b7d717af1b554dc1708c1222b923906d90a1bff8064JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=069dae41-876d-6ba3-1f12-b9a6860c6a3e&u=a1aHR0cHM6Ly9uZXdzLmdvb2dsZS5jb20vP2hsPWVzJm5lZD1lc19teA&ntb=1",
-                    "snippet": "Amplia cobertura actualizada de noticias, agregada a partir de fuentes de noticias de todo el mundo por Google Noticias"
+                    "title": "Noticias de Santiago de los Caballeros y el Cibao",
+                    "url": "https://noticia.do/",
+                    "snippet": "Últimas noticias de Santiago de los Caballeros, el Cibao y República Dominicana. Sucesos, política, justicia, economía y deportes al momento."
                   },
                   {
-                    "title": "Últimas noticias de Estados Unidos, Latinoamérica y el mundo, hoy",
-                    "url": "https://www.bing.com/ck/a?!&&p=da82b39999d4138d54c6021ad9ca57c16494557da3edcab4155fbe9672efffeeJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=069dae41-876d-6ba3-1f12-b9a6860c6a3e&u=a1aHR0cHM6Ly9jbm5lc3Bhbm9sLmNubi5jb20v&ntb=1",
-                    "snippet": "28 de nov de 2024 · Últimas hora y noticias recientes de Estados Unidos, México, Colombia, Argentina, Latinoamérica y el mundo. …"
+                    "title": "Diario Cibao - El periódico de los cibaeños. Noticias de hoy",
+                    "url": "https://diariocibao.com/",
+                    "snippet": "Noticias actualizadas del Cibao y toda República Dominicana. Política, Sociales, deportes y más en Diario Cibao."
                   },
                   {
-                    "title": "Últimas noticias: la última hora de hoy en EL PAÍS",
-                    "url": "https://www.bing.com/ck/a?!&&p=144863d6ef3e8d6d43bfcca3e2f0c806cab68e688b1221a07fe23a5d9f542420JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=069dae41-876d-6ba3-1f12-b9a6860c6a3e&u=a1aHR0cHM6Ly9lbHBhaXMuY29tL3VsdGltYXMtbm90aWNpYXMv&ntb=1",
-                    "snippet": "Hace 1 hora · Consulta las últimas noticias de actualidad al minuto y la última hora de España, México, América y el mundo en EL …"
+                    "title": "Ultimas Noticias - Diario Libre",
+                    "url": "https://www.diariolibre.com/ultima-hora",
+                    "snippet": "Noticias de última hora sobre la actualidad en República Dominicana y Latinoamérica: política, economía, deportes, cultura, ciencia y tecnología."
                   },
                   {
-                    "title": "Noticias Telemundo: Últimas noticias en español de Estados Unidos y …",
-                    "url": "https://www.bing.com/ck/a?!&&p=6d83f112135d2c7d095307d332a325df3c473c0e211d2ddcffe97586e549c030JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=069dae41-876d-6ba3-1f12-b9a6860c6a3e&u=a1aHR0cHM6Ly93d3cudGVsZW11bmRvLmNvbS9ub3RpY2lhcw&ntb=1",
-                    "snippet": "Sitio oficial de Noticias Telemundo: las noticias de última hora en español de EE.UU., México, Latinoamérica y el mundo. …"
+                    "title": "*Noticias República Dominicana archivos - Remolacha - Noticias ...",
+                    "url": "https://remolacha.net/category/noticias-republica-dominicana/",
+                    "snippet": "Read more › Tagged with: Concacaf, Dominican Republic, Fedofútbol, FIFA, Noticias Dominicanas, Noticias Republica Dominicana, remolacha noticias, remolacha.net, Republica Dominicana, Wilson Isidor *Noticias República Dominicana, Deportes"
                   },
                   {
-                    "title": "N+ Univision | Noticias en Vivo, Última Hora y Cobertura Minuto a ...",
-                    "url": "https://www.bing.com/ck/a?!&&p=d33ec64d2b15a679e3d8912993fc40541c1d86df0eb46a9eb6ffe793d7c4dc56JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=069dae41-876d-6ba3-1f12-b9a6860c6a3e&u=a1aHR0cHM6Ly93d3cudW5pdmlzaW9uLmNvbS9ub3RpY2lhcw&ntb=1",
-                    "snippet": "17 de may de 2013 · Sigue las últimas noticias de hoy en N+ Univision. Información en vivo sobre inmigración, política, sucesos de …"
+                    "title": "Últimas Noticias de la República Dominicana",
+                    "url": "https://www.ultimasnoticias.com.do/",
+                    "snippet": "Últimas Noticias es un diario digital al servicio de los más sanos intereses de la nación dominicana, sobre la base de la ética, la moral y la verdad."
                   },
                   {
-                    "title": "Noticias - BBC News Mundo",
-                    "url": "https://www.bing.com/ck/a?!&&p=a8b578b88841686b80680d715024c3d69aa5b59f740582be753fdef16d9aae9fJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=069dae41-876d-6ba3-1f12-b9a6860c6a3e&u=a1aHR0cHM6Ly93d3cuYmJjLmNvbS9tdW5kbw&ntb=1",
-                    "snippet": "17 de ago de 2020 · Las últimas noticias e información en materia internacional, sobre América Latina, tecnología, ciencia, salud, …"
+                    "title": "santiagodigital.net | La voz del pueblo en internet",
+                    "url": "https://santiagodigital.net/",
+                    "snippet": "Pelea con machete en altamar hizo zozobrar yola en la que iban dominicanos y haitianos Rafael Monsanto - 3 octubre, 2026 Noticias"
                   },
                   {
-                    "title": "Noticias, la última hora de España y el mundo - RTVE.es",
-                    "url": "https://www.bing.com/ck/a?!&&p=03c1dc90793c2e314d61ed1efe6ec085247d8a2227a7c0992526769e6d2664caJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=069dae41-876d-6ba3-1f12-b9a6860c6a3e&u=a1aHR0cHM6Ly93d3cucnR2ZS5lcy9ub3RpY2lhcy8&ntb=1",
-                    "snippet": "Noticias de última hora en España y el mundo. Toda la actualidad y las últimas noticias nacionales e internacionales aquí, en RTVE.es"
+                    "title": "Noticias de Santiago de los Caballeros | Noticia.do",
+                    "url": "https://noticia.do/santiago/",
+                    "snippet": "Noticias de Santiago de los Caballeros: última hora, política, economía y sociedad desde el corazón del Cibao dominicano."
                   },
                   {
-                    "title": "MILENIO | Noticias de hoy en México y el mundo al momento",
-                    "url": "https://www.bing.com/ck/a?!&&p=471d59a0db571413dbdbabee96a5c6ce05ec069791b6a1b888db5cd01ab4d8e8JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=069dae41-876d-6ba3-1f12-b9a6860c6a3e&u=a1aHR0cHM6Ly93d3cubWlsZW5pby5jb20v&ntb=1",
-                    "snippet": "23 de oct de 2024 · Noticias de última hora de México y el mundo. Entérate aquí de la información más importante sobre política, …"
+                    "title": "Noticias - El Sol de Santiago",
+                    "url": "https://elsoldesantiago.com/category/noticias/",
+                    "snippet": "Periódico dominicano en línea con las últimas noticias hoy de RD y el mundo, consejos, historia, salud, economía, gente y deportes."
                   },
                   {
-                    "title": "El Diario NY - Últimas Noticias en Español de New York, USA, y El Mundo",
-                    "url": "https://www.bing.com/ck/a?!&&p=73ebb21ca1038ab628cb3b175c5fb63b4e77ca243f752fda8252fb4699599883JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=069dae41-876d-6ba3-1f12-b9a6860c6a3e&u=a1aHR0cHM6Ly9lbGRpYXJpb255LmNvbS8&ntb=1",
-                    "snippet": "6 de dic de 2017 · En circulación desde 1913, es el medio hispano más leído en Nueva York y el segundo periódico más grande del …"
+                    "title": "Qué Pasa en RD | Noticias de República Dominicana",
+                    "url": "https://quepasaenrd.com/",
+                    "snippet": "Noticias de República Dominicana, denuncias ciudadanas, actualidad, investigación y contexto."
                   }
                 ]
               },
@@ -641,11 +731,6 @@
                 "note": "Google returned 200, 0 parsed results",
                 "results": [
                   {
-                    "title": "(339 vacantes) empleos de Santiago en República Dominicana | LinkedIn",
-                    "url": "https://do.linkedin.com/jobs/santiago-empleos",
-                    "snippet": "339 empleos de Santiago populares en República Dominicana hoy. Saca partido a tu red profesional y consigue que te contraten. Cada día salen nuevos empleos de Santiago."
-                  },
-                  {
                     "title": "Empleos de Tu empleo rd en Santiago (provincia) - do.jooble.org",
                     "url": "https://do.jooble.org/trabajo-tu-empleo-rd/Santiago-(provincia)",
                     "snippet": "Nuevas ofertas de trabajo para Tu empleo rd en Santiago (provincia). Empresas confiables. Tiempo completo, medio y parcial. Sin costo, fácil y rápido puedes encontrar trabajo en casi 2.900+ ofertas en Santiago (provincia) y otras ciudades en República Dominicana."
@@ -654,6 +739,11 @@
                     "title": "Se necesita urgente: Santiago en Dominicana - Jooble",
                     "url": "https://do.jooble.org/trabajo-santiago/Dominicana",
                     "snippet": "Nuevas ofertas de trabajo para Santiago en Dominicana. Empresas confiables. Tiempo completo, medio y parcial. Sin costo, fácil y rápido puedes encontrar trabajo en casi 3.500+ ofertas en Dominicana y otras ciudades en República Dominicana."
+                  },
+                  {
+                    "title": "(339 vacantes) empleos de Santiago en República Dominicana | LinkedIn",
+                    "url": "https://do.linkedin.com/jobs/santiago-empleos",
+                    "snippet": "339 empleos de Santiago populares en República Dominicana hoy. Saca partido a tu red profesional y consigue que te contraten. Cada día salen nuevos empleos de Santiago."
                   },
                   {
                     "title": "Now Hiring: 600 Santiago, Dominican Republic Jobs | Indeed",
@@ -666,9 +756,9 @@
                     "snippet": "¿Buscas trabajo en Santiago? Consulta las mejores ofertas de empleo en las mejores empresa en la bolsa de empleo líder en Santiago."
                   },
                   {
-                    "title": "Ofertas de empleo santiago rd en República Dominicana",
-                    "url": "https://www.opcionempleo.com.do/trabajo-santiago-rd",
-                    "snippet": "Todas las ofertas de empleo y trabajo de santiago rd en República Dominicana. Opcionempleo, el motor de búsqueda de empleos."
+                    "title": "Vacantes y Empleos Disponibles en Santiago, República Dominicana (16+)",
+                    "url": "https://tunuevotrabajo.net/do/empleos-en/santiago",
+                    "snippet": "Consulta 16+ vacantes y empleos disponibles cerca de ti en Santiago, República Dominicana. Ofertas de trabajo locales actualizadas hoy con postulación direct…"
                   },
                   {
                     "title": "Buscar empleo en Santiago, Santiago | Computrabajo Republica Dominicana",
@@ -676,19 +766,19 @@
                     "snippet": "¿Buscas trabajo en Santiago, Santiago? Consulta las mejores ofertas de empleo en las mejores empresa en la bolsa de empleo líder en Santiago, Santiago."
                   },
                   {
-                    "title": "Vacantes y Empleos Disponibles en Santiago, República Dominicana (16+)",
-                    "url": "https://tunuevotrabajo.net/do/empleos-en/santiago",
-                    "snippet": "Consulta 16+ vacantes y empleos disponibles cerca de ti en Santiago, República Dominicana. Ofertas de trabajo locales actualizadas hoy con postulación direct…"
+                    "title": "Ofertas de empleo santiago rd en República Dominicana",
+                    "url": "https://www.opcionempleo.com.do/trabajo-santiago-rd",
+                    "snippet": "Todas las ofertas de empleo y trabajo de santiago rd en República Dominicana. Opcionempleo, el motor de búsqueda de empleos."
                   },
                   {
-                    "title": "EmpleaRD — Empleos en República Dominicana | +800 Vacantes 2026",
-                    "url": "https://empleard.online/",
-                    "snippet": "EmpleaRD — Plataforma #1 de empleos en RD. +800 vacantes verificadas en las 31 provincias. Santo Domingo, Santiago, Punta Cana. Gratis, sin registro."
+                    "title": "342 empleos de «Empleos» en Santiago de los Caballeros ... - LinkedIn",
+                    "url": "https://do.linkedin.com/jobs/empleos-en-santiago-de-los-caballeros",
+                    "snippet": "Los 342 empleos más populares de «Empleos» en Santiago de los Caballeros, Santiago, República Dominicana hoy. Sácale el máximo partido a tu red profesional y consigue que te contraten. Se añaden nuevos empleos para Empleos a diario."
                   },
                   {
-                    "title": "Empleos en Santiago 2026 — Zonas Francas y Portales",
-                    "url": "https://www.curriculum.do/empleos-santiago",
-                    "snippet": "Empleo en Santiago de los Caballeros: zonas francas, manufactura, BPO bilingüe, banca y salud. Top empleadores y los mejores portales para aplicar."
+                    "title": "150 Trabajos en Santiago hoy - Acciontrabajo República Dominicana",
+                    "url": "https://do.acciontrabajo.com/ofertas-de-trabajo-en-santiago",
+                    "snippet": "Encuentra tu nuevo empleo en Santiago hoy, hay empleos en Santiago en Octubre 2026 de administración, ventas, ingeniería, salud, informática, educación ..."
                   }
                 ]
               },
@@ -703,63 +793,63 @@
       "external_mentions": [
         {
           "position": 1,
-          "title": "上傳 YouTube 影片 - 電腦 - YouTube說明 - Google Help",
-          "url": "https://www.bing.com/ck/a?!&&p=77618fdeb4fae73dca28fbe7b8a43139fb1e9038d687708db48be55c87fa7f48JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZS9hbnN3ZXIvNTc0MDc_aGw9emgtSGFudCZjbz1HRU5JRS5QbGF0Zm9ybSUzRERlc2t0b3A&ntb=1",
-          "snippet": "只需幾個簡單步驟，就能輕鬆將影片上傳到 YouTube。以下說明如何透過電腦或行動裝置上傳影片。 注意：使用 YouTube 的受監護 …"
+          "title": "LeJDD or JDD",
+          "url": "https://www.lejdd.fr/",
+          "snippet": "23 de feb de 2014 · Suivez l'actualité politique, internationale et toute l'info société avec le Journal du dimanche. Découvrez tous nos …"
         },
         {
           "position": 2,
-          "title": "Comunidade YouTube - Google Help",
-          "url": "https://www.bing.com/ck/a?!&&p=255db69450b316b76269210583fbd5c8378845f4c4512cf44fdd66308bb9fa92JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZS9jb21tdW5pdHk_aGw9cHQtQlI&ntb=1",
-          "snippet": "37 respostas Sobre o programa Colaboradores do YouTube Atualizações de @TeamYouTube Experimentos Sobre a comunidade …"
+          "title": "Société - LeJDD or JDD",
+          "url": "https://www.lejdd.fr/Societe",
+          "snippet": "Suivez l'actualité importante de la Société en France sur lejdd.fr : faits divers, justice, emploi, éducation..."
         },
         {
           "position": 3,
-          "title": "youtube | OBS Forums",
-          "url": "https://www.bing.com/ck/a?!&&p=4414a9ac05280c8389a7b59acb49d4442ecf344f41f4e206b4107571e459389bJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9vYnNwcm9qZWN0LmNvbS9mb3J1bS90YWdzL3lvdXR1YmUv&ntb=1",
-          "snippet": "15 de abr de 2026 · Bitrate lowering and rising randomly whilst streaming I've been streaming on YouTube, and the bitrate keeps …"
+          "title": "Découvrez les newsletters du JDD | JDD",
+          "url": "https://newsletter.lejdd.fr/",
+          "snippet": "Découvrez toutes les newsletters du journal du dimanche. La newsletter du matin, Le journal de demain, Bon dimanche à …"
         },
         {
           "position": 4,
-          "title": "Displaying YouTube LiveChat Comments on Stream - OBS",
-          "url": "https://www.bing.com/ck/a?!&&p=26c28d0c481b7be27505055cefe351071ce27cabb60c5d32d7c4ff36240f6fc0JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9vYnNwcm9qZWN0LmNvbS9mb3J1bS90aHJlYWRzL2Rpc3BsYXlpbmcteW91dHViZS1saXZlY2hhdC1jb21tZW50cy1vbi1zdHJlYW0td2l0aG91dC1zdHJlYW15YXJkLWZyZWUuMTQ0ODk3Lw&ntb=1",
-          "snippet": "11 de jun de 2021 · Displaying and selecting youtube stream comments in your stream is a pretty simple task. Although, this feature …"
+          "title": "Aide en ligne - Le Journal du Dimanche",
+          "url": "https://abonnement.lejdd.fr/aide-et-contact",
+          "snippet": "Accédez à l'aide en ligne du Journal du Dimanche pour toute question ou assistance concernant votre abonnement."
         },
         {
           "position": 5,
-          "title": "YouTube-video's uploaden - Computer - YouTube Help - Google Help",
-          "url": "https://www.bing.com/ck/a?!&&p=3c78e79868e23ced79719e6355e51d3fa37333f619770e57fffdf5dbb02b0f93JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZS9hbnN3ZXIvNTc0MDc_aGw9bmwmY289R0VOSUUuUGxhdGZvcm0lM0REZXNrdG9w&ntb=1",
-          "snippet": "Je kunt video's in een paar eenvoudige stappen uploaden naar YouTube. Volg de instructies hieronder om je video's te uploaden …"
+          "title": "Abonnement Le JDD : toutes nos offres et formules",
+          "url": "https://abo.lejdd.fr/",
+          "snippet": "Abonnez-vous au JDD pour 1€ le premier mois puis 6,90€/mois sans engagement. Découvrez nos offres : 100% numériques, papier …"
         },
         {
           "position": 6,
-          "title": "YouTube Trợ giúp",
-          "url": "https://www.bing.com/ck/a?!&&p=d02738ecf439fb8fde17caea0c74878ff6304f77f5c2ae62ff84bb43307ccd49JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZS8_aGw9dmk&ntb=1",
-          "snippet": "Trung tâm Trợ giúp YouTube chính thức, nơi bạn có thể tìm thấy các mẹo và hướng dẫn sử dụng sản phẩm và các câu trả lời khác …"
+          "title": "Actualités Internationales | JDD",
+          "url": "https://www.lejdd.fr/International",
+          "snippet": "25 de sept de 2021 · Suivez l'actualité internationale et toute l'info dans le monde avec le JDD. Découvrez tous nos décryptages d'actu."
         },
         {
           "position": 7,
-          "title": "Βοήθεια YouTube",
-          "url": "https://www.bing.com/ck/a?!&&p=f0d45e7b7c4b87cbcc24966b12164bdfc56912a4d42905be5a52c182a02b5cd9JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZS8_aGw9ZWw&ntb=1",
-          "snippet": "Επίσημο Κέντρο βοήθειας του YouTube, όπου μπορείτε να βρείτε συμβουλές και οδηγούς σχετικά με τη χρήση του προϊόντος και …"
+          "title": "Politique : L'actualité politique décryptée | JDD",
+          "url": "https://www.lejdd.fr/politique",
+          "snippet": "L’actualité politique décryptée par la rédaction du Journal du Dimanche : nos interviews exclusives, sondages, analyses et indiscrets."
         },
         {
           "position": 8,
-          "title": "Manage your home area or current location for YouTube TV",
-          "url": "https://www.bing.com/ck/a?!&&p=9af6aef7be992bbd7b2b4db31f084b8febbb13c4933c9d9b529ed0573de413e4JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZXR2L2Fuc3dlci83MTI5NzY4P2hsPWVuJmNvPUdFTklFLlBsYXRmb3JtJTNERGVza3RvcA&ntb=1",
-          "snippet": "When you sign up for YouTube TV, we’ll ask you to share your home zip code. We may also ask you to verify your area location via …"
+          "title": "Le JDNews - LeJDD or JDD",
+          "url": "https://www.lejdd.fr/lejdnews",
+          "snippet": "18 de oct de 2024 · Retrouvez facilement votre JDNews en version papier grâce à notre carte interactive. Indiquez votre adresse ou …"
         },
         {
           "position": 9,
-          "title": "Ayuda de YouTube",
-          "url": "https://www.bing.com/ck/a?!&&p=63b78efa23b7b1d186e1f6fd6a3b149beb45ed387b13b4a2d7431ff9eb914033JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZS8_aGw9ZXM&ntb=1",
-          "snippet": "Centro de asistencia oficial de YouTube donde puedes encontrar sugerencias y tutoriales para aprender a utilizar el producto y …"
+          "title": "Top 50 du JDD - Les personnalités préférées des Français",
+          "url": "https://www.lejdd.fr/top50",
+          "snippet": "Retrouvez la liste des personnalités préférées des Français, année après année, d'après le baromètre JDD."
         },
         {
           "position": 10,
-          "title": "Gerenciar configurações do canal - Ajuda do YouTube",
-          "url": "https://www.bing.com/ck/a?!&&p=66a48df17a38252d12d0c0a9e50c747202a332c53d6569c24edc587b14fcc0c0JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZS9hbnN3ZXIvMjk3NjgxND9obD1wdC1CUg&ntb=1",
-          "snippet": "Gerenciar configurações do canal Você pode gerenciar as configurações do seu canal no YouTube Studio. É possível mudar desde …"
+          "title": "Pascal Praud - LeJDD or JDD",
+          "url": "https://www.lejdd.fr/bio/pascal-praud",
+          "snippet": "20 de jul de 2026 · Journaliste et animateur de télévision français, Pascal Praud anime “L’Heure des Pros” sur CNews et Pascal …"
         }
       ]
     },
@@ -772,7 +862,7 @@
           "requested_url": "https://andaluztarija.com",
           "final_url": "https://andaluztarija.com/",
           "http_status": 200,
-          "response_ms": 390,
+          "response_ms": 493,
           "https": true,
           "content_type": "text/html; charset=UTF-8",
           "content_bytes": 1020,
@@ -829,19 +919,10 @@
         "ok": true,
         "data": {
           "domain": "andaluztarija.com",
-          "discovered_candidates": 10,
-          "confirmed_backlinks": 1,
-          "referring_domains_confirmed": 1,
-          "backlinks": [
-            {
-              "source_url": "https://www.scamadviser.com/check-website/andaluztarija.com",
-              "target_url": "http://andaluztarija.com/?utm_medium=Scamadviser.com&utm_campaign=Scamadviser.com",
-              "anchor": "VISIT",
-              "rel": "noopener noreferrer",
-              "follow": true,
-              "http_status": 200
-            }
-          ],
+          "discovered_candidates": 0,
+          "confirmed_backlinks": 0,
+          "referring_domains_confirmed": 0,
+          "backlinks": [],
           "evidence": "CONFIRMED_BY_FETCHING_SOURCE_PAGES",
           "coverage": "PARTIAL_DISCOVERY_NOT_A_FULL_WEB_LINK_INDEX",
           "note": "Le compteur est un minimum confirmé, pas le total absolu du Web."
@@ -857,45 +938,63 @@
           "results": [
             {
               "position": 1,
-              "title": "Acceso Mi cuenta: Facturas, gestiones y pedidos - Movistar",
-              "url": "https://www.bing.com/ck/a?!&&p=27cdf2b4898b4151478cef3a0d5bbe5042436ece81c5612cad3ad0f6ac6e891dJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1bb8bedf-c174-69af-0b57-a938c02c68bb&u=a1aHR0cHM6Ly93d3cubW92aXN0YXIuZXMvYXJlYS1jbGllbnRlL21pLWN1ZW50YS8&ntb=1",
-              "snippet": "Consulta el detalle de tus facturas en cualquier momento y descárgalas cuando lo necesites. Revisa los cargos, fechas de pago y …"
+              "title": "Pusheen Shop",
+              "url": "https://pusheen.com/",
+              "snippet": "Pusheen Shop is the official online home of Pusheen! Explore exclusive plush, apparel, accessories and more!"
             },
             {
               "position": 2,
-              "title": "Procesos Autogestion - Movistar",
-              "url": "https://www.bing.com/ck/a?!&&p=caa722d0c39175e22e9d17a02e8d2b190766bc3a1323d5d2bde2ae9e4300eda1JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1bb8bedf-c174-69af-0b57-a938c02c68bb&u=a1aHR0cHM6Ly93d3cubW92aXN0YXIuY29tLmNvL3Byb2Nlc29zLWF1dG9nZXN0aW9u&ntb=1",
-              "snippet": "Ingresa a Mi Movistar aquí y accede con tu correo electrónico. Busca el producto a pagar y selecciónalo. Completa los datos y elige …"
+              "title": "Pusheen - Wikipedia",
+              "url": "https://en.m.wikipedia.org/wiki/Pusheen",
+              "snippet": "More recently, the Pusheen character has been used in social media posts, and on the Pusheen blog. On the official Pusheen …"
             },
             {
               "position": 3,
-              "title": "Ayuda al cliente y Teléfono - Movistar",
-              "url": "https://www.bing.com/ck/a?!&&p=1f1241452a88871a57c7aa8d6fdc73733c7381681fd79911532ca156d064d9f9JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1bb8bedf-c174-69af-0b57-a938c02c68bb&u=a1aHR0cHM6Ly93d3cubW92aXN0YXIuZXMvYXRlbmNpb24tY2xpZW50ZS9heXVkYQ&ntb=1",
-              "snippet": "Nuestros teléfonos Movistar para nuevas altas y atención comercial a clientes. También tienes disponibles otros teléfonos de ayuda …"
+              "title": "Pusheen the Cat - YouTube",
+              "url": "https://www.youtube.com/channel/UCFWi9aUuK7oFksfbWObwcIQ",
+              "snippet": "Welcome to Pusheen's official Youtube Channel! For more things Pusheen, visit https://Pusheen.com !"
             },
             {
               "position": 4,
-              "title": "Atención al cliente Movistar: Soporte y ayuda | Movistar México",
-              "url": "https://www.bing.com/ck/a?!&&p=5499aa83e02a965c3a1cde40cef8d160fd21d0d9f6d46adf7b9e9794cfaff0faJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1bb8bedf-c174-69af-0b57-a938c02c68bb&u=a1aHR0cHM6Ly93d3cubW92aXN0YXIuY29tLm14L2F0ZW5jaW9uLWFsLWNsaWVudGU&ntb=1",
-              "snippet": "Encuentra respuestas a tus dudas sobre facturación, recargas, configuración y más. Contacta a nuestro equipo de soporte por WA o …"
+              "title": "Characters – Pusheen Shop",
+              "url": "https://pusheen.com/pages/characters",
+              "snippet": "Pusheen Shop is the official online home of Pusheen! Explore exclusive plush, apparel, accessories and more!"
             },
             {
               "position": 5,
-              "title": "(2) Atención al cliente Movistar – Preguntas frecuentes",
-              "url": "https://www.bing.com/ck/a?!&&p=507879d0ce104124197729d99719d27bd0921a260d1ca70db73aa5d7aef27e30JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1bb8bedf-c174-69af-0b57-a938c02c68bb&u=a1aHR0cHM6Ly9hdGVuY2lvbmFsY2xpZW50ZS5tb3Zpc3Rhci5jbC8&ntb=1",
-              "snippet": "Puedes escribirnos de lunes a domingo entre las 08:00 y las 00:00 horas. Suscríbete y resuelve todas las dudas que tengas …"
+              "title": "Pusheen - Wikipedia, la enciclopedia libre",
+              "url": "https://es.m.wikipedia.org/wiki/Pusheen",
+              "snippet": "Descripción Pusheen es una gata de color gris con franjas sobre su lomo y cabeza, cuerpo redondo y pequeñas patas. Es descrita …"
             },
             {
               "position": 6,
-              "title": "Ayuda y Soporte | Movistar Argentina",
-              "url": "https://www.bing.com/ck/a?!&&p=a9efa309e48582b8f725299788e313dfc15c72746b21d9af503b0206a113209fJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1bb8bedf-c174-69af-0b57-a938c02c68bb&u=a1aHR0cHM6Ly9heXVkYS5tb3Zpc3Rhci5jb20uYXIv&ntb=1",
-              "snippet": "Encontrá información de ayuda sobre nuestros servicios y atencion al cliente. Resolvé dudas sobre tus facturas, pagos y reclamos."
+              "title": "Pusheen (@pusheen) • Instagram photos and videos",
+              "url": "https://www.instagram.com/pusheen/",
+              "snippet": "The official account of Pusheen the cat. Shop new and exclusive Pusheen merchandise online at @thepusheenshop!"
             },
             {
               "position": 7,
-              "title": "(2) Facturación y pagos – Atención al cliente Movistar",
-              "url": "https://www.bing.com/ck/a?!&&p=d61febd6fddf319005ca27d59ab76fe3ca9e7b9b0b5bdb722d2f97a119c2f56cJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1bb8bedf-c174-69af-0b57-a938c02c68bb&u=a1aHR0cHM6Ly9hdGVuY2lvbmFsY2xpZW50ZS5tb3Zpc3Rhci5jbC9mYWN0dXJhY2lvbi15LXBhZ29zLw&ntb=1",
-              "snippet": "Categoria: Facturación y pagos ¿En qué consiste el cobro por reposición de servicios? Movistar está facultado para cortar tu …"
+              "title": "Pusheen",
+              "url": "https://www.walmart.com/browse/pusheen/YnJhbmQ6UHVzaGVlbgieie",
+              "snippet": "Shop for Pusheen . Buy products such as Pusheen Sushi 9.5 Plush (Other), Pusheen Funko POP Vinyl Figure | Pusheen with …"
+            },
+            {
+              "position": 8,
+              "title": "Pusheen (@pusheen) | TikTok",
+              "url": "https://www.tiktok.com/@pusheen",
+              "snippet": "Official account of Pusheen the Cat.Watch Pusheen's popular videos: \"she got this for you...\", \"🐾 #Pusheen #pushee...\". Join 2.2M …"
+            },
+            {
+              "position": 9,
+              "title": "Pusheen | Wiki Gatopedia | Fandom",
+              "url": "https://gatopedia.fandom.com/es/wiki/Pusheen",
+              "snippet": "Pusheen es un webcómic sobre la vida cotidiana de una gata del mismo nombre, el cual ha alcanzado gran reconocimiento y …"
+            },
+            {
+              "position": 10,
+              "title": "Amazon.com: Pusheen",
+              "url": "https://www.amazon.com/pusheen/s?k=pusheen",
+              "snippet": "Pusheen character plushies in various sizes and styles, from food themes to special editions for gifting."
             }
           ],
           "evidence": "VERIFIED_FALLBACK_SERP_NOT_GOOGLE"
@@ -911,63 +1010,63 @@
           "results": [
             {
               "position": 1,
-              "title": "Yahoo Finance - Stock Market Live, Quotes, Business & Finance News",
-              "url": "https://www.bing.com/ck/a?!&&p=df9fb5a49ea75c6b5a60e033bdd7c163cb5df8885a89717e88354ba8b2bf528eJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=38f046d4-2d76-6c1f-10b1-51332c336d01&u=a1aHR0cHM6Ly9maW5hbmNlLnlhaG9vLmNvbS8&ntb=1",
-              "snippet": "25 de mar de 2022 · At Yahoo Finance, you get free stock quotes, up-to-date news, portfolio management resources, international …"
+              "title": "The Best 10 Pizza Places near Redmond, WA 98052 - Yelp",
+              "url": "https://www.yelp.com/search?cflt=pizza&find_loc=Redmond%2C+WA+98052&msockid=195ee4de45396b353841f33944bf6a28",
+              "snippet": "What are people saying about pizza places near Redmond, WA? This is a review for pizza places near Redmond, WA: \"Interesting …"
             },
             {
               "position": 2,
-              "title": "MarketWatch: Stock Market News - Financial News",
-              "url": "https://www.bing.com/ck/a?!&&p=8ccca21a7cfe006584d7b383396046246f6970ed86be9fd3ba9c21020cb0de47JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=38f046d4-2d76-6c1f-10b1-51332c336d01&u=a1aHR0cHM6Ly93d3cubWFya2V0d2F0Y2guY29tLw&ntb=1",
-              "snippet": "MarketWatch provides the latest stock market, financial and business news. Get stock market quotes, personal finance advice, …"
+              "title": "THE 10 BEST Pizza Places in Redmond (Updated 2026) - Tripadvisor",
+              "url": "https://www.tripadvisor.com/Restaurants-g58702-c31-Redmond_Washington.html",
+              "snippet": "Best Pizza in Redmond, Washington: Find Tripadvisor traveller reviews of Redmond Pizza places and search by price, location, and …"
             },
             {
               "position": 3,
-              "title": "Stock Market Prices, Real-time Quotes & Business News - Google",
-              "url": "https://www.bing.com/ck/a?!&&p=bd3af8beae2f58c50c0dd266d89e4726c2c0f1f9ee8c3d797bf50ee4c4ea520bJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=38f046d4-2d76-6c1f-10b1-51332c336d01&u=a1aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9maW5hbmNlLw&ntb=1",
-              "snippet": "Google Finance provides real-time market quotes, international stock information, financial news, currency conversion rates, and …"
+              "title": "Pizza Delivery & Carryout in Redmond, Washington| Domino's Pizza",
+              "url": "https://pizza.dominos.com/washington/redmond",
+              "snippet": "Order pizza delivery or carryout from Domino's in Redmond, Washington. Find your nearest location, view hours, and start your order …"
             },
             {
               "position": 4,
-              "title": "Stock Market Data – US Markets, World Markets, and Stock Quotes",
-              "url": "https://www.bing.com/ck/a?!&&p=833774cef5a415d32f82a53fe755b4c095798700604550c2de251d20403cd2a1JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=38f046d4-2d76-6c1f-10b1-51332c336d01&u=a1aHR0cHM6Ly93d3cuY25uLmNvbS9tYXJrZXRz&ntb=1",
-              "snippet": "Stock market data coverage from CNN. View US markets, world markets, after hours trading, quotes, and other important stock …"
+              "title": "Pagliacci Pizza: Seattle Area Pizza & Delivery",
+              "url": "https://pagliacci.com/",
+              "snippet": "Pagliacci Pizza, serving Seattle's best pizza since 1979. Offering pizza by the slice and pizza delivery service to homes and businesses."
             },
             {
               "position": 5,
-              "title": "Market Data Center - MarketWatch",
-              "url": "https://www.bing.com/ck/a?!&&p=dbc44e4c89c5056818008f16647fae0bbf33858ca494473a087c1aa145b04397JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=38f046d4-2d76-6c1f-10b1-51332c336d01&u=a1aHR0cHM6Ly93d3cubWFya2V0d2F0Y2guY29tL21hcmtldC1kYXRh&ntb=1",
-              "snippet": "View the MarketWatch summary of the U.S., Europe and Asia stock markets, currencies, cryptocurrencies, rates and futures."
+              "title": "Domino's Pizza at 16260 Redmond Way | Domino's in Redmond",
+              "url": "https://pizza.dominos.com/washington/redmond/16260-redmond-way",
+              "snippet": "Order from Domino's on 16260 Redmond Way for pizza delivery or takeout in Redmond, WA. Visit, call, or order online for pizza, …"
             },
             {
               "position": 6,
-              "title": "Markets: Indexes, Bonds, Forex, Key Commodities, ETFs - CNBC",
-              "url": "https://www.bing.com/ck/a?!&&p=9ec4bc42f71b8e8d56256257ef164b41ff12611cb0959111d008eb50a6ecf3e4JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=38f046d4-2d76-6c1f-10b1-51332c336d01&u=a1aHR0cHM6Ly93d3cuY25iYy5jb20vbWFya2V0cy8_bXNvY2tpZD0zOGYwNDZkNDJkNzY2YzFmMTBiMTUxMzMyYzMzNmQwMQ&ntb=1",
-              "snippet": "View up-to-date U.S. market and world market charts. Get the latest on world economy news and global markets in our Market …"
+              "title": "Pizza Delivery to Redmond | Pagliacci Pizza",
+              "url": "https://www.pagliacci.com/locations/redmond",
+              "snippet": "Order Pagliacci Pizza in Downtown Redmond & Bear Creek. Fresh ingredients, award-winning taste. Fast delivery, easy pickup, or …"
             },
             {
               "position": 7,
-              "title": "U.S Stock Market | U.S Financial Markets - Investing.com",
-              "url": "https://www.bing.com/ck/a?!&&p=4ef13dd86e9cc91b285fa21adeafdd7f90f9037304906e1021d0e7ec199a6359JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=38f046d4-2d76-6c1f-10b1-51332c336d01&u=a1aHR0cHM6Ly93d3cuaW52ZXN0aW5nLmNvbS9tYXJrZXRzL3VuaXRlZC1zdGF0ZXM&ntb=1",
-              "snippet": "Current data on the financial markets for United States, including major and sector indices and their components, leading stocks, …"
+              "title": "Pizzeria in Redmond, WA - Pizza Hut",
+              "url": "https://locations.pizzahut.com/wa/redmond/pizzeria",
+              "snippet": "Looking for a pizzeria in Redmond? How about one that’s been delivering the goods since 1958? Pizza Hut pizzerias have the …"
             },
             {
               "position": 8,
-              "title": "Stock market today: Dow, S&P 500, Nasdaq rally for 3rd day as Fed …",
-              "url": "https://www.bing.com/ck/a?!&&p=258dda997bcb981d11787eb751fd95db9b6f6340f20f3f7c7b8169b74b027a2cJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=38f046d4-2d76-6c1f-10b1-51332c336d01&u=a1aHR0cHM6Ly9maW5hbmNlLnlhaG9vLmNvbS9uZXdzL2xpdmUvc3RvY2stbWFya2V0LXRvZGF5LWRvdy1zcC01MDAtbmFzZGFxLXJhbGx5LWZvci0zcmQtZGF5LWFzLWZlZC1yYXRlLWN1dC1ob3Blcy1ncm93LWFwcGxlLWFuZC1hbHBoYWJldC1ub3RjaC1yZWNvcmRzLTIxMDAxOTMwMi5odG1s&ntb=1",
-              "snippet": "25 de nov de 2025 · US stocks ended sharply higher Tuesday, building on a broad rebound fueled by growing optimism that the …"
+              "title": "Takeout in Redmond, WA - Pizza Hut",
+              "url": "https://locations.pizzahut.com/wa/redmond/takeout",
+              "snippet": "Order hot and freshly baked pizza, wings, pasta, & more from your local Pizza Hut in Redmond, WA."
             },
             {
               "position": 9,
-              "title": "Stock market news for Sept. 26, 2025 - CNBC",
-              "url": "https://www.bing.com/ck/a?!&&p=1bb1c3af4bdbc3081e28d34d41e557f233cd2f22e5e6805e6deafefbbe88aa73JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=38f046d4-2d76-6c1f-10b1-51332c336d01&u=a1aHR0cHM6Ly93d3cuY25iYy5jb20vMjAyNS8wOS8yNS9zdG9jay1tYXJrZXQtdG9kYXktbGl2ZS11cGRhdGVzLmh0bWw_bXNvY2tpZD0zOGYwNDZkNDJkNzY2YzFmMTBiMTUxMzMyYzMzNmQwMQ&ntb=1",
-              "snippet": "25 de sept de 2025 · Stocks have surged to new heights this month, with the S&P 500 having scored a new all-time intraday and …"
+              "title": "TOP 10 BEST Pizza near Redmond, WA 98052 - Updated 2026 - Yelp",
+              "url": "https://www.yelp.com/search?find_desc=Pizza&find_loc=Redmond%2C+WA+98052&msockid=195ee4de45396b353841f33944bf6a28",
+              "snippet": "Top 10 Best Pizza in Redmond, WA 98052 - Last Updated September 2026 - Yelp - Spark Pizza, Pagliacci Pizza, Sodo Pizza, …"
             },
             {
               "position": 10,
-              "title": "Investing.com - Stock Market Quotes & Financial News",
-              "url": "https://www.bing.com/ck/a?!&&p=fce118d2448ba7d18a81fb194658582f0efd3cf22a574dbe4da5cfdd4fb71cb1JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=38f046d4-2d76-6c1f-10b1-51332c336d01&u=a1aHR0cHM6Ly93d3cuaW52ZXN0aW5nLmNvbS8&ntb=1",
-              "snippet": "Real-time quotes, charts, news & tools from Investing.com. Get AI analysis & premium data with InvestingPro to uncover strategic …"
+              "title": "Can Am Pizza | Best Pizza in Redmond, WA | Pizza near me",
+              "url": "https://canampizza.com/redmond-wa",
+              "snippet": "Can Am Pizza is a trusted pizza restaurant serving gourmet pizza, pasta, and more across multiple locations in Washington and …"
             }
           ],
           "evidence": "VERIFIED_FALLBACK_SERP_NOT_GOOGLE"
@@ -998,59 +1097,59 @@
                 "noticias tarija en vivo facebook"
               ],
               "serp": {
-                "source": "duckduckgo_fallback",
+                "source": "bing_live_html_fallback",
                 "partial": true,
                 "note": "Google returned 200, 0 parsed results",
                 "results": [
                   {
-                    "title": "La Voz de Tarija",
-                    "url": "https://lavozdetarija.com/",
-                    "snippet": "El presidente del Colegio de Abogados de Tarija, Fernando Valverde, se refirió a las últimas noticias relacionadas con el ámbito judicial y político del país y señaló que esta situación vuelve a poner en evidencia la necesidad de una reestructuración de la justicia boliviana. Valverde ..."
+                    "title": "Google Noticias",
+                    "url": "https://news.google.com/?hl=es",
+                    "snippet": "Amplia cobertura actualizada de noticias, agregada a partir de fuentes de noticias de todo el mundo por Google Noticias"
                   },
                   {
-                    "title": "El País » Noticias de Tarija, Bolivia y el mundo",
-                    "url": "https://elpais.bo/",
-                    "snippet": "Infórmate con el mejor análisis político, la crónica deportiva del momento, y todo sobre el entretenimiento y la cultura."
+                    "title": "Google Noticias",
+                    "url": "https://news.google.com/?hl=es&ned=es_mx",
+                    "snippet": "Amplia cobertura actualizada de noticias, agregada a partir de fuentes de noticias de todo el mundo por Google Noticias"
                   },
                   {
-                    "title": "Noticias El Periódico Tarija | Noticias de Tarija y del sur del país",
-                    "url": "https://elperiodico.com.bo/",
-                    "snippet": "El Periódico es un medio de comunicación impreso y digital, que informa diariamente sobre los sucesos que acontecen en Tarija, Bolivia y el mundo. El Periódico es parte de BOLINFO Y VISIÓN, una multimedia que incluye canales televisivos y difusoras radiales en el Departamento de Tarija, que tiene como misión brindarle información veraz."
+                    "title": "Noticias Telemundo: Últimas noticias en español de Estados Unidos y …",
+                    "url": "https://www.telemundo.com/noticias",
+                    "snippet": "Sitio oficial de Noticias Telemundo: las noticias de última hora en español de EE.UU., México, Latinoamérica y el mundo. …"
                   },
                   {
-                    "title": "Noticias de Tarija y Bolivia - El Andaluz",
-                    "url": "https://elandaluz.com.bo/",
-                    "snippet": "Agencias/El Andaluz La producción de frutilla se consolida como una alternativa para generar ingresos y dinamizar la economía de las familias del área rural de Tarija. En Tolomosa, productores mostraron el potencial alcanzado por este cultivo, en una actividad que contó con la participación y el respaldo del Gobierno Municipal de Tarija."
+                    "title": "Últimas noticias de Estados Unidos, Latinoamérica y el mundo, hoy",
+                    "url": "https://cnnespanol.cnn.com/",
+                    "snippet": "Últimas hora y noticias recientes de Estados Unidos, México, Colombia, Argentina, Latinoamérica y el mundo. Actualidad de hoy …"
                   },
                   {
-                    "title": "Tarija Noticias",
-                    "url": "https://tarijanoticias.com.bo/",
-                    "snippet": "Yacuiba se moviliza por la crisis de salud y reclama 280 ítems para cubrir el déficit de personal Torres va al diálogo con la Gobernación de Tarija y descarta aplicar débitos automáticos por los recursos del 1% Delgado observa retrasos en la entrega del POA departamental y pide explicaciones a la Gobernación El transporte tarijeño se ..."
+                    "title": "Últimas noticias: la última hora de hoy en EL PAÍS",
+                    "url": "https://elpais.com/ultimas-noticias/",
+                    "snippet": "Hace 4 horas · Consulta las últimas noticias de actualidad al minuto y la última hora de España, México, América y el mundo en EL …"
                   },
                   {
-                    "title": "TARIJA 200 | Diario libre: Noticias de Tarija, Bolivia y el Mundo Tarija",
-                    "url": "https://www.tarija200.com/category/tarija",
-                    "snippet": "TARIJA 200 | Diario abierto, libre, plural y tuyo: Noticias de Tarija, Bolivia y el Mundo con información útil para el desarrollo sostenible, el progreso económico, el bienestar social y el cuidado del planeta. Comprometidos con la sostenibilidad, el desarrollo y la libertad."
+                    "title": "Noticias, la última hora de España y el mundo - RTVE.es",
+                    "url": "https://www.rtve.es/noticias/",
+                    "snippet": "Noticias de última hora en España y el mundo. Toda la actualidad y las últimas noticias nacionales e internacionales aquí, en RTVE.es"
                   },
                   {
-                    "title": "EL PORTAL DE NOTICIAS EN TARIJA - Actualizando Tarija",
-                    "url": "https://actualizandotarija.com.bo/",
-                    "snippet": "Actualizando Tarija es un periódico digital creado en el sur de Bolivia, para mantenerte informad@ de sucesos locales, nacionales e internacionales"
+                    "title": "N+ Univision | Noticias en Vivo, Última Hora y Cobertura Minuto a ...",
+                    "url": "https://www.univision.com/noticias",
+                    "snippet": "17 de may de 2013 · Sigue las últimas noticias de hoy en N+ Univision. Información en vivo sobre inmigración, política, sucesos de …"
                   },
                   {
-                    "title": "Tarija - Últimas noticias en Bolivia.com",
-                    "url": "https://www.bolivia.com/tag/tarija",
-                    "snippet": "La más reciente información de Tarija publicada en Bolivia.com. Noticias, videos, imágenes."
+                    "title": "Antena 3 Noticias: Última hora en España y el mundo",
+                    "url": "https://www.antena3.com/noticias/",
+                    "snippet": "Últimas noticias de hoy. Sigue toda la actualidad de España, Internacional, Sociedad, Sucesos, Economía y la última hora en …"
                   },
                   {
-                    "title": "Tarija - EL DEBER",
-                    "url": "https://eldeber.com.bo/pais/tarija",
-                    "snippet": "Noticias sobre Tarija, mantenete informado con las noticias sobre Tarija."
+                    "title": "MILENIO | Noticias de hoy en México y el mundo al momento",
+                    "url": "https://www.milenio.com/",
+                    "snippet": "23 de oct de 2024 · Noticias de última hora de México y el mundo. Entérate aquí de la información más importante sobre política, …"
                   },
                   {
-                    "title": "Global Tarija TV -",
-                    "url": "https://globaltarija.com/",
-                    "snippet": "Global Tarija Es un medio de comunicaciones comprometido con informar a su audiencia y mantenerla actualizada de los acontecimientos más relevantes en Tarija, Bolivia y el mundo."
+                    "title": "Noticias - BBC News Mundo",
+                    "url": "https://www.bbc.com/mundo",
+                    "snippet": "Hace 2 días · Las últimas noticias e información en materia internacional, sobre América Latina, tecnología, ciencia, salud, …"
                   }
                 ]
               },
@@ -1087,54 +1186,54 @@
                 "note": "Google returned 200, 0 parsed results",
                 "results": [
                   {
+                    "title": "10 Best San Antonio Hotels, United States (From $46)",
+                    "url": "https://www.booking.com/city/us/san-antonio.html?msockid=0fe2c2e4d30766773253d503d2d6677a",
+                    "snippet": "Hace 2 días · Booking.com has several San Antonio hotels near the Alamodome, and more accommodations near San Antonio …"
+                  },
+                  {
+                    "title": "Busca hoteles en San Antonio, TX - Booking.com",
+                    "url": "https://www.booking.com/city/us/san-antonio.es.html?msockid=0fe2c2e4d30766773253d503d2d6677a",
+                    "snippet": "San Antonio es una ciudad de Texas que alberga dos de los lugares más turísticos del estado: el Álamo y el Riverwalk. El Álamo es …"
+                  },
+                  {
+                    "title": "LOS 10 MEJORES hoteles en San Antonio, Texas - Tripadvisor",
+                    "url": "https://www.tripadvisor.com.mx/Hotels-g60956-San_Antonio_Texas-Hotels.html",
+                    "snippet": "Los mejores hoteles en San Antonio en Tripadvisor: 204,843 opiniones sobre hoteles, fotos de viajeros y los precios más baratos de …"
+                  },
+                  {
+                    "title": "Hoteles en San Antonio, TX desde $812 MXN - Expedia.mx",
+                    "url": "https://www.expedia.mx/San-Antonio-Hoteles.d178303.Guia-Viajes-Hoteles?msockid=0fe2c2e4d30766773253d503d2d6677a",
+                    "snippet": "Disfruta de los juegos y el entretenimiento en Parque temático Six Flags Fiesta Texas y descubre por qué este parque temático es …"
+                  },
+                  {
+                    "title": "Hoteles en San Antonio, Texas desde USD 56 - Reserva en línea con ...",
+                    "url": "https://www.hoteles.com/de1490932/hoteles-san-antonio-texas/",
+                    "snippet": "San Antonio es un destino famoso por su pintoresca ribera, que cuenta con atracciones como Centro de convenciones Henry B. …"
+                  },
+                  {
                     "title": "Hoteles.com - Ofertas y descuentos para reservaciones en hoteles de ...",
-                    "url": "https://www.bing.com/ck/a?!&&p=706c54c9b6bfa1e01c7dd38e36f92d874e8753a2d6c8c22223ad3e26edf46d34JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=141f3c5e-abd0-6e6a-0ef8-2bb9aa956f0c&u=a1aHR0cHM6Ly93d3cuaG90ZWxlcy5jb20v&ntb=1",
+                    "url": "https://www.hoteles.com/",
                     "snippet": "Hoteles.com | Encuentra hoteles baratos y descuentos al reservar en Hoteles.com. Compara ofertas y promociones, y lee …"
                   },
                   {
-                    "title": "Hoteles.com - Ofertas y promociones para reservas en hoteles de lujo ...",
-                    "url": "https://www.bing.com/ck/a?!&&p=e05f166edd1173584729ab9283dd149a0faa69f588f1b2c352795e38b0f04a10JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=141f3c5e-abd0-6e6a-0ef8-2bb9aa956f0c&u=a1aHR0cHM6Ly9lcy5ob3RlbGVzLmNvbS8&ntb=1",
-                    "snippet": "En Hoteles.com encuentra miles de ofertas en mas de 240 000 hoteles, desde hoteles de lujo hasta hoteles mas económicos"
+                    "title": "LOS 10 MEJORES hoteles cerca de Paseo del Río - Tripadvisor",
+                    "url": "https://www.tripadvisor.com.mx/HotelsNear-g60956-d105056-San_Antonio_River_Walk-San_Antonio_Texas.html",
+                    "snippet": "Los hoteles con las mejores calificaciones en Tripadvisor, según las opiniones de los viajeros. Ver los establecimientos ubicados …"
                   },
                   {
-                    "title": "Booking.com | Sitio oficial | Los mejores hoteles, vuelos, coches de ...",
-                    "url": "https://www.bing.com/ck/a?!&&p=695b91116c54a89fd826bb12230073c02f92d53e9bd825fe570c1a13ad9f0d4cJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=141f3c5e-abd0-6e6a-0ef8-2bb9aa956f0c&u=a1aHR0cHM6Ly93d3cuYm9va2luZy5jb20vaW5kZXguZXMuaHRtbD9tc29ja2lkPTE0MWYzYzVlYWJkMDZlNmEwZWY4MmJiOWFhOTU2ZjBj&ntb=1",
-                    "snippet": "Explora el mundo con Booking.com. Precios increíbles en casas, hoteles, vuelos, coches de alquiler, taxis y atracciones: monta el …"
+                    "title": "LOS 10 MEJORES hoteles: San Antonio 2026 (desde 38 €) - Tripadvisor",
+                    "url": "https://www.tripadvisor.es/Hotels-g60956-San_Antonio_Texas-Hotels.html",
+                    "snippet": "Reserva los mejores hoteles de San Antonio en Tripadvisor: 204.843 opiniones y 76.323 fotos de viajeros, y los precios más baratos …"
                   },
                   {
-                    "title": "trivago.com.mx - Comparar precios de hoteles en todo el mundo",
-                    "url": "https://www.bing.com/ck/a?!&&p=e8142f814056096e6fb907d045829e3dbe1565de4c16c47ff8c812bf55b9f0e0JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=141f3c5e-abd0-6e6a-0ef8-2bb9aa956f0c&u=a1aHR0cHM6Ly93d3cudHJpdmFnby5jb20ubXgvP21zb2NraWQ9MTQxZjNjNWVhYmQwNmU2YTBlZjgyYmI5YWE5NTZmMGM&ntb=1",
-                    "snippet": "Compara entre más de 1,400,000 de hoteles y elige tu oferta ideal. Lee opiniones y encuentra hoteles al precio ideal. Hotel México - …"
+                    "title": "Find hotels in San Antonio, TX from $45 - Expedia",
+                    "url": "https://www.expedia.com/San-Antonio-Hotels.d178303.Travel-Guide-Hotels?msockid=0fe2c2e4d30766773253d503d2d6677a",
+                    "snippet": "19 de oct de 2010 · Explore a diverse range of hotel accommodations in San Antonio, Texas, catering to every type of traveler. …"
                   },
                   {
-                    "title": "Hoteles | Reserva hoteles de última hora y más | Booking.com",
-                    "url": "https://www.bing.com/ck/a?!&&p=c14cc1953dde2c4a6145731443a317c3ce73ab6d11a8d094cc8970c7d4c235e2JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=141f3c5e-abd0-6e6a-0ef8-2bb9aa956f0c&u=a1aHR0cHM6Ly93d3cuYm9va2luZy5jb20vaG90ZWwvaW5kZXguZXMuaHRtbD9tc29ja2lkPTE0MWYzYzVlYWJkMDZlNmEwZWY4MmJiOWFhOTU2ZjBj&ntb=1",
-                    "snippet": "¡Busca, compara y reserva los mejores hoteles en Booking.com! Descubre hoteles baratos, hoteles cerca de ti, hoteles para viajes …"
-                  },
-                  {
-                    "title": "Hotels.com - Ofertas y descuentos para reservaciones en hoteles de …",
-                    "url": "https://www.bing.com/ck/a?!&&p=f5912a50ba4f91ab2be57c7d0e6a4520771736622cc13c290559d04f3106730dJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=141f3c5e-abd0-6e6a-0ef8-2bb9aa956f0c&u=a1aHR0cHM6Ly93d3cuaG90ZWxzLmNvbS9lcy8_bXNvY2tpZD0xNDFmM2M1ZWFiZDA2ZTZhMGVmODJiYjlhYTk1NmYwYw&ntb=1",
-                    "snippet": "En Hotels.com encuentra millares de ofertas de hoteles para reserva, desde hotel con todo incluido hasta los más baratos."
-                  },
-                  {
-                    "title": "trivago.es - Comparar precios de hoteles en todo el mundo",
-                    "url": "https://www.bing.com/ck/a?!&&p=3303c1cac7db84d8d2923e4bf5f7da1c3910ef379b4b12dde4dbf488b2546302JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=141f3c5e-abd0-6e6a-0ef8-2bb9aa956f0c&u=a1aHR0cHM6Ly93d3cudHJpdmFnby5lcy8_bXNvY2tpZD0xNDFmM2M1ZWFiZDA2ZTZhMGVmODJiYjlhYTk1NmYwYw&ntb=1",
-                    "snippet": "Compara precios de hoteles y aprovecha fantásticas ofertas. Ahorra tiempo y dinero al buscar alojamiento con millones de opiniones …"
-                  },
-                  {
-                    "title": "Ofertas de hotel y tarifas especiales | Ahorra en hospedajes en ...",
-                    "url": "https://www.bing.com/ck/a?!&&p=25d008fc8300f72eb2bab44da310b8aef72ccf3616b734fdf7e781129d7faff1JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=141f3c5e-abd0-6e6a-0ef8-2bb9aa956f0c&u=a1aHR0cHM6Ly93d3cuaG90ZWxlcy5jb20vbHAvYi9kZWFscw&ntb=1",
-                    "snippet": "Descubre ofertas de hotel y tarifas especiales en destinos principales de 2026. Encuentra grandes precios en hoteles para …"
-                  },
-                  {
-                    "title": "Hoteles, Vuelos y Paquetes de Viaje Todo Incluído | Expedia.com",
-                    "url": "https://www.bing.com/ck/a?!&&p=7ddd1ca527abb9ac8e3e9cf2f17c592d524dcb66313e576ce999e543a8efeb1fJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=141f3c5e-abd0-6e6a-0ef8-2bb9aa956f0c&u=a1aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vZXMvP21zb2NraWQ9MTQxZjNjNWVhYmQwNmU2YTBlZjgyYmI5YWE5NTZmMGM&ntb=1",
-                    "snippet": "Con Expedia.com, tienes todo lo que necesitas para viajar. Elige entre hoteles y hospedajes baratos, renta de autos y vuelos a los …"
-                  },
-                  {
-                    "title": "Reserva Hoteles Baratos: Ofertas en Alojamiento y Hospedaje | Expedia",
-                    "url": "https://www.bing.com/ck/a?!&&p=e322dca9c82d8b61a64cbc1744a581dc90c61858756319a3a4a085af4ed958e5JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=141f3c5e-abd0-6e6a-0ef8-2bb9aa956f0c&u=a1aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vZXMvSG90ZWxlcz9tc29ja2lkPTE0MWYzYzVlYWJkMDZlNmEwZWY4MmJiOWFhOTU2ZjBj&ntb=1",
-                    "snippet": "Encuentra los mejores precios en hospedaje y hoteles baratos con Expedia. Haz tu reservación y elige entre alojamientos todo …"
+                    "title": "THE 10 BEST Hotels in San Antonio, TX 2026 (from $44) - Tripadvisor",
+                    "url": "https://www.tripadvisor.com/Hotels-g60956-San_Antonio_Texas-Hotels.html",
+                    "snippet": "Elegant resort with Texas Hill Country views, nature trails, and relaxing pools. Conveniently located near attractions, shopping, and …"
                   }
                 ]
               },
@@ -1160,59 +1259,59 @@
                 "inmobiliaria tarija la chura"
               ],
               "serp": {
-                "source": "duckduckgo_fallback",
+                "source": "bing_live_html_fallback",
                 "partial": true,
                 "note": "Google returned 200, 0 parsed results",
                 "results": [
                   {
-                    "title": "140 inmobiliarias en Tarija - bolivia.inmobiliaria.com",
-                    "url": "https://bolivia.inmobiliaria.com/tarija/inmobiliarias/",
-                    "snippet": "140 inmobiliarias en Tarija, Bolivia con 170 propiedades. Contacta directo."
+                    "title": "YouTube",
+                    "url": "https://www.youtube.com/",
+                    "snippet": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
                   },
                   {
-                    "title": "134 inmuebles en Venta en Tarija - bolivia.inmobiliaria.com",
-                    "url": "https://bolivia.inmobiliaria.com/tarija/",
-                    "snippet": "Inmuebles en Venta en Tarija — 134 anuncios de particulares e inmobiliarias. Compara precios y contacta directo en Inmobiliaria.com."
+                    "title": "YouTube",
+                    "url": "https://www.youtube.com/feed/homepage",
+                    "snippet": "AboutPressCopyrightContact usCreatorsAdvertiseDevelopersTermsPrivacyPolicy & SafetyHow YouTube worksTest new …"
                   },
                   {
-                    "title": "Tarija Propiedades",
-                    "url": "https://www.tarijapropiedades.com/",
-                    "snippet": "Somos una empresa especializada en el mercado inmobiliario de Tarija, ofreciendo servicios profesionales y personalizados para ayudarte a encontrar la propiedad perfecta o vender tu inmueble con éxito."
+                    "title": "YouTube - YouTube",
+                    "url": "https://www.youtube.com/youtube",
+                    "snippet": "One of YouTube’s most creative prop-making duos, @WickedMakers, is known for creating spectacular spooky creations. In …"
                   },
                   {
-                    "title": "Venta de inmuebles en Tarija - InfoCasas",
-                    "url": "https://www.infocasas.com.bo/venta/inmuebles/tarija",
-                    "snippet": "En InfoCasas tenemos más de 8322 inmuebles en Venta en Tarija para vos. Usá nuestro simulador hipotecario para saber que cuota pagás."
+                    "title": "YouTube",
+                    "url": "https://www.youtube.com/feed?hl=es-419",
+                    "snippet": "Acerca dePrensaDerechos de autorComunicarte con nosotrosCreadoresAnunciarDesarrolladoresCondicionesPrivacidadPolíticas y …"
                   },
                   {
-                    "title": "Los mejores inmobiliaria en Tarija (2026) · guia2x",
-                    "url": "https://guia2x.com/mejores/inmobiliaria/tarija",
-                    "snippet": "Guía de los mejores inmobiliaria en Tarija, Bolivia: 22 opciones rankeadas por calificación. Destacan Bienes Raíces Tarija Propiedades, Tu Futuro - Bienes y Raíces, OLIMPO Bienes & Raices. Dirección, teléfono, horarios y WhatsApp."
+                    "title": "official site - YouTube",
+                    "url": "https://www.youtube.com/@official_site_",
+                    "snippet": "official site @official_site_ • 98 subscribers More about this channel ...more More about this channel ...more ...more"
                   },
                   {
-                    "title": "Inmobiliria Sinai",
-                    "url": "https://inmobiliariasinaibolivia.com/inicio",
-                    "snippet": "Ser la inmobiliaria líder en Tarija, reconocida por nuestra integridad, innovación y compromiso con la satisfacción del cliente, facilitando el acceso a vivienda digna para todas las familias."
+                    "title": "YouTube",
+                    "url": "https://www.youtube.com/@en.---",
+                    "snippet": "Share your videos and discover content from friends, family, and creators worldwide on YouTube."
                   },
                   {
-                    "title": "Propiedades en Venta y Renta Tarija - CENTURY 21",
-                    "url": "https://c21.com.bo/v/resultados/en-pais_bolivia/en-estado_tarija",
-                    "snippet": "En CENTURY 21 tenemos 203 Propiedades en Venta y Renta Tarija, accede a los mejores inmuebles del país."
+                    "title": "YouTube - Google Accounts",
+                    "url": "https://accounts.google.com/InteractiveLogin?service=youtube",
+                    "snippet": "Share your videos with friends, family, and the world."
                   },
                   {
-                    "title": "Nexus Desarrolladora — Encontrá tu hogar en Tarija",
-                    "url": "https://nexusdesarrolladora.com.bo/",
-                    "snippet": "Desarrolladora inmobiliaria · Tarija, Bolivia Encontrá tu hogar en Tarija. Nexus te conecta con tu nuevo hogar Conocé nuestras residencias privadas, sus ubicaciones y las opciones disponibles, desarrolladas y comercializadas directamente por Nexus."
+                    "title": "YouTube Music",
+                    "url": "https://music.youtube.com/",
+                    "snippet": "With the YouTube Music app, enjoy over 100 million songs at your fingertips, plus albums, playlists, remixes, music videos, live …"
                   },
                   {
-                    "title": "Táchira Inmuebles — Casas y apartamentos en venta y alquiler en Táchira",
-                    "url": "https://tachirainmuebles.com/",
-                    "snippet": "Portal inmobiliario del estado Táchira. Casas, apartamentos, locales y terrenos en venta y alquiler en San Cristóbal, Táriba, Rubio, Palmira y más. Precios en USD."
+                    "title": "Movies & TV - YouTube",
+                    "url": "https://movies.youtube.com/",
+                    "snippet": "Find the latest and greatest movies and shows all available on YouTube.com/movies. From award-winning hits to independent …"
                   },
                   {
-                    "title": "C21 Grand Sur - Propiedades Exclusivas en Tarija",
-                    "url": "https://c21.com.bo/inmobiliaria/18-century-21-grand-sur-miraflores-tarija-bolivia",
-                    "snippet": "Encuentra propiedades en venta y alquiler en Tarija con C21 Grand Sur. Expertos en bienes raíces y asesoría personalizada."
+                    "title": "About YouTube - YouTube",
+                    "url": "https://about.youtube/",
+                    "snippet": "YouTube's mission is to give everyone a voice and show them the world. Learn about our brand, community, careers and more."
                   }
                 ]
               },
@@ -1221,53 +1320,69 @@
           }
         }
       ],
-      "recovered_target_urls": [
-        "http://andaluztarija.com/?utm_medium=Scamadviser.com&utm_campaign=Scamadviser.com"
-      ],
-      "confirmed_ref_domains_min": 1,
-      "confirmed_backlinks_min": 1,
+      "recovered_target_urls": [],
+      "confirmed_ref_domains_min": 0,
+      "confirmed_backlinks_min": 0,
       "external_mentions": [
         {
           "position": 1,
-          "title": "Acceso Mi cuenta: Facturas, gestiones y pedidos - Movistar",
-          "url": "https://www.bing.com/ck/a?!&&p=27cdf2b4898b4151478cef3a0d5bbe5042436ece81c5612cad3ad0f6ac6e891dJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1bb8bedf-c174-69af-0b57-a938c02c68bb&u=a1aHR0cHM6Ly93d3cubW92aXN0YXIuZXMvYXJlYS1jbGllbnRlL21pLWN1ZW50YS8&ntb=1",
-          "snippet": "Consulta el detalle de tus facturas en cualquier momento y descárgalas cuando lo necesites. Revisa los cargos, fechas de pago y …"
+          "title": "Pusheen Shop",
+          "url": "https://pusheen.com/",
+          "snippet": "Pusheen Shop is the official online home of Pusheen! Explore exclusive plush, apparel, accessories and more!"
         },
         {
           "position": 2,
-          "title": "Procesos Autogestion - Movistar",
-          "url": "https://www.bing.com/ck/a?!&&p=caa722d0c39175e22e9d17a02e8d2b190766bc3a1323d5d2bde2ae9e4300eda1JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1bb8bedf-c174-69af-0b57-a938c02c68bb&u=a1aHR0cHM6Ly93d3cubW92aXN0YXIuY29tLmNvL3Byb2Nlc29zLWF1dG9nZXN0aW9u&ntb=1",
-          "snippet": "Ingresa a Mi Movistar aquí y accede con tu correo electrónico. Busca el producto a pagar y selecciónalo. Completa los datos y elige …"
+          "title": "Pusheen - Wikipedia",
+          "url": "https://en.m.wikipedia.org/wiki/Pusheen",
+          "snippet": "More recently, the Pusheen character has been used in social media posts, and on the Pusheen blog. On the official Pusheen …"
         },
         {
           "position": 3,
-          "title": "Ayuda al cliente y Teléfono - Movistar",
-          "url": "https://www.bing.com/ck/a?!&&p=1f1241452a88871a57c7aa8d6fdc73733c7381681fd79911532ca156d064d9f9JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1bb8bedf-c174-69af-0b57-a938c02c68bb&u=a1aHR0cHM6Ly93d3cubW92aXN0YXIuZXMvYXRlbmNpb24tY2xpZW50ZS9heXVkYQ&ntb=1",
-          "snippet": "Nuestros teléfonos Movistar para nuevas altas y atención comercial a clientes. También tienes disponibles otros teléfonos de ayuda …"
+          "title": "Pusheen the Cat - YouTube",
+          "url": "https://www.youtube.com/channel/UCFWi9aUuK7oFksfbWObwcIQ",
+          "snippet": "Welcome to Pusheen's official Youtube Channel! For more things Pusheen, visit https://Pusheen.com !"
         },
         {
           "position": 4,
-          "title": "Atención al cliente Movistar: Soporte y ayuda | Movistar México",
-          "url": "https://www.bing.com/ck/a?!&&p=5499aa83e02a965c3a1cde40cef8d160fd21d0d9f6d46adf7b9e9794cfaff0faJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1bb8bedf-c174-69af-0b57-a938c02c68bb&u=a1aHR0cHM6Ly93d3cubW92aXN0YXIuY29tLm14L2F0ZW5jaW9uLWFsLWNsaWVudGU&ntb=1",
-          "snippet": "Encuentra respuestas a tus dudas sobre facturación, recargas, configuración y más. Contacta a nuestro equipo de soporte por WA o …"
+          "title": "Characters – Pusheen Shop",
+          "url": "https://pusheen.com/pages/characters",
+          "snippet": "Pusheen Shop is the official online home of Pusheen! Explore exclusive plush, apparel, accessories and more!"
         },
         {
           "position": 5,
-          "title": "(2) Atención al cliente Movistar – Preguntas frecuentes",
-          "url": "https://www.bing.com/ck/a?!&&p=507879d0ce104124197729d99719d27bd0921a260d1ca70db73aa5d7aef27e30JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1bb8bedf-c174-69af-0b57-a938c02c68bb&u=a1aHR0cHM6Ly9hdGVuY2lvbmFsY2xpZW50ZS5tb3Zpc3Rhci5jbC8&ntb=1",
-          "snippet": "Puedes escribirnos de lunes a domingo entre las 08:00 y las 00:00 horas. Suscríbete y resuelve todas las dudas que tengas …"
+          "title": "Pusheen - Wikipedia, la enciclopedia libre",
+          "url": "https://es.m.wikipedia.org/wiki/Pusheen",
+          "snippet": "Descripción Pusheen es una gata de color gris con franjas sobre su lomo y cabeza, cuerpo redondo y pequeñas patas. Es descrita …"
         },
         {
           "position": 6,
-          "title": "Ayuda y Soporte | Movistar Argentina",
-          "url": "https://www.bing.com/ck/a?!&&p=a9efa309e48582b8f725299788e313dfc15c72746b21d9af503b0206a113209fJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1bb8bedf-c174-69af-0b57-a938c02c68bb&u=a1aHR0cHM6Ly9heXVkYS5tb3Zpc3Rhci5jb20uYXIv&ntb=1",
-          "snippet": "Encontrá información de ayuda sobre nuestros servicios y atencion al cliente. Resolvé dudas sobre tus facturas, pagos y reclamos."
+          "title": "Pusheen (@pusheen) • Instagram photos and videos",
+          "url": "https://www.instagram.com/pusheen/",
+          "snippet": "The official account of Pusheen the cat. Shop new and exclusive Pusheen merchandise online at @thepusheenshop!"
         },
         {
           "position": 7,
-          "title": "(2) Facturación y pagos – Atención al cliente Movistar",
-          "url": "https://www.bing.com/ck/a?!&&p=d61febd6fddf319005ca27d59ab76fe3ca9e7b9b0b5bdb722d2f97a119c2f56cJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1bb8bedf-c174-69af-0b57-a938c02c68bb&u=a1aHR0cHM6Ly9hdGVuY2lvbmFsY2xpZW50ZS5tb3Zpc3Rhci5jbC9mYWN0dXJhY2lvbi15LXBhZ29zLw&ntb=1",
-          "snippet": "Categoria: Facturación y pagos ¿En qué consiste el cobro por reposición de servicios? Movistar está facultado para cortar tu …"
+          "title": "Pusheen",
+          "url": "https://www.walmart.com/browse/pusheen/YnJhbmQ6UHVzaGVlbgieie",
+          "snippet": "Shop for Pusheen . Buy products such as Pusheen Sushi 9.5 Plush (Other), Pusheen Funko POP Vinyl Figure | Pusheen with …"
+        },
+        {
+          "position": 8,
+          "title": "Pusheen (@pusheen) | TikTok",
+          "url": "https://www.tiktok.com/@pusheen",
+          "snippet": "Official account of Pusheen the Cat.Watch Pusheen's popular videos: \"she got this for you...\", \"🐾 #Pusheen #pushee...\". Join 2.2M …"
+        },
+        {
+          "position": 9,
+          "title": "Pusheen | Wiki Gatopedia | Fandom",
+          "url": "https://gatopedia.fandom.com/es/wiki/Pusheen",
+          "snippet": "Pusheen es un webcómic sobre la vida cotidiana de una gata del mismo nombre, el cual ha alcanzado gran reconocimiento y …"
+        },
+        {
+          "position": 10,
+          "title": "Amazon.com: Pusheen",
+          "url": "https://www.amazon.com/pusheen/s?k=pusheen",
+          "snippet": "Pusheen character plushies in various sizes and styles, from food themes to special editions for gifting."
         }
       ]
     }
