@@ -1,0 +1,98 @@
+name: ASTRA Three Domains Fast Audit
+
+on:
+  push:
+    branches: [astra-seo-free]
+    paths:
+      - '.github/workflows/astra-three-domains-fast.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fast-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: astra-seo-free
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install and start ASTRA
+        working-directory: astra-seo-free
+        run: |
+          npm install
+          node server.js >/tmp/astra-fast.log 2>&1 &
+          for i in {1..30}; do
+            curl -fsS http://127.0.0.1:3000/api/health && exit 0
+            sleep 1
+          done
+          cat /tmp/astra-fast.log
+          exit 1
+      - name: Run fast parallel audit
+        run: |
+          cat > /tmp/fast-audit.mjs <<'EOF'
+          import fs from 'node:fs';
+          const base='http://127.0.0.1:3000';
+          const targets=[
+            {domain:'avocat-belgique.com',lang:'fr',seeds:['avocat belgique','avocat bruxelles','avocat divorce belgique']},
+            {domain:'eldiariodelcibao.com',lang:'es',seeds:['noticias cibao','noticias santiago republica dominicana','empleos santiago republica dominicana']},
+            {domain:'andaluztarija.com',lang:'es',seeds:['noticias tarija','hoteles tarija','inmobiliaria tarija']}
+          ];
+          async function get(path,ms=70000){
+            const c=new AbortController(); const timer=setTimeout(()=>c.abort(),ms);
+            try{const r=await fetch(base+path,{signal:c.signal}); const tx=await r.text(); if(!r.ok) throw new Error('HTTP '+r.status+' '+tx.slice(0,300)); return JSON.parse(tx);}
+            finally{clearTimeout(timer);}
+          }
+          async function safe(path,ms){try{return {ok:true,data:await get(path,ms)}}catch(e){return {ok:false,error:String(e)}}}
+          async function domainAudit(t){
+            const core=await Promise.all([
+              safe('/api/audit?url='+encodeURIComponent('https://'+t.domain),40000),
+              safe('/api/backlinks?domain='+encodeURIComponent(t.domain)+'&limit=20',90000),
+              safe('/api/serp?q='+encodeURIComponent('"'+t.domain+'" -site:'+t.domain)+'&lang='+t.lang+'&limit=15',50000),
+              safe('/api/serp?q='+encodeURIComponent('site:'+t.domain)+'&lang='+t.lang+'&limit=15',50000),
+              ...t.seeds.map(q=>safe('/api/keyword?q='+encodeURIComponent(q)+'&lang='+t.lang,50000))
+            ]);
+            const [audit,backlinks,brand_serp,site_serp,...keywords]=core;
+            const links=backlinks?.data?.backlinks||[];
+            return {
+              domain:t.domain,lang:t.lang,audit,backlinks,brand_serp,site_serp,
+              keywords:t.seeds.map((q,i)=>({query:q,result:keywords[i]})),
+              recovered_target_urls:[...new Set(links.map(x=>x.target_url).filter(Boolean))],
+              confirmed_ref_domains_min:backlinks?.data?.referring_domains_confirmed ?? null,
+              confirmed_backlinks_min:backlinks?.data?.confirmed_backlinks ?? null,
+              external_mentions:(brand_serp?.data?.results||[]).slice(0,15)
+            };
+          }
+          const domains=await Promise.all(targets.map(domainAudit));
+          const report={
+            generated_at:new Date().toISOString(),
+            engine:'ASTRA SEO Lab 2.0.2',
+            mode:'FAST_PARALLEL',
+            evidence_policy:{
+              backlinks:'confirmed by fetching source pages; minimum only',
+              serp:'public live SERP with engine-disclosed fallback',
+              exact_cpc:'UNVERIFIED',
+              exact_volume:'UNVERIFIED'
+            },
+            domains
+          };
+          fs.mkdirSync('astra-seo-free/research',{recursive:true});
+          fs.writeFileSync('astra-seo-free/research/acquired-domains-fast-2026-10-03.json',JSON.stringify(report,null,2));
+          console.log(JSON.stringify(report));
+          EOF
+          node /tmp/fast-audit.mjs
+      - name: Commit fast evidence
+        run: |
+          git config user.name "ASTRA SEO Lab"
+          git config user.email "actions@users.noreply.github.com"
+          git add astra-seo-free/research/acquired-domains-fast-2026-10-03.json
+          git diff --cached --quiet && exit 0
+          git commit -m "ASTRA: fast audit acquired domains"
+          git push origin HEAD:astra-seo-free
+      - name: Logs
+        if: always()
+        run: cat /tmp/astra-fast.log || true
