@@ -23,6 +23,16 @@ jobs:
       - name: Syntax check
         working-directory: astra-seo-free
         run: node --check server.js
+      - name: Unit test Bing redirect unwrap
+        working-directory: astra-seo-free
+        run: |
+          node --input-type=module <<'NODE'
+          import { unwrapBingHref } from './serp-utils.js';
+          const wrapped='https://www.bing.com/ck/a?!&&p=test&u=a1aHR0cHM6Ly93d3cuaG90ZWxlcy5jb20v&ntb=1';
+          const got=unwrapBingHref(wrapped);
+          console.log(got);
+          if (got !== 'https://www.hoteles.com/') process.exit(1);
+          NODE
       - name: Start server
         working-directory: astra-seo-free
         run: |
