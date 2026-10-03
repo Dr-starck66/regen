@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T16:00:43.964Z",
+  "generated_at": "2026-10-03T16:04:40.795Z",
   "engine": "ASTRA SEO Lab 2.0.2",
   "mode": "FAST_PARALLEL",
   "evidence_policy": {
@@ -18,7 +18,7 @@
           "requested_url": "https://avocat-belgique.com",
           "final_url": "https://avocat-belgique.com/",
           "http_status": 200,
-          "response_ms": 571,
+          "response_ms": 560,
           "https": true,
           "content_type": "text/html; charset=UTF-8",
           "content_bytes": 1030,
@@ -95,13 +95,19 @@
             {
               "position": 1,
               "title": "Avocat en ligne| Belgique",
-              "url": "https://www.bing.com/ck/a?!&&p=66d6f7c21e3443a7620d59aa98c917d2bdab72cb43143a7f26b21d34d8753093JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1d52e65b-cb59-674a-0caf-f1bcca0266a4&u=a1aHR0cHM6Ly9jb25zdWx0ZXJ1bmF2b2NhdGVubGlnbmUuYmUv&ntb=1",
+              "url": "https://www.bing.com/ck/a?!&&p=57dfae2a3c932f85960f2ee13653b401a2d4d89964871b1cd5882832bf2ab458JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1a16ebc8-921d-621a-2ba2-fc2f93586322&u=a1aHR0cHM6Ly9jb25zdWx0ZXJ1bmF2b2NhdGVubGlnbmUuYmUv&ntb=1",
               "snippet": "Consultation avocat droit Belge, consultation juridique en ligne pour tous les domaines juridiques. Consulter un avocat en ligne vous …"
             },
             {
               "position": 2,
+              "title": "Avocat-belgique - Facebook",
+              "url": "https://www.bing.com/ck/a?!&&p=5345d76a17ce47f848e413fc977f1740e4edbd9f2007ce9d7a3b76bf455f9117JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1a16ebc8-921d-621a-2ba2-fc2f93586322&u=a1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL2F2b2NhdC5iZWxnaXF1ZS8&ntb=1",
+              "snippet": "25 juin 2020 · Avocat-belgique. 1,142 likes · 1 talking about this. Website"
+            },
+            {
+              "position": 3,
               "title": "Avocats Belgique : Guide pour trouver un avocat facilement en Belgique",
-              "url": "https://www.bing.com/ck/a?!&&p=575c45304929f675caf983a950264f83d907ada0dddb775692453307826eb22aJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1d52e65b-cb59-674a-0caf-f1bcca0266a4&u=a1aHR0cHM6Ly90aGVvdWViLmNvbS9zaXRlLTE2MzAxLWF2b2NhdHMtYmVsZ2lxdWU&ntb=1",
+              "url": "https://www.bing.com/ck/a?!&&p=35dfabcecda7ae2981ff8090be8a8a0286153d53c6e7f138ce9ba0dcbc161befJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1a16ebc8-921d-621a-2ba2-fc2f93586322&u=a1aHR0cHM6Ly90aGVvdWViLmNvbS9zaXRlLTE2MzAxLWF2b2NhdHMtYmVsZ2lxdWU&ntb=1",
               "snippet": "13 janv. 2021 · Pour trouver un avocat capable de mieux vous défendre en Belgique, vous pouvez vous rendre sur ce site qui vous …"
             }
           ],
@@ -112,17 +118,10 @@
         "ok": true,
         "data": {
           "query": "site:avocat-belgique.com",
-          "source": "bing_live_html_fallback",
+          "source": "public_serp_unavailable",
           "partial": true,
           "note": "Google returned 200, 0 parsed results",
-          "results": [
-            {
-              "position": 1,
-              "title": "Create images with your words - Bing Image Creator comes to the new ...",
-              "url": "https://www.bing.com/ck/a?!&&p=e50ee2977d183a40b697ea773dff2fc9533225af09d165b3b79d5bd851f68927JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=370327ba-a248-6131-3ea7-305da3f260cf&u=a1aHR0cHM6Ly9ibG9ncy5taWNyb3NvZnQuY29tL2Jsb2cvMjAyMy8wMy8yMS9jcmVhdGUtaW1hZ2VzLXdpdGgteW91ci13b3Jkcy1iaW5nLWltYWdlLWNyZWF0b3ItY29tZXMtdG8tdGhlLW5ldy1iaW5nLw&ntb=1",
-              "snippet": "21 mars 2023 · Last month we introduced the new AI-powered Bing and Microsoft Edge, your copilot for the web – delivering better …"
-            }
-          ],
+          "results": [],
           "evidence": "VERIFIED_FALLBACK_SERP_NOT_GOOGLE"
         }
       },
@@ -151,61 +150,10 @@
                 "avocat belgique charleroi"
               ],
               "serp": {
-                "source": "duckduckgo_fallback",
+                "source": "public_serp_unavailable",
                 "partial": true,
                 "note": "Google returned 200, 0 parsed results",
-                "results": [
-                  {
-                    "title": "L'Ordre des barreaux francophones et germanophone de Belgique | AVOCATS ...",
-                    "url": "https://avocats.be/",
-                    "snippet": "L'Ordre des barreaux francophones et germanophone de Belgique AVOCATS.BE réunit les 10 barreaux francophones et germanophone du pays. Sa mission est de représenter et défendre la profession d'avocat, tout en veillant à la protection des intérêts des justiciables."
-                  },
-                  {
-                    "title": "Accueil | AVOCATS.BE",
-                    "url": "https://avocats.be/fr",
-                    "snippet": "L'avocat est un professionnel du droit et de la justice. Son rôle est triple : il conseille, concilie et défend au quotidien les particuliers et les entreprises, sur des questions d'ordre privé ou professionnel."
-                  },
-                  {
-                    "title": "Avocat Belgique : 458 avocats et cabinets d'avocats - Justifit",
-                    "url": "https://www.justifit.be/trouver/avocats/belgique/",
-                    "snippet": "Trouvez un avocat en Belgique. Choisissez parmi les avocats experts Justifit le meilleur avocat pour votre besoin. Mise en relation simple, rapide et gratuite."
-                  },
-                  {
-                    "title": "Trouvez un avocat | Advocaat.be",
-                    "url": "https://www.advocaat.be/fr/chercher-un-avocat",
-                    "snippet": "Vous cherchez un avocat près de chez vous ? Trouvez ici celui qui vous convient en fonction de vos attentes."
-                  },
-                  {
-                    "title": "Avocats en ligne en Belgique | Consultation gratuite rapide - Justifit",
-                    "url": "https://www.justifit.be/trouver/avocats/belgique/avocat-en-ligne/",
-                    "snippet": "Consultez un avocat belge en ligne. Recevez un premier avis juridique gratuit et sans engagement grâce à une consultation rapide et fiable."
-                  },
-                  {
-                    "title": "Legalow — Trouvez l'avocat adapté à votre situation",
-                    "url": "https://www.legalow.be/",
-                    "snippet": "Vous n'avez pas besoin de savoir quel avocat chercher.On le fait pour vous. Sur Legalow, la mise en relation avec un avocat spécialisé en Belgique est 100 % gratuite, sans engagement ni création de compte. Grâce à un espace sécurisé et confidentiel, suivez ensuite l'avancement de votre dossier juridique aux côtés de votre avocat."
-                  },
-                  {
-                    "title": "Cabinets d'avocats spécialisés en Belgique",
-                    "url": "https://www.avocats-belgique.be/",
-                    "snippet": "De plus amples informations sur les avocats de Belgique Faire appel à un avocat implique généralement une situation délicate voire conflictuelle. Toutefois, les professionnels du barreau sont amenés à intervenir dans tout type de cas, plus ou moins critiques."
-                  },
-                  {
-                    "title": "Trouver un avocat en Belgique | LegalBelgique",
-                    "url": "https://legalbelgique.be/fr/avocats",
-                    "snippet": "Trouvez un avocat près de chez vous : cabinets d'avocats actifs par commune, lus en direct au registre BCE, avec l'adresse et la fiche de chaque société."
-                  },
-                  {
-                    "title": "Thales - Avocats",
-                    "url": "https://www.thales.be/",
-                    "snippet": "THALES est un cabinet d'avocats spécialisés dans le droit des affaires, établi à Bruxelles, Anvers et Namur"
-                  },
-                  {
-                    "title": "Cabinet d'avocats - Conseils juridiques dans divers domaines du droit",
-                    "url": "https://www.centrius.be/",
-                    "snippet": "Notre équipe d'avocats, au sein du cabinet Centrius, a développé une pratique juridique de pointe couvrant une vaste gamme de domaines du droit en Belgique et à l'international. Chacun de nos 27 avocats s'est spécialisé avec passion et excellence dans une ou plusieurs matières, offrant ainsi une expertise approfondie et diversifiée."
-                  }
-                ]
+                "results": []
               },
               "evidence": "MIXED_LIVE_PUBLIC_SOURCES"
             }
@@ -235,61 +183,10 @@
                 "avocat bruxelles marocain"
               ],
               "serp": {
-                "source": "duckduckgo_fallback",
+                "source": "public_serp_unavailable",
                 "partial": true,
                 "note": "Google returned 200, 0 parsed results",
-                "results": [
-                  {
-                    "title": "Barreau de Bruxelles - Ordre français",
-                    "url": "https://barreaubruxelles.be/",
-                    "snippet": "Choisir son avocat Cette page vous guide sur les critères essentiels pour choisir un avocat, vous offre accès à notre annuaire et vous informe sur les options de règlement alternatif des conflits. Consultez ces ressources pour faire un choix éclairé. En savoir plus Exercer comme avocat Vous souhaitez devenir avocat, vous inscrire au barreau de Bruxelles ou renouveler votre inscription ..."
-                  },
-                  {
-                    "title": "Avocat Bruxelles : 196 avocats et cabinet d'avocats Bruxelles - Justifit",
-                    "url": "https://www.justifit.be/trouver/avocats/bruxelles/",
-                    "snippet": "Trouvez un avocat à Bruxelles et préparez votre dossier par téléphone, en visio ou en cabinet."
-                  },
-                  {
-                    "title": "Avocat Bruxelles - Accueil - Cabinet d'avocat Altea",
-                    "url": "https://www.altea.be/fr/",
-                    "snippet": "Droit administratif, droit des étrangers, droit international privé : Altea, votre cabinet d'avocats à Bruxelles."
-                  },
-                  {
-                    "title": "Barreau de Bruxelles | Le barreau de Bruxelles - Public",
-                    "url": "https://barreaubruxelles.be/le-barreau-de-bruxelles",
-                    "snippet": "Le barreau de Bruxelles assure également une fonction disciplinaire importante. Il reçoit les plaintes de clients, d'avocats, de magistrats, et de toute personne concernée, et saisit le conseil de discipline lorsqu'un avocat semble avoir manqué à ses devoirs professionnels."
-                  },
-                  {
-                    "title": "Barreau de Bruxelles - AVOCATS.BE",
-                    "url": "https://avocats.be/fr/barreaux/barreau-de-bruxelles",
-                    "snippet": "Barreau de Bruxelles Palais de Justice Place Poelaert • B-1000 Bruxelles Tél.: +32 2 335 24 60 Ouveture du secrétariat : Lundi au vendredi : 8h30 - 12h30 et 13h30 - 16h (fermé le mercredi et vendredi après-midi). ordre@barreaudebruxelles.be www.barreaudebruxelles.be"
-                  },
-                  {
-                    "title": "328 Avocats à Bruxelles (Brussel) | - Bottin.be",
-                    "url": "https://www.bottin.be/fr/annuaire/avocat-a-bruxelles-21004.htm",
-                    "snippet": "Annuaire des Avocats à Bruxelles (Brussel) : numéro de téléphone, adresse, horaires, avis. Trouvez votre Avocat à Bruxelles facilement et avec toutes les infos nécessaires."
-                  },
-                  {
-                    "title": "Nous contacter | AVOCATS.BE | Ordre des Barreaux Francophones et ...",
-                    "url": "https://avocats.be/nous-contacter",
-                    "snippet": "AVOCATS.BE est l'Ordre des barreaux francophones et germanophone de Belgique. Cette page vous indique comment nous joindre, et vers qui vous tourner selon votre question.AVOCATS.BEAVOCATS.BEOrdre des Barreaux Francophones et Germanophonerue Haute 139 bte 201000 Bruxelles+32 2 648 20 98accueil@obfg.beNos bureaux sont joignables du lundi au vendredi, de 9h à 17h."
-                  },
-                  {
-                    "title": "Legalia - bureau d'avocats - Bruxelles",
-                    "url": "https://www.legalia.be/",
-                    "snippet": "Avocats spécialisés en droit pénal, droit familial, droit de la jeunesse, droit des étrangers, aide aux personnes vulnérables, aide aux victimes, droit de la circulation routière, récupération de créances, droit social"
-                  },
-                  {
-                    "title": "Cairn Legal · Avocats Bruxelles",
-                    "url": "https://www.cairnlegal.be/",
-                    "snippet": "Avocats à Bruxelles, droit immobilier, droit commercial, contrats, droit du travail, droit du transport, assurances, IT, bail,"
-                  },
-                  {
-                    "title": "Avocat Bruxelles : Cabinet pluridisciplinaire | APM Law",
-                    "url": "https://www.apmlaw.net/",
-                    "snippet": "APM Law, votre cabinet d'avocats à Bruxelles, vous conseille et défend dans les domaines du droit familial, pénal, commercial, et plus. Contactez-nous."
-                  }
-                ]
+                "results": []
               },
               "evidence": "MIXED_LIVE_PUBLIC_SOURCES"
             }
@@ -328,14 +225,14 @@
                     "snippet": "Avocat en cas de divorce Avocats spécialisés en droit de la famille en cas de divorce - Conseils et assistance juridique dans votre région Comment un avocat peut-il vous aider en cas de divorce? Vous avez reçu une citation à comparaître. Il est nécessaire de prendre des mesures urgentes et provisoires avant de procéder à un divorce."
                   },
                   {
-                    "title": "Avocats spécialistes Divorce par ville & Cabinet d'avocats Divorce en ...",
-                    "url": "https://www.justifit.be/avocats/az/domaines-de-competences/divorce/",
-                    "snippet": "Trouvez un avocat spécialiste du Divorce et préparez votre dossier par téléphone, en visio ou en cabinet."
+                    "title": "Avocat Divorce Bruxelles - Justifit",
+                    "url": "https://www.justifit.be/trouver/avocats/bruxelles/divorce/",
+                    "snippet": "Trouvez un avocat spécialisé en Divorce à Bruxelles. Choisissez parmi les avocats experts Justifit le meilleur avocat pour votre besoin. Mise en relation…"
                   },
                   {
-                    "title": "Meilleurs avocats en Divorce et séparation en Belgique",
-                    "url": "https://lawzana.com/fr/divorce-separation-lawyers/belgium",
-                    "snippet": "Vous cherchez un avocat en Divorce et séparation à en Belgique ? Découvrez les profils détaillés de notre sélection des meilleurs cabinets à en Belgique."
+                    "title": "Avocats droit des personnes / de la famille",
+                    "url": "https://www.droitdelafamille.be/fr-be/Avocat/Avocats-droit-des-personnes-de-la-famille",
+                    "snippet": "Plusieurs cabinets d'avocats spécialisés en Wallonie et à Bruxelles interviennent en qualité d'avocats spécialisés en droit de la famille dans les affaires de divorce auprès des tribunaux de la famille de Arlon, Bruxelles (néerlandophones et francophones), Charleroi, Dinant, Huy, Liège, Marche-en-Famenne, Mons, Namur, Neufchâteau, Nivelles, Tournai, Verviers. Contactez sans ..."
                   },
                   {
                     "title": "Avocat - Accompagnement séparation & divorce à Bruxelles",
@@ -343,14 +240,14 @@
                     "snippet": "Avocats, médiateurs, psychologues et experts financiers réunis en un seul lieu à Bruxelles pour vous accompagner dans votre divorce ou séparation."
                   },
                   {
-                    "title": "⚖️ Comment divorcer en Belgique ? Démarches, Procédure et Conseils",
-                    "url": "https://avocatsbruxelles.be/comment-divorcer-belgique/",
-                    "snippet": "Vous envisagez de divorcer en Belgique ? Découvrez les étapes, types de divorce, coûts et démarches pour réussir votre séparation en toute clarté."
+                    "title": "⚖️Avocat Divorce à Bruxelles - Avocats à Bruxelles",
+                    "url": "https://avocatsbruxelles.be/divorce/",
+                    "snippet": "FAQ - Avocat divorce à Bruxelles 1. Quel est le coût d'un divorce avec avocat à Bruxelles ? Le coût dépend du type de divorce (amiable ou contentieux), de la complexité du dossier et de l'avocat choisi. Il faut compter entre 700 et 1 500 € pour un divorce amiable, et davantage si le conflit est important."
                   },
                   {
-                    "title": "Lawyer divorce Brussels Belgium - fluent english - Avocat VDB",
-                    "url": "https://www.avocat-vdb.be/en/",
-                    "snippet": "Maître Nathalie Van den Bossche is a lawyer based in Brussels specialised in divorce and family mediation Availability, listening, advice and assistance Fluent in english, has been a lawyer at the Brussels Bar since 1997 and is an approved family mediator. Her activity is exclusively focused on family law. She covers all aspects of family litigation: divorce procedures, separation, parental ..."
+                    "title": "Meilleurs avocats en Divorce et séparation en Belgique",
+                    "url": "https://lawzana.com/fr/divorce-separation-lawyers/belgium",
+                    "snippet": "Vous cherchez un avocat en Divorce et séparation à en Belgique ? Découvrez les profils détaillés de notre sélection des meilleurs cabinets à en Belgique."
                   },
                   {
                     "title": "Avocats en droit du divorce et de la séparation - Centrius",
@@ -358,14 +255,14 @@
                     "snippet": "Avocats en droit du divorce et de la séparation Au Cabinet Centrius, nous comprenons que traverser un divorce ou une séparation peut être l'un des moments les plus difficiles de votre vie. Notre équipe d'avocats spécialisés en droit de divorce et séparation est dédiée à vous fournir le soutien juridique et l'assistance dont vous avez besoin pendant cette période éprouvante."
                   },
                   {
-                    "title": "Avocat divorce bruxelles - Avocate au Barreau",
-                    "url": "https://www.avocat-divorce-bruxelles.be/",
-                    "snippet": "Avocat divorce bruxelles, Maître Monika Carolak est avocate au barreau spécialise en divorces à Bruxelles. Avocat Bruxelles, Avocat divorce."
+                    "title": "Trouvez un avocat | Advocaat.be",
+                    "url": "https://www.advocaat.be/fr/chercher-un-avocat",
+                    "snippet": "Au travail Dans les relations de travail, des questions juridiques se posent parfois. Un avocat est à vos côtés, vous conseille et joue le rôle de médiateur si nécessaire."
                   },
                   {
-                    "title": "⚖️Avocat Divorce à Bruxelles - Avocats à Bruxelles",
-                    "url": "https://avocatsbruxelles.be/divorce/",
-                    "snippet": "FAQ - Avocat divorce à Bruxelles 1. Quel est le coût d'un divorce avec avocat à Bruxelles ? Le coût dépend du type de divorce (amiable ou contentieux), de la complexité du dossier et de l'avocat choisi. Il faut compter entre 700 et 1 500 € pour un divorce amiable, et davantage si le conflit est important."
+                    "title": "⚖️ Comment divorcer en Belgique ? Démarches, Procédure et Conseils",
+                    "url": "https://avocatsbruxelles.be/comment-divorcer-belgique/",
+                    "snippet": "Vous envisagez de divorcer en Belgique ? Découvrez les étapes, types de divorce, coûts et démarches pour réussir votre séparation en toute clarté."
                   }
                 ]
               },
@@ -381,13 +278,19 @@
         {
           "position": 1,
           "title": "Avocat en ligne| Belgique",
-          "url": "https://www.bing.com/ck/a?!&&p=66d6f7c21e3443a7620d59aa98c917d2bdab72cb43143a7f26b21d34d8753093JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1d52e65b-cb59-674a-0caf-f1bcca0266a4&u=a1aHR0cHM6Ly9jb25zdWx0ZXJ1bmF2b2NhdGVubGlnbmUuYmUv&ntb=1",
+          "url": "https://www.bing.com/ck/a?!&&p=57dfae2a3c932f85960f2ee13653b401a2d4d89964871b1cd5882832bf2ab458JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1a16ebc8-921d-621a-2ba2-fc2f93586322&u=a1aHR0cHM6Ly9jb25zdWx0ZXJ1bmF2b2NhdGVubGlnbmUuYmUv&ntb=1",
           "snippet": "Consultation avocat droit Belge, consultation juridique en ligne pour tous les domaines juridiques. Consulter un avocat en ligne vous …"
         },
         {
           "position": 2,
+          "title": "Avocat-belgique - Facebook",
+          "url": "https://www.bing.com/ck/a?!&&p=5345d76a17ce47f848e413fc977f1740e4edbd9f2007ce9d7a3b76bf455f9117JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1a16ebc8-921d-621a-2ba2-fc2f93586322&u=a1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL2F2b2NhdC5iZWxnaXF1ZS8&ntb=1",
+          "snippet": "25 juin 2020 · Avocat-belgique. 1,142 likes · 1 talking about this. Website"
+        },
+        {
+          "position": 3,
           "title": "Avocats Belgique : Guide pour trouver un avocat facilement en Belgique",
-          "url": "https://www.bing.com/ck/a?!&&p=575c45304929f675caf983a950264f83d907ada0dddb775692453307826eb22aJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1d52e65b-cb59-674a-0caf-f1bcca0266a4&u=a1aHR0cHM6Ly90aGVvdWViLmNvbS9zaXRlLTE2MzAxLWF2b2NhdHMtYmVsZ2lxdWU&ntb=1",
+          "url": "https://www.bing.com/ck/a?!&&p=35dfabcecda7ae2981ff8090be8a8a0286153d53c6e7f138ce9ba0dcbc161befJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1a16ebc8-921d-621a-2ba2-fc2f93586322&u=a1aHR0cHM6Ly90aGVvdWViLmNvbS9zaXRlLTE2MzAxLWF2b2NhdHMtYmVsZ2lxdWU&ntb=1",
           "snippet": "13 janv. 2021 · Pour trouver un avocat capable de mieux vous défendre en Belgique, vous pouvez vous rendre sur ce site qui vous …"
         }
       ]
@@ -403,7 +306,7 @@
         "ok": true,
         "data": {
           "domain": "eldiariodelcibao.com",
-          "discovered_candidates": 8,
+          "discovered_candidates": 4,
           "confirmed_backlinks": 0,
           "referring_domains_confirmed": 0,
           "backlinks": [],
@@ -422,63 +325,63 @@
           "results": [
             {
               "position": 1,
-              "title": "Anyone else having issues with the new myLeo? : r/tamuc - Reddit",
-              "url": "https://www.bing.com/ck/a?!&&p=2df2d8dd13ce6102e33c05dae8585f90b9db0de918ef5f43a8479a050a8efd90JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=2da89019-b91e-6749-06fd-87feb82a66f0&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL3RhbXVjL2NvbW1lbnRzLzZ3dWYwZC9hbnlvbmVfZWxzZV9oYXZpbmdfaXNzdWVzX3dpdGhfdGhlX25ld19teWxlby8&ntb=1",
-              "snippet": "29 de ago de 2017 · Anyone else having issues with the new myLeo? I try to log in, and it just stays stuck on \"Logging in, please wait\"."
+              "title": "上傳 YouTube 影片 - 電腦 - YouTube說明 - Google Help",
+              "url": "https://www.bing.com/ck/a?!&&p=77618fdeb4fae73dca28fbe7b8a43139fb1e9038d687708db48be55c87fa7f48JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZS9hbnN3ZXIvNTc0MDc_aGw9emgtSGFudCZjbz1HRU5JRS5QbGF0Zm9ybSUzRERlc2t0b3A&ntb=1",
+              "snippet": "只需幾個簡單步驟，就能輕鬆將影片上傳到 YouTube。以下說明如何透過電腦或行動裝置上傳影片。 注意：使用 YouTube 的受監護 …"
             },
             {
               "position": 2,
-              "title": "SteamUnlocked - Reddit",
-              "url": "https://www.bing.com/ck/a?!&&p=373ee09280a1b8d39a14c9e6833873252021ecca28d2f161e4af22c8699137aeJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=2da89019-b91e-6749-06fd-87feb82a66f0&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL1N0ZWFtVW5sb2NrZWQv&ntb=1",
-              "snippet": "The official subreddit for steamunlocked.net"
+              "title": "Comunidade YouTube - Google Help",
+              "url": "https://www.bing.com/ck/a?!&&p=255db69450b316b76269210583fbd5c8378845f4c4512cf44fdd66308bb9fa92JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZS9jb21tdW5pdHk_aGw9cHQtQlI&ntb=1",
+              "snippet": "37 respostas Sobre o programa Colaboradores do YouTube Atualizações de @TeamYouTube Experimentos Sobre a comunidade …"
             },
             {
               "position": 3,
-              "title": "pipersrockelle - Reddit",
-              "url": "https://www.bing.com/ck/a?!&&p=7b48fb999dd091e11436d93734554d0acab023849b07f3c0d916bbcd7d9f3af0JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=2da89019-b91e-6749-06fd-87feb82a66f0&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL3BpcGVyc3JvY2tlbGxlLw&ntb=1",
-              "snippet": "r/pipersrockelle members online Create a post FeedAbout Hot Open sort options Hot New Top Rising Change post view Card …"
+              "title": "youtube | OBS Forums",
+              "url": "https://www.bing.com/ck/a?!&&p=4414a9ac05280c8389a7b59acb49d4442ecf344f41f4e206b4107571e459389bJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9vYnNwcm9qZWN0LmNvbS9mb3J1bS90YWdzL3lvdXR1YmUv&ntb=1",
+              "snippet": "15 de abr de 2026 · Bitrate lowering and rising randomly whilst streaming I've been streaming on YouTube, and the bitrate keeps …"
             },
             {
               "position": 4,
-              "title": "FamilyNudists - Reddit",
-              "url": "https://www.bing.com/ck/a?!&&p=92c7ca3524e314d4ec7bac4648b9436fdae452ab2cca8d106a5ddb33979654a9JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=2da89019-b91e-6749-06fd-87feb82a66f0&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL0ZhbWlseU51ZGlzdHMvYWJvdXQv&ntb=1",
-              "snippet": "A new home on Reddit for families who enjoy the clothes-free life together. Sponsored by the Nudist Nation social network …"
+              "title": "Displaying YouTube LiveChat Comments on Stream - OBS",
+              "url": "https://www.bing.com/ck/a?!&&p=26c28d0c481b7be27505055cefe351071ce27cabb60c5d32d7c4ff36240f6fc0JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9vYnNwcm9qZWN0LmNvbS9mb3J1bS90aHJlYWRzL2Rpc3BsYXlpbmcteW91dHViZS1saXZlY2hhdC1jb21tZW50cy1vbi1zdHJlYW0td2l0aG91dC1zdHJlYW15YXJkLWZyZWUuMTQ0ODk3Lw&ntb=1",
+              "snippet": "11 de jun de 2021 · Displaying and selecting youtube stream comments in your stream is a pretty simple task. Although, this feature …"
             },
             {
               "position": 5,
-              "title": "Myleo proliferate disease : r/Peterborough - Reddit",
-              "url": "https://www.bing.com/ck/a?!&&p=a0fdd160b70ef8563031a6cf04364dc8fd22024a29c25a9053d483f1586502bbJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=2da89019-b91e-6749-06fd-87feb82a66f0&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL1BldGVyYm9yb3VnaC9jb21tZW50cy8xMmlwMGc1L215bGVvX3Byb2xpZmVyYXRlX2Rpc2Vhc2Uv&ntb=1",
-              "snippet": "11 de abr de 2023 · I know someone who has Myleo proliferate disease which results in a very painful foot issue. No doctor here …"
+              "title": "YouTube-video's uploaden - Computer - YouTube Help - Google Help",
+              "url": "https://www.bing.com/ck/a?!&&p=3c78e79868e23ced79719e6355e51d3fa37333f619770e57fffdf5dbb02b0f93JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZS9hbnN3ZXIvNTc0MDc_aGw9bmwmY289R0VOSUUuUGxhdGZvcm0lM0REZXNrdG9w&ntb=1",
+              "snippet": "Je kunt video's in een paar eenvoudige stappen uploaden naar YouTube. Volg de instructies hieronder om je video's te uploaden …"
             },
             {
               "position": 6,
-              "title": "all subreddits • r/all",
-              "url": "https://www.bing.com/ck/a?!&&p=46f8c5587b45fe5c538f6917159f55b9947e479382d621bf73d1e5511a9967e6JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=2da89019-b91e-6749-06fd-87feb82a66f0&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL2FsbC1kby8&ntb=1",
-              "snippet": "Reddit gives you the best of the internet in one place. Get a constantly updating feed of breaking news, fun stories, pics, memes, and …"
+              "title": "YouTube Trợ giúp",
+              "url": "https://www.bing.com/ck/a?!&&p=d02738ecf439fb8fde17caea0c74878ff6304f77f5c2ae62ff84bb43307ccd49JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZS8_aGw9dmk&ntb=1",
+              "snippet": "Trung tâm Trợ giúp YouTube chính thức, nơi bạn có thể tìm thấy các mẹo và hướng dẫn sử dụng sản phẩm và các câu trả lời khác …"
             },
             {
               "position": 7,
-              "title": "FitGirl Repacks - Reddit",
-              "url": "https://www.bing.com/ck/a?!&&p=ef0fd5f231232dd928df29b12aeb023277658be07f35b095ae5eb2c662b1821aJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=2da89019-b91e-6749-06fd-87feb82a66f0&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL0ZpdEdpcmxSZXBhY2sv&ntb=1",
-              "snippet": "r/FitGirlRepack: A sub to talk about new repacks, game news, and new warez releases! *Official FitGirl Website:*…"
+              "title": "Βοήθεια YouTube",
+              "url": "https://www.bing.com/ck/a?!&&p=f0d45e7b7c4b87cbcc24966b12164bdfc56912a4d42905be5a52c182a02b5cd9JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZS8_aGw9ZWw&ntb=1",
+              "snippet": "Επίσημο Κέντρο βοήθειας του YouTube, όπου μπορείτε να βρείτε συμβουλές και οδηγούς σχετικά με τη χρήση του προϊόντος και …"
             },
             {
               "position": 8,
-              "title": "PokemonZTheFangame - Reddit",
-              "url": "https://www.bing.com/ck/a?!&&p=1b32909f85d0d8a1b099205621762435091df7da1bfb6dd60d5619fe571842e2JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=2da89019-b91e-6749-06fd-87feb82a66f0&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL1Bva2Vtb25aVGhlRmFuZ2FtZS9yaXNpbmcv&ntb=1",
-              "snippet": "When your loved one unwraps the gift you searched high and low at JCPenney for, they won’t know how much you spent. Or where …"
+              "title": "Manage your home area or current location for YouTube TV",
+              "url": "https://www.bing.com/ck/a?!&&p=9af6aef7be992bbd7b2b4db31f084b8febbb13c4933c9d9b529ed0573de413e4JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZXR2L2Fuc3dlci83MTI5NzY4P2hsPWVuJmNvPUdFTklFLlBsYXRmb3JtJTNERGVza3RvcA&ntb=1",
+              "snippet": "When you sign up for YouTube TV, we’ll ask you to share your home zip code. We may also ask you to verify your area location via …"
             },
             {
               "position": 9,
-              "title": "What is this? Got this text today, don't know who ATH is",
-              "url": "https://www.bing.com/ck/a?!&&p=0324d0bfdd906fcb83d850b40fc7e41a7db8925a0883f9d5380b9b9b2f8ee8eaJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=2da89019-b91e-6749-06fd-87feb82a66f0&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL1NjYW1zL2NvbW1lbnRzLzFjY3dpODgvd2hhdF9pc190aGlzX2dvdF90aGlzX3RleHRfdG9kYXlfZG9udF9rbm93X3doby8&ntb=1",
-              "snippet": "Got this text today. Have no idea who it's from or what it is. I removed the 1st couple words as it had my name."
+              "title": "Ayuda de YouTube",
+              "url": "https://www.bing.com/ck/a?!&&p=63b78efa23b7b1d186e1f6fd6a3b149beb45ed387b13b4a2d7431ff9eb914033JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZS8_aGw9ZXM&ntb=1",
+              "snippet": "Centro de asistencia oficial de YouTube donde puedes encontrar sugerencias y tutoriales para aprender a utilizar el producto y …"
             },
             {
               "position": 10,
-              "title": "r/StockMarket - Reddit's Front Page of the Stock Market",
-              "url": "https://www.bing.com/ck/a?!&&p=2710ba6ad28d242aa0cdd2f56e16d2ad6f2979123a3f458dc5e36164ce898e9eJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=2da89019-b91e-6749-06fd-87feb82a66f0&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL1N0b2NrTWFya2V0Lw&ntb=1",
-              "snippet": "Welcome to /r/StockMarket! Our objective is to provide short and mid term trade ideas, market analysis & commentary for active …"
+              "title": "Gerenciar configurações do canal - Ajuda do YouTube",
+              "url": "https://www.bing.com/ck/a?!&&p=66a48df17a38252d12d0c0a9e50c747202a332c53d6569c24edc587b14fcc0c0JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZS9hbnN3ZXIvMjk3NjgxND9obD1wdC1CUg&ntb=1",
+              "snippet": "Gerenciar configurações do canal Você pode gerenciar as configurações do seu canal no YouTube Studio. É possível mudar desde …"
             }
           ],
           "evidence": "VERIFIED_FALLBACK_SERP_NOT_GOOGLE"
@@ -494,63 +397,63 @@
           "results": [
             {
               "position": 1,
-              "title": "Microsoft 问答 | Microsoft Learn",
-              "url": "https://www.bing.com/ck/a?!&&p=f385413918c38eb3f5b9b065c7d2430c675d985b46ed72703e39709774596358JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=368be06b-b17a-6a3a-1aac-f78cb0126bac&u=a1aHR0cHM6Ly93d3cuYW5zd2Vycy5taWNyb3NvZnQuY29tL3poLWhhbnMvd2luZG93c2xpdmUvZm9ydW0vYWxsLyVFNSVCRSVBRSVFOCVCRCVBRiVFOCVCNCVBNiVFNiU4OCVCNyVFNCVCRiVBMS85NzU1ZDg5Yi0xYWU0LTQ1NTQtYjA1MS00YzgwNDc3YmQwYWM&ntb=1",
-              "snippet": "Microsoft技术问答平台。 开始询问、回答和浏览有关 .Net、Azure 或 Teams 等产品的问题。"
+              "title": "How to use the distance formula to find the radius of a circle?",
+              "url": "https://www.bing.com/ck/a?!&&p=a38e97e46cc1643dda14ecbd1a5d6981cf5ef55be221909fbfad4509e651dd76JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=296497f2-d344-6157-380f-8015d23a6088&u=a1aHR0cHM6Ly9zb2NyYXRpYy5vcmcvcXVlc3Rpb25zL2hvdy10by11c2UtdGhlLWRpc3RhbmNlLWZvcm11bGEtdG8tZmluZC10aGUtcmFkaXVzLW9mLWEtY2lyY2xlP3NvdXJjZT1zZWFyY2g&ntb=1",
+              "snippet": "Find the center of the circle. Find any point on the circle. Use these two points in the distance formula to find the radius of the circle."
             },
             {
               "position": 2,
-              "title": "Microsoft Community",
-              "url": "https://www.bing.com/ck/a?!&&p=0723b191be2af750b97b9705361c57eb90ce835523b21669095cef7d59eae4b8JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=368be06b-b17a-6a3a-1aac-f78cb0126bac&u=a1aHR0cHM6Ly9hbnN3ZXJzLm1pY3Jvc29mdC5jb20vZW4tdXMvd2luZG93cy9mb3J1bS9hbGwvd2luZG93cy0xMC1hdXRvLWFkanVzdGluZy1icmlnaHRuZXNzLzIzYzlkNzc2LWJlMDYtNGE5NC05ZmEwLWY1YTAwOGMxNWI3NA&ntb=1",
-              "snippet": "Microsoft Community"
+              "title": "A solid consists of a cone on top of a cylinder with a ... - Socratic",
+              "url": "https://www.bing.com/ck/a?!&&p=c239843ed0409948c6474d7f80b11d50a4b0d4a24f23388bbea954f479306df7JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=296497f2-d344-6157-380f-8015d23a6088&u=a1aHR0cHM6Ly9zb2NyYXRpYy5vcmcvcXVlc3Rpb25zL2Etc29saWQtY29uc2lzdHMtb2YtYS1jb25lLW9uLXRvcC1vZi1hLWN5bGluZGVyLXdpdGgtYS1yYWRpdXMtZXF1YWwtdG8tdGhhdC1vZi10LTcz&ntb=1",
+              "snippet": "V_T=pir^2 (h_1/3+h_2) We need to calculate r in order to calculate the area of the base of the cylinder, hence we fill in the data …"
             },
             {
               "position": 3,
-              "title": "Microsoft Community",
-              "url": "https://www.bing.com/ck/a?!&&p=793db71d322041643dff4f6b1ecac84d6307952928b58824590d3e93d1c8f992JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=368be06b-b17a-6a3a-1aac-f78cb0126bac&u=a1aHR0cHM6Ly9hbnN3ZXJzLm1pY3Jvc29mdC5jb20vZW4tdXMvbXNvZmZpY2UvZm9ydW0vYWxsL3ZlcnktZnJ1c3RyYXRpbmctaS1hbS10cnlpbmctdG8tZm9ybWF0LW51bWJlci1pbnRvL2NiMThjNDJhLTg1NDgtNGI4Ni04MmMxLWM2MDUxMTg5ZTRiOA&ntb=1",
-              "snippet": "Microsoft Community"
+              "title": "A triangle has corners at (5 ,1 ), (2 ,7 ), and (7 ,3 ). What is the ...",
+              "url": "https://www.bing.com/ck/a?!&&p=a904d6a8b540650df653c0233fd468c39e95bf0b7ade81cc4624b72bf5b26877JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=296497f2-d344-6157-380f-8015d23a6088&u=a1aHR0cHM6Ly9zb2NyYXRpYy5vcmcvcXVlc3Rpb25zL2EtdHJpYW5nbGUtaGFzLWNvcm5lcnMtYXQtNS0xLTItNy1hbmQtNy0zLXdoYXQtaXMtdGhlLWFyZWEtb2YtdGhlLXRyaWFuZ2xlLXMtY2ly&ntb=1",
+              "snippet": "Area of triangle's circumscribed circle is 35.78 sq.unit. The three corners are A (5,1) B (2,7) and C (7,3) Distance between two points …"
             },
             {
               "position": 4,
-              "title": "Microsoft Community",
-              "url": "https://www.bing.com/ck/a?!&&p=197fcd79bcb161fecbd861936fb6375908153abebe2acef9c8281c7b841354b6JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=368be06b-b17a-6a3a-1aac-f78cb0126bac&u=a1aHR0cHM6Ly9hbnN3ZXJzLm1pY3Jvc29mdC5jb20vZW4tdXMvd2luZG93cy9mb3J1bS9hbGwvdW5hYmxlLXJlLWFjdGl2YXRlLXdpbmRvd3MtMTAtZnJvbS1wcmV2aW91cy9jMmQ2NWVlZS00N2E2LTRlMzYtOGZhOC1hYzAzYzk4Mjg4OGY&ntb=1",
-              "snippet": "Microsoft Community"
+              "title": "How do you use Heron's formula to find the area of a ... - Socratic",
+              "url": "https://www.bing.com/ck/a?!&&p=7b4fbe34edf0b9df21293fc2c727ee564e2150c3d627da7a2ff0594ae14e0c03JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=296497f2-d344-6157-380f-8015d23a6088&u=a1aHR0cHM6Ly9zb2NyYXRpYy5vcmcvcXVlc3Rpb25zL2hvdy1kby15b3UtdXNlLWhlcm9uLXMtZm9ybXVsYS10by1maW5kLXRoZS1hcmVhLW9mLWEtdHJpYW5nbGUtd2l0aC1zaWRlcy1vZi1sZW5nLTE0&ntb=1",
+              "snippet": "How do you use Heron's formula to find the area of a triangle with sides of lengths #9 #, #5 #, and #12 #?"
             },
             {
               "position": 5,
-              "title": "Microsoft Community",
-              "url": "https://www.bing.com/ck/a?!&&p=f08b43c2d7d662a9d929676b103291dd01581700b000906f28a6eacc30291641JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=368be06b-b17a-6a3a-1aac-f78cb0126bac&u=a1aHR0cHM6Ly9hbnN3ZXJzLm1pY3Jvc29mdC5jb20vZW4tdXMvd2luZG93cy9mb3J1bS9hbGwvd2luZG93cy0xMC11cGRhdGUtaXNzdWVzLzkwZWVhZjI5LTYzODctNDk4Yi04NGU0LWM0MjVhNTc4YzY2NA&ntb=1",
-              "snippet": "Microsoft Community"
+              "title": "Circle A has a center at # (3 ,2 )# and an area of #96 pi ... - Socratic",
+              "url": "https://www.bing.com/ck/a?!&&p=4e8671dc73f6cf2b36ebaee756448d08d44931c3188f43e5c0b147a9a945ddcbJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=296497f2-d344-6157-380f-8015d23a6088&u=a1aHR0cHM6Ly9zb2NyYXRpYy5vcmcvcXVlc3Rpb25zL2NpcmNsZS1hLWhhcy1hLWNlbnRlci1hdC0zLTItYW5kLWFuLWFyZWEtb2YtOTYtcGktY2lyY2xlLWItaGFzLWEtY2VudGVyLWF0LTEyLTct&ntb=1",
+              "snippet": "Circle A has a center at # (3 ,2 )# and an area of #96 pi#. Circle B has a center at # (12 ,7 )# and an area of #48 pi#. Do the circles …"
             },
             {
               "position": 6,
-              "title": "Microsoft Community",
-              "url": "https://www.bing.com/ck/a?!&&p=3162a17c07e41f9733ac6e5070f77ac086eb9ccab8d578a05486245caaf757b3JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=368be06b-b17a-6a3a-1aac-f78cb0126bac&u=a1aHR0cHM6Ly9hbnN3ZXJzLm1pY3Jvc29mdC5jb20vZW4tdXMvd2luZG93cy9mb3J1bS9hbGwvZXJyb3ItZW5jb3VudGVyZWQtbWVzc2FnZS1pbi10aGUtd2luZG93cy11cGRhdGUvOTk1YmFiODgtYzdiOS00NjNkLTg1YWUtYzhmMjJhYTQxYzkw&ntb=1",
-              "snippet": "Microsoft Community"
+              "title": "A chord with a length of 4 runs from pi/8 to pi/6 radians on a circle ...",
+              "url": "https://www.bing.com/ck/a?!&&p=63dd4bb2689678be47bab62ed4643cc49ba4bffa6b469a881202f16cb60c3f7dJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=296497f2-d344-6157-380f-8015d23a6088&u=a1aHR0cHM6Ly9zb2NyYXRpYy5vcmcvcXVlc3Rpb25zL2EtY2hvcmQtd2l0aC1hLWxlbmd0aC1vZi00LXJ1bnMtZnJvbS1waS04LXRvLXBpLTYtcmFkaWFucy1vbi1hLWNpcmNsZS13aGF0LWlzLXRo&ntb=1",
+              "snippet": "A chord with a length of #4 # runs from #pi/8 # to #pi/6 # radians on a circle. What is the area of the circle? GeometryPerimeter, …"
             },
             {
               "position": 7,
-              "title": "Microsoft Community",
-              "url": "https://www.bing.com/ck/a?!&&p=0ec038e0eae2e67ee68bfcc50a4aaf6f6493c4dab1094851a6d00a95a44129c2JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=368be06b-b17a-6a3a-1aac-f78cb0126bac&u=a1aHR0cHM6Ly9hbnN3ZXJzLm1pY3Jvc29mdC5jb20vZW4tdXMvbXNvZmZpY2UvZm9ydW0vYWxsL3doZW4tZ29pbmctdG8tb3B0aW9ucy1pbi1maWxlLWV4Y2VsLXRvLWRvd25sb2FkLzM1ZTgwY2Y1LTQwNzEtNDY3Zi1hN2ZiLWQ5Y2FiNWI2MGJkMw&ntb=1",
-              "snippet": "Microsoft Community"
+              "title": "A triangle has corners at (5 ,8 ), (2 ,7 ), and (7 ,3 ). What is the ...",
+              "url": "https://www.bing.com/ck/a?!&&p=c6c3829f44349f31ea36739c0b27180ce0ac481ea2acd5f11bfc2980263a9a3dJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=296497f2-d344-6157-380f-8015d23a6088&u=a1aHR0cHM6Ly9zb2NyYXRpYy5vcmcvcXVlc3Rpb25zL2EtdHJpYW5nbGUtaGFzLWNvcm5lcnMtYXQtNS04LTItNy1hbmQtNy0zLXdoYXQtaXMtdGhlLWFyZWEtb2YtdGhlLXRyaWFuZ2xlLXMtY2ly&ntb=1",
+              "snippet": "A triangle has corners at # (5 ,8 )#, # (2 ,7 )#, and # (7 ,3 )#. What is the area of the triangle's circumscribed circle? …"
             },
             {
               "position": 8,
-              "title": "Microsoft Community",
-              "url": "https://www.bing.com/ck/a?!&&p=907ef9a6a738fd03d47c937760f12b2fb11c7390eee0607c15982be9fb85d602JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=368be06b-b17a-6a3a-1aac-f78cb0126bac&u=a1aHR0cHM6Ly9hbnN3ZXJzLm1pY3Jvc29mdC5jb20vZW4tdXMvbXNvZmZpY2UvZm9ydW0vYWxsL2V4Y2VsLW1hY3JvLXNhdmUtYS1waWN0dXJlLzhiMjg0MGNhLWQxMWYtNGEzMi04NGIwLTIxNzcyMmE1NDY5Nw&ntb=1",
-              "snippet": "Microsoft Community"
+              "title": "Circle A has a center at (5 ,1 ) and an area of 4 pi. Circle ... - Socratic",
+              "url": "https://www.bing.com/ck/a?!&&p=2e7ad5e0d2e044eb2c351c8aca132559cb240be82b3c75cf26504e2213641fc3JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=296497f2-d344-6157-380f-8015d23a6088&u=a1aHR0cHM6Ly9zb2NyYXRpYy5vcmcvcXVlc3Rpb25zL2NpcmNsZS1hLWhhcy1hLWNlbnRlci1hdC01LTEtYW5kLWFuLWFyZWEtb2YtNC1waS1jaXJjbGUtYi1oYXMtYS1jZW50ZXItYXQtMi04LWFu&ntb=1",
+              "snippet": "Circle A has a center at # (5 ,1 )# and an area of #4 pi#. Circle B has a center at # (2 ,8 )# and an area of #16 pi#. Do the circles …"
             },
             {
               "position": 9,
-              "title": "Microsoft Community",
-              "url": "https://www.bing.com/ck/a?!&&p=ac6726eb05f93db4fe73984b18f43efcd3d4246f26e0a5f7d6c765519f518b87JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=368be06b-b17a-6a3a-1aac-f78cb0126bac&u=a1aHR0cHM6Ly9hbnN3ZXJzLm1pY3Jvc29mdC5jb20vZW4tdXMvd2luZG93cy9mb3J1bS9hbGwvdnMtY29kZS1ub3QtcnVubmluZy1kdWUtdG8tbnBhdi1pbnN0YWxsZWQvZmM4ZDI4YzMtMGUxMC00YmQ1LWI1ODQtYmQ0ZjI2YmQ4MzMx&ntb=1",
-              "snippet": "Microsoft Community"
+              "title": "How do you use Heron's formula to find the area of a ... - Socratic",
+              "url": "https://www.bing.com/ck/a?!&&p=3896ed1c7890671af2f5918f380e0615be5e2a21e3b8a01ad9b04438c1e8bceeJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=296497f2-d344-6157-380f-8015d23a6088&u=a1aHR0cHM6Ly9zb2NyYXRpYy5vcmcvcXVlc3Rpb25zL2hvdy1kby15b3UtdXNlLWhlcm9uLXMtZm9ybXVsYS10by1maW5kLXRoZS1hcmVhLW9mLWEtdHJpYW5nbGUtd2l0aC1zaWRlcy1vZi1sZW5nLTYw&ntb=1",
+              "snippet": "How do you use Heron's formula to find the area of a triangle with sides of lengths #6 #, #7 #, and #7 #?"
             },
             {
               "position": 10,
-              "title": "Microsoft Community",
-              "url": "https://www.bing.com/ck/a?!&&p=eeef61e0fae8dd2c7e38b5a2ada1072b982d5b7dcc0232c4cdce8538be7bcde3JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=368be06b-b17a-6a3a-1aac-f78cb0126bac&u=a1aHR0cHM6Ly9hbnN3ZXJzLm1pY3Jvc29mdC5jb20vZW4tdXMvbXNvZmZpY2UvZm9ydW0vYWxsL2Zvcm1hdHRpbmctaGVhZGluZ3MtaW4tYS13b3JkLWRvY3VtZW50LzljZjk4ODU1LWZlZWUtNDUxMi1iZWU1LTUyZmY3MmZkNGQ1Mg&ntb=1",
-              "snippet": "Microsoft Community"
+              "title": "Question #d444c - Socratic",
+              "url": "https://www.bing.com/ck/a?!&&p=b353ef51e71bb3371962bcc9f527b201d534c14a0284d1f556f0cbd0fbe6f46dJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=296497f2-d344-6157-380f-8015d23a6088&u=a1aHR0cHM6Ly9zb2NyYXRpYy5vcmcvcXVlc3Rpb25zLzVhNzZkZjQyYjcyY2ZmNDgxMjFkNDQ0Yw&ntb=1",
+              "snippet": "Where the double angle formula comes from is a bit of a rabbit hole, so I'm going to stop there."
             }
           ],
           "evidence": "VERIFIED_FALLBACK_SERP_NOT_GOOGLE"
@@ -603,12 +506,7 @@
                   {
                     "title": "Noticias del Cibao - El Pais y el Mundo al dia con la Noticias del Momento",
                     "url": "https://noticiasdelcibao.com/",
-                    "snippet": "Buscar Noticias Recientes David Collado entrega 254 casas intervenidas en Ciudad Colonial. CESAC registra cumplimiento integral en auditoría de seguimiento ISO 9001:2015 Protecom pone a disposición de los usuarios Calculadora de Factura Eléctrica Club Deportivo y Cultural Calero celebra su 43 aniversario con gran encuentro deportivo y ..."
-                  },
-                  {
-                    "title": "Noticias - cibao.com.do",
-                    "url": "https://www.cibao.com.do/banca-personal/noticias/",
-                    "snippet": "Asociación Cibao destaca oportunidades y desafíos de la Inteligencia Artificial para el periodismo Durante el encuentro anual con periodistas, el especialista en Ciencia de Datos e Inteligencia Artificial Renato González abordó las oportunidades y riesgos de estas tecnologías para la investigación, verificación y producción de contenidos. Leer"
+                    "snippet": "Buscar Buscar Noticias Recientes CESAC registra cumplimiento integral en auditoría de seguimiento ISO 9001:2015 Protecom pone a disposición de los usuarios Calculadora de Factura Eléctrica Club Deportivo y Cultural Calero celebra su 43 aniversario con gran encuentro deportivo y comunitario"
                   },
                   {
                     "title": "Noticias de Cibao - Acento",
@@ -616,9 +514,9 @@
                     "snippet": "Noticias de Cibao Entérate de las últimas noticias de Cibao en Acento Actualidad Abinader coloca obras del Cibao en el centro de su agenda y anuncia proyectos para Manzanillo, Puerto Plata y Samaná Historia y memoria Santiago contará con un archivo para la preservación del patrimonio documental de la región Opinión"
                   },
                   {
-                    "title": "*Noticias República Dominicana archivos - Remolacha - Noticias ...",
-                    "url": "https://remolacha.net/category/noticias-republica-dominicana/",
-                    "snippet": "Read more › Tagged with: Concacaf, Dominican Republic, Fedofútbol, FIFA, Noticias Dominicanas, Noticias Republica Dominicana, remolacha noticias, remolacha.net, Republica Dominicana, Wilson Isidor *Noticias República Dominicana, Deportes"
+                    "title": "Noticias - cibao.com.do",
+                    "url": "https://www.cibao.com.do/banca-personal/noticias/",
+                    "snippet": "Asociación Cibao destaca oportunidades y desafíos de la Inteligencia Artificial para el periodismo Durante el encuentro anual con periodistas, el especialista en Ciencia de Datos e Inteligencia Artificial Renato González abordó las oportunidades y riesgos de estas tecnologías para la investigación, verificación y producción de contenidos. Leer"
                   },
                   {
                     "title": "Noticias de Santiago de los Caballeros | Noticia.do",
@@ -626,9 +524,14 @@
                     "snippet": "Noticias de Santiago de los Caballeros: última hora, política, economía y sociedad desde el corazón del Cibao dominicano."
                   },
                   {
-                    "title": "Cibao Noticias | Methuen MA - Facebook",
-                    "url": "https://www.facebook.com/cibaonoticiasrdoficial/",
-                    "snippet": "Cibao Noticias, Methuen. 20,147 followers · 15 talking about this. INFORMACIÓN DESDE OTRA PERSPECTIVA"
+                    "title": "Cinco muertos en operativos policiales en la región del Cibao",
+                    "url": "https://www.elcaribe.com.do/panorama/region-norte/cinco-muertos-en-operativos-policiales-en-la-region-del-cibao/",
+                    "snippet": "Santiago. Cinco hombres murieron por disparos de agentes policiales durante intervenciones en Santiago, Villa Vásquez, Puerto Plata y Gaspar Hernández, mientras la Policía afirma que en dos de los casos de Santiago sus agentes fueron atacados, familiares de los involucrados en los demás hechos ..."
+                  },
+                  {
+                    "title": "El Diario Cibao Norcentral - Noticias regionales de Santiago, Puerto ...",
+                    "url": "https://eldiariocibaonorcentral.com/",
+                    "snippet": "Últimas noticias 1 Sep 2026 · 01:42 Cibao Norcentral · Conéctate con nosotros El Diario Cibao Norcentral Noticias regionales de Santiago, Puerto Plata y Espaillat."
                   }
                 ]
               },
@@ -662,53 +565,53 @@
                 "results": [
                   {
                     "title": "Google Noticias",
-                    "url": "https://www.bing.com/ck/a?!&&p=8e11181fcf0ea2c3ceced6fb79aa7a51ae61fba8730ec41efa65c3ca0136a95fJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3c08462a-bdda-6799-3a00-51cdbcd966c5&u=a1aHR0cHM6Ly9uZXdzLmdvb2dsZS5jb20vP2hsPWVz&ntb=1",
+                    "url": "https://www.bing.com/ck/a?!&&p=3f76a81c7ee836ff5bcd762354edd2768f36c2985b12c407759b7fad73e44ebaJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=069dae41-876d-6ba3-1f12-b9a6860c6a3e&u=a1aHR0cHM6Ly9uZXdzLmdvb2dsZS5jb20vP2hsPWVz&ntb=1",
                     "snippet": "Amplia cobertura actualizada de noticias, agregada a partir de fuentes de noticias de todo el mundo por Google Noticias"
                   },
                   {
                     "title": "Google Noticias",
-                    "url": "https://www.bing.com/ck/a?!&&p=21a6b33d913790f0e65ff1b765736fef78468d4dad4268ebda3dfa0747c3bdb7JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3c08462a-bdda-6799-3a00-51cdbcd966c5&u=a1aHR0cHM6Ly9uZXdzLmdvb2dsZS5jb20vP2hsPWVzJm5lZD1lc19teA&ntb=1",
+                    "url": "https://www.bing.com/ck/a?!&&p=e3e0ce7fa20ba2f1c9935b7d717af1b554dc1708c1222b923906d90a1bff8064JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=069dae41-876d-6ba3-1f12-b9a6860c6a3e&u=a1aHR0cHM6Ly9uZXdzLmdvb2dsZS5jb20vP2hsPWVzJm5lZD1lc19teA&ntb=1",
                     "snippet": "Amplia cobertura actualizada de noticias, agregada a partir de fuentes de noticias de todo el mundo por Google Noticias"
                   },
                   {
-                    "title": "Noticias Telemundo: Últimas noticias en español de Estados Unidos y …",
-                    "url": "https://www.bing.com/ck/a?!&&p=f6864befd681cde86086e163c2c9aacbd47e77aed2ada980176592a2ae38385dJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3c08462a-bdda-6799-3a00-51cdbcd966c5&u=a1aHR0cHM6Ly93d3cudGVsZW11bmRvLmNvbS9ub3RpY2lhcw&ntb=1",
-                    "snippet": "Sitio oficial de Noticias Telemundo: las noticias de última hora en español de EE.UU., México, Latinoamérica y el mundo. …"
-                  },
-                  {
                     "title": "Últimas noticias de Estados Unidos, Latinoamérica y el mundo, hoy",
-                    "url": "https://www.bing.com/ck/a?!&&p=0a670eee43740ccd12f2a4f0d55c3914fa670fca755dec2362adef93f0eeafb8JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3c08462a-bdda-6799-3a00-51cdbcd966c5&u=a1aHR0cHM6Ly9jbm5lc3Bhbm9sLmNubi5jb20v&ntb=1",
-                    "snippet": "Últimas hora y noticias recientes de Estados Unidos, México, Colombia, Argentina, Latinoamérica y el mundo. Actualidad de hoy …"
+                    "url": "https://www.bing.com/ck/a?!&&p=da82b39999d4138d54c6021ad9ca57c16494557da3edcab4155fbe9672efffeeJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=069dae41-876d-6ba3-1f12-b9a6860c6a3e&u=a1aHR0cHM6Ly9jbm5lc3Bhbm9sLmNubi5jb20v&ntb=1",
+                    "snippet": "28 de nov de 2024 · Últimas hora y noticias recientes de Estados Unidos, México, Colombia, Argentina, Latinoamérica y el mundo. …"
                   },
                   {
                     "title": "Últimas noticias: la última hora de hoy en EL PAÍS",
-                    "url": "https://www.bing.com/ck/a?!&&p=f319a4fb381a2c8056b3856af99961fba62cddab472dd93ff52d689c6161a69cJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3c08462a-bdda-6799-3a00-51cdbcd966c5&u=a1aHR0cHM6Ly9lbHBhaXMuY29tL3VsdGltYXMtbm90aWNpYXMv&ntb=1",
-                    "snippet": "Hace 4 horas · Consulta las últimas noticias de actualidad al minuto y la última hora de España, México, América y el mundo en EL …"
+                    "url": "https://www.bing.com/ck/a?!&&p=144863d6ef3e8d6d43bfcca3e2f0c806cab68e688b1221a07fe23a5d9f542420JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=069dae41-876d-6ba3-1f12-b9a6860c6a3e&u=a1aHR0cHM6Ly9lbHBhaXMuY29tL3VsdGltYXMtbm90aWNpYXMv&ntb=1",
+                    "snippet": "Hace 1 hora · Consulta las últimas noticias de actualidad al minuto y la última hora de España, México, América y el mundo en EL …"
                   },
                   {
-                    "title": "Noticias, la última hora de España y el mundo - RTVE.es",
-                    "url": "https://www.bing.com/ck/a?!&&p=b013ccbd1a2b11ff8ff8ea5ed488aa8beef3a57851122ab0f16bc65ea9ed34f7JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3c08462a-bdda-6799-3a00-51cdbcd966c5&u=a1aHR0cHM6Ly93d3cucnR2ZS5lcy9ub3RpY2lhcy8&ntb=1",
-                    "snippet": "Noticias de última hora en España y el mundo. Toda la actualidad y las últimas noticias nacionales e internacionales aquí, en RTVE.es"
+                    "title": "Noticias Telemundo: Últimas noticias en español de Estados Unidos y …",
+                    "url": "https://www.bing.com/ck/a?!&&p=6d83f112135d2c7d095307d332a325df3c473c0e211d2ddcffe97586e549c030JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=069dae41-876d-6ba3-1f12-b9a6860c6a3e&u=a1aHR0cHM6Ly93d3cudGVsZW11bmRvLmNvbS9ub3RpY2lhcw&ntb=1",
+                    "snippet": "Sitio oficial de Noticias Telemundo: las noticias de última hora en español de EE.UU., México, Latinoamérica y el mundo. …"
                   },
                   {
                     "title": "N+ Univision | Noticias en Vivo, Última Hora y Cobertura Minuto a ...",
-                    "url": "https://www.bing.com/ck/a?!&&p=24b045d356823fc4741eaaf712a53700015cbb75179341ea721281bfaad8eebdJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3c08462a-bdda-6799-3a00-51cdbcd966c5&u=a1aHR0cHM6Ly93d3cudW5pdmlzaW9uLmNvbS9ub3RpY2lhcw&ntb=1",
+                    "url": "https://www.bing.com/ck/a?!&&p=d33ec64d2b15a679e3d8912993fc40541c1d86df0eb46a9eb6ffe793d7c4dc56JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=069dae41-876d-6ba3-1f12-b9a6860c6a3e&u=a1aHR0cHM6Ly93d3cudW5pdmlzaW9uLmNvbS9ub3RpY2lhcw&ntb=1",
                     "snippet": "17 de may de 2013 · Sigue las últimas noticias de hoy en N+ Univision. Información en vivo sobre inmigración, política, sucesos de …"
                   },
                   {
-                    "title": "Antena 3 Noticias: Última hora en España y el mundo",
-                    "url": "https://www.bing.com/ck/a?!&&p=9fc1abd95f85a910d61c84dfd69c154aabcc52a217442b2268a5a9ec16007478JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3c08462a-bdda-6799-3a00-51cdbcd966c5&u=a1aHR0cHM6Ly93d3cuYW50ZW5hMy5jb20vbm90aWNpYXMv&ntb=1",
-                    "snippet": "Últimas noticias de hoy. Sigue toda la actualidad de España, Internacional, Sociedad, Sucesos, Economía y la última hora en …"
+                    "title": "Noticias - BBC News Mundo",
+                    "url": "https://www.bing.com/ck/a?!&&p=a8b578b88841686b80680d715024c3d69aa5b59f740582be753fdef16d9aae9fJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=069dae41-876d-6ba3-1f12-b9a6860c6a3e&u=a1aHR0cHM6Ly93d3cuYmJjLmNvbS9tdW5kbw&ntb=1",
+                    "snippet": "17 de ago de 2020 · Las últimas noticias e información en materia internacional, sobre América Latina, tecnología, ciencia, salud, …"
+                  },
+                  {
+                    "title": "Noticias, la última hora de España y el mundo - RTVE.es",
+                    "url": "https://www.bing.com/ck/a?!&&p=03c1dc90793c2e314d61ed1efe6ec085247d8a2227a7c0992526769e6d2664caJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=069dae41-876d-6ba3-1f12-b9a6860c6a3e&u=a1aHR0cHM6Ly93d3cucnR2ZS5lcy9ub3RpY2lhcy8&ntb=1",
+                    "snippet": "Noticias de última hora en España y el mundo. Toda la actualidad y las últimas noticias nacionales e internacionales aquí, en RTVE.es"
                   },
                   {
                     "title": "MILENIO | Noticias de hoy en México y el mundo al momento",
-                    "url": "https://www.bing.com/ck/a?!&&p=b7582e7c510e06b376cba013c931b33be81740adb194c1ef6bfef5218797b702JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3c08462a-bdda-6799-3a00-51cdbcd966c5&u=a1aHR0cHM6Ly93d3cubWlsZW5pby5jb20v&ntb=1",
+                    "url": "https://www.bing.com/ck/a?!&&p=471d59a0db571413dbdbabee96a5c6ce05ec069791b6a1b888db5cd01ab4d8e8JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=069dae41-876d-6ba3-1f12-b9a6860c6a3e&u=a1aHR0cHM6Ly93d3cubWlsZW5pby5jb20v&ntb=1",
                     "snippet": "23 de oct de 2024 · Noticias de última hora de México y el mundo. Entérate aquí de la información más importante sobre política, …"
                   },
                   {
-                    "title": "Noticias - BBC News Mundo",
-                    "url": "https://www.bing.com/ck/a?!&&p=2dbdfdba93a5adde5f7710dbca589b8555c05442c15fc4379867c1b9329d6ff9JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3c08462a-bdda-6799-3a00-51cdbcd966c5&u=a1aHR0cHM6Ly93d3cuYmJjLmNvbS9tdW5kbw&ntb=1",
-                    "snippet": "Hace 2 días · Las últimas noticias e información en materia internacional, sobre América Latina, tecnología, ciencia, salud, …"
+                    "title": "El Diario NY - Últimas Noticias en Español de New York, USA, y El Mundo",
+                    "url": "https://www.bing.com/ck/a?!&&p=73ebb21ca1038ab628cb3b175c5fb63b4e77ca243f752fda8252fb4699599883JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=069dae41-876d-6ba3-1f12-b9a6860c6a3e&u=a1aHR0cHM6Ly9lbGRpYXJpb255LmNvbS8&ntb=1",
+                    "snippet": "6 de dic de 2017 · En circulación desde 1913, es el medio hispano más leído en Nueva York y el segundo periódico más grande del …"
                   }
                 ]
               },
@@ -733,59 +636,59 @@
                 "empleos en santiago de los caballeros republica dominicana"
               ],
               "serp": {
-                "source": "bing_live_html_fallback",
+                "source": "duckduckgo_fallback",
                 "partial": true,
                 "note": "Google returned 200, 0 parsed results",
                 "results": [
                   {
-                    "title": "El Tiempo",
-                    "url": "https://www.bing.com/ck/a?!&&p=65ef0ebe4c48273d6cbb7f8d8e176916d05a05340576e6d2234338092fdbd3a6JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=011b6764-c909-6180-01a9-7083c81f60e2&u=a1aHR0cHM6Ly93d3cuZWx0aWVtcG8uZXMv&ntb=1",
-                    "snippet": "El Tiempo de hoy en España y el mundo. Previsión del tiempo para hoy, mañana y los próximos días. El Tiempo en 200.000 ciudades."
+                    "title": "(339 vacantes) empleos de Santiago en República Dominicana | LinkedIn",
+                    "url": "https://do.linkedin.com/jobs/santiago-empleos",
+                    "snippet": "339 empleos de Santiago populares en República Dominicana hoy. Saca partido a tu red profesional y consigue que te contraten. Cada día salen nuevos empleos de Santiago."
                   },
                   {
-                    "title": "Últimas noticias de Colombia y el Mundo - ELTIEMPO.COM",
-                    "url": "https://www.bing.com/ck/a?!&&p=864f807bf0f5213e4fe80ea1742d1220894e0b1751b6cf4145b33688a2564ff4JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=011b6764-c909-6180-01a9-7083c81f60e2&u=a1aHR0cHM6Ly93d3cuZWx0aWVtcG8uY29tLw&ntb=1",
-                    "snippet": "22 de sept de 2026 · Noticias Principales de Colombia y El Mundo Últimas noticias en deportes, economía, política y tecnología …"
+                    "title": "Empleos de Tu empleo rd en Santiago (provincia) - do.jooble.org",
+                    "url": "https://do.jooble.org/trabajo-tu-empleo-rd/Santiago-(provincia)",
+                    "snippet": "Nuevas ofertas de trabajo para Tu empleo rd en Santiago (provincia). Empresas confiables. Tiempo completo, medio y parcial. Sin costo, fácil y rápido puedes encontrar trabajo en casi 2.900+ ofertas en Santiago (provincia) y otras ciudades en República Dominicana."
                   },
                   {
-                    "title": "Noticias del Mundo - ELTIEMPO.COM",
-                    "url": "https://www.bing.com/ck/a?!&&p=b90ba41fa49c78aba9fad138b5460bccd7005fcead7cd0e63f7b9379a6aa5cd3JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=011b6764-c909-6180-01a9-7083c81f60e2&u=a1aHR0cHM6Ly93d3cuZWx0aWVtcG8uY29tL211bmRv&ntb=1",
-                    "snippet": "Todas las últimas noticias de los continentes en el Mundo. Encuentre las principales noticias de Latinoamerica, Asia, Africa, Europa …"
+                    "title": "Se necesita urgente: Santiago en Dominicana - Jooble",
+                    "url": "https://do.jooble.org/trabajo-santiago/Dominicana",
+                    "snippet": "Nuevas ofertas de trabajo para Santiago en Dominicana. Empresas confiables. Tiempo completo, medio y parcial. Sin costo, fácil y rápido puedes encontrar trabajo en casi 3.500+ ofertas en Dominicana y otras ciudades en República Dominicana."
                   },
                   {
-                    "title": "Tiempo diario en Roma, Lacio, Italia | AccuWeather",
-                    "url": "https://www.bing.com/ck/a?!&&p=dbefa9236da443e3951efae7aa228c36df217dbc7d223bb1bd6cdd2a3994b62eJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=011b6764-c909-6180-01a9-7083c81f60e2&u=a1aHR0cHM6Ly93d3cuYWNjdXdlYXRoZXIuY29tL2VzL2l0L3JvbWUvMjEzNDkwLzEwLWRheS13ZWF0aGVyLWZvcmVjYXN0LzIxMzQ5MA&ntb=1",
-                    "snippet": "Infórmese sobre el tiempo que hará con las previsiones diarias ampliadas de AccuWeather para Roma, Lacio, Italia."
+                    "title": "Now Hiring: 600 Santiago, Dominican Republic Jobs | Indeed",
+                    "url": "https://www.indeed.com/q-santiago,-dominican-republic-jobs.html",
+                    "snippet": "Browse 634 Santiago, Dominican Republic jobs. New jobs posted today. Apply now and find your next opportunity on Indeed.com."
                   },
                   {
-                    "title": "El tiempo 14 días - Meteored España",
-                    "url": "https://www.bing.com/ck/a?!&&p=9127047efb432b774ea422183a775852c9f8bffa8696ae5157e8c08b8c963a02JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=011b6764-c909-6180-01a9-7083c81f60e2&u=a1aHR0cHM6Ly93d3cudGllbXBvLmNvbS8&ntb=1",
-                    "snippet": "El tiempo en España para 14 días, predicción del tiempo por horas y condiciones actuales. Predicción del tiempo para más de …"
+                    "title": "Buscar empleo en Santiago | Computrabajo Republica Dominicana",
+                    "url": "https://do.computrabajo.com/empleos-en-santiago",
+                    "snippet": "¿Buscas trabajo en Santiago? Consulta las mejores ofertas de empleo en las mejores empresa en la bolsa de empleo líder en Santiago."
                   },
                   {
-                    "title": "Tiempo cada hora en Roma, Lacio, Italia | AccuWeather",
-                    "url": "https://www.bing.com/ck/a?!&&p=4f31d8440bc20bdae0771a25ccaf1dd563d9d018ca93c343093e3d6a20ee5126JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=011b6764-c909-6180-01a9-7083c81f60e2&u=a1aHR0cHM6Ly93d3cuYWNjdXdlYXRoZXIuY29tL2VzL2l0L3JvbWUvMjEzNDkwL2hvdXJseS13ZWF0aGVyLWZvcmVjYXN0LzIxMzQ5MA&ntb=1",
-                    "snippet": "Consiga la previsión local por hora para Roma, Lacio, Italia, incluida la temperatura, RealFeel y la probabilidad de precipitaciones."
+                    "title": "Ofertas de empleo santiago rd en República Dominicana",
+                    "url": "https://www.opcionempleo.com.do/trabajo-santiago-rd",
+                    "snippet": "Todas las ofertas de empleo y trabajo de santiago rd en República Dominicana. Opcionempleo, el motor de búsqueda de empleos."
                   },
                   {
-                    "title": "El tiempo en Roma (Lazio, Italia) para 7 días",
-                    "url": "https://www.bing.com/ck/a?!&&p=c801fbbcf3867e961db0728ec279be63627ba315c55830f818c7d0f126b4ff50JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=011b6764-c909-6180-01a9-7083c81f60e2&u=a1aHR0cHM6Ly93d3cudGllbXBvLmVzL2VsLXRpZW1wby9wYXJhLTctZGlhcy9pdGFsaWEtcm9tYS1pdDBsYTAxNTMuaHRtbA&ntb=1",
-                    "snippet": "El tiempo en Roma para 7 días. Consulta la previsión del tiempo en Roma (Lazio, Italia) para los próximos 7 días."
+                    "title": "Buscar empleo en Santiago, Santiago | Computrabajo Republica Dominicana",
+                    "url": "https://do.computrabajo.com/empleos-en-santiago-en-santiago",
+                    "snippet": "¿Buscas trabajo en Santiago, Santiago? Consulta las mejores ofertas de empleo en las mejores empresa en la bolsa de empleo líder en Santiago, Santiago."
                   },
                   {
-                    "title": "El Tiempo en Es. Predicción a 14 días - Meteored España",
-                    "url": "https://www.bing.com/ck/a?!&&p=eda34a274db6cca26b63a5e35dd99b70d94aaea8b0b7d9993152c227cf7691f9JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=011b6764-c909-6180-01a9-7083c81f60e2&u=a1aHR0cHM6Ly93d3cudGllbXBvLmNvbS9lcy5odG0&ntb=1",
-                    "snippet": "El Tiempo en Es - Previsión meteorológica para los próximos 14 días. El pronóstico del tiempo más actualizado en Es: temperatura, …"
+                    "title": "Vacantes y Empleos Disponibles en Santiago, República Dominicana (16+)",
+                    "url": "https://tunuevotrabajo.net/do/empleos-en/santiago",
+                    "snippet": "Consulta 16+ vacantes y empleos disponibles cerca de ti en Santiago, República Dominicana. Ofertas de trabajo locales actualizadas hoy con postulación direct…"
                   },
                   {
-                    "title": "El tiempo por provincia y comunidad autónoma | Eltiempo.es",
-                    "url": "https://www.bing.com/ck/a?!&&p=0ecfb33d999ee32413480f1158c8bff3890038b28769f4b22e5a6901b9d39c48JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=011b6764-c909-6180-01a9-7083c81f60e2&u=a1aHR0cHM6Ly93d3cuZWx0aWVtcG8uZXMvZXNwYW5h&ntb=1",
-                    "snippet": "30 de abr de 2026 · Conoce la previsión del tiempo por provincia y comunidad autónoma para hoy, mañana, por horas y en …"
+                    "title": "EmpleaRD — Empleos en República Dominicana | +800 Vacantes 2026",
+                    "url": "https://empleard.online/",
+                    "snippet": "EmpleaRD — Plataforma #1 de empleos en RD. +800 vacantes verificadas en las 31 provincias. Santo Domingo, Santiago, Punta Cana. Gratis, sin registro."
                   },
                   {
-                    "title": "Radar del tiempo nacional y local, pronóstico diario, huracanes e ...",
-                    "url": "https://www.bing.com/ck/a?!&&p=00bd69d548f876cb4fd347756f0f9506b84d8e66a4afa563b8da3d5b16dc10feJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=011b6764-c909-6180-01a9-7083c81f60e2&u=a1aHR0cHM6Ly93ZWF0aGVyLmNvbS9lcy1VUy8&ntb=1",
-                    "snippet": "The Weather Channel y weather.com proporcionan el pronóstico nacional y local para las ciudades, el radar del tiempo, reportes y …"
+                    "title": "Empleos en Santiago 2026 — Zonas Francas y Portales",
+                    "url": "https://www.curriculum.do/empleos-santiago",
+                    "snippet": "Empleo en Santiago de los Caballeros: zonas francas, manufactura, BPO bilingüe, banca y salud. Top empleadores y los mejores portales para aplicar."
                   }
                 ]
               },
@@ -800,63 +703,63 @@
       "external_mentions": [
         {
           "position": 1,
-          "title": "Anyone else having issues with the new myLeo? : r/tamuc - Reddit",
-          "url": "https://www.bing.com/ck/a?!&&p=2df2d8dd13ce6102e33c05dae8585f90b9db0de918ef5f43a8479a050a8efd90JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=2da89019-b91e-6749-06fd-87feb82a66f0&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL3RhbXVjL2NvbW1lbnRzLzZ3dWYwZC9hbnlvbmVfZWxzZV9oYXZpbmdfaXNzdWVzX3dpdGhfdGhlX25ld19teWxlby8&ntb=1",
-          "snippet": "29 de ago de 2017 · Anyone else having issues with the new myLeo? I try to log in, and it just stays stuck on \"Logging in, please wait\"."
+          "title": "上傳 YouTube 影片 - 電腦 - YouTube說明 - Google Help",
+          "url": "https://www.bing.com/ck/a?!&&p=77618fdeb4fae73dca28fbe7b8a43139fb1e9038d687708db48be55c87fa7f48JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZS9hbnN3ZXIvNTc0MDc_aGw9emgtSGFudCZjbz1HRU5JRS5QbGF0Zm9ybSUzRERlc2t0b3A&ntb=1",
+          "snippet": "只需幾個簡單步驟，就能輕鬆將影片上傳到 YouTube。以下說明如何透過電腦或行動裝置上傳影片。 注意：使用 YouTube 的受監護 …"
         },
         {
           "position": 2,
-          "title": "SteamUnlocked - Reddit",
-          "url": "https://www.bing.com/ck/a?!&&p=373ee09280a1b8d39a14c9e6833873252021ecca28d2f161e4af22c8699137aeJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=2da89019-b91e-6749-06fd-87feb82a66f0&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL1N0ZWFtVW5sb2NrZWQv&ntb=1",
-          "snippet": "The official subreddit for steamunlocked.net"
+          "title": "Comunidade YouTube - Google Help",
+          "url": "https://www.bing.com/ck/a?!&&p=255db69450b316b76269210583fbd5c8378845f4c4512cf44fdd66308bb9fa92JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZS9jb21tdW5pdHk_aGw9cHQtQlI&ntb=1",
+          "snippet": "37 respostas Sobre o programa Colaboradores do YouTube Atualizações de @TeamYouTube Experimentos Sobre a comunidade …"
         },
         {
           "position": 3,
-          "title": "pipersrockelle - Reddit",
-          "url": "https://www.bing.com/ck/a?!&&p=7b48fb999dd091e11436d93734554d0acab023849b07f3c0d916bbcd7d9f3af0JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=2da89019-b91e-6749-06fd-87feb82a66f0&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL3BpcGVyc3JvY2tlbGxlLw&ntb=1",
-          "snippet": "r/pipersrockelle members online Create a post FeedAbout Hot Open sort options Hot New Top Rising Change post view Card …"
+          "title": "youtube | OBS Forums",
+          "url": "https://www.bing.com/ck/a?!&&p=4414a9ac05280c8389a7b59acb49d4442ecf344f41f4e206b4107571e459389bJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9vYnNwcm9qZWN0LmNvbS9mb3J1bS90YWdzL3lvdXR1YmUv&ntb=1",
+          "snippet": "15 de abr de 2026 · Bitrate lowering and rising randomly whilst streaming I've been streaming on YouTube, and the bitrate keeps …"
         },
         {
           "position": 4,
-          "title": "FamilyNudists - Reddit",
-          "url": "https://www.bing.com/ck/a?!&&p=92c7ca3524e314d4ec7bac4648b9436fdae452ab2cca8d106a5ddb33979654a9JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=2da89019-b91e-6749-06fd-87feb82a66f0&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL0ZhbWlseU51ZGlzdHMvYWJvdXQv&ntb=1",
-          "snippet": "A new home on Reddit for families who enjoy the clothes-free life together. Sponsored by the Nudist Nation social network …"
+          "title": "Displaying YouTube LiveChat Comments on Stream - OBS",
+          "url": "https://www.bing.com/ck/a?!&&p=26c28d0c481b7be27505055cefe351071ce27cabb60c5d32d7c4ff36240f6fc0JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9vYnNwcm9qZWN0LmNvbS9mb3J1bS90aHJlYWRzL2Rpc3BsYXlpbmcteW91dHViZS1saXZlY2hhdC1jb21tZW50cy1vbi1zdHJlYW0td2l0aG91dC1zdHJlYW15YXJkLWZyZWUuMTQ0ODk3Lw&ntb=1",
+          "snippet": "11 de jun de 2021 · Displaying and selecting youtube stream comments in your stream is a pretty simple task. Although, this feature …"
         },
         {
           "position": 5,
-          "title": "Myleo proliferate disease : r/Peterborough - Reddit",
-          "url": "https://www.bing.com/ck/a?!&&p=a0fdd160b70ef8563031a6cf04364dc8fd22024a29c25a9053d483f1586502bbJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=2da89019-b91e-6749-06fd-87feb82a66f0&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL1BldGVyYm9yb3VnaC9jb21tZW50cy8xMmlwMGc1L215bGVvX3Byb2xpZmVyYXRlX2Rpc2Vhc2Uv&ntb=1",
-          "snippet": "11 de abr de 2023 · I know someone who has Myleo proliferate disease which results in a very painful foot issue. No doctor here …"
+          "title": "YouTube-video's uploaden - Computer - YouTube Help - Google Help",
+          "url": "https://www.bing.com/ck/a?!&&p=3c78e79868e23ced79719e6355e51d3fa37333f619770e57fffdf5dbb02b0f93JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZS9hbnN3ZXIvNTc0MDc_aGw9bmwmY289R0VOSUUuUGxhdGZvcm0lM0REZXNrdG9w&ntb=1",
+          "snippet": "Je kunt video's in een paar eenvoudige stappen uploaden naar YouTube. Volg de instructies hieronder om je video's te uploaden …"
         },
         {
           "position": 6,
-          "title": "all subreddits • r/all",
-          "url": "https://www.bing.com/ck/a?!&&p=46f8c5587b45fe5c538f6917159f55b9947e479382d621bf73d1e5511a9967e6JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=2da89019-b91e-6749-06fd-87feb82a66f0&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL2FsbC1kby8&ntb=1",
-          "snippet": "Reddit gives you the best of the internet in one place. Get a constantly updating feed of breaking news, fun stories, pics, memes, and …"
+          "title": "YouTube Trợ giúp",
+          "url": "https://www.bing.com/ck/a?!&&p=d02738ecf439fb8fde17caea0c74878ff6304f77f5c2ae62ff84bb43307ccd49JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZS8_aGw9dmk&ntb=1",
+          "snippet": "Trung tâm Trợ giúp YouTube chính thức, nơi bạn có thể tìm thấy các mẹo và hướng dẫn sử dụng sản phẩm và các câu trả lời khác …"
         },
         {
           "position": 7,
-          "title": "FitGirl Repacks - Reddit",
-          "url": "https://www.bing.com/ck/a?!&&p=ef0fd5f231232dd928df29b12aeb023277658be07f35b095ae5eb2c662b1821aJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=2da89019-b91e-6749-06fd-87feb82a66f0&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL0ZpdEdpcmxSZXBhY2sv&ntb=1",
-          "snippet": "r/FitGirlRepack: A sub to talk about new repacks, game news, and new warez releases! *Official FitGirl Website:*…"
+          "title": "Βοήθεια YouTube",
+          "url": "https://www.bing.com/ck/a?!&&p=f0d45e7b7c4b87cbcc24966b12164bdfc56912a4d42905be5a52c182a02b5cd9JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZS8_aGw9ZWw&ntb=1",
+          "snippet": "Επίσημο Κέντρο βοήθειας του YouTube, όπου μπορείτε να βρείτε συμβουλές και οδηγούς σχετικά με τη χρήση του προϊόντος και …"
         },
         {
           "position": 8,
-          "title": "PokemonZTheFangame - Reddit",
-          "url": "https://www.bing.com/ck/a?!&&p=1b32909f85d0d8a1b099205621762435091df7da1bfb6dd60d5619fe571842e2JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=2da89019-b91e-6749-06fd-87feb82a66f0&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL1Bva2Vtb25aVGhlRmFuZ2FtZS9yaXNpbmcv&ntb=1",
-          "snippet": "When your loved one unwraps the gift you searched high and low at JCPenney for, they won’t know how much you spent. Or where …"
+          "title": "Manage your home area or current location for YouTube TV",
+          "url": "https://www.bing.com/ck/a?!&&p=9af6aef7be992bbd7b2b4db31f084b8febbb13c4933c9d9b529ed0573de413e4JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZXR2L2Fuc3dlci83MTI5NzY4P2hsPWVuJmNvPUdFTklFLlBsYXRmb3JtJTNERGVza3RvcA&ntb=1",
+          "snippet": "When you sign up for YouTube TV, we’ll ask you to share your home zip code. We may also ask you to verify your area location via …"
         },
         {
           "position": 9,
-          "title": "What is this? Got this text today, don't know who ATH is",
-          "url": "https://www.bing.com/ck/a?!&&p=0324d0bfdd906fcb83d850b40fc7e41a7db8925a0883f9d5380b9b9b2f8ee8eaJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=2da89019-b91e-6749-06fd-87feb82a66f0&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL1NjYW1zL2NvbW1lbnRzLzFjY3dpODgvd2hhdF9pc190aGlzX2dvdF90aGlzX3RleHRfdG9kYXlfZG9udF9rbm93X3doby8&ntb=1",
-          "snippet": "Got this text today. Have no idea who it's from or what it is. I removed the 1st couple words as it had my name."
+          "title": "Ayuda de YouTube",
+          "url": "https://www.bing.com/ck/a?!&&p=63b78efa23b7b1d186e1f6fd6a3b149beb45ed387b13b4a2d7431ff9eb914033JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZS8_aGw9ZXM&ntb=1",
+          "snippet": "Centro de asistencia oficial de YouTube donde puedes encontrar sugerencias y tutoriales para aprender a utilizar el producto y …"
         },
         {
           "position": 10,
-          "title": "r/StockMarket - Reddit's Front Page of the Stock Market",
-          "url": "https://www.bing.com/ck/a?!&&p=2710ba6ad28d242aa0cdd2f56e16d2ad6f2979123a3f458dc5e36164ce898e9eJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=2da89019-b91e-6749-06fd-87feb82a66f0&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL1N0b2NrTWFya2V0Lw&ntb=1",
-          "snippet": "Welcome to /r/StockMarket! Our objective is to provide short and mid term trade ideas, market analysis & commentary for active …"
+          "title": "Gerenciar configurações do canal - Ajuda do YouTube",
+          "url": "https://www.bing.com/ck/a?!&&p=66a48df17a38252d12d0c0a9e50c747202a332c53d6569c24edc587b14fcc0c0JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=12142e25-1d8c-6eed-2808-39c21ca16fed&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZS9hbnN3ZXIvMjk3NjgxND9obD1wdC1CUg&ntb=1",
+          "snippet": "Gerenciar configurações do canal Você pode gerenciar as configurações do seu canal no YouTube Studio. É possível mudar desde …"
         }
       ]
     },
@@ -869,7 +772,7 @@
           "requested_url": "https://andaluztarija.com",
           "final_url": "https://andaluztarija.com/",
           "http_status": 200,
-          "response_ms": 389,
+          "response_ms": 390,
           "https": true,
           "content_type": "text/html; charset=UTF-8",
           "content_bytes": 1020,
@@ -926,10 +829,19 @@
         "ok": true,
         "data": {
           "domain": "andaluztarija.com",
-          "discovered_candidates": 0,
-          "confirmed_backlinks": 0,
-          "referring_domains_confirmed": 0,
-          "backlinks": [],
+          "discovered_candidates": 10,
+          "confirmed_backlinks": 1,
+          "referring_domains_confirmed": 1,
+          "backlinks": [
+            {
+              "source_url": "https://www.scamadviser.com/check-website/andaluztarija.com",
+              "target_url": "http://andaluztarija.com/?utm_medium=Scamadviser.com&utm_campaign=Scamadviser.com",
+              "anchor": "VISIT",
+              "rel": "noopener noreferrer",
+              "follow": true,
+              "http_status": 200
+            }
+          ],
           "evidence": "CONFIRMED_BY_FETCHING_SOURCE_PAGES",
           "coverage": "PARTIAL_DISCOVERY_NOT_A_FULL_WEB_LINK_INDEX",
           "note": "Le compteur est un minimum confirmé, pas le total absolu du Web."
@@ -945,63 +857,45 @@
           "results": [
             {
               "position": 1,
-              "title": "Mercados financieros: noticias, análisis, videos y más | CNN en Español ...",
-              "url": "https://www.bing.com/ck/a?!&&p=8e3f2e74ec3d9f0cccc8642086bb956c76cf00627864c3289b410748f1b38e2eJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3146b907-dc4d-6980-2aa9-aee0dd9068b0&u=a1aHR0cHM6Ly9jbm5lc3Bhbm9sLmNubi5jb20vZWNvbm9taWEvbWVyY2Fkb3MtZmluYW5jaWVyb3Mv&ntb=1",
-              "snippet": "17 de ago de 2020 · Última hora y noticias sobre los mercados financieros internacionales, su evolución y más. Actualidad, análisis y …"
+              "title": "Acceso Mi cuenta: Facturas, gestiones y pedidos - Movistar",
+              "url": "https://www.bing.com/ck/a?!&&p=27cdf2b4898b4151478cef3a0d5bbe5042436ece81c5612cad3ad0f6ac6e891dJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1bb8bedf-c174-69af-0b57-a938c02c68bb&u=a1aHR0cHM6Ly93d3cubW92aXN0YXIuZXMvYXJlYS1jbGllbnRlL21pLWN1ZW50YS8&ntb=1",
+              "snippet": "Consulta el detalle de tus facturas en cualquier momento y descárgalas cuando lo necesites. Revisa los cargos, fechas de pago y …"
             },
             {
               "position": 2,
-              "title": "Últimas noticias de Estados Unidos, Latinoamérica y el mundo, hoy",
-              "url": "https://www.bing.com/ck/a?!&&p=adfd8b383675f8c63cf18e54d3e5d30d24cc0412042a5717ca60b5a9e466497eJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3146b907-dc4d-6980-2aa9-aee0dd9068b0&u=a1aHR0cHM6Ly9jbm5lc3Bhbm9sLmNubi5jb20v&ntb=1",
-              "snippet": "Últimas noticias y actualidad de Estados Unidos, Latinoamérica y el mundo sobre política, economía, salud, deporte y entretenimiento."
+              "title": "Procesos Autogestion - Movistar",
+              "url": "https://www.bing.com/ck/a?!&&p=caa722d0c39175e22e9d17a02e8d2b190766bc3a1323d5d2bde2ae9e4300eda1JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1bb8bedf-c174-69af-0b57-a938c02c68bb&u=a1aHR0cHM6Ly93d3cubW92aXN0YXIuY29tLmNvL3Byb2Nlc29zLWF1dG9nZXN0aW9u&ntb=1",
+              "snippet": "Ingresa a Mi Movistar aquí y accede con tu correo electrónico. Busca el producto a pagar y selecciónalo. Completa los datos y elige …"
             },
             {
               "position": 3,
-              "title": "Empresas: noticias, análisis, videos y más - CNN en Español",
-              "url": "https://www.bing.com/ck/a?!&&p=9e5bebaed9b239a79aaf9a06b201d48a182dfabf6f5caf738739c25eae14b661JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3146b907-dc4d-6980-2aa9-aee0dd9068b0&u=a1aHR0cHM6Ly9jbm5lc3Bhbm9sLmNubi5jb20vZWNvbm9taWEvZW1wcmVzYXMv&ntb=1",
-              "snippet": "Última hora y noticias sobre empresas en el mundo. Análisis, actualidad y videos"
+              "title": "Ayuda al cliente y Teléfono - Movistar",
+              "url": "https://www.bing.com/ck/a?!&&p=1f1241452a88871a57c7aa8d6fdc73733c7381681fd79911532ca156d064d9f9JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1bb8bedf-c174-69af-0b57-a938c02c68bb&u=a1aHR0cHM6Ly93d3cubW92aXN0YXIuZXMvYXRlbmNpb24tY2xpZW50ZS9heXVkYQ&ntb=1",
+              "snippet": "Nuestros teléfonos Movistar para nuevas altas y atención comercial a clientes. También tienes disponibles otros teléfonos de ayuda …"
             },
             {
               "position": 4,
-              "title": "Por qué pareciera que están cerrando todas las cadenas de Estados ...",
-              "url": "https://www.bing.com/ck/a?!&&p=a2f11196426708fc590e2d7aa9db5ce257343225a5f952fc594ac442a6d5459fJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3146b907-dc4d-6980-2aa9-aee0dd9068b0&u=a1aHR0cHM6Ly9jbm5lc3Bhbm9sLmNubi5jb20vMjAyNS8wMS8wMi9lc3RhZG9zLXVuaWRvcy9jaWVycmUtY2FkZW5hcy1lc3RhZG9zLXVuaWRvcy10cmF4&ntb=1",
-              "snippet": "2 de ene de 2025 · El apocalipsis de las tiendas minoristas regresó con fuerza en 2024."
+              "title": "Atención al cliente Movistar: Soporte y ayuda | Movistar México",
+              "url": "https://www.bing.com/ck/a?!&&p=5499aa83e02a965c3a1cde40cef8d160fd21d0d9f6d46adf7b9e9794cfaff0faJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1bb8bedf-c174-69af-0b57-a938c02c68bb&u=a1aHR0cHM6Ly93d3cubW92aXN0YXIuY29tLm14L2F0ZW5jaW9uLWFsLWNsaWVudGU&ntb=1",
+              "snippet": "Encuentra respuestas a tus dudas sobre facturación, recargas, configuración y más. Contacta a nuestro equipo de soporte por WA o …"
             },
             {
               "position": 5,
-              "title": "¿Qué ocurre en Nicaragua? Claves para entender la reforma del Seguro ...",
-              "url": "https://www.bing.com/ck/a?!&&p=5bef95f753bbb1a5d8689e10144a5869486bc66c6d5cba76032918af6877a0d3JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3146b907-dc4d-6980-2aa9-aee0dd9068b0&u=a1aHR0cHM6Ly9jbm5lc3Bhbm9sLmNubi5jb20vMjAxOC8wNC8yMC90cmVzLW11ZXJ0b3MtcG9yLXByb3Rlc3Rhcy1lbi1uaWNhcmFndWEtcXVlLW9jdXJyZS1jbGF2ZXMtcGFyYS1lbnRlbmRlci1sYS1yZWZvcm1hLWRlbC1zZWd1cm8tc29jaWFsLw&ntb=1",
-              "snippet": "20 de abr de 2018 · Nicaragua lleva desde el miércoles sumida en protestas populares contra la reforma del Seguro Social en el …"
+              "title": "(2) Atención al cliente Movistar – Preguntas frecuentes",
+              "url": "https://www.bing.com/ck/a?!&&p=507879d0ce104124197729d99719d27bd0921a260d1ca70db73aa5d7aef27e30JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1bb8bedf-c174-69af-0b57-a938c02c68bb&u=a1aHR0cHM6Ly9hdGVuY2lvbmFsY2xpZW50ZS5tb3Zpc3Rhci5jbC8&ntb=1",
+              "snippet": "Puedes escribirnos de lunes a domingo entre las 08:00 y las 00:00 horas. Suscríbete y resuelve todas las dudas que tengas …"
             },
             {
               "position": 6,
-              "title": "Comercio, inversiones, obras: esta es la presencia de China que crece ...",
-              "url": "https://www.bing.com/ck/a?!&&p=3f9ac640185cb9b2262ad469bbb16a99750a9bed20636a1f69ba8dc752caf2ddJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3146b907-dc4d-6980-2aa9-aee0dd9068b0&u=a1aHR0cHM6Ly9jbm5lc3Bhbm9sLmNubi5jb20vMjAyNi8wMy8wNi9sYXRpbm9hbWVyaWNhL2NoaW5hLWFtZXJpY2EtbGF0aW5hLXByZXNlbmNpYS1wcmVzaW9uLWVldXUtdHJ1bXAtb3JpeA&ntb=1",
-              "snippet": "6 de mar de 2026 · El puerto más grande de Sudamérica nació hace menos de año y medio, está en Perú y en su creación jugó un …"
+              "title": "Ayuda y Soporte | Movistar Argentina",
+              "url": "https://www.bing.com/ck/a?!&&p=a9efa309e48582b8f725299788e313dfc15c72746b21d9af503b0206a113209fJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1bb8bedf-c174-69af-0b57-a938c02c68bb&u=a1aHR0cHM6Ly9heXVkYS5tb3Zpc3Rhci5jb20uYXIv&ntb=1",
+              "snippet": "Encontrá información de ayuda sobre nuestros servicios y atencion al cliente. Resolvé dudas sobre tus facturas, pagos y reclamos."
             },
             {
               "position": 7,
-              "title": "Economía de Estados Unidos: noticias, análisis, videos y más | CNN en ...",
-              "url": "https://www.bing.com/ck/a?!&&p=bbd34f0a1427595634e005ab7a429c22a8e257224645e48feeaedc971c43bf94JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3146b907-dc4d-6980-2aa9-aee0dd9068b0&u=a1aHR0cHM6Ly9jbm5lc3Bhbm9sLmNubi5jb20vZWNvbm9taWEvZWNvbm9taWEtZXN0YWRvcy11bmlkb3M&ntb=1",
-              "snippet": "10 de abr de 2025 · Última hora y noticias sobre la economía de Estados Unidos y su situación. Análisis, actualidad y videos"
-            },
-            {
-              "position": 8,
-              "title": "Noticias de economía y dinero hoy: última hora de mercados, el dólar y ...",
-              "url": "https://www.bing.com/ck/a?!&&p=40f7ef2b02df5e827862e8a313bd968a77e25e35ef1ee6dcd53ead9c48482588JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3146b907-dc4d-6980-2aa9-aee0dd9068b0&u=a1aHR0cHM6Ly9jbm5lc3Bhbm9sLmNubi5jb20vZWNvbm9taWE&ntb=1",
-              "snippet": "1 de ene de 2024 · Última hora y noticias de Economía y dinero. Actualidad, análisis y videos sobre mercados, empresas, el dólar y …"
-            },
-            {
-              "position": 9,
-              "title": "Resumen de noticias de la guerra de EE.UU. e Israel con Irán del 3 de ...",
-              "url": "https://www.bing.com/ck/a?!&&p=b9d14524f71922432d684376d5caec85d884459a3ea29c7da7cf27af73edf2ceJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3146b907-dc4d-6980-2aa9-aee0dd9068b0&u=a1aHR0cHM6Ly9jbm5lc3Bhbm9sLmNubi5jb20vMjAyNi8wNi8wMy9tdW5kby9saXZlLW5ld3MvZ3VlcnJhLWlyYW4tZWV1dS1pc3JhZWwtZW4tdml2by1saWJhbm8tMi10cmF4&ntb=1",
-              "snippet": "3 de jun de 2026 · En uno de los intercambios de disparos más serios desde que comenzó la tregua, Irán lanzó misiles contra …"
-            },
-            {
-              "position": 10,
-              "title": "Resumen de noticias de la guerra de Estados Unidos con Irán del 23 de ...",
-              "url": "https://www.bing.com/ck/a?!&&p=9e14d07ebfa3cbe106c65718ccdad7b50b8c5a6e72e0bb6558ccad9726b3fc38JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3146b907-dc4d-6980-2aa9-aee0dd9068b0&u=a1aHR0cHM6Ly9jbm5lc3Bhbm9sLmNubi5jb20vMjAyNi8wNy8yMy9tdW5kby9saXZlLW5ld3MvZ3VlcnJhLWVlLXV1LWlzcmFlbC1pcmFuLWVuLXZpdm8tYXRhcXVlcy1ub3RpY2lhcy01LXRyYXg&ntb=1",
-              "snippet": "23 de jul de 2026 · Las Fuerzas de Estados Unidos realizaron nuevos ataques contra Irán mientras ambas partes intercambiaban …"
+              "title": "(2) Facturación y pagos – Atención al cliente Movistar",
+              "url": "https://www.bing.com/ck/a?!&&p=d61febd6fddf319005ca27d59ab76fe3ca9e7b9b0b5bdb722d2f97a119c2f56cJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1bb8bedf-c174-69af-0b57-a938c02c68bb&u=a1aHR0cHM6Ly9hdGVuY2lvbmFsY2xpZW50ZS5tb3Zpc3Rhci5jbC9mYWN0dXJhY2lvbi15LXBhZ29zLw&ntb=1",
+              "snippet": "Categoria: Facturación y pagos ¿En qué consiste el cobro por reposición de servicios? Movistar está facultado para cortar tu …"
             }
           ],
           "evidence": "VERIFIED_FALLBACK_SERP_NOT_GOOGLE"
@@ -1017,15 +911,63 @@
           "results": [
             {
               "position": 1,
-              "title": "Microsoft Community",
-              "url": "https://www.bing.com/ck/a?!&&p=75a1d02599e379a455923c5ca9a6d0b2f55669f86649436cf5a4cdbdea405a72JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3ddeb3a3-13b7-66d0-21c4-a44412d367db&u=a1aHR0cHM6Ly93d3cuYW5zd2Vycy5taWNyb3NvZnQuY29tL2VzLWVzL3dpbmRvd3MvZm9ydW0vYWxsL3RlbmdvLXByb2JsZW1hcy1jb24td2luZG93cy1pbnN0YWxlbGVyLw&ntb=1",
-              "snippet": "Microsoft Community"
+              "title": "Yahoo Finance - Stock Market Live, Quotes, Business & Finance News",
+              "url": "https://www.bing.com/ck/a?!&&p=df9fb5a49ea75c6b5a60e033bdd7c163cb5df8885a89717e88354ba8b2bf528eJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=38f046d4-2d76-6c1f-10b1-51332c336d01&u=a1aHR0cHM6Ly9maW5hbmNlLnlhaG9vLmNvbS8&ntb=1",
+              "snippet": "25 de mar de 2022 · At Yahoo Finance, you get free stock quotes, up-to-date news, portfolio management resources, international …"
             },
             {
               "position": 2,
-              "title": "Microsoft Community",
-              "url": "https://www.bing.com/ck/a?!&&p=e16ce9c4f07b50bafe4e649acc34c4b239f2928926afa4c5beee4f550d441e46JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3ddeb3a3-13b7-66d0-21c4-a44412d367db&u=a1aHR0cHM6Ly93d3cuYW5zd2Vycy5taWNyb3NvZnQuY29tL2VuLXVzL3dpbmRvd3MvZm9ydW0vYWxsL2tiOTc4NjAxLWFuZC1rYjk3OTMwOS11cGRhdGUtZmFpbGVkLWVycm9yLWNvZGUv&ntb=1",
-              "snippet": "Microsoft Community"
+              "title": "MarketWatch: Stock Market News - Financial News",
+              "url": "https://www.bing.com/ck/a?!&&p=8ccca21a7cfe006584d7b383396046246f6970ed86be9fd3ba9c21020cb0de47JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=38f046d4-2d76-6c1f-10b1-51332c336d01&u=a1aHR0cHM6Ly93d3cubWFya2V0d2F0Y2guY29tLw&ntb=1",
+              "snippet": "MarketWatch provides the latest stock market, financial and business news. Get stock market quotes, personal finance advice, …"
+            },
+            {
+              "position": 3,
+              "title": "Stock Market Prices, Real-time Quotes & Business News - Google",
+              "url": "https://www.bing.com/ck/a?!&&p=bd3af8beae2f58c50c0dd266d89e4726c2c0f1f9ee8c3d797bf50ee4c4ea520bJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=38f046d4-2d76-6c1f-10b1-51332c336d01&u=a1aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9maW5hbmNlLw&ntb=1",
+              "snippet": "Google Finance provides real-time market quotes, international stock information, financial news, currency conversion rates, and …"
+            },
+            {
+              "position": 4,
+              "title": "Stock Market Data – US Markets, World Markets, and Stock Quotes",
+              "url": "https://www.bing.com/ck/a?!&&p=833774cef5a415d32f82a53fe755b4c095798700604550c2de251d20403cd2a1JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=38f046d4-2d76-6c1f-10b1-51332c336d01&u=a1aHR0cHM6Ly93d3cuY25uLmNvbS9tYXJrZXRz&ntb=1",
+              "snippet": "Stock market data coverage from CNN. View US markets, world markets, after hours trading, quotes, and other important stock …"
+            },
+            {
+              "position": 5,
+              "title": "Market Data Center - MarketWatch",
+              "url": "https://www.bing.com/ck/a?!&&p=dbc44e4c89c5056818008f16647fae0bbf33858ca494473a087c1aa145b04397JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=38f046d4-2d76-6c1f-10b1-51332c336d01&u=a1aHR0cHM6Ly93d3cubWFya2V0d2F0Y2guY29tL21hcmtldC1kYXRh&ntb=1",
+              "snippet": "View the MarketWatch summary of the U.S., Europe and Asia stock markets, currencies, cryptocurrencies, rates and futures."
+            },
+            {
+              "position": 6,
+              "title": "Markets: Indexes, Bonds, Forex, Key Commodities, ETFs - CNBC",
+              "url": "https://www.bing.com/ck/a?!&&p=9ec4bc42f71b8e8d56256257ef164b41ff12611cb0959111d008eb50a6ecf3e4JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=38f046d4-2d76-6c1f-10b1-51332c336d01&u=a1aHR0cHM6Ly93d3cuY25iYy5jb20vbWFya2V0cy8_bXNvY2tpZD0zOGYwNDZkNDJkNzY2YzFmMTBiMTUxMzMyYzMzNmQwMQ&ntb=1",
+              "snippet": "View up-to-date U.S. market and world market charts. Get the latest on world economy news and global markets in our Market …"
+            },
+            {
+              "position": 7,
+              "title": "U.S Stock Market | U.S Financial Markets - Investing.com",
+              "url": "https://www.bing.com/ck/a?!&&p=4ef13dd86e9cc91b285fa21adeafdd7f90f9037304906e1021d0e7ec199a6359JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=38f046d4-2d76-6c1f-10b1-51332c336d01&u=a1aHR0cHM6Ly93d3cuaW52ZXN0aW5nLmNvbS9tYXJrZXRzL3VuaXRlZC1zdGF0ZXM&ntb=1",
+              "snippet": "Current data on the financial markets for United States, including major and sector indices and their components, leading stocks, …"
+            },
+            {
+              "position": 8,
+              "title": "Stock market today: Dow, S&P 500, Nasdaq rally for 3rd day as Fed …",
+              "url": "https://www.bing.com/ck/a?!&&p=258dda997bcb981d11787eb751fd95db9b6f6340f20f3f7c7b8169b74b027a2cJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=38f046d4-2d76-6c1f-10b1-51332c336d01&u=a1aHR0cHM6Ly9maW5hbmNlLnlhaG9vLmNvbS9uZXdzL2xpdmUvc3RvY2stbWFya2V0LXRvZGF5LWRvdy1zcC01MDAtbmFzZGFxLXJhbGx5LWZvci0zcmQtZGF5LWFzLWZlZC1yYXRlLWN1dC1ob3Blcy1ncm93LWFwcGxlLWFuZC1hbHBoYWJldC1ub3RjaC1yZWNvcmRzLTIxMDAxOTMwMi5odG1s&ntb=1",
+              "snippet": "25 de nov de 2025 · US stocks ended sharply higher Tuesday, building on a broad rebound fueled by growing optimism that the …"
+            },
+            {
+              "position": 9,
+              "title": "Stock market news for Sept. 26, 2025 - CNBC",
+              "url": "https://www.bing.com/ck/a?!&&p=1bb1c3af4bdbc3081e28d34d41e557f233cd2f22e5e6805e6deafefbbe88aa73JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=38f046d4-2d76-6c1f-10b1-51332c336d01&u=a1aHR0cHM6Ly93d3cuY25iYy5jb20vMjAyNS8wOS8yNS9zdG9jay1tYXJrZXQtdG9kYXktbGl2ZS11cGRhdGVzLmh0bWw_bXNvY2tpZD0zOGYwNDZkNDJkNzY2YzFmMTBiMTUxMzMyYzMzNmQwMQ&ntb=1",
+              "snippet": "25 de sept de 2025 · Stocks have surged to new heights this month, with the S&P 500 having scored a new all-time intraday and …"
+            },
+            {
+              "position": 10,
+              "title": "Investing.com - Stock Market Quotes & Financial News",
+              "url": "https://www.bing.com/ck/a?!&&p=fce118d2448ba7d18a81fb194658582f0efd3cf22a574dbe4da5cfdd4fb71cb1JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=38f046d4-2d76-6c1f-10b1-51332c336d01&u=a1aHR0cHM6Ly93d3cuaW52ZXN0aW5nLmNvbS8&ntb=1",
+              "snippet": "Real-time quotes, charts, news & tools from Investing.com. Get AI analysis & premium data with InvestingPro to uncover strategic …"
             }
           ],
           "evidence": "VERIFIED_FALLBACK_SERP_NOT_GOOGLE"
@@ -1056,59 +998,59 @@
                 "noticias tarija en vivo facebook"
               ],
               "serp": {
-                "source": "bing_live_html_fallback",
+                "source": "duckduckgo_fallback",
                 "partial": true,
                 "note": "Google returned 200, 0 parsed results",
                 "results": [
                   {
-                    "title": "Google Noticias",
-                    "url": "https://www.bing.com/ck/a?!&&p=edf5a702641aa787a8c9fe04ed9f2f9ee8a1863bd98385cf7875ec2625684199JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=2255b0f1-7c1b-6adf-0c17-a7167d0c6ba0&u=a1aHR0cHM6Ly9uZXdzLmdvb2dsZS5jb20vP2hsPWVz&ntb=1",
-                    "snippet": "Amplia cobertura actualizada de noticias, agregada a partir de fuentes de noticias de todo el mundo por Google Noticias"
+                    "title": "La Voz de Tarija",
+                    "url": "https://lavozdetarija.com/",
+                    "snippet": "El presidente del Colegio de Abogados de Tarija, Fernando Valverde, se refirió a las últimas noticias relacionadas con el ámbito judicial y político del país y señaló que esta situación vuelve a poner en evidencia la necesidad de una reestructuración de la justicia boliviana. Valverde ..."
                   },
                   {
-                    "title": "Google Noticias",
-                    "url": "https://www.bing.com/ck/a?!&&p=503bc8e9704faf4d6741d59d736a0192cd20ef6d59a004e88abc31fb2281c5afJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=2255b0f1-7c1b-6adf-0c17-a7167d0c6ba0&u=a1aHR0cHM6Ly9uZXdzLmdvb2dsZS5jb20vP2hsPWVzJm5lZD1lc19teA&ntb=1",
-                    "snippet": "Amplia cobertura actualizada de noticias, agregada a partir de fuentes de noticias de todo el mundo por Google Noticias"
+                    "title": "El País » Noticias de Tarija, Bolivia y el mundo",
+                    "url": "https://elpais.bo/",
+                    "snippet": "Infórmate con el mejor análisis político, la crónica deportiva del momento, y todo sobre el entretenimiento y la cultura."
                   },
                   {
-                    "title": "Noticias Telemundo: Últimas noticias en español de Estados Unidos y …",
-                    "url": "https://www.bing.com/ck/a?!&&p=bf91ca6b887761babab2fd094ca3b981146bd6de4e46b0e68d6d132ba5137853JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=2255b0f1-7c1b-6adf-0c17-a7167d0c6ba0&u=a1aHR0cHM6Ly93d3cudGVsZW11bmRvLmNvbS9ub3RpY2lhcw&ntb=1",
-                    "snippet": "Sitio oficial de Noticias Telemundo: las noticias de última hora en español de EE.UU., México, Latinoamérica y el mundo. …"
+                    "title": "Noticias El Periódico Tarija | Noticias de Tarija y del sur del país",
+                    "url": "https://elperiodico.com.bo/",
+                    "snippet": "El Periódico es un medio de comunicación impreso y digital, que informa diariamente sobre los sucesos que acontecen en Tarija, Bolivia y el mundo. El Periódico es parte de BOLINFO Y VISIÓN, una multimedia que incluye canales televisivos y difusoras radiales en el Departamento de Tarija, que tiene como misión brindarle información veraz."
                   },
                   {
-                    "title": "Últimas noticias de Estados Unidos, Latinoamérica y el mundo, hoy",
-                    "url": "https://www.bing.com/ck/a?!&&p=77b11a66639eaa0842d5c1500f4013f291f95ff7a6ef6743ecf89412a58d3f4fJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=2255b0f1-7c1b-6adf-0c17-a7167d0c6ba0&u=a1aHR0cHM6Ly9jbm5lc3Bhbm9sLmNubi5jb20v&ntb=1",
-                    "snippet": "Últimas hora y noticias recientes de Estados Unidos, México, Colombia, Argentina, Latinoamérica y el mundo. Actualidad de hoy …"
+                    "title": "Noticias de Tarija y Bolivia - El Andaluz",
+                    "url": "https://elandaluz.com.bo/",
+                    "snippet": "Agencias/El Andaluz La producción de frutilla se consolida como una alternativa para generar ingresos y dinamizar la economía de las familias del área rural de Tarija. En Tolomosa, productores mostraron el potencial alcanzado por este cultivo, en una actividad que contó con la participación y el respaldo del Gobierno Municipal de Tarija."
                   },
                   {
-                    "title": "Últimas noticias: la última hora de hoy en EL PAÍS",
-                    "url": "https://www.bing.com/ck/a?!&&p=703229bb192ed84971a3bcaff740d81543516c0f39c451dc712590d7da7a1715JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=2255b0f1-7c1b-6adf-0c17-a7167d0c6ba0&u=a1aHR0cHM6Ly9lbHBhaXMuY29tL3VsdGltYXMtbm90aWNpYXMv&ntb=1",
-                    "snippet": "Hace 4 horas · Consulta las últimas noticias de actualidad al minuto y la última hora de España, México, América y el mundo en EL …"
+                    "title": "Tarija Noticias",
+                    "url": "https://tarijanoticias.com.bo/",
+                    "snippet": "Yacuiba se moviliza por la crisis de salud y reclama 280 ítems para cubrir el déficit de personal Torres va al diálogo con la Gobernación de Tarija y descarta aplicar débitos automáticos por los recursos del 1% Delgado observa retrasos en la entrega del POA departamental y pide explicaciones a la Gobernación El transporte tarijeño se ..."
                   },
                   {
-                    "title": "Noticias, la última hora de España y el mundo - RTVE.es",
-                    "url": "https://www.bing.com/ck/a?!&&p=460146b16e55cda980dcc7a58cc26c45579ea79366f4e6dc931e18d7c8a146f9JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=2255b0f1-7c1b-6adf-0c17-a7167d0c6ba0&u=a1aHR0cHM6Ly93d3cucnR2ZS5lcy9ub3RpY2lhcy8&ntb=1",
-                    "snippet": "Noticias de última hora en España y el mundo. Toda la actualidad y las últimas noticias nacionales e internacionales aquí, en RTVE.es"
+                    "title": "TARIJA 200 | Diario libre: Noticias de Tarija, Bolivia y el Mundo Tarija",
+                    "url": "https://www.tarija200.com/category/tarija",
+                    "snippet": "TARIJA 200 | Diario abierto, libre, plural y tuyo: Noticias de Tarija, Bolivia y el Mundo con información útil para el desarrollo sostenible, el progreso económico, el bienestar social y el cuidado del planeta. Comprometidos con la sostenibilidad, el desarrollo y la libertad."
                   },
                   {
-                    "title": "N+ Univision | Noticias en Vivo, Última Hora y Cobertura Minuto a ...",
-                    "url": "https://www.bing.com/ck/a?!&&p=2e881be46456b61ebf2b561f874f7def7c6fba86efd035aa780445499b418c27JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=2255b0f1-7c1b-6adf-0c17-a7167d0c6ba0&u=a1aHR0cHM6Ly93d3cudW5pdmlzaW9uLmNvbS9ub3RpY2lhcw&ntb=1",
-                    "snippet": "17 de may de 2013 · Sigue las últimas noticias de hoy en N+ Univision. Información en vivo sobre inmigración, política, sucesos de …"
+                    "title": "EL PORTAL DE NOTICIAS EN TARIJA - Actualizando Tarija",
+                    "url": "https://actualizandotarija.com.bo/",
+                    "snippet": "Actualizando Tarija es un periódico digital creado en el sur de Bolivia, para mantenerte informad@ de sucesos locales, nacionales e internacionales"
                   },
                   {
-                    "title": "Antena 3 Noticias: Última hora en España y el mundo",
-                    "url": "https://www.bing.com/ck/a?!&&p=cf60dce0f74f18dbc8e126b10ee7900dd8ee73f1de78957604107d1c471bbd40JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=2255b0f1-7c1b-6adf-0c17-a7167d0c6ba0&u=a1aHR0cHM6Ly93d3cuYW50ZW5hMy5jb20vbm90aWNpYXMv&ntb=1",
-                    "snippet": "Últimas noticias de hoy. Sigue toda la actualidad de España, Internacional, Sociedad, Sucesos, Economía y la última hora en …"
+                    "title": "Tarija - Últimas noticias en Bolivia.com",
+                    "url": "https://www.bolivia.com/tag/tarija",
+                    "snippet": "La más reciente información de Tarija publicada en Bolivia.com. Noticias, videos, imágenes."
                   },
                   {
-                    "title": "MILENIO | Noticias de hoy en México y el mundo al momento",
-                    "url": "https://www.bing.com/ck/a?!&&p=e35e2cf4a736b4dc4d5290fb9c233367761da309d13078b45256b5a01fb00209JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=2255b0f1-7c1b-6adf-0c17-a7167d0c6ba0&u=a1aHR0cHM6Ly93d3cubWlsZW5pby5jb20v&ntb=1",
-                    "snippet": "23 de oct de 2024 · Noticias de última hora de México y el mundo. Entérate aquí de la información más importante sobre política, …"
+                    "title": "Tarija - EL DEBER",
+                    "url": "https://eldeber.com.bo/pais/tarija",
+                    "snippet": "Noticias sobre Tarija, mantenete informado con las noticias sobre Tarija."
                   },
                   {
-                    "title": "Noticias - BBC News Mundo",
-                    "url": "https://www.bing.com/ck/a?!&&p=97d591d536a28405e8f04e389426ed7b8b5d6fb460ebd855bd06ee9b09b3a3a8JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=2255b0f1-7c1b-6adf-0c17-a7167d0c6ba0&u=a1aHR0cHM6Ly93d3cuYmJjLmNvbS9tdW5kbw&ntb=1",
-                    "snippet": "Hace 2 días · Las últimas noticias e información en materia internacional, sobre América Latina, tecnología, ciencia, salud, …"
+                    "title": "Global Tarija TV -",
+                    "url": "https://globaltarija.com/",
+                    "snippet": "Global Tarija Es un medio de comunicaciones comprometido con informar a su audiencia y mantenerla actualizada de los acontecimientos más relevantes en Tarija, Bolivia y el mundo."
                   }
                 ]
               },
@@ -1122,7 +1064,7 @@
             "ok": true,
             "data": {
               "query": "hoteles tarija",
-              "commercial_intent_score": 0,
+              "commercial_intent_score": 48,
               "commercial_intent_method": "transparent_keyword_heuristic_not_cpc",
               "exact_cpc": null,
               "exact_search_volume": null,
@@ -1145,54 +1087,54 @@
                 "note": "Google returned 200, 0 parsed results",
                 "results": [
                   {
-                    "title": "10 Best San Antonio Hotels, United States (From $46)",
-                    "url": "https://www.bing.com/ck/a?!&&p=f43634a4df3ce134f4cd7a93eb70ced1108354da601cf2f9d88c4a7c055b5e84JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=07c6e4a4-3ded-6784-18ae-f3433c9366eb&u=a1aHR0cHM6Ly93d3cuYm9va2luZy5jb20vY2l0eS91cy9zYW4tYW50b25pby5odG1sP21zb2NraWQ9MDdjNmU0YTQzZGVkNjc4NDE4YWVmMzQzM2M5MzY2ZWI&ntb=1",
-                    "snippet": "Hace 2 días · Booking.com has several San Antonio hotels near the Alamodome, and more accommodations near San Antonio …"
-                  },
-                  {
-                    "title": "Busca hoteles en San Antonio, TX - Booking.com",
-                    "url": "https://www.bing.com/ck/a?!&&p=c517567fda18a91f4332e9a53fbd7c813e1160afa44d218be76f4a9ce2ad130fJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=07c6e4a4-3ded-6784-18ae-f3433c9366eb&u=a1aHR0cHM6Ly93d3cuYm9va2luZy5jb20vY2l0eS91cy9zYW4tYW50b25pby5lcy5odG1sP21zb2NraWQ9MDdjNmU0YTQzZGVkNjc4NDE4YWVmMzQzM2M5MzY2ZWI&ntb=1",
-                    "snippet": "San Antonio es una ciudad de Texas que alberga dos de los lugares más turísticos del estado: el Álamo y el Riverwalk. El Álamo es …"
-                  },
-                  {
-                    "title": "LOS 10 MEJORES hoteles en San Antonio, Texas - Tripadvisor",
-                    "url": "https://www.bing.com/ck/a?!&&p=29daf896fede0a85271c8d8d52db2a1e75c87cdf5cbc8d959d62095e84cc00e8JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=07c6e4a4-3ded-6784-18ae-f3433c9366eb&u=a1aHR0cHM6Ly93d3cudHJpcGFkdmlzb3IuY29tLm14L0hvdGVscy1nNjA5NTYtU2FuX0FudG9uaW9fVGV4YXMtSG90ZWxzLmh0bWw&ntb=1",
-                    "snippet": "Los mejores hoteles en San Antonio en Tripadvisor: 204,843 opiniones sobre hoteles, fotos de viajeros y los precios más baratos de …"
-                  },
-                  {
-                    "title": "Hoteles en San Antonio, TX desde $812 MXN - Expedia.mx",
-                    "url": "https://www.bing.com/ck/a?!&&p=467527fd95b18a48b982ccb39177870c632637e8294c5403cdfd5f8aea5fd22eJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=07c6e4a4-3ded-6784-18ae-f3433c9366eb&u=a1aHR0cHM6Ly93d3cuZXhwZWRpYS5teC9TYW4tQW50b25pby1Ib3RlbGVzLmQxNzgzMDMuR3VpYS1WaWFqZXMtSG90ZWxlcz9tc29ja2lkPTA3YzZlNGE0M2RlZDY3ODQxOGFlZjM0MzNjOTM2NmVi&ntb=1",
-                    "snippet": "Disfruta de los juegos y el entretenimiento en Parque temático Six Flags Fiesta Texas y descubre por qué este parque temático es …"
-                  },
-                  {
-                    "title": "Hoteles en San Antonio, Texas desde USD 56 - Reserva en línea con ...",
-                    "url": "https://www.bing.com/ck/a?!&&p=5d927fc7fbdf5d6a9d4c3b834bdd5ca18c4623fd508271ee4ebde568f5acc64eJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=07c6e4a4-3ded-6784-18ae-f3433c9366eb&u=a1aHR0cHM6Ly93d3cuaG90ZWxlcy5jb20vZGUxNDkwOTMyL2hvdGVsZXMtc2FuLWFudG9uaW8tdGV4YXMv&ntb=1",
-                    "snippet": "San Antonio es un destino famoso por su pintoresca ribera, que cuenta con atracciones como Centro de convenciones Henry B. …"
-                  },
-                  {
                     "title": "Hoteles.com - Ofertas y descuentos para reservaciones en hoteles de ...",
-                    "url": "https://www.bing.com/ck/a?!&&p=a92f7cd0463f58bfb53d3439450a20b6a88e7e8021517e8bab3f7d405945c9ecJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=07c6e4a4-3ded-6784-18ae-f3433c9366eb&u=a1aHR0cHM6Ly93d3cuaG90ZWxlcy5jb20v&ntb=1",
+                    "url": "https://www.bing.com/ck/a?!&&p=706c54c9b6bfa1e01c7dd38e36f92d874e8753a2d6c8c22223ad3e26edf46d34JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=141f3c5e-abd0-6e6a-0ef8-2bb9aa956f0c&u=a1aHR0cHM6Ly93d3cuaG90ZWxlcy5jb20v&ntb=1",
                     "snippet": "Hoteles.com | Encuentra hoteles baratos y descuentos al reservar en Hoteles.com. Compara ofertas y promociones, y lee …"
                   },
                   {
-                    "title": "LOS 10 MEJORES hoteles cerca de Paseo del Río - Tripadvisor",
-                    "url": "https://www.bing.com/ck/a?!&&p=b88db1b6db36aafeda2a760a8560dc0815efe49465f59f2680262eff3fa15c68JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=07c6e4a4-3ded-6784-18ae-f3433c9366eb&u=a1aHR0cHM6Ly93d3cudHJpcGFkdmlzb3IuY29tLm14L0hvdGVsc05lYXItZzYwOTU2LWQxMDUwNTYtU2FuX0FudG9uaW9fUml2ZXJfV2Fsay1TYW5fQW50b25pb19UZXhhcy5odG1s&ntb=1",
-                    "snippet": "Los hoteles con las mejores calificaciones en Tripadvisor, según las opiniones de los viajeros. Ver los establecimientos ubicados …"
+                    "title": "Hoteles.com - Ofertas y promociones para reservas en hoteles de lujo ...",
+                    "url": "https://www.bing.com/ck/a?!&&p=e05f166edd1173584729ab9283dd149a0faa69f588f1b2c352795e38b0f04a10JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=141f3c5e-abd0-6e6a-0ef8-2bb9aa956f0c&u=a1aHR0cHM6Ly9lcy5ob3RlbGVzLmNvbS8&ntb=1",
+                    "snippet": "En Hoteles.com encuentra miles de ofertas en mas de 240 000 hoteles, desde hoteles de lujo hasta hoteles mas económicos"
                   },
                   {
-                    "title": "LOS 10 MEJORES hoteles: San Antonio 2026 (desde 38 €) - Tripadvisor",
-                    "url": "https://www.bing.com/ck/a?!&&p=da01b8e2680d4c7f1cc0c4ae8c8a3b5da53d9d45959b056d27cfd6eb0f1fb29eJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=07c6e4a4-3ded-6784-18ae-f3433c9366eb&u=a1aHR0cHM6Ly93d3cudHJpcGFkdmlzb3IuZXMvSG90ZWxzLWc2MDk1Ni1TYW5fQW50b25pb19UZXhhcy1Ib3RlbHMuaHRtbA&ntb=1",
-                    "snippet": "Reserva los mejores hoteles de San Antonio en Tripadvisor: 204.843 opiniones y 76.323 fotos de viajeros, y los precios más baratos …"
+                    "title": "Booking.com | Sitio oficial | Los mejores hoteles, vuelos, coches de ...",
+                    "url": "https://www.bing.com/ck/a?!&&p=695b91116c54a89fd826bb12230073c02f92d53e9bd825fe570c1a13ad9f0d4cJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=141f3c5e-abd0-6e6a-0ef8-2bb9aa956f0c&u=a1aHR0cHM6Ly93d3cuYm9va2luZy5jb20vaW5kZXguZXMuaHRtbD9tc29ja2lkPTE0MWYzYzVlYWJkMDZlNmEwZWY4MmJiOWFhOTU2ZjBj&ntb=1",
+                    "snippet": "Explora el mundo con Booking.com. Precios increíbles en casas, hoteles, vuelos, coches de alquiler, taxis y atracciones: monta el …"
                   },
                   {
-                    "title": "Find hotels in San Antonio, TX from $45 - Expedia",
-                    "url": "https://www.bing.com/ck/a?!&&p=7fde046259b2f2478b450b89306c9156db87baff155fcbd1e3263314ecfdb1aaJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=07c6e4a4-3ded-6784-18ae-f3433c9366eb&u=a1aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vU2FuLUFudG9uaW8tSG90ZWxzLmQxNzgzMDMuVHJhdmVsLUd1aWRlLUhvdGVscz9tc29ja2lkPTA3YzZlNGE0M2RlZDY3ODQxOGFlZjM0MzNjOTM2NmVi&ntb=1",
-                    "snippet": "19 de oct de 2010 · Explore a diverse range of hotel accommodations in San Antonio, Texas, catering to every type of traveler. …"
+                    "title": "trivago.com.mx - Comparar precios de hoteles en todo el mundo",
+                    "url": "https://www.bing.com/ck/a?!&&p=e8142f814056096e6fb907d045829e3dbe1565de4c16c47ff8c812bf55b9f0e0JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=141f3c5e-abd0-6e6a-0ef8-2bb9aa956f0c&u=a1aHR0cHM6Ly93d3cudHJpdmFnby5jb20ubXgvP21zb2NraWQ9MTQxZjNjNWVhYmQwNmU2YTBlZjgyYmI5YWE5NTZmMGM&ntb=1",
+                    "snippet": "Compara entre más de 1,400,000 de hoteles y elige tu oferta ideal. Lee opiniones y encuentra hoteles al precio ideal. Hotel México - …"
                   },
                   {
-                    "title": "THE 10 BEST Hotels in San Antonio, TX 2026 (from $44) - Tripadvisor",
-                    "url": "https://www.bing.com/ck/a?!&&p=c22c5586f249ddbcf52bbaabd46cdc4e0e20f325c3fb07fe8b0b05e67161625eJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=07c6e4a4-3ded-6784-18ae-f3433c9366eb&u=a1aHR0cHM6Ly93d3cudHJpcGFkdmlzb3IuY29tL0hvdGVscy1nNjA5NTYtU2FuX0FudG9uaW9fVGV4YXMtSG90ZWxzLmh0bWw&ntb=1",
-                    "snippet": "Elegant resort with Texas Hill Country views, nature trails, and relaxing pools. Conveniently located near attractions, shopping, and …"
+                    "title": "Hoteles | Reserva hoteles de última hora y más | Booking.com",
+                    "url": "https://www.bing.com/ck/a?!&&p=c14cc1953dde2c4a6145731443a317c3ce73ab6d11a8d094cc8970c7d4c235e2JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=141f3c5e-abd0-6e6a-0ef8-2bb9aa956f0c&u=a1aHR0cHM6Ly93d3cuYm9va2luZy5jb20vaG90ZWwvaW5kZXguZXMuaHRtbD9tc29ja2lkPTE0MWYzYzVlYWJkMDZlNmEwZWY4MmJiOWFhOTU2ZjBj&ntb=1",
+                    "snippet": "¡Busca, compara y reserva los mejores hoteles en Booking.com! Descubre hoteles baratos, hoteles cerca de ti, hoteles para viajes …"
+                  },
+                  {
+                    "title": "Hotels.com - Ofertas y descuentos para reservaciones en hoteles de …",
+                    "url": "https://www.bing.com/ck/a?!&&p=f5912a50ba4f91ab2be57c7d0e6a4520771736622cc13c290559d04f3106730dJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=141f3c5e-abd0-6e6a-0ef8-2bb9aa956f0c&u=a1aHR0cHM6Ly93d3cuaG90ZWxzLmNvbS9lcy8_bXNvY2tpZD0xNDFmM2M1ZWFiZDA2ZTZhMGVmODJiYjlhYTk1NmYwYw&ntb=1",
+                    "snippet": "En Hotels.com encuentra millares de ofertas de hoteles para reserva, desde hotel con todo incluido hasta los más baratos."
+                  },
+                  {
+                    "title": "trivago.es - Comparar precios de hoteles en todo el mundo",
+                    "url": "https://www.bing.com/ck/a?!&&p=3303c1cac7db84d8d2923e4bf5f7da1c3910ef379b4b12dde4dbf488b2546302JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=141f3c5e-abd0-6e6a-0ef8-2bb9aa956f0c&u=a1aHR0cHM6Ly93d3cudHJpdmFnby5lcy8_bXNvY2tpZD0xNDFmM2M1ZWFiZDA2ZTZhMGVmODJiYjlhYTk1NmYwYw&ntb=1",
+                    "snippet": "Compara precios de hoteles y aprovecha fantásticas ofertas. Ahorra tiempo y dinero al buscar alojamiento con millones de opiniones …"
+                  },
+                  {
+                    "title": "Ofertas de hotel y tarifas especiales | Ahorra en hospedajes en ...",
+                    "url": "https://www.bing.com/ck/a?!&&p=25d008fc8300f72eb2bab44da310b8aef72ccf3616b734fdf7e781129d7faff1JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=141f3c5e-abd0-6e6a-0ef8-2bb9aa956f0c&u=a1aHR0cHM6Ly93d3cuaG90ZWxlcy5jb20vbHAvYi9kZWFscw&ntb=1",
+                    "snippet": "Descubre ofertas de hotel y tarifas especiales en destinos principales de 2026. Encuentra grandes precios en hoteles para …"
+                  },
+                  {
+                    "title": "Hoteles, Vuelos y Paquetes de Viaje Todo Incluído | Expedia.com",
+                    "url": "https://www.bing.com/ck/a?!&&p=7ddd1ca527abb9ac8e3e9cf2f17c592d524dcb66313e576ce999e543a8efeb1fJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=141f3c5e-abd0-6e6a-0ef8-2bb9aa956f0c&u=a1aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vZXMvP21zb2NraWQ9MTQxZjNjNWVhYmQwNmU2YTBlZjgyYmI5YWE5NTZmMGM&ntb=1",
+                    "snippet": "Con Expedia.com, tienes todo lo que necesitas para viajar. Elige entre hoteles y hospedajes baratos, renta de autos y vuelos a los …"
+                  },
+                  {
+                    "title": "Reserva Hoteles Baratos: Ofertas en Alojamiento y Hospedaje | Expedia",
+                    "url": "https://www.bing.com/ck/a?!&&p=e322dca9c82d8b61a64cbc1744a581dc90c61858756319a3a4a085af4ed958e5JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=141f3c5e-abd0-6e6a-0ef8-2bb9aa956f0c&u=a1aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vZXMvSG90ZWxlcz9tc29ja2lkPTE0MWYzYzVlYWJkMDZlNmEwZWY4MmJiOWFhOTU2ZjBj&ntb=1",
+                    "snippet": "Encuentra los mejores precios en hospedaje y hoteles baratos con Expedia. Haz tu reservación y elige entre alojamientos todo …"
                   }
                 ]
               },
@@ -1206,7 +1148,7 @@
             "ok": true,
             "data": {
               "query": "inmobiliaria tarija",
-              "commercial_intent_score": 0,
+              "commercial_intent_score": 28,
               "commercial_intent_method": "transparent_keyword_heuristic_not_cpc",
               "exact_cpc": null,
               "exact_search_volume": null,
@@ -1218,59 +1160,59 @@
                 "inmobiliaria tarija la chura"
               ],
               "serp": {
-                "source": "bing_live_html_fallback",
+                "source": "duckduckgo_fallback",
                 "partial": true,
                 "note": "Google returned 200, 0 parsed results",
                 "results": [
                   {
-                    "title": "Región Metropolitana de Santiago - Wikipedia, la enciclopedia libre",
-                    "url": "https://www.bing.com/ck/a?!&&p=1b099ab3dfe5646d36a7fe4d9aad77ff2220338bf8ddcc911c9e2ac823168570JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=01731176-f00d-6f49-0add-0691f15c6ef3&u=a1aHR0cHM6Ly9lcy5tLndpa2lwZWRpYS5vcmcvd2lraS9SZWdpJUMzJUIzbl9NZXRyb3BvbGl0YW5hX2RlX1NhbnRpYWdv&ntb=1",
-                    "snippet": "Es la 59.ª mayor área metropolitana del mundo. La región está compuesta por las provincias de Chacabuco, Cordillera, Maipo, …"
+                    "title": "140 inmobiliarias en Tarija - bolivia.inmobiliaria.com",
+                    "url": "https://bolivia.inmobiliaria.com/tarija/inmobiliarias/",
+                    "snippet": "140 inmobiliarias en Tarija, Bolivia con 170 propiedades. Contacta directo."
                   },
                   {
-                    "title": "Inicio - Gobierno de Santiago",
-                    "url": "https://www.bing.com/ck/a?!&&p=d6ff2c96a6eceb8bf203769eb72429da8870c0dc174b7838ce54677c146bf101JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=01731176-f00d-6f49-0add-0691f15c6ef3&u=a1aHR0cHM6Ly93d3cuZ29iaWVybm9zYW50aWFnby5jbC8&ntb=1",
-                    "snippet": "¿En qué podemos ayudarte? Horario de atención: Lunes a viernes de 9:00 a 14:00 hrs. Logo de CORE Consejo regional …"
+                    "title": "134 inmuebles en Venta en Tarija - bolivia.inmobiliaria.com",
+                    "url": "https://bolivia.inmobiliaria.com/tarija/",
+                    "snippet": "Inmuebles en Venta en Tarija — 134 anuncios de particulares e inmobiliarias. Compara precios y contacta directo en Inmobiliaria.com."
                   },
                   {
-                    "title": "Región Metropolitana - Gob.cl",
-                    "url": "https://www.bing.com/ck/a?!&&p=8f78f4634d32bb6ad8c86adf0b2919b5cc9bc1e89fe46b1bd0582c02e7728238JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=01731176-f00d-6f49-0add-0691f15c6ef3&u=a1aHR0cHM6Ly93d3cuZ29iLmNsL3JlZ2lvbmVzL3JlZ2lvbi1tZXRyb3BvbGl0YW5hLw&ntb=1",
-                    "snippet": "Administrativamente está compuesta por 6 provincias (Chacabuco, Cordillera, Maipo, Melipilla, Santiago y Talagante), las que están …"
+                    "title": "Tarija Propiedades",
+                    "url": "https://www.tarijapropiedades.com/",
+                    "snippet": "Somos una empresa especializada en el mercado inmobiliario de Tarija, ofreciendo servicios profesionales y personalizados para ayudarte a encontrar la propiedad perfecta o vender tu inmueble con éxito."
                   },
                   {
-                    "title": "Región Metropolitana de Santiago - Wikiwand",
-                    "url": "https://www.bing.com/ck/a?!&&p=2ca3e57cade673038c2dd299e85b97bdfb50f16eda8374065fd9ba78eddbc7f9JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=01731176-f00d-6f49-0add-0691f15c6ef3&u=a1aHR0cHM6Ly93d3cud2lraXdhbmQuY29tL2VzL1JlZ2klQzMlQjNuX01ldHJvcG9saXRhbmFfZGVfU2FudGlhZ28&ntb=1",
-                    "snippet": "Es la 59.ª mayor área metropolitana del mundo. La región está compuesta por las provincias de Chacabuco, Cordillera, Maipo, …"
+                    "title": "Venta de inmuebles en Tarija - InfoCasas",
+                    "url": "https://www.infocasas.com.bo/venta/inmuebles/tarija",
+                    "snippet": "En InfoCasas tenemos más de 8322 inmuebles en Venta en Tarija para vos. Usá nuestro simulador hipotecario para saber que cuota pagás."
                   },
                   {
-                    "title": "Región Metropolitana de Santiago - Sernatur",
-                    "url": "https://www.bing.com/ck/a?!&&p=3626a4aa9201d4bc1ff77d0b57aa3aa5cddfb93e9b796dcdef9879da600e5155JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=01731176-f00d-6f49-0add-0691f15c6ef3&u=a1aHR0cHM6Ly93d3cuc2VybmF0dXIuY2wvcmVnaW9uL21ldHJvcG9saXRhbmEv&ntb=1",
-                    "snippet": "Activa, dinámica, diversa y multicultural, en la región encuentras los atractivos propios de una gran ciudad, como museos, cines, …"
+                    "title": "Los mejores inmobiliaria en Tarija (2026) · guia2x",
+                    "url": "https://guia2x.com/mejores/inmobiliaria/tarija",
+                    "snippet": "Guía de los mejores inmobiliaria en Tarija, Bolivia: 22 opciones rankeadas por calificación. Destacan Bienes Raíces Tarija Propiedades, Tu Futuro - Bienes y Raíces, OLIMPO Bienes & Raices. Dirección, teléfono, horarios y WhatsApp."
                   },
                   {
-                    "title": "Región Metropolitana de Santiago —",
-                    "url": "https://www.bing.com/ck/a?!&&p=32d026dc0d79ab5309b5264a0e39ebc175972008027d0e07a470d5649f39667fJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=01731176-f00d-6f49-0add-0691f15c6ef3&u=a1aHR0cHM6Ly93d3cuYmNuLmNsL3NpaXQvbnVlc3Ryb3BhaXMvcmVnaW9uMTM&ntb=1",
-                    "snippet": "La Región Metropolitana (RM) es la única región mediterránea y la segunda más pequeña del país. Se ubica entre los 32º55' y …"
+                    "title": "Inmobiliria Sinai",
+                    "url": "https://inmobiliariasinaibolivia.com/inicio",
+                    "snippet": "Ser la inmobiliaria líder en Tarija, reconocida por nuestra integridad, innovación y compromiso con la satisfacción del cliente, facilitando el acceso a vivienda digna para todas las familias."
                   },
                   {
-                    "title": "Región Metropolitana de Santiago",
-                    "url": "https://www.bing.com/ck/a?!&&p=a1ec65929a07866a11f87d9baa67e0865d594afb13323cf1fef780325507a28aJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=01731176-f00d-6f49-0add-0691f15c6ef3&u=a1aHR0cHM6Ly93d3cuYmNuLmNsL3NpaXQvcmVwb3J0ZXNyZWdpb25hbGVzL3JlcG9ydGVfZmluYWwuaHRtbD9hbm5vPTIwMjUmY29kX3JlZ2lvbj0xMw&ntb=1",
-                    "snippet": "Indicadores obtenidos de fuentes oficiales sobre datos demográficos, sociales, educacionales, económicos, seguridad ciudadana e …"
+                    "title": "Propiedades en Venta y Renta Tarija - CENTURY 21",
+                    "url": "https://c21.com.bo/v/resultados/en-pais_bolivia/en-estado_tarija",
+                    "snippet": "En CENTURY 21 tenemos 203 Propiedades en Venta y Renta Tarija, accede a los mejores inmuebles del país."
                   },
                   {
-                    "title": "Región Metropolitana de Santiago | Regiones de Chile",
-                    "url": "https://www.bing.com/ck/a?!&&p=cee1e0c2ed7e2795ff662e0b68542947672004a73b251fe1dfd0d171126dc41cJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=01731176-f00d-6f49-0add-0691f15c6ef3&u=a1aHR0cHM6Ly9yZWdpb24uY2wvcmVnaW9uL21ldHJvcG9saXRhbmE&ntb=1",
-                    "snippet": "La Región Metropolitana de Santiago es una de las divisiones territoriales de Chile. Su capital es Santiago y está compuesta por las …"
+                    "title": "Nexus Desarrolladora — Encontrá tu hogar en Tarija",
+                    "url": "https://nexusdesarrolladora.com.bo/",
+                    "snippet": "Desarrolladora inmobiliaria · Tarija, Bolivia Encontrá tu hogar en Tarija. Nexus te conecta con tu nuevo hogar Conocé nuestras residencias privadas, sus ubicaciones y las opciones disponibles, desarrolladas y comercializadas directamente por Nexus."
                   },
                   {
-                    "title": "Santiago Metropolitan Region - Wikipedia",
-                    "url": "https://www.bing.com/ck/a?!&&p=b9f9c93f028c964724c9e28ad6f0c9816e01f8eb4191cc1f7d4932a9046218c8JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=01731176-f00d-6f49-0add-0691f15c6ef3&u=a1aHR0cHM6Ly9lbi5tLndpa2lwZWRpYS5vcmcvd2lraS9TYW50aWFnb19NZXRyb3BvbGl0YW5fUmVnaW9u&ntb=1",
-                    "snippet": "Santiago Metropolitan Region (Spanish: Región Metropolitana de Santiago) is one of Chile 's 16 first-order administrative divisions. It …"
+                    "title": "Táchira Inmuebles — Casas y apartamentos en venta y alquiler en Táchira",
+                    "url": "https://tachirainmuebles.com/",
+                    "snippet": "Portal inmobiliario del estado Táchira. Casas, apartamentos, locales y terrenos en venta y alquiler en San Cristóbal, Táriba, Rubio, Palmira y más. Precios en USD."
                   },
                   {
-                    "title": "Region Metropolitana de Santiago - Descentralizachile | SUBDERE",
-                    "url": "https://www.bing.com/ck/a?!&&p=58dc25913beab225abbb02eeff89226f88c7635f96beb8204dc272a1f251fbcfJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=01731176-f00d-6f49-0add-0691f15c6ef3&u=a1aHR0cHM6Ly93d3cuZGVzY2VudHJhbGl6YWNoaWxlLmNsL3JlZ2lvbl9tZXRyb3BvbGl0YW5hX2RlX3NhbnRpYWdvLw&ntb=1",
-                    "snippet": "La región Metropolitana fue fundada el 12 de febrero de 1541 y tiene como capital regional a la ciudad de Santiago. Para efectos del …"
+                    "title": "C21 Grand Sur - Propiedades Exclusivas en Tarija",
+                    "url": "https://c21.com.bo/inmobiliaria/18-century-21-grand-sur-miraflores-tarija-bolivia",
+                    "snippet": "Encuentra propiedades en venta y alquiler en Tarija con C21 Grand Sur. Expertos en bienes raíces y asesoría personalizada."
                   }
                 ]
               },
@@ -1279,69 +1221,53 @@
           }
         }
       ],
-      "recovered_target_urls": [],
-      "confirmed_ref_domains_min": 0,
-      "confirmed_backlinks_min": 0,
+      "recovered_target_urls": [
+        "http://andaluztarija.com/?utm_medium=Scamadviser.com&utm_campaign=Scamadviser.com"
+      ],
+      "confirmed_ref_domains_min": 1,
+      "confirmed_backlinks_min": 1,
       "external_mentions": [
         {
           "position": 1,
-          "title": "Mercados financieros: noticias, análisis, videos y más | CNN en Español ...",
-          "url": "https://www.bing.com/ck/a?!&&p=8e3f2e74ec3d9f0cccc8642086bb956c76cf00627864c3289b410748f1b38e2eJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3146b907-dc4d-6980-2aa9-aee0dd9068b0&u=a1aHR0cHM6Ly9jbm5lc3Bhbm9sLmNubi5jb20vZWNvbm9taWEvbWVyY2Fkb3MtZmluYW5jaWVyb3Mv&ntb=1",
-          "snippet": "17 de ago de 2020 · Última hora y noticias sobre los mercados financieros internacionales, su evolución y más. Actualidad, análisis y …"
+          "title": "Acceso Mi cuenta: Facturas, gestiones y pedidos - Movistar",
+          "url": "https://www.bing.com/ck/a?!&&p=27cdf2b4898b4151478cef3a0d5bbe5042436ece81c5612cad3ad0f6ac6e891dJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1bb8bedf-c174-69af-0b57-a938c02c68bb&u=a1aHR0cHM6Ly93d3cubW92aXN0YXIuZXMvYXJlYS1jbGllbnRlL21pLWN1ZW50YS8&ntb=1",
+          "snippet": "Consulta el detalle de tus facturas en cualquier momento y descárgalas cuando lo necesites. Revisa los cargos, fechas de pago y …"
         },
         {
           "position": 2,
-          "title": "Últimas noticias de Estados Unidos, Latinoamérica y el mundo, hoy",
-          "url": "https://www.bing.com/ck/a?!&&p=adfd8b383675f8c63cf18e54d3e5d30d24cc0412042a5717ca60b5a9e466497eJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3146b907-dc4d-6980-2aa9-aee0dd9068b0&u=a1aHR0cHM6Ly9jbm5lc3Bhbm9sLmNubi5jb20v&ntb=1",
-          "snippet": "Últimas noticias y actualidad de Estados Unidos, Latinoamérica y el mundo sobre política, economía, salud, deporte y entretenimiento."
+          "title": "Procesos Autogestion - Movistar",
+          "url": "https://www.bing.com/ck/a?!&&p=caa722d0c39175e22e9d17a02e8d2b190766bc3a1323d5d2bde2ae9e4300eda1JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1bb8bedf-c174-69af-0b57-a938c02c68bb&u=a1aHR0cHM6Ly93d3cubW92aXN0YXIuY29tLmNvL3Byb2Nlc29zLWF1dG9nZXN0aW9u&ntb=1",
+          "snippet": "Ingresa a Mi Movistar aquí y accede con tu correo electrónico. Busca el producto a pagar y selecciónalo. Completa los datos y elige …"
         },
         {
           "position": 3,
-          "title": "Empresas: noticias, análisis, videos y más - CNN en Español",
-          "url": "https://www.bing.com/ck/a?!&&p=9e5bebaed9b239a79aaf9a06b201d48a182dfabf6f5caf738739c25eae14b661JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3146b907-dc4d-6980-2aa9-aee0dd9068b0&u=a1aHR0cHM6Ly9jbm5lc3Bhbm9sLmNubi5jb20vZWNvbm9taWEvZW1wcmVzYXMv&ntb=1",
-          "snippet": "Última hora y noticias sobre empresas en el mundo. Análisis, actualidad y videos"
+          "title": "Ayuda al cliente y Teléfono - Movistar",
+          "url": "https://www.bing.com/ck/a?!&&p=1f1241452a88871a57c7aa8d6fdc73733c7381681fd79911532ca156d064d9f9JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1bb8bedf-c174-69af-0b57-a938c02c68bb&u=a1aHR0cHM6Ly93d3cubW92aXN0YXIuZXMvYXRlbmNpb24tY2xpZW50ZS9heXVkYQ&ntb=1",
+          "snippet": "Nuestros teléfonos Movistar para nuevas altas y atención comercial a clientes. También tienes disponibles otros teléfonos de ayuda …"
         },
         {
           "position": 4,
-          "title": "Por qué pareciera que están cerrando todas las cadenas de Estados ...",
-          "url": "https://www.bing.com/ck/a?!&&p=a2f11196426708fc590e2d7aa9db5ce257343225a5f952fc594ac442a6d5459fJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3146b907-dc4d-6980-2aa9-aee0dd9068b0&u=a1aHR0cHM6Ly9jbm5lc3Bhbm9sLmNubi5jb20vMjAyNS8wMS8wMi9lc3RhZG9zLXVuaWRvcy9jaWVycmUtY2FkZW5hcy1lc3RhZG9zLXVuaWRvcy10cmF4&ntb=1",
-          "snippet": "2 de ene de 2025 · El apocalipsis de las tiendas minoristas regresó con fuerza en 2024."
+          "title": "Atención al cliente Movistar: Soporte y ayuda | Movistar México",
+          "url": "https://www.bing.com/ck/a?!&&p=5499aa83e02a965c3a1cde40cef8d160fd21d0d9f6d46adf7b9e9794cfaff0faJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1bb8bedf-c174-69af-0b57-a938c02c68bb&u=a1aHR0cHM6Ly93d3cubW92aXN0YXIuY29tLm14L2F0ZW5jaW9uLWFsLWNsaWVudGU&ntb=1",
+          "snippet": "Encuentra respuestas a tus dudas sobre facturación, recargas, configuración y más. Contacta a nuestro equipo de soporte por WA o …"
         },
         {
           "position": 5,
-          "title": "¿Qué ocurre en Nicaragua? Claves para entender la reforma del Seguro ...",
-          "url": "https://www.bing.com/ck/a?!&&p=5bef95f753bbb1a5d8689e10144a5869486bc66c6d5cba76032918af6877a0d3JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3146b907-dc4d-6980-2aa9-aee0dd9068b0&u=a1aHR0cHM6Ly9jbm5lc3Bhbm9sLmNubi5jb20vMjAxOC8wNC8yMC90cmVzLW11ZXJ0b3MtcG9yLXByb3Rlc3Rhcy1lbi1uaWNhcmFndWEtcXVlLW9jdXJyZS1jbGF2ZXMtcGFyYS1lbnRlbmRlci1sYS1yZWZvcm1hLWRlbC1zZWd1cm8tc29jaWFsLw&ntb=1",
-          "snippet": "20 de abr de 2018 · Nicaragua lleva desde el miércoles sumida en protestas populares contra la reforma del Seguro Social en el …"
+          "title": "(2) Atención al cliente Movistar – Preguntas frecuentes",
+          "url": "https://www.bing.com/ck/a?!&&p=507879d0ce104124197729d99719d27bd0921a260d1ca70db73aa5d7aef27e30JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1bb8bedf-c174-69af-0b57-a938c02c68bb&u=a1aHR0cHM6Ly9hdGVuY2lvbmFsY2xpZW50ZS5tb3Zpc3Rhci5jbC8&ntb=1",
+          "snippet": "Puedes escribirnos de lunes a domingo entre las 08:00 y las 00:00 horas. Suscríbete y resuelve todas las dudas que tengas …"
         },
         {
           "position": 6,
-          "title": "Comercio, inversiones, obras: esta es la presencia de China que crece ...",
-          "url": "https://www.bing.com/ck/a?!&&p=3f9ac640185cb9b2262ad469bbb16a99750a9bed20636a1f69ba8dc752caf2ddJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3146b907-dc4d-6980-2aa9-aee0dd9068b0&u=a1aHR0cHM6Ly9jbm5lc3Bhbm9sLmNubi5jb20vMjAyNi8wMy8wNi9sYXRpbm9hbWVyaWNhL2NoaW5hLWFtZXJpY2EtbGF0aW5hLXByZXNlbmNpYS1wcmVzaW9uLWVldXUtdHJ1bXAtb3JpeA&ntb=1",
-          "snippet": "6 de mar de 2026 · El puerto más grande de Sudamérica nació hace menos de año y medio, está en Perú y en su creación jugó un …"
+          "title": "Ayuda y Soporte | Movistar Argentina",
+          "url": "https://www.bing.com/ck/a?!&&p=a9efa309e48582b8f725299788e313dfc15c72746b21d9af503b0206a113209fJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1bb8bedf-c174-69af-0b57-a938c02c68bb&u=a1aHR0cHM6Ly9heXVkYS5tb3Zpc3Rhci5jb20uYXIv&ntb=1",
+          "snippet": "Encontrá información de ayuda sobre nuestros servicios y atencion al cliente. Resolvé dudas sobre tus facturas, pagos y reclamos."
         },
         {
           "position": 7,
-          "title": "Economía de Estados Unidos: noticias, análisis, videos y más | CNN en ...",
-          "url": "https://www.bing.com/ck/a?!&&p=bbd34f0a1427595634e005ab7a429c22a8e257224645e48feeaedc971c43bf94JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3146b907-dc4d-6980-2aa9-aee0dd9068b0&u=a1aHR0cHM6Ly9jbm5lc3Bhbm9sLmNubi5jb20vZWNvbm9taWEvZWNvbm9taWEtZXN0YWRvcy11bmlkb3M&ntb=1",
-          "snippet": "10 de abr de 2025 · Última hora y noticias sobre la economía de Estados Unidos y su situación. Análisis, actualidad y videos"
-        },
-        {
-          "position": 8,
-          "title": "Noticias de economía y dinero hoy: última hora de mercados, el dólar y ...",
-          "url": "https://www.bing.com/ck/a?!&&p=40f7ef2b02df5e827862e8a313bd968a77e25e35ef1ee6dcd53ead9c48482588JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3146b907-dc4d-6980-2aa9-aee0dd9068b0&u=a1aHR0cHM6Ly9jbm5lc3Bhbm9sLmNubi5jb20vZWNvbm9taWE&ntb=1",
-          "snippet": "1 de ene de 2024 · Última hora y noticias de Economía y dinero. Actualidad, análisis y videos sobre mercados, empresas, el dólar y …"
-        },
-        {
-          "position": 9,
-          "title": "Resumen de noticias de la guerra de EE.UU. e Israel con Irán del 3 de ...",
-          "url": "https://www.bing.com/ck/a?!&&p=b9d14524f71922432d684376d5caec85d884459a3ea29c7da7cf27af73edf2ceJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3146b907-dc4d-6980-2aa9-aee0dd9068b0&u=a1aHR0cHM6Ly9jbm5lc3Bhbm9sLmNubi5jb20vMjAyNi8wNi8wMy9tdW5kby9saXZlLW5ld3MvZ3VlcnJhLWlyYW4tZWV1dS1pc3JhZWwtZW4tdml2by1saWJhbm8tMi10cmF4&ntb=1",
-          "snippet": "3 de jun de 2026 · En uno de los intercambios de disparos más serios desde que comenzó la tregua, Irán lanzó misiles contra …"
-        },
-        {
-          "position": 10,
-          "title": "Resumen de noticias de la guerra de Estados Unidos con Irán del 23 de ...",
-          "url": "https://www.bing.com/ck/a?!&&p=9e14d07ebfa3cbe106c65718ccdad7b50b8c5a6e72e0bb6558ccad9726b3fc38JmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=3146b907-dc4d-6980-2aa9-aee0dd9068b0&u=a1aHR0cHM6Ly9jbm5lc3Bhbm9sLmNubi5jb20vMjAyNi8wNy8yMy9tdW5kby9saXZlLW5ld3MvZ3VlcnJhLWVlLXV1LWlzcmFlbC1pcmFuLWVuLXZpdm8tYXRhcXVlcy1ub3RpY2lhcy01LXRyYXg&ntb=1",
-          "snippet": "23 de jul de 2026 · Las Fuerzas de Estados Unidos realizaron nuevos ataques contra Irán mientras ambas partes intercambiaban …"
+          "title": "(2) Facturación y pagos – Atención al cliente Movistar",
+          "url": "https://www.bing.com/ck/a?!&&p=d61febd6fddf319005ca27d59ab76fe3ca9e7b9b0b5bdb722d2f97a119c2f56cJmltdHM9MTc5MDk4NTYwMA&ptn=3&ver=2&hsh=4&fclid=1bb8bedf-c174-69af-0b57-a938c02c68bb&u=a1aHR0cHM6Ly9hdGVuY2lvbmFsY2xpZW50ZS5tb3Zpc3Rhci5jbC9mYWN0dXJhY2lvbi15LXBhZ29zLw&ntb=1",
+          "snippet": "Categoria: Facturación y pagos ¿En qué consiste el cobro por reposición de servicios? Movistar está facultado para cortar tu …"
         }
       ]
     }
