@@ -58,6 +58,11 @@ jobs:
           curl -fsS --max-time 60 'http://127.0.0.1:3000/api/serp?q=hoteles%20tarija&lang=es&limit=10' > /tmp/bing-es.json
           cat /tmp/bing-es.json
           node -e "const x=require('/tmp/bing-es.json'); if(x.source==='bing_live_html_fallback' && (x.results||[]).some(r=>{try{return /(^|\\.)bing\\.com$/i.test(new URL(r.url).hostname)}catch{return true}})) process.exit(1)"
+      - name: Verify Spanish commercial intent coverage
+        run: |
+          curl -fsS --max-time 60 'http://127.0.0.1:3000/api/keyword?q=abogado%20tarija&lang=es' > /tmp/es-commercial.json
+          cat /tmp/es-commercial.json
+          node -e "const x=require('/tmp/es-commercial.json'); if(!(x.commercial_intent_score>0)) process.exit(1)"
       - name: Verify CPC Hunter runtime
         run: |
           curl -fsS --max-time 120 'http://127.0.0.1:3000/api/hunter?q=business%20insurance&lang=en&mode=fast&limit=3' > /tmp/hunter.json
