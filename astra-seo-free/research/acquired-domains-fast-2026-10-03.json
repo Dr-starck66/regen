@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T16:08:29.655Z",
+  "generated_at": "2026-10-03T16:10:45.003Z",
   "engine": "ASTRA SEO Lab 2.0.2",
   "mode": "FAST_PARALLEL",
   "evidence_policy": {
@@ -18,7 +18,7 @@
           "requested_url": "https://avocat-belgique.com",
           "final_url": "https://avocat-belgique.com/",
           "http_status": 200,
-          "response_ms": 477,
+          "response_ms": 464,
           "https": true,
           "content_type": "text/html; charset=UTF-8",
           "content_bytes": 1030,
@@ -88,23 +88,10 @@
         "ok": true,
         "data": {
           "query": "\"avocat-belgique.com\" -site:avocat-belgique.com",
-          "source": "bing_live_html_fallback",
+          "source": "public_serp_unavailable",
           "partial": true,
-          "note": "Google returned 200, 0 parsed results",
-          "results": [
-            {
-              "position": 1,
-              "title": "Avocat en ligne| Belgique",
-              "url": "https://consulterunavocatenligne.be/",
-              "snippet": "Consultation avocat droit Belge, consultation juridique en ligne pour tous les domaines juridiques. Consulter un avocat en ligne vous …"
-            },
-            {
-              "position": 2,
-              "title": "Avocats Belgique : Guide pour trouver un avocat facilement en Belgique",
-              "url": "https://theoueb.com/site-16301-avocats-belgique",
-              "snippet": "13 janv. 2021 · Pour trouver un avocat capable de mieux vous défendre en Belgique, vous pouvez vous rendre sur ce site qui vous …"
-            }
-          ],
+          "note": "Google returned 200, 0 parsed results; Bing fallback rejected by relevance gate",
+          "results": [],
           "evidence": "VERIFIED_FALLBACK_SERP_NOT_GOOGLE"
         }
       },
@@ -114,7 +101,7 @@
           "query": "site:avocat-belgique.com",
           "source": "public_serp_unavailable",
           "partial": true,
-          "note": "Google returned 200, 0 parsed results",
+          "note": "Google returned 200, 0 parsed results; Bing fallback rejected by relevance gate",
           "results": [],
           "evidence": "VERIFIED_FALLBACK_SERP_NOT_GOOGLE"
         }
@@ -154,14 +141,14 @@
                     "snippet": "L'Ordre des barreaux francophones et germanophone de Belgique AVOCATS.BE réunit les 10 barreaux francophones et germanophone du pays. Sa mission est de représenter et défendre la profession d'avocat, tout en veillant à la protection des intérêts des justiciables."
                   },
                   {
-                    "title": "Accueil | AVOCATS.BE",
-                    "url": "https://avocats.be/fr",
-                    "snippet": "L'avocat est un professionnel du droit et de la justice. Son rôle est triple : il conseille, concilie et défend au quotidien les particuliers et les entreprises, sur des questions d'ordre privé ou professionnel."
-                  },
-                  {
                     "title": "Avocat Belgique : 458 avocats et cabinets d'avocats - Justifit",
                     "url": "https://www.justifit.be/trouver/avocats/belgique/",
                     "snippet": "Trouvez un avocat en Belgique. Choisissez parmi les avocats experts Justifit le meilleur avocat pour votre besoin. Mise en relation simple, rapide et gratuite."
+                  },
+                  {
+                    "title": "Accueil | AVOCATS.BE",
+                    "url": "https://avocats.be/fr",
+                    "snippet": "L'avocat est un professionnel du droit et de la justice. Son rôle est triple : il conseille, concilie et défend au quotidien les particuliers et les entreprises, sur des questions d'ordre privé ou professionnel."
                   },
                   {
                     "title": "Trouvez un avocat | Advocaat.be",
@@ -169,9 +156,14 @@
                     "snippet": "Vous cherchez un avocat près de chez vous ? Trouvez ici celui qui vous convient en fonction de vos attentes."
                   },
                   {
-                    "title": "Avocats en ligne en Belgique | Consultation gratuite rapide - Justifit",
-                    "url": "https://www.justifit.be/trouver/avocats/belgique/avocat-en-ligne/",
-                    "snippet": "Consultez un avocat belge en ligne. Recevez un premier avis juridique gratuit et sans engagement grâce à une consultation rapide et fiable."
+                    "title": "Un avocat vous soutient en paroles et en actes | Advocaat.be",
+                    "url": "https://www.advocaat.be/fr",
+                    "snippet": "Un avocat vous aide, vous conseille, vous sert de médiateur, négocie et vous défend chaque fois que c'est nécessaire. Doté des connaissances juridiques…"
+                  },
+                  {
+                    "title": "Trouvez et choisissez le bon avocat | Justifit.be",
+                    "url": "https://www.justifit.be/",
+                    "snippet": "Justifit vous permet de trouver le bon avocat en Belgique et près de chez vous en fonction de votre besoin de défense et de le contacter directement."
                   },
                   {
                     "title": "Cabinets d'avocats spécialisés en Belgique",
@@ -179,24 +171,19 @@
                     "snippet": "De plus amples informations sur les avocats de Belgique Faire appel à un avocat implique généralement une situation délicate voire conflictuelle. Toutefois, les professionnels du barreau sont amenés à intervenir dans tout type de cas, plus ou moins critiques."
                   },
                   {
-                    "title": "Legalow — Trouvez l'avocat adapté à votre situation",
-                    "url": "https://www.legalow.be/",
-                    "snippet": "Vous n'avez pas besoin de savoir quel avocat chercher.On le fait pour vous. Sur Legalow, la mise en relation avec un avocat spécialisé en Belgique est 100 % gratuite, sans engagement ni création de compte. Grâce à un espace sécurisé et confidentiel, suivez ensuite l'avancement de votre dossier juridique aux côtés de votre avocat."
+                    "title": "Avocats.be",
+                    "url": "https://campagne.avocats.be/fr",
+                    "snippet": "AVOCATS.BE Ordre des barreaux francophones et germanophone de Belgique Charte vie privée Déclaration vie privée dans le cadre de l'aide juridique de deuxième ligne Préférences de cookies"
                   },
                   {
-                    "title": "Thales - Avocats",
-                    "url": "https://www.thales.be/",
-                    "snippet": "THALES est un cabinet d'avocats spécialisés dans le droit des affaires, établi à Bruxelles, Anvers et Namur"
+                    "title": "JURInet - Trouvez votre avocat en Belgique",
+                    "url": "https://jurinet.be/",
+                    "snippet": "JURInet vous connecte avec des avocats qualifiés en Belgique. Consultation en ligne, modèles juridiques et conseils professionnels."
                   },
                   {
-                    "title": "Bienvenue chez Eubelius",
-                    "url": "https://www.eubelius.com/fr",
-                    "snippet": "Eubelius est le plus grand cabinet d'avocats indépendant en Belgique, avec des bureaux situés à Bruxelles, à Courtrai et à Anvers."
-                  },
-                  {
-                    "title": "Les 10 meilleurs avocats et cabinets d'avocats en Belgique (2026)",
-                    "url": "https://lawzana.com/fr/lawyers/belgium",
-                    "snippet": "Vous cherchez un avocat à en Belgique ? Découvrez les profils détaillés de notre sélection des meilleurs cabinets à en Belgique."
+                    "title": "Annuaire des Avocats en Belgique | Bottin.be",
+                    "url": "https://www.bottin.be/fr/activites/avocat.htm",
+                    "snippet": "Annuaire téléphonique des Avocats en Belgique : numéro de téléphone, adresse, horaires, avis. Trouvez votre Avocat en Belgique facilement et avec toutes les infos nécessaires"
                   }
                 ]
               },
@@ -253,14 +240,9 @@
                     "snippet": "Le barreau de Bruxelles assure également une fonction disciplinaire importante. Il reçoit les plaintes de clients, d'avocats, de magistrats, et de toute personne concernée, et saisit le conseil de discipline lorsqu'un avocat semble avoir manqué à ses devoirs professionnels."
                   },
                   {
-                    "title": "Cairn Legal · Avocats Bruxelles",
-                    "url": "https://www.cairnlegal.be/",
-                    "snippet": "Avocats à Bruxelles, droit immobilier, droit commercial, contrats, droit du travail, droit du transport, assurances, IT, bail,"
-                  },
-                  {
-                    "title": "Legalia - bureau d'avocats - Bruxelles",
-                    "url": "https://www.legalia.be/",
-                    "snippet": "Avocats spécialisés en droit pénal, droit familial, droit de la jeunesse, droit des étrangers, aide aux personnes vulnérables, aide aux victimes, droit de la circulation routière, récupération de créances, droit social"
+                    "title": "328 Avocats à Bruxelles (Brussel) | - Bottin.be",
+                    "url": "https://www.bottin.be/fr/annuaire/avocat-a-bruxelles-21004.htm",
+                    "snippet": "Annuaire des Avocats à Bruxelles (Brussel) : numéro de téléphone, adresse, horaires, avis. Trouvez votre Avocat à Bruxelles facilement et avec toutes les infos nécessaires."
                   },
                   {
                     "title": "Barreau de Bruxelles - AVOCATS.BE",
@@ -268,19 +250,24 @@
                     "snippet": "Barreau de Bruxelles Palais de Justice Place Poelaert • B-1000 Bruxelles Tél.: +32 2 335 24 60 Ouveture du secrétariat : Lundi au vendredi : 8h30 - 12h30 et 13h30 - 16h (fermé le mercredi et vendredi après-midi). ordre@barreaudebruxelles.be www.barreaudebruxelles.be"
                   },
                   {
-                    "title": "328 Avocats à Bruxelles (Brussel) | - Bottin.be",
-                    "url": "https://www.bottin.be/fr/annuaire/avocat-a-bruxelles-21004.htm",
-                    "snippet": "Annuaire des Avocats à Bruxelles (Brussel) : numéro de téléphone, adresse, horaires, avis. Trouvez votre Avocat à Bruxelles facilement et avec toutes les infos nécessaires."
-                  },
-                  {
-                    "title": "Nous contacter | AVOCATS.BE | Ordre des Barreaux Francophones et ...",
-                    "url": "https://avocats.be/nous-contacter",
-                    "snippet": "AVOCATS.BE est l'Ordre des barreaux francophones et germanophone de Belgique. Cette page vous indique comment nous joindre, et vers qui vous tourner selon votre question.AVOCATS.BEAVOCATS.BEOrdre des Barreaux Francophones et Germanophonerue Haute 139 bte 201000 Bruxelles+32 2 648 20 98accueil@obfg.beNos bureaux sont joignables du lundi au vendredi, de 9h à 17h."
-                  },
-                  {
                     "title": "Avocat Bruxelles : Cabinet pluridisciplinaire | APM Law",
                     "url": "https://www.apmlaw.net/",
                     "snippet": "APM Law, votre cabinet d'avocats à Bruxelles, vous conseille et défend dans les domaines du droit familial, pénal, commercial, et plus. Contactez-nous."
+                  },
+                  {
+                    "title": "Legalia - bureau d'avocats - Bruxelles",
+                    "url": "https://www.legalia.be/",
+                    "snippet": "Avocats spécialisés en droit pénal, droit familial, droit de la jeunesse, droit des étrangers, aide aux personnes vulnérables, aide aux victimes, droit de la circulation routière, récupération de créances, droit social"
+                  },
+                  {
+                    "title": "Cairn Legal · Avocats Bruxelles",
+                    "url": "https://www.cairnlegal.be/",
+                    "snippet": "Avocats à Bruxelles, droit immobilier, droit commercial, contrats, droit du travail, droit du transport, assurances, IT, bail,"
+                  },
+                  {
+                    "title": "Accueil | AVOCATS.BE",
+                    "url": "https://avocats.be/fr",
+                    "snippet": "L'avocat est un professionnel du droit et de la justice. Son rôle est triple : il conseille, concilie et défend au quotidien les particuliers et les entreprises, sur des questions d'ordre privé ou professionnel."
                   }
                 ]
               },
@@ -306,61 +293,10 @@
                 "avocat spécialisé divorce belgique"
               ],
               "serp": {
-                "source": "duckduckgo_fallback",
+                "source": "public_serp_unavailable",
                 "partial": true,
-                "note": "Google returned 200, 0 parsed results",
-                "results": [
-                  {
-                    "title": "Trouvez un Avocat en Divorce - Justifit",
-                    "url": "https://www.justifit.be/trouver/avocats/belgique/divorce/",
-                    "snippet": "Trouvez un avocat spécialiste du Divorce et préparez votre dossier par téléphone, en visio ou en cabinet."
-                  },
-                  {
-                    "title": "Avocat en cas de divorce",
-                    "url": "https://www.droitdelafamille.be/fr-be/Avocat/Avocat-en-cas-de-divorce",
-                    "snippet": "Contactez sans engagement de part et d'autre un avocat spécialisé en droit de la famille pour obtenir des conseils juridiques sur le divorce Dans la pratique, il est souvent possible de ne pas recourir aux tribunaux dans le cadre d'un divorce. Cliquez ici pour en savoir plus sur la médiation en matière de divorce."
-                  },
-                  {
-                    "title": "Avocats spécialistes Divorce par ville & Cabinet d'avocats Divorce en ...",
-                    "url": "https://www.justifit.be/avocats/az/domaines-de-competences/divorce/",
-                    "snippet": "Trouvez un avocat spécialiste du Divorce et préparez votre dossier par téléphone, en visio ou en cabinet."
-                  },
-                  {
-                    "title": "Avocat en cas de divorce",
-                    "url": "https://www.chercheunavocat.be/Cherche-un-avocat/Avocats-droit-des-personnes-de-la-famille/Avocat-en-cas-de-divorce",
-                    "snippet": "Avocat en cas de divorce Avocats spécialisés en droit de la famille en cas de divorce - Conseils et assistance juridique dans votre région Comment un avocat peut-il vous aider en cas de divorce? Vous avez reçu une citation à comparaître. Il est nécessaire de prendre des mesures urgentes et provisoires avant de procéder à un divorce."
-                  },
-                  {
-                    "title": "Avocat - Accompagnement séparation & divorce à Bruxelles",
-                    "url": "https://www.lamaisondudivorce.be/",
-                    "snippet": "Avocats, médiateurs, psychologues et experts financiers réunis en un seul lieu à Bruxelles pour vous accompagner dans votre divorce ou séparation."
-                  },
-                  {
-                    "title": "Lawyer divorce Brussels Belgium - fluent english - Avocat VDB",
-                    "url": "https://www.avocat-vdb.be/en/",
-                    "snippet": "Maître Nathalie Van den Bossche is a lawyer based in Brussels specialised in divorce and family mediation Availability, listening, advice and assistance Fluent in english, has been a lawyer at the Brussels Bar since 1997 and is an approved family mediator. Her activity is exclusively focused on family law. She covers all aspects of family litigation: divorce procedures, separation, parental ..."
-                  },
-                  {
-                    "title": "Meilleurs avocats en Divorce et séparation en Belgique",
-                    "url": "https://lawzana.com/fr/divorce-separation-lawyers/belgium",
-                    "snippet": "Vous cherchez un avocat en Divorce et séparation à en Belgique ? Découvrez les profils détaillés de notre sélection des meilleurs cabinets à en Belgique."
-                  },
-                  {
-                    "title": "Avocats droit des personnes / de la famille",
-                    "url": "https://www.droitdelafamille.be/fr-be/Avocat/Avocats-droit-des-personnes-de-la-famille",
-                    "snippet": "Trouvez ici un AVOCAT spécialisé en DROIT DE LA FAMILLE DANS VOTRE RÉGION. Conseils juridiques en matière de divorce, d'héritage, de succession, d'adoption, de problèmes avec la pension alimentaire et les modalités d'hébergement,.... . Contactez un avocat sans engagement. Ils vous offriront à tout moment leur soutien en partant d'une attitude médiatrice."
-                  },
-                  {
-                    "title": "Avocat divorce Saint-Gilles - Droit famille Bruxelles | Me Madani",
-                    "url": "https://www.avocat-madani.be/",
-                    "snippet": "Votre avocat en procédure de divorce, droit de la famille, Saint-Gilles Vous avez besoin de l'assistance d'un avocat à Bruxelles, Saint-Gilles ? Rendez-vous au cabinet de Maître MADANI. Quels que soient votre situation ou vos problèmes juridiques, votre avocat possède les compétences nécessaires pour vous accompagner et vous conseiller."
-                  },
-                  {
-                    "title": "Avocat en droit de la famille et divorce - Aurélie Jonkers",
-                    "url": "https://www.avocat-jonkers.be/avocat-droit-famille/",
-                    "snippet": "Avocat droit de la famille spécialisé pour les activités de divorce, pension alimentaire, contribution alimentaire, autorité parentale et partage des biens. Aurélie Jonkers vous accueille dans son cabinet pour définir les bases de votre dossier."
-                  }
-                ]
+                "note": "Google returned 200, 0 parsed results; Bing fallback rejected by relevance gate",
+                "results": []
               },
               "evidence": "MIXED_LIVE_PUBLIC_SOURCES"
             }
@@ -370,20 +306,7 @@
       "recovered_target_urls": [],
       "confirmed_ref_domains_min": 0,
       "confirmed_backlinks_min": 0,
-      "external_mentions": [
-        {
-          "position": 1,
-          "title": "Avocat en ligne| Belgique",
-          "url": "https://consulterunavocatenligne.be/",
-          "snippet": "Consultation avocat droit Belge, consultation juridique en ligne pour tous les domaines juridiques. Consulter un avocat en ligne vous …"
-        },
-        {
-          "position": 2,
-          "title": "Avocats Belgique : Guide pour trouver un avocat facilement en Belgique",
-          "url": "https://theoueb.com/site-16301-avocats-belgique",
-          "snippet": "13 janv. 2021 · Pour trouver un avocat capable de mieux vous défendre en Belgique, vous pouvez vous rendre sur ce site qui vous …"
-        }
-      ]
+      "external_mentions": []
     },
     {
       "domain": "eldiariodelcibao.com",
@@ -396,7 +319,7 @@
         "ok": true,
         "data": {
           "domain": "eldiariodelcibao.com",
-          "discovered_candidates": 7,
+          "discovered_candidates": 8,
           "confirmed_backlinks": 0,
           "referring_domains_confirmed": 0,
           "backlinks": [],
@@ -409,71 +332,10 @@
         "ok": true,
         "data": {
           "query": "\"eldiariodelcibao.com\" -site:eldiariodelcibao.com",
-          "source": "bing_live_html_fallback",
+          "source": "public_serp_unavailable",
           "partial": true,
-          "note": "Google returned 200, 0 parsed results",
-          "results": [
-            {
-              "position": 1,
-              "title": "LeJDD or JDD",
-              "url": "https://www.lejdd.fr/",
-              "snippet": "23 de feb de 2014 · Suivez l'actualité politique, internationale et toute l'info société avec le Journal du dimanche. Découvrez tous nos …"
-            },
-            {
-              "position": 2,
-              "title": "Société - LeJDD or JDD",
-              "url": "https://www.lejdd.fr/Societe",
-              "snippet": "Suivez l'actualité importante de la Société en France sur lejdd.fr : faits divers, justice, emploi, éducation..."
-            },
-            {
-              "position": 3,
-              "title": "Découvrez les newsletters du JDD | JDD",
-              "url": "https://newsletter.lejdd.fr/",
-              "snippet": "Découvrez toutes les newsletters du journal du dimanche. La newsletter du matin, Le journal de demain, Bon dimanche à …"
-            },
-            {
-              "position": 4,
-              "title": "Aide en ligne - Le Journal du Dimanche",
-              "url": "https://abonnement.lejdd.fr/aide-et-contact",
-              "snippet": "Accédez à l'aide en ligne du Journal du Dimanche pour toute question ou assistance concernant votre abonnement."
-            },
-            {
-              "position": 5,
-              "title": "Abonnement Le JDD : toutes nos offres et formules",
-              "url": "https://abo.lejdd.fr/",
-              "snippet": "Abonnez-vous au JDD pour 1€ le premier mois puis 6,90€/mois sans engagement. Découvrez nos offres : 100% numériques, papier …"
-            },
-            {
-              "position": 6,
-              "title": "Actualités Internationales | JDD",
-              "url": "https://www.lejdd.fr/International",
-              "snippet": "25 de sept de 2021 · Suivez l'actualité internationale et toute l'info dans le monde avec le JDD. Découvrez tous nos décryptages d'actu."
-            },
-            {
-              "position": 7,
-              "title": "Politique : L'actualité politique décryptée | JDD",
-              "url": "https://www.lejdd.fr/politique",
-              "snippet": "L’actualité politique décryptée par la rédaction du Journal du Dimanche : nos interviews exclusives, sondages, analyses et indiscrets."
-            },
-            {
-              "position": 8,
-              "title": "Le JDNews - LeJDD or JDD",
-              "url": "https://www.lejdd.fr/lejdnews",
-              "snippet": "18 de oct de 2024 · Retrouvez facilement votre JDNews en version papier grâce à notre carte interactive. Indiquez votre adresse ou …"
-            },
-            {
-              "position": 9,
-              "title": "Top 50 du JDD - Les personnalités préférées des Français",
-              "url": "https://www.lejdd.fr/top50",
-              "snippet": "Retrouvez la liste des personnalités préférées des Français, année après année, d'après le baromètre JDD."
-            },
-            {
-              "position": 10,
-              "title": "Pascal Praud - LeJDD or JDD",
-              "url": "https://www.lejdd.fr/bio/pascal-praud",
-              "snippet": "20 de jul de 2026 · Journaliste et animateur de télévision français, Pascal Praud anime “L’Heure des Pros” sur CNews et Pascal …"
-            }
-          ],
+          "note": "Google returned 200, 0 parsed results; Bing fallback rejected by relevance gate",
+          "results": [],
           "evidence": "VERIFIED_FALLBACK_SERP_NOT_GOOGLE"
         }
       },
@@ -481,71 +343,10 @@
         "ok": true,
         "data": {
           "query": "site:eldiariodelcibao.com",
-          "source": "bing_live_html_fallback",
+          "source": "public_serp_unavailable",
           "partial": true,
-          "note": "Google returned 200, 0 parsed results",
-          "results": [
-            {
-              "position": 1,
-              "title": "Molipollo Congelado X 500 Grs - Mac Pollo",
-              "url": "https://web.macpollo.com/producto/molipollo/",
-              "snippet": "Molipollo Congelado X 500 Grs Carne de pollo embutida procesada y condimentada, lista para prepararse sin ningún condimento …"
-            },
-            {
-              "position": 2,
-              "title": "Molipollo - exito.com",
-              "url": "https://www.exito.com/t/molipollo",
-              "snippet": "Molipollo en Almacenes Éxito ofrece opciones confiables para tus preparaciones, combinando calidad y buen precio en productos …"
-            },
-            {
-              "position": 3,
-              "title": "Molipollo archivos - Mac Pollo",
-              "url": "https://web.macpollo.com/productos/salsamentaria/molipollo/",
-              "snippet": "Molipollo Carne de pollo embutida procesada y condimentada, lista para prepararse, infaltable en tus mas deliciosas recetas, se …"
-            },
-            {
-              "position": 4,
-              "title": "Pollo molido adobado de 500 gr al mejor precio | Campollo",
-              "url": "https://campollo.com/productos/carne-molida-pollo-adobada-500-gr/",
-              "snippet": "Conoce todos los detalles del pollo molido adobado de 500 gr de Campollo. ¡Conócelo y cómpralo al mejor precio en nuestros …"
-            },
-            {
-              "position": 5,
-              "title": "Aprovecha: Pollo Molipollo Congelado 500g Frescura Total - Olímpica",
-              "url": "https://www.olimpica.com/pollo-molipollo-mac-pollo-cong-500g-7700741220202-10368/p",
-              "snippet": "Disfruta del Pollo Molipollo Congelado 500g, fresco y de calidad superior. Ideal para tus recetas y comidas familiares. ¡Compra y …"
-            },
-            {
-              "position": 6,
-              "title": "Mac Pollo número 1 en Colombia, Mac Pollo el sabor de la confianza",
-              "url": "https://www.macpollo.com/productos/salsamentaria/molipollo-congelado-x-500-grs",
-              "snippet": "Pasta de pollo finamente molida y condimentada, sin conservantes y con sal reducida en sodio, ideal para recetas deliciosas."
-            },
-            {
-              "position": 7,
-              "title": "Molipollo MAC POLLO x500 g - mercaldas.com",
-              "url": "https://www.mercaldas.com/molipollo-mac-pollo-x500-g-/p",
-              "snippet": "En Mercaldas compra Molipollo MAC POLLO x500 g Carne de pollo embutida procesada y condimentada, lista para prepararse sin …"
-            },
-            {
-              "position": 8,
-              "title": "Mac Pollo: Número 1 en Colombia en productos de pollo, res y cerdo.",
-              "url": "https://www.macpollo.com/",
-              "snippet": "Mac Pollo, la marca de pollo #1 en Colombia, ofrece productos de alta calidad y frescura. Descubre opciones nutritivas y deliciosas …"
-            },
-            {
-              "position": 9,
-              "title": "Carne de pollo molipollo (500 gr) - exito.com",
-              "url": "https://www.exito.com/molipollo-500-gr-491756/p",
-              "snippet": "Carne de pollo molipollo (500 gr) SM -PLU: 24595 Producto no disponible Este producto no está disponible en este momento."
-            },
-            {
-              "position": 10,
-              "title": "Preparados de Pollo - undefined",
-              "url": "https://www.mercaldas.com/carnes-pollo-y-pescado/pollo/preparados-de-pollo",
-              "snippet": "Preparados de Pollo Filete SERRANOVA de pechuga 10 unds x110 g c/u"
-            }
-          ],
+          "note": "Google returned 200, 0 parsed results; Bing fallback rejected by relevance gate",
+          "results": [],
           "evidence": "VERIFIED_FALLBACK_SERP_NOT_GOOGLE"
         }
       },
@@ -569,59 +370,59 @@
                 "aeropuerto cibao noticias"
               ],
               "serp": {
-                "source": "bing_live_html_fallback",
+                "source": "duckduckgo_fallback",
                 "partial": true,
                 "note": "Google returned 200, 0 parsed results",
                 "results": [
                   {
-                    "title": "Google Noticias",
-                    "url": "https://news.google.com/?hl=es",
-                    "snippet": "Amplia cobertura actualizada de noticias, agregada a partir de fuentes de noticias de todo el mundo por Google Noticias"
+                    "title": "Diario Cibao - El periódico de los cibaeños. Noticias de hoy",
+                    "url": "https://diariocibao.com/",
+                    "snippet": "Noticias actualizadas del Cibao y toda República Dominicana. Política, Sociales, deportes y más en Diario Cibao."
                   },
                   {
-                    "title": "Google Noticias",
-                    "url": "https://news.google.com/?hl=es&ned=es_mx",
-                    "snippet": "Amplia cobertura actualizada de noticias, agregada a partir de fuentes de noticias de todo el mundo por Google Noticias"
+                    "title": "Cibao.News",
+                    "url": "https://cibao.news/",
+                    "snippet": "Cibao: noticias actuales de la República Dominicana, enfocándonos en Santiago y temas de interés local."
                   },
                   {
-                    "title": "Noticias Telemundo: Últimas noticias en español de Estados Unidos y …",
-                    "url": "https://www.telemundo.com/noticias",
-                    "snippet": "Sitio oficial de Noticias Telemundo: las noticias de última hora en español de EE.UU., México, Latinoamérica y el mundo. …"
+                    "title": "Noticias de Santiago de los Caballeros y el Cibao",
+                    "url": "https://noticia.do/",
+                    "snippet": "Últimas noticias de Santiago de los Caballeros, el Cibao y República Dominicana. Sucesos, política, justicia, economía y deportes al momento."
                   },
                   {
-                    "title": "Últimas noticias de Estados Unidos, Latinoamérica y el mundo, hoy",
-                    "url": "https://cnnespanol.cnn.com/",
-                    "snippet": "Últimas hora y noticias recientes de Estados Unidos, México, Colombia, Argentina, Latinoamérica y el mundo. Actualidad de hoy …"
+                    "title": "Cibao Aldía - El diario del Cibao",
+                    "url": "https://cibaoaldia.com/",
+                    "snippet": "Por Ramón Mercedes NUEVA YORK.- La calidad del aire en esta ciudad alcanzó niveles peligrosos"
                   },
                   {
-                    "title": "Últimas noticias: la última hora de hoy en EL PAÍS",
-                    "url": "https://elpais.com/ultimas-noticias/",
-                    "snippet": "Hace 4 horas · Consulta las últimas noticias de actualidad al minuto y la última hora de España, México, América y el mundo en EL …"
+                    "title": "Cibao Noticias | Methuen MA - Facebook",
+                    "url": "https://www.facebook.com/cibaonoticiasrdoficial/",
+                    "snippet": "Cibao Noticias, Methuen. 20,147 followers · 15 talking about this. INFORMACIÓN DESDE OTRA PERSPECTIVA"
                   },
                   {
-                    "title": "Noticias, la última hora de España y el mundo - RTVE.es",
-                    "url": "https://www.rtve.es/noticias/",
-                    "snippet": "Noticias de última hora en España y el mundo. Toda la actualidad y las últimas noticias nacionales e internacionales aquí, en RTVE.es"
+                    "title": "Noticias del Cibao - El Pais y el Mundo al dia con la Noticias del Momento",
+                    "url": "https://noticiasdelcibao.com/",
+                    "snippet": "Buscar Buscar Noticias Recientes CESAC registra cumplimiento integral en auditoría de seguimiento ISO 9001:2015 Protecom pone a disposición de los usuarios Calculadora de Factura Eléctrica Club Deportivo y Cultural Calero celebra su 43 aniversario con gran encuentro deportivo y comunitario"
                   },
                   {
-                    "title": "N+ Univision | Noticias en Vivo, Última Hora y Cobertura Minuto a ...",
-                    "url": "https://www.univision.com/noticias",
-                    "snippet": "17 de may de 2013 · Sigue las últimas noticias de hoy en N+ Univision. Información en vivo sobre inmigración, política, sucesos de …"
+                    "title": "Noticias de Cibao - Acento",
+                    "url": "https://www.acento.com.do/tags/?tag=cibao",
+                    "snippet": "Noticias de Cibao Entérate de las últimas noticias de Cibao en Acento Actualidad Abinader coloca obras del Cibao en el centro de su agenda y anuncia proyectos para Manzanillo, Puerto Plata y Samaná Historia y memoria Santiago contará con un archivo para la preservación del patrimonio documental de la región Opinión"
                   },
                   {
-                    "title": "Antena 3 Noticias: Última hora en España y el mundo",
-                    "url": "https://www.antena3.com/noticias/",
-                    "snippet": "Últimas noticias de hoy. Sigue toda la actualidad de España, Internacional, Sociedad, Sucesos, Economía y la última hora en …"
+                    "title": "Cibao Noticias (@cibaonoticiasrd) • Instagram photos and videos",
+                    "url": "https://www.instagram.com/cibaonoticiasrd/",
+                    "snippet": "128K Followers, 31 Following, 12K Posts - Cibao Noticias (@cibaonoticiasrd) on Instagram: \"#CibaoNoticias Noticias de República Dominicana y el mundo. Información desde otra perspectiva📱809-280-2283 www.cibaonoticias.com\""
                   },
                   {
-                    "title": "MILENIO | Noticias de hoy en México y el mundo al momento",
-                    "url": "https://www.milenio.com/",
-                    "snippet": "23 de oct de 2024 · Noticias de última hora de México y el mundo. Entérate aquí de la información más importante sobre política, …"
+                    "title": "Noticias - cibao.com.do",
+                    "url": "https://www.cibao.com.do/banca-personal/noticias/",
+                    "snippet": "Asociación Cibao destaca oportunidades y desafíos de la Inteligencia Artificial para el periodismo Durante el encuentro anual con periodistas, el especialista en Ciencia de Datos e Inteligencia Artificial Renato González abordó las oportunidades y riesgos de estas tecnologías para la investigación, verificación y producción de contenidos. Leer"
                   },
                   {
-                    "title": "Noticias - BBC News Mundo",
-                    "url": "https://www.bbc.com/mundo",
-                    "snippet": "Hace 2 días · Las últimas noticias e información en materia internacional, sobre América Latina, tecnología, ciencia, salud, …"
+                    "title": "Valle del Cibao - Las Noticias que son Titulares en el Cibao",
+                    "url": "https://valledelcibao.com/",
+                    "snippet": "Somos un periódico digital para la zona del Cibao, creado con el objetivo de mantener informada a todos los dominicanos donde ofrecemos noticias del Cibao, Nacionales y más."
                   }
                 ]
               },
@@ -649,61 +450,10 @@
                 "noticias de santiago republica dominicana today"
               ],
               "serp": {
-                "source": "duckduckgo_fallback",
+                "source": "public_serp_unavailable",
                 "partial": true,
-                "note": "Google returned 200, 0 parsed results",
-                "results": [
-                  {
-                    "title": "El Sol de Santiago | Periódico Dominicano",
-                    "url": "https://elsoldesantiago.com/",
-                    "snippet": "Periódico dominicano en línea con las últimas noticias hoy de RD y el mundo, consejos, historia, salud, economía, gente y deportes."
-                  },
-                  {
-                    "title": "Noticias de Santiago de los Caballeros y el Cibao",
-                    "url": "https://noticia.do/",
-                    "snippet": "Últimas noticias de Santiago de los Caballeros, el Cibao y República Dominicana. Sucesos, política, justicia, economía y deportes al momento."
-                  },
-                  {
-                    "title": "Diario Cibao - El periódico de los cibaeños. Noticias de hoy",
-                    "url": "https://diariocibao.com/",
-                    "snippet": "Noticias actualizadas del Cibao y toda República Dominicana. Política, Sociales, deportes y más en Diario Cibao."
-                  },
-                  {
-                    "title": "Ultimas Noticias - Diario Libre",
-                    "url": "https://www.diariolibre.com/ultima-hora",
-                    "snippet": "Noticias de última hora sobre la actualidad en República Dominicana y Latinoamérica: política, economía, deportes, cultura, ciencia y tecnología."
-                  },
-                  {
-                    "title": "*Noticias República Dominicana archivos - Remolacha - Noticias ...",
-                    "url": "https://remolacha.net/category/noticias-republica-dominicana/",
-                    "snippet": "Read more › Tagged with: Concacaf, Dominican Republic, Fedofútbol, FIFA, Noticias Dominicanas, Noticias Republica Dominicana, remolacha noticias, remolacha.net, Republica Dominicana, Wilson Isidor *Noticias República Dominicana, Deportes"
-                  },
-                  {
-                    "title": "Últimas Noticias de la República Dominicana",
-                    "url": "https://www.ultimasnoticias.com.do/",
-                    "snippet": "Últimas Noticias es un diario digital al servicio de los más sanos intereses de la nación dominicana, sobre la base de la ética, la moral y la verdad."
-                  },
-                  {
-                    "title": "santiagodigital.net | La voz del pueblo en internet",
-                    "url": "https://santiagodigital.net/",
-                    "snippet": "Pelea con machete en altamar hizo zozobrar yola en la que iban dominicanos y haitianos Rafael Monsanto - 3 octubre, 2026 Noticias"
-                  },
-                  {
-                    "title": "Noticias de Santiago de los Caballeros | Noticia.do",
-                    "url": "https://noticia.do/santiago/",
-                    "snippet": "Noticias de Santiago de los Caballeros: última hora, política, economía y sociedad desde el corazón del Cibao dominicano."
-                  },
-                  {
-                    "title": "Noticias - El Sol de Santiago",
-                    "url": "https://elsoldesantiago.com/category/noticias/",
-                    "snippet": "Periódico dominicano en línea con las últimas noticias hoy de RD y el mundo, consejos, historia, salud, economía, gente y deportes."
-                  },
-                  {
-                    "title": "Qué Pasa en RD | Noticias de República Dominicana",
-                    "url": "https://quepasaenrd.com/",
-                    "snippet": "Noticias de República Dominicana, denuncias ciudadanas, actualidad, investigación y contexto."
-                  }
-                ]
+                "note": "Google returned 200, 0 parsed results; Bing fallback rejected by relevance gate",
+                "results": []
               },
               "evidence": "MIXED_LIVE_PUBLIC_SOURCES"
             }
@@ -726,61 +476,10 @@
                 "empleos en santiago de los caballeros republica dominicana"
               ],
               "serp": {
-                "source": "duckduckgo_fallback",
+                "source": "public_serp_unavailable",
                 "partial": true,
-                "note": "Google returned 200, 0 parsed results",
-                "results": [
-                  {
-                    "title": "Empleos de Tu empleo rd en Santiago (provincia) - do.jooble.org",
-                    "url": "https://do.jooble.org/trabajo-tu-empleo-rd/Santiago-(provincia)",
-                    "snippet": "Nuevas ofertas de trabajo para Tu empleo rd en Santiago (provincia). Empresas confiables. Tiempo completo, medio y parcial. Sin costo, fácil y rápido puedes encontrar trabajo en casi 2.900+ ofertas en Santiago (provincia) y otras ciudades en República Dominicana."
-                  },
-                  {
-                    "title": "Se necesita urgente: Santiago en Dominicana - Jooble",
-                    "url": "https://do.jooble.org/trabajo-santiago/Dominicana",
-                    "snippet": "Nuevas ofertas de trabajo para Santiago en Dominicana. Empresas confiables. Tiempo completo, medio y parcial. Sin costo, fácil y rápido puedes encontrar trabajo en casi 3.500+ ofertas en Dominicana y otras ciudades en República Dominicana."
-                  },
-                  {
-                    "title": "(339 vacantes) empleos de Santiago en República Dominicana | LinkedIn",
-                    "url": "https://do.linkedin.com/jobs/santiago-empleos",
-                    "snippet": "339 empleos de Santiago populares en República Dominicana hoy. Saca partido a tu red profesional y consigue que te contraten. Cada día salen nuevos empleos de Santiago."
-                  },
-                  {
-                    "title": "Now Hiring: 600 Santiago, Dominican Republic Jobs | Indeed",
-                    "url": "https://www.indeed.com/q-santiago,-dominican-republic-jobs.html",
-                    "snippet": "Browse 634 Santiago, Dominican Republic jobs. New jobs posted today. Apply now and find your next opportunity on Indeed.com."
-                  },
-                  {
-                    "title": "Buscar empleo en Santiago | Computrabajo Republica Dominicana",
-                    "url": "https://do.computrabajo.com/empleos-en-santiago",
-                    "snippet": "¿Buscas trabajo en Santiago? Consulta las mejores ofertas de empleo en las mejores empresa en la bolsa de empleo líder en Santiago."
-                  },
-                  {
-                    "title": "Vacantes y Empleos Disponibles en Santiago, República Dominicana (16+)",
-                    "url": "https://tunuevotrabajo.net/do/empleos-en/santiago",
-                    "snippet": "Consulta 16+ vacantes y empleos disponibles cerca de ti en Santiago, República Dominicana. Ofertas de trabajo locales actualizadas hoy con postulación direct…"
-                  },
-                  {
-                    "title": "Buscar empleo en Santiago, Santiago | Computrabajo Republica Dominicana",
-                    "url": "https://do.computrabajo.com/empleos-en-santiago-en-santiago",
-                    "snippet": "¿Buscas trabajo en Santiago, Santiago? Consulta las mejores ofertas de empleo en las mejores empresa en la bolsa de empleo líder en Santiago, Santiago."
-                  },
-                  {
-                    "title": "Ofertas de empleo santiago rd en República Dominicana",
-                    "url": "https://www.opcionempleo.com.do/trabajo-santiago-rd",
-                    "snippet": "Todas las ofertas de empleo y trabajo de santiago rd en República Dominicana. Opcionempleo, el motor de búsqueda de empleos."
-                  },
-                  {
-                    "title": "342 empleos de «Empleos» en Santiago de los Caballeros ... - LinkedIn",
-                    "url": "https://do.linkedin.com/jobs/empleos-en-santiago-de-los-caballeros",
-                    "snippet": "Los 342 empleos más populares de «Empleos» en Santiago de los Caballeros, Santiago, República Dominicana hoy. Sácale el máximo partido a tu red profesional y consigue que te contraten. Se añaden nuevos empleos para Empleos a diario."
-                  },
-                  {
-                    "title": "150 Trabajos en Santiago hoy - Acciontrabajo República Dominicana",
-                    "url": "https://do.acciontrabajo.com/ofertas-de-trabajo-en-santiago",
-                    "snippet": "Encuentra tu nuevo empleo en Santiago hoy, hay empleos en Santiago en Octubre 2026 de administración, ventas, ingeniería, salud, informática, educación ..."
-                  }
-                ]
+                "note": "Google returned 200, 0 parsed results; Bing fallback rejected by relevance gate",
+                "results": []
               },
               "evidence": "MIXED_LIVE_PUBLIC_SOURCES"
             }
@@ -790,68 +489,7 @@
       "recovered_target_urls": [],
       "confirmed_ref_domains_min": 0,
       "confirmed_backlinks_min": 0,
-      "external_mentions": [
-        {
-          "position": 1,
-          "title": "LeJDD or JDD",
-          "url": "https://www.lejdd.fr/",
-          "snippet": "23 de feb de 2014 · Suivez l'actualité politique, internationale et toute l'info société avec le Journal du dimanche. Découvrez tous nos …"
-        },
-        {
-          "position": 2,
-          "title": "Société - LeJDD or JDD",
-          "url": "https://www.lejdd.fr/Societe",
-          "snippet": "Suivez l'actualité importante de la Société en France sur lejdd.fr : faits divers, justice, emploi, éducation..."
-        },
-        {
-          "position": 3,
-          "title": "Découvrez les newsletters du JDD | JDD",
-          "url": "https://newsletter.lejdd.fr/",
-          "snippet": "Découvrez toutes les newsletters du journal du dimanche. La newsletter du matin, Le journal de demain, Bon dimanche à …"
-        },
-        {
-          "position": 4,
-          "title": "Aide en ligne - Le Journal du Dimanche",
-          "url": "https://abonnement.lejdd.fr/aide-et-contact",
-          "snippet": "Accédez à l'aide en ligne du Journal du Dimanche pour toute question ou assistance concernant votre abonnement."
-        },
-        {
-          "position": 5,
-          "title": "Abonnement Le JDD : toutes nos offres et formules",
-          "url": "https://abo.lejdd.fr/",
-          "snippet": "Abonnez-vous au JDD pour 1€ le premier mois puis 6,90€/mois sans engagement. Découvrez nos offres : 100% numériques, papier …"
-        },
-        {
-          "position": 6,
-          "title": "Actualités Internationales | JDD",
-          "url": "https://www.lejdd.fr/International",
-          "snippet": "25 de sept de 2021 · Suivez l'actualité internationale et toute l'info dans le monde avec le JDD. Découvrez tous nos décryptages d'actu."
-        },
-        {
-          "position": 7,
-          "title": "Politique : L'actualité politique décryptée | JDD",
-          "url": "https://www.lejdd.fr/politique",
-          "snippet": "L’actualité politique décryptée par la rédaction du Journal du Dimanche : nos interviews exclusives, sondages, analyses et indiscrets."
-        },
-        {
-          "position": 8,
-          "title": "Le JDNews - LeJDD or JDD",
-          "url": "https://www.lejdd.fr/lejdnews",
-          "snippet": "18 de oct de 2024 · Retrouvez facilement votre JDNews en version papier grâce à notre carte interactive. Indiquez votre adresse ou …"
-        },
-        {
-          "position": 9,
-          "title": "Top 50 du JDD - Les personnalités préférées des Français",
-          "url": "https://www.lejdd.fr/top50",
-          "snippet": "Retrouvez la liste des personnalités préférées des Français, année après année, d'après le baromètre JDD."
-        },
-        {
-          "position": 10,
-          "title": "Pascal Praud - LeJDD or JDD",
-          "url": "https://www.lejdd.fr/bio/pascal-praud",
-          "snippet": "20 de jul de 2026 · Journaliste et animateur de télévision français, Pascal Praud anime “L’Heure des Pros” sur CNews et Pascal …"
-        }
-      ]
+      "external_mentions": []
     },
     {
       "domain": "andaluztarija.com",
@@ -862,7 +500,7 @@
           "requested_url": "https://andaluztarija.com",
           "final_url": "https://andaluztarija.com/",
           "http_status": 200,
-          "response_ms": 493,
+          "response_ms": 397,
           "https": true,
           "content_type": "text/html; charset=UTF-8",
           "content_bytes": 1020,
@@ -919,10 +557,19 @@
         "ok": true,
         "data": {
           "domain": "andaluztarija.com",
-          "discovered_candidates": 0,
-          "confirmed_backlinks": 0,
-          "referring_domains_confirmed": 0,
-          "backlinks": [],
+          "discovered_candidates": 7,
+          "confirmed_backlinks": 1,
+          "referring_domains_confirmed": 1,
+          "backlinks": [
+            {
+              "source_url": "https://www.scamadviser.com/check-website/andaluztarija.com",
+              "target_url": "http://andaluztarija.com/?utm_medium=Scamadviser.com&utm_campaign=Scamadviser.com",
+              "anchor": "VISIT",
+              "rel": "noopener noreferrer",
+              "follow": true,
+              "http_status": 200
+            }
+          ],
           "evidence": "CONFIRMED_BY_FETCHING_SOURCE_PAGES",
           "coverage": "PARTIAL_DISCOVERY_NOT_A_FULL_WEB_LINK_INDEX",
           "note": "Le compteur est un minimum confirmé, pas le total absolu du Web."
@@ -932,71 +579,10 @@
         "ok": true,
         "data": {
           "query": "\"andaluztarija.com\" -site:andaluztarija.com",
-          "source": "bing_live_html_fallback",
+          "source": "public_serp_unavailable",
           "partial": true,
-          "note": "Google returned 200, 0 parsed results",
-          "results": [
-            {
-              "position": 1,
-              "title": "Pusheen Shop",
-              "url": "https://pusheen.com/",
-              "snippet": "Pusheen Shop is the official online home of Pusheen! Explore exclusive plush, apparel, accessories and more!"
-            },
-            {
-              "position": 2,
-              "title": "Pusheen - Wikipedia",
-              "url": "https://en.m.wikipedia.org/wiki/Pusheen",
-              "snippet": "More recently, the Pusheen character has been used in social media posts, and on the Pusheen blog. On the official Pusheen …"
-            },
-            {
-              "position": 3,
-              "title": "Pusheen the Cat - YouTube",
-              "url": "https://www.youtube.com/channel/UCFWi9aUuK7oFksfbWObwcIQ",
-              "snippet": "Welcome to Pusheen's official Youtube Channel! For more things Pusheen, visit https://Pusheen.com !"
-            },
-            {
-              "position": 4,
-              "title": "Characters – Pusheen Shop",
-              "url": "https://pusheen.com/pages/characters",
-              "snippet": "Pusheen Shop is the official online home of Pusheen! Explore exclusive plush, apparel, accessories and more!"
-            },
-            {
-              "position": 5,
-              "title": "Pusheen - Wikipedia, la enciclopedia libre",
-              "url": "https://es.m.wikipedia.org/wiki/Pusheen",
-              "snippet": "Descripción Pusheen es una gata de color gris con franjas sobre su lomo y cabeza, cuerpo redondo y pequeñas patas. Es descrita …"
-            },
-            {
-              "position": 6,
-              "title": "Pusheen (@pusheen) • Instagram photos and videos",
-              "url": "https://www.instagram.com/pusheen/",
-              "snippet": "The official account of Pusheen the cat. Shop new and exclusive Pusheen merchandise online at @thepusheenshop!"
-            },
-            {
-              "position": 7,
-              "title": "Pusheen",
-              "url": "https://www.walmart.com/browse/pusheen/YnJhbmQ6UHVzaGVlbgieie",
-              "snippet": "Shop for Pusheen . Buy products such as Pusheen Sushi 9.5 Plush (Other), Pusheen Funko POP Vinyl Figure | Pusheen with …"
-            },
-            {
-              "position": 8,
-              "title": "Pusheen (@pusheen) | TikTok",
-              "url": "https://www.tiktok.com/@pusheen",
-              "snippet": "Official account of Pusheen the Cat.Watch Pusheen's popular videos: \"she got this for you...\", \"🐾 #Pusheen #pushee...\". Join 2.2M …"
-            },
-            {
-              "position": 9,
-              "title": "Pusheen | Wiki Gatopedia | Fandom",
-              "url": "https://gatopedia.fandom.com/es/wiki/Pusheen",
-              "snippet": "Pusheen es un webcómic sobre la vida cotidiana de una gata del mismo nombre, el cual ha alcanzado gran reconocimiento y …"
-            },
-            {
-              "position": 10,
-              "title": "Amazon.com: Pusheen",
-              "url": "https://www.amazon.com/pusheen/s?k=pusheen",
-              "snippet": "Pusheen character plushies in various sizes and styles, from food themes to special editions for gifting."
-            }
-          ],
+          "note": "Google returned 200, 0 parsed results; Bing fallback rejected by relevance gate",
+          "results": [],
           "evidence": "VERIFIED_FALLBACK_SERP_NOT_GOOGLE"
         }
       },
@@ -1004,71 +590,10 @@
         "ok": true,
         "data": {
           "query": "site:andaluztarija.com",
-          "source": "bing_live_html_fallback",
+          "source": "public_serp_unavailable",
           "partial": true,
-          "note": "Google returned 200, 0 parsed results",
-          "results": [
-            {
-              "position": 1,
-              "title": "The Best 10 Pizza Places near Redmond, WA 98052 - Yelp",
-              "url": "https://www.yelp.com/search?cflt=pizza&find_loc=Redmond%2C+WA+98052&msockid=195ee4de45396b353841f33944bf6a28",
-              "snippet": "What are people saying about pizza places near Redmond, WA? This is a review for pizza places near Redmond, WA: \"Interesting …"
-            },
-            {
-              "position": 2,
-              "title": "THE 10 BEST Pizza Places in Redmond (Updated 2026) - Tripadvisor",
-              "url": "https://www.tripadvisor.com/Restaurants-g58702-c31-Redmond_Washington.html",
-              "snippet": "Best Pizza in Redmond, Washington: Find Tripadvisor traveller reviews of Redmond Pizza places and search by price, location, and …"
-            },
-            {
-              "position": 3,
-              "title": "Pizza Delivery & Carryout in Redmond, Washington| Domino's Pizza",
-              "url": "https://pizza.dominos.com/washington/redmond",
-              "snippet": "Order pizza delivery or carryout from Domino's in Redmond, Washington. Find your nearest location, view hours, and start your order …"
-            },
-            {
-              "position": 4,
-              "title": "Pagliacci Pizza: Seattle Area Pizza & Delivery",
-              "url": "https://pagliacci.com/",
-              "snippet": "Pagliacci Pizza, serving Seattle's best pizza since 1979. Offering pizza by the slice and pizza delivery service to homes and businesses."
-            },
-            {
-              "position": 5,
-              "title": "Domino's Pizza at 16260 Redmond Way | Domino's in Redmond",
-              "url": "https://pizza.dominos.com/washington/redmond/16260-redmond-way",
-              "snippet": "Order from Domino's on 16260 Redmond Way for pizza delivery or takeout in Redmond, WA. Visit, call, or order online for pizza, …"
-            },
-            {
-              "position": 6,
-              "title": "Pizza Delivery to Redmond | Pagliacci Pizza",
-              "url": "https://www.pagliacci.com/locations/redmond",
-              "snippet": "Order Pagliacci Pizza in Downtown Redmond & Bear Creek. Fresh ingredients, award-winning taste. Fast delivery, easy pickup, or …"
-            },
-            {
-              "position": 7,
-              "title": "Pizzeria in Redmond, WA - Pizza Hut",
-              "url": "https://locations.pizzahut.com/wa/redmond/pizzeria",
-              "snippet": "Looking for a pizzeria in Redmond? How about one that’s been delivering the goods since 1958? Pizza Hut pizzerias have the …"
-            },
-            {
-              "position": 8,
-              "title": "Takeout in Redmond, WA - Pizza Hut",
-              "url": "https://locations.pizzahut.com/wa/redmond/takeout",
-              "snippet": "Order hot and freshly baked pizza, wings, pasta, & more from your local Pizza Hut in Redmond, WA."
-            },
-            {
-              "position": 9,
-              "title": "TOP 10 BEST Pizza near Redmond, WA 98052 - Updated 2026 - Yelp",
-              "url": "https://www.yelp.com/search?find_desc=Pizza&find_loc=Redmond%2C+WA+98052&msockid=195ee4de45396b353841f33944bf6a28",
-              "snippet": "Top 10 Best Pizza in Redmond, WA 98052 - Last Updated September 2026 - Yelp - Spark Pizza, Pagliacci Pizza, Sodo Pizza, …"
-            },
-            {
-              "position": 10,
-              "title": "Can Am Pizza | Best Pizza in Redmond, WA | Pizza near me",
-              "url": "https://canampizza.com/redmond-wa",
-              "snippet": "Can Am Pizza is a trusted pizza restaurant serving gourmet pizza, pasta, and more across multiple locations in Washington and …"
-            }
-          ],
+          "note": "Google returned 200, 0 parsed results; Bing fallback rejected by relevance gate",
+          "results": [],
           "evidence": "VERIFIED_FALLBACK_SERP_NOT_GOOGLE"
         }
       },
@@ -1097,59 +622,59 @@
                 "noticias tarija en vivo facebook"
               ],
               "serp": {
-                "source": "bing_live_html_fallback",
+                "source": "duckduckgo_fallback",
                 "partial": true,
                 "note": "Google returned 200, 0 parsed results",
                 "results": [
                   {
-                    "title": "Google Noticias",
-                    "url": "https://news.google.com/?hl=es",
-                    "snippet": "Amplia cobertura actualizada de noticias, agregada a partir de fuentes de noticias de todo el mundo por Google Noticias"
+                    "title": "La Voz de Tarija",
+                    "url": "https://lavozdetarija.com/",
+                    "snippet": "El presidente del Colegio de Abogados de Tarija, Fernando Valverde, se refirió a las últimas noticias relacionadas con el ámbito judicial y político del país y señaló que esta situación vuelve a poner en evidencia la necesidad de una reestructuración de la justicia boliviana. Valverde ..."
                   },
                   {
-                    "title": "Google Noticias",
-                    "url": "https://news.google.com/?hl=es&ned=es_mx",
-                    "snippet": "Amplia cobertura actualizada de noticias, agregada a partir de fuentes de noticias de todo el mundo por Google Noticias"
+                    "title": "El País » Noticias de Tarija, Bolivia y el mundo",
+                    "url": "https://elpais.bo/",
+                    "snippet": "Infórmate con el mejor análisis político, la crónica deportiva del momento, y todo sobre el entretenimiento y la cultura."
                   },
                   {
-                    "title": "Noticias Telemundo: Últimas noticias en español de Estados Unidos y …",
-                    "url": "https://www.telemundo.com/noticias",
-                    "snippet": "Sitio oficial de Noticias Telemundo: las noticias de última hora en español de EE.UU., México, Latinoamérica y el mundo. …"
+                    "title": "Noticias El Periódico Tarija | Noticias de Tarija y del sur del país",
+                    "url": "https://elperiodico.com.bo/",
+                    "snippet": "El Periódico es un medio de comunicación impreso y digital, que informa diariamente sobre los sucesos que acontecen en Tarija, Bolivia y el mundo. El Periódico es parte de BOLINFO Y VISIÓN, una multimedia que incluye canales televisivos y difusoras radiales en el Departamento de Tarija, que tiene como misión brindarle información veraz."
                   },
                   {
-                    "title": "Últimas noticias de Estados Unidos, Latinoamérica y el mundo, hoy",
-                    "url": "https://cnnespanol.cnn.com/",
-                    "snippet": "Últimas hora y noticias recientes de Estados Unidos, México, Colombia, Argentina, Latinoamérica y el mundo. Actualidad de hoy …"
+                    "title": "Noticias de Tarija y Bolivia - El Andaluz",
+                    "url": "https://elandaluz.com.bo/",
+                    "snippet": "Agencias/El Andaluz La producción de frutilla se consolida como una alternativa para generar ingresos y dinamizar la economía de las familias del área rural de Tarija. En Tolomosa, productores mostraron el potencial alcanzado por este cultivo, en una actividad que contó con la participación y el respaldo del Gobierno Municipal de Tarija."
                   },
                   {
-                    "title": "Últimas noticias: la última hora de hoy en EL PAÍS",
-                    "url": "https://elpais.com/ultimas-noticias/",
-                    "snippet": "Hace 4 horas · Consulta las últimas noticias de actualidad al minuto y la última hora de España, México, América y el mundo en EL …"
+                    "title": "Tarija Noticias",
+                    "url": "https://tarijanoticias.com.bo/",
+                    "snippet": "Yacuiba se moviliza por la crisis de salud y reclama 280 ítems para cubrir el déficit de personal Torres va al diálogo con la Gobernación de Tarija y descarta aplicar débitos automáticos por los recursos del 1% Delgado observa retrasos en la entrega del POA departamental y pide explicaciones a la Gobernación El transporte tarijeño se ..."
                   },
                   {
-                    "title": "Noticias, la última hora de España y el mundo - RTVE.es",
-                    "url": "https://www.rtve.es/noticias/",
-                    "snippet": "Noticias de última hora en España y el mundo. Toda la actualidad y las últimas noticias nacionales e internacionales aquí, en RTVE.es"
+                    "title": "TARIJA 200 | Diario libre: Noticias de Tarija, Bolivia y el Mundo Tarija",
+                    "url": "https://www.tarija200.com/category/tarija",
+                    "snippet": "TARIJA 200 | Diario abierto, libre, plural y tuyo: Noticias de Tarija, Bolivia y el Mundo con información útil para el desarrollo sostenible, el progreso económico, el bienestar social y el cuidado del planeta. Comprometidos con la sostenibilidad, el desarrollo y la libertad."
                   },
                   {
-                    "title": "N+ Univision | Noticias en Vivo, Última Hora y Cobertura Minuto a ...",
-                    "url": "https://www.univision.com/noticias",
-                    "snippet": "17 de may de 2013 · Sigue las últimas noticias de hoy en N+ Univision. Información en vivo sobre inmigración, política, sucesos de …"
+                    "title": "EL PORTAL DE NOTICIAS EN TARIJA - Actualizando Tarija",
+                    "url": "https://actualizandotarija.com.bo/",
+                    "snippet": "Actualizando Tarija es un periódico digital creado en el sur de Bolivia, para mantenerte informad@ de sucesos locales, nacionales e internacionales"
                   },
                   {
-                    "title": "Antena 3 Noticias: Última hora en España y el mundo",
-                    "url": "https://www.antena3.com/noticias/",
-                    "snippet": "Últimas noticias de hoy. Sigue toda la actualidad de España, Internacional, Sociedad, Sucesos, Economía y la última hora en …"
+                    "title": "Tarija - Últimas noticias en Bolivia.com",
+                    "url": "https://www.bolivia.com/tag/tarija",
+                    "snippet": "La más reciente información de Tarija publicada en Bolivia.com. Noticias, videos, imágenes."
                   },
                   {
-                    "title": "MILENIO | Noticias de hoy en México y el mundo al momento",
-                    "url": "https://www.milenio.com/",
-                    "snippet": "23 de oct de 2024 · Noticias de última hora de México y el mundo. Entérate aquí de la información más importante sobre política, …"
+                    "title": "Tarija - EL DEBER",
+                    "url": "https://eldeber.com.bo/pais/tarija",
+                    "snippet": "Noticias sobre Tarija, mantenete informado con las noticias sobre Tarija."
                   },
                   {
-                    "title": "Noticias - BBC News Mundo",
-                    "url": "https://www.bbc.com/mundo",
-                    "snippet": "Hace 2 días · Las últimas noticias e información en materia internacional, sobre América Latina, tecnología, ciencia, salud, …"
+                    "title": "Global Tarija TV -",
+                    "url": "https://globaltarija.com/",
+                    "snippet": "Global Tarija Es un medio de comunicaciones comprometido con informar a su audiencia y mantenerla actualizada de los acontecimientos más relevantes en Tarija, Bolivia y el mundo."
                   }
                 ]
               },
@@ -1181,61 +706,10 @@
                 "hoteles en tarija con piscina"
               ],
               "serp": {
-                "source": "bing_live_html_fallback",
+                "source": "public_serp_unavailable",
                 "partial": true,
-                "note": "Google returned 200, 0 parsed results",
-                "results": [
-                  {
-                    "title": "10 Best San Antonio Hotels, United States (From $46)",
-                    "url": "https://www.booking.com/city/us/san-antonio.html?msockid=0fe2c2e4d30766773253d503d2d6677a",
-                    "snippet": "Hace 2 días · Booking.com has several San Antonio hotels near the Alamodome, and more accommodations near San Antonio …"
-                  },
-                  {
-                    "title": "Busca hoteles en San Antonio, TX - Booking.com",
-                    "url": "https://www.booking.com/city/us/san-antonio.es.html?msockid=0fe2c2e4d30766773253d503d2d6677a",
-                    "snippet": "San Antonio es una ciudad de Texas que alberga dos de los lugares más turísticos del estado: el Álamo y el Riverwalk. El Álamo es …"
-                  },
-                  {
-                    "title": "LOS 10 MEJORES hoteles en San Antonio, Texas - Tripadvisor",
-                    "url": "https://www.tripadvisor.com.mx/Hotels-g60956-San_Antonio_Texas-Hotels.html",
-                    "snippet": "Los mejores hoteles en San Antonio en Tripadvisor: 204,843 opiniones sobre hoteles, fotos de viajeros y los precios más baratos de …"
-                  },
-                  {
-                    "title": "Hoteles en San Antonio, TX desde $812 MXN - Expedia.mx",
-                    "url": "https://www.expedia.mx/San-Antonio-Hoteles.d178303.Guia-Viajes-Hoteles?msockid=0fe2c2e4d30766773253d503d2d6677a",
-                    "snippet": "Disfruta de los juegos y el entretenimiento en Parque temático Six Flags Fiesta Texas y descubre por qué este parque temático es …"
-                  },
-                  {
-                    "title": "Hoteles en San Antonio, Texas desde USD 56 - Reserva en línea con ...",
-                    "url": "https://www.hoteles.com/de1490932/hoteles-san-antonio-texas/",
-                    "snippet": "San Antonio es un destino famoso por su pintoresca ribera, que cuenta con atracciones como Centro de convenciones Henry B. …"
-                  },
-                  {
-                    "title": "Hoteles.com - Ofertas y descuentos para reservaciones en hoteles de ...",
-                    "url": "https://www.hoteles.com/",
-                    "snippet": "Hoteles.com | Encuentra hoteles baratos y descuentos al reservar en Hoteles.com. Compara ofertas y promociones, y lee …"
-                  },
-                  {
-                    "title": "LOS 10 MEJORES hoteles cerca de Paseo del Río - Tripadvisor",
-                    "url": "https://www.tripadvisor.com.mx/HotelsNear-g60956-d105056-San_Antonio_River_Walk-San_Antonio_Texas.html",
-                    "snippet": "Los hoteles con las mejores calificaciones en Tripadvisor, según las opiniones de los viajeros. Ver los establecimientos ubicados …"
-                  },
-                  {
-                    "title": "LOS 10 MEJORES hoteles: San Antonio 2026 (desde 38 €) - Tripadvisor",
-                    "url": "https://www.tripadvisor.es/Hotels-g60956-San_Antonio_Texas-Hotels.html",
-                    "snippet": "Reserva los mejores hoteles de San Antonio en Tripadvisor: 204.843 opiniones y 76.323 fotos de viajeros, y los precios más baratos …"
-                  },
-                  {
-                    "title": "Find hotels in San Antonio, TX from $45 - Expedia",
-                    "url": "https://www.expedia.com/San-Antonio-Hotels.d178303.Travel-Guide-Hotels?msockid=0fe2c2e4d30766773253d503d2d6677a",
-                    "snippet": "19 de oct de 2010 · Explore a diverse range of hotel accommodations in San Antonio, Texas, catering to every type of traveler. …"
-                  },
-                  {
-                    "title": "THE 10 BEST Hotels in San Antonio, TX 2026 (from $44) - Tripadvisor",
-                    "url": "https://www.tripadvisor.com/Hotels-g60956-San_Antonio_Texas-Hotels.html",
-                    "snippet": "Elegant resort with Texas Hill Country views, nature trails, and relaxing pools. Conveniently located near attractions, shopping, and …"
-                  }
-                ]
+                "note": "Google returned 200, 0 parsed results; Bing fallback rejected by relevance gate",
+                "results": []
               },
               "evidence": "MIXED_LIVE_PUBLIC_SOURCES"
             }
@@ -1259,132 +733,22 @@
                 "inmobiliaria tarija la chura"
               ],
               "serp": {
-                "source": "bing_live_html_fallback",
+                "source": "public_serp_unavailable",
                 "partial": true,
-                "note": "Google returned 200, 0 parsed results",
-                "results": [
-                  {
-                    "title": "YouTube",
-                    "url": "https://www.youtube.com/",
-                    "snippet": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube."
-                  },
-                  {
-                    "title": "YouTube",
-                    "url": "https://www.youtube.com/feed/homepage",
-                    "snippet": "AboutPressCopyrightContact usCreatorsAdvertiseDevelopersTermsPrivacyPolicy & SafetyHow YouTube worksTest new …"
-                  },
-                  {
-                    "title": "YouTube - YouTube",
-                    "url": "https://www.youtube.com/youtube",
-                    "snippet": "One of YouTube’s most creative prop-making duos, @WickedMakers, is known for creating spectacular spooky creations. In …"
-                  },
-                  {
-                    "title": "YouTube",
-                    "url": "https://www.youtube.com/feed?hl=es-419",
-                    "snippet": "Acerca dePrensaDerechos de autorComunicarte con nosotrosCreadoresAnunciarDesarrolladoresCondicionesPrivacidadPolíticas y …"
-                  },
-                  {
-                    "title": "official site - YouTube",
-                    "url": "https://www.youtube.com/@official_site_",
-                    "snippet": "official site @official_site_ • 98 subscribers More about this channel ...more More about this channel ...more ...more"
-                  },
-                  {
-                    "title": "YouTube",
-                    "url": "https://www.youtube.com/@en.---",
-                    "snippet": "Share your videos and discover content from friends, family, and creators worldwide on YouTube."
-                  },
-                  {
-                    "title": "YouTube - Google Accounts",
-                    "url": "https://accounts.google.com/InteractiveLogin?service=youtube",
-                    "snippet": "Share your videos with friends, family, and the world."
-                  },
-                  {
-                    "title": "YouTube Music",
-                    "url": "https://music.youtube.com/",
-                    "snippet": "With the YouTube Music app, enjoy over 100 million songs at your fingertips, plus albums, playlists, remixes, music videos, live …"
-                  },
-                  {
-                    "title": "Movies & TV - YouTube",
-                    "url": "https://movies.youtube.com/",
-                    "snippet": "Find the latest and greatest movies and shows all available on YouTube.com/movies. From award-winning hits to independent …"
-                  },
-                  {
-                    "title": "About YouTube - YouTube",
-                    "url": "https://about.youtube/",
-                    "snippet": "YouTube's mission is to give everyone a voice and show them the world. Learn about our brand, community, careers and more."
-                  }
-                ]
+                "note": "Google returned 200, 0 parsed results; Bing fallback rejected by relevance gate",
+                "results": []
               },
               "evidence": "MIXED_LIVE_PUBLIC_SOURCES"
             }
           }
         }
       ],
-      "recovered_target_urls": [],
-      "confirmed_ref_domains_min": 0,
-      "confirmed_backlinks_min": 0,
-      "external_mentions": [
-        {
-          "position": 1,
-          "title": "Pusheen Shop",
-          "url": "https://pusheen.com/",
-          "snippet": "Pusheen Shop is the official online home of Pusheen! Explore exclusive plush, apparel, accessories and more!"
-        },
-        {
-          "position": 2,
-          "title": "Pusheen - Wikipedia",
-          "url": "https://en.m.wikipedia.org/wiki/Pusheen",
-          "snippet": "More recently, the Pusheen character has been used in social media posts, and on the Pusheen blog. On the official Pusheen …"
-        },
-        {
-          "position": 3,
-          "title": "Pusheen the Cat - YouTube",
-          "url": "https://www.youtube.com/channel/UCFWi9aUuK7oFksfbWObwcIQ",
-          "snippet": "Welcome to Pusheen's official Youtube Channel! For more things Pusheen, visit https://Pusheen.com !"
-        },
-        {
-          "position": 4,
-          "title": "Characters – Pusheen Shop",
-          "url": "https://pusheen.com/pages/characters",
-          "snippet": "Pusheen Shop is the official online home of Pusheen! Explore exclusive plush, apparel, accessories and more!"
-        },
-        {
-          "position": 5,
-          "title": "Pusheen - Wikipedia, la enciclopedia libre",
-          "url": "https://es.m.wikipedia.org/wiki/Pusheen",
-          "snippet": "Descripción Pusheen es una gata de color gris con franjas sobre su lomo y cabeza, cuerpo redondo y pequeñas patas. Es descrita …"
-        },
-        {
-          "position": 6,
-          "title": "Pusheen (@pusheen) • Instagram photos and videos",
-          "url": "https://www.instagram.com/pusheen/",
-          "snippet": "The official account of Pusheen the cat. Shop new and exclusive Pusheen merchandise online at @thepusheenshop!"
-        },
-        {
-          "position": 7,
-          "title": "Pusheen",
-          "url": "https://www.walmart.com/browse/pusheen/YnJhbmQ6UHVzaGVlbgieie",
-          "snippet": "Shop for Pusheen . Buy products such as Pusheen Sushi 9.5 Plush (Other), Pusheen Funko POP Vinyl Figure | Pusheen with …"
-        },
-        {
-          "position": 8,
-          "title": "Pusheen (@pusheen) | TikTok",
-          "url": "https://www.tiktok.com/@pusheen",
-          "snippet": "Official account of Pusheen the Cat.Watch Pusheen's popular videos: \"she got this for you...\", \"🐾 #Pusheen #pushee...\". Join 2.2M …"
-        },
-        {
-          "position": 9,
-          "title": "Pusheen | Wiki Gatopedia | Fandom",
-          "url": "https://gatopedia.fandom.com/es/wiki/Pusheen",
-          "snippet": "Pusheen es un webcómic sobre la vida cotidiana de una gata del mismo nombre, el cual ha alcanzado gran reconocimiento y …"
-        },
-        {
-          "position": 10,
-          "title": "Amazon.com: Pusheen",
-          "url": "https://www.amazon.com/pusheen/s?k=pusheen",
-          "snippet": "Pusheen character plushies in various sizes and styles, from food themes to special editions for gifting."
-        }
-      ]
+      "recovered_target_urls": [
+        "http://andaluztarija.com/?utm_medium=Scamadviser.com&utm_campaign=Scamadviser.com"
+      ],
+      "confirmed_ref_domains_min": 1,
+      "confirmed_backlinks_min": 1,
+      "external_mentions": []
     }
   ]
 }
