@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "policy": "INDEX surfaces should be enrolled in Search Console. EXCLUDE surfaces must never be auto-enrolled.",
+  "sites": [
+    {"name":"BetGPT","baseUrl":"https://betgpt.live/","mode":"index","propertyMode":"domain","dnsProvider":"dynadot"},
+    {"name":"StreamEast Hub","baseUrl":"https://streameasthub.com/","mode":"index","propertyMode":"domain","dnsProvider":"dynadot"},
+    {"name":"FreeHotels.info","baseUrl":"https://freehotels.info/","mode":"index","propertyMode":"domain","dnsProvider":"dynadot"},
+    {"name":"BizarreSexuality","baseUrl":"https://bizarresexuality-site.vercel.app/","mode":"index","propertyMode":"urlPrefix"},
+    {"name":"Pronostics Sportifs","baseUrl":"https://pronostics-sportifs.vercel.app/","mode":"index","propertyMode":"urlPrefix"},
+    {"name":"Wyylde Opiniones 2026","baseUrl":"https://wyylde-opiniones-2026.vercel.app/","mode":"index","propertyMode":"urlPrefix"},
+    {"name":"Wyylde Opiniones 2026 ES","baseUrl":"https://wyylde-opiniones-2026-es.vercel.app/","mode":"index","propertyMode":"urlPrefix"},
+    {"name":"SEO Master Forge","baseUrl":"https://seo-master-forge.vercel.app/","mode":"index","propertyMode":"urlPrefix"},
+    {"name":"CoteClaire","baseUrl":"https://coteclaire.vercel.app/","mode":"index","propertyMode":"urlPrefix"},
+    {"name":"Brulafine Avis Clients","baseUrl":"https://brulafine-avis-clients.netlify.app/","mode":"index","propertyMode":"urlPrefix"},
+    {"name":"Wyylde Opiniones Netlify","baseUrl":"https://wyylde-opiniones-2026.netlify.app/","mode":"index","propertyMode":"urlPrefix"},
+    {"name":"Guide Wyylde Securite","baseUrl":"https://guide-wyylde-securite.netlify.app/","mode":"index","propertyMode":"urlPrefix"},
+    {"name":"Wyylde Comparatif Alternatives","baseUrl":"https://wyylde-comparatif-alternatives.netlify.app/","mode":"index","propertyMode":"urlPrefix"},
+    {"name":"Saudi Adviser","baseUrl":"https://saudi-adviser.netlify.app/","mode":"index","propertyMode":"urlPrefix"},
+    {"name":"Wyylde Avis France WP","baseUrl":"https://wyyldeavisfrance.wordpress.com/","mode":"index","propertyMode":"urlPrefix"},
+    {"name":"Brulafine Avis WP","baseUrl":"https://brulafineavis.wordpress.com/","mode":"index","propertyMode":"urlPrefix"},
+    {"name":"Meilleur Site Pronostics Football 2","baseUrl":"https://meilleursitepronosticsfootball2.wordpress.com/","mode":"index","propertyMode":"urlPrefix"},
+    {"name":"CRM pour Architecte","baseUrl":"https://crmpourarchitecte.wordpress.com/","mode":"index","propertyMode":"urlPrefix"},
+    {"name":"Guide Rencontres Securite","baseUrl":"https://guiderencontressecurite.wordpress.com/","mode":"index","propertyMode":"urlPrefix"},
+    {"name":"Brulafine Opiniones WP","baseUrl":"https://brulafineopiniones.wordpress.com/","mode":"index","propertyMode":"urlPrefix"},
+    {"name":"Meilleur Site Pronostics Football staging","baseUrl":"https://meilleursitepronosticsfootball.wordpress.com/","mode":"exclude","propertyMode":"urlPrefix"},
+    {"name":"Infidele Mari coming soon","baseUrl":"https://infidelemari.wordpress.com/","mode":"exclude","propertyMode":"urlPrefix"}
+  ]
+}
