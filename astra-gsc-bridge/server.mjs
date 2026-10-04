@@ -33,6 +33,46 @@ async function gscSites(token){const j=await gj('https://www.googleapis.com/webm
 async function addProperty(siteUrl,token){return gj(`https://www.googleapis.com/webmasters/v3/sites/${encodeURIComponent(siteUrl)}`,token,{method:'PUT'});}
 async function getProperty(siteUrl,token){return gj(`https://www.googleapis.com/webmasters/v3/sites/${encodeURIComponent(siteUrl)}`,token);}
 async function submitSitemap(siteUrl,sitemapUrl,token){return gj(`https://www.googleapis.com/webmasters/v3/sites/${encodeURIComponent(siteUrl)}/sitemaps/${encodeURIComponent(sitemapUrl)}`,token,{method:'PUT'});}
+async function searchAnalytics(siteUrl,token,{startDate,endDate,dimensions=['query','page'],rowLimit=25000,startRow=0}={}){
+  return gj(`https://www.googleapis.com/webmasters/v3/sites/${encodeURIComponent(siteUrl)}/searchAnalytics/query`,token,{
+    method:'POST',
+    body:JSON.stringify({startDate,endDate,dimensions,rowLimit,startRow,dataState:'final'}),
+  });
+}
+async function inspectUrl(siteUrl,inspectionUrl,token){
+  return gj('https://searchconsole.googleapis.com/v1/urlInspection/index:inspect',token,{
+    method:'POST',
+    body:JSON.stringify({inspectionUrl,siteUrl,languageCode:'fr-FR'}),
+  });
+}
+function isoDay(ms){return new Date(ms).toISOString().slice(0,10);}
+function performanceWindow(days=28){
+  const safe=Math.max(1,Math.min(90,Number(days)||28));
+  const end=Date.now()-24*60*60*1000;
+  return {days:safe,startDate:isoDay(end-(safe-1)*86400000),endDate:isoDay(end)};
+}
+async function portfolioSiteByInput(raw){
+  const value=String(raw||'').trim();
+  if(!value)throw new Error('site_required');
+  const cfg=await portfolio();
+  const hit=(cfg.sites||[]).find(site=>{
+    const property=desiredProperty(site);
+    return site.mode!=='exclude' && (site.name===value || site.baseUrl===value || property===value || domainOf(site.baseUrl)===value.replace(/^sc-domain:/,''));
+  });
+  if(!hit)throw new Error('site_not_in_index_portfolio');
+  return hit;
+}
+function opportunityRows(rows=[]){
+  return rows.map(row=>{
+    const [query='',page='']=row.keys||[];
+    const clicks=Number(row.clicks||0),impressions=Number(row.impressions||0),ctr=Number(row.ctr||0),position=Number(row.position||0);
+    const positionGain=position>=4&&position<=20?Math.max(0,21-position)/17:0;
+    const lowCtr=impressions>=20?Math.max(0,0.08-ctr)/0.08:0;
+    const demand=Math.min(1,Math.log10(1+impressions)/3);
+    const score=Math.round(100*(0.5*positionGain+0.3*lowCtr+0.2*demand));
+    return {query,page,clicks,impressions,ctr:Number(ctr.toFixed(4)),position:Number(position.toFixed(2)),score};
+  }).filter(row=>row.impressions>=10&&row.position>0&&row.position<=30).sort((a,b)=>b.score-a.score||b.impressions-a.impressions);
+}
 async function verificationToken({identifier,type,method,token}){return gj('https://www.googleapis.com/siteVerification/v1/token',token,{method:'POST',body:JSON.stringify({site:{identifier,type},verificationMethod:method})});}
 async function verifyOwnership({identifier,type,method,token}){const u=new URL('https://www.googleapis.com/siteVerification/v1/webResource');u.searchParams.set('verificationMethod',method);return gj(u,token,{method:'POST',body:JSON.stringify({site:{identifier,type}})});}
 async function dynadotTxt(domain,value){const api=process.env.DYNADOT_API_KEY;if(!api)throw new Error('missing_dns_credentials:dynadot');const u=new URL('https://api.dynadot.com/api3.json');u.searchParams.set('key',api);u.searchParams.set('command','set_dns2');u.searchParams.set('domain',domain);u.searchParams.set('add_dns_to_current_setting','1');u.searchParams.set('main_record_type0','txt');u.searchParams.set('main_record0',value);const r=await fetch(u);const j=await r.json();const root=j?.SetDnsResponse;if(!r.ok||!root||String(root.ResponseCode??root.SuccessCode)!=='0'||String(root.Status).toLowerCase()!=='success')throw new Error('dynadot_dns_failed');}
@@ -48,13 +88,46 @@ try{const p=await getProperty(property,token);if(p?.permissionLevel==='siteUnver
 const sitemaps=site.sitemaps?.length?site.sitemaps:await discoverSitemaps(site.baseUrl);if(!sitemaps.length){out.status='PARTIAL';out.stages.push({stage:'sitemaps',status:'PARTIAL',error:'no_reachable_sitemap_found'});return out;}for(const sm of sitemaps)await submitSitemap(property,sm,token);out.stages.push({stage:'sitemaps',status:'PASS',count:sitemaps.length,sitemaps});out.status=out.stages.some(x=>x.status==='FAIL'||x.status==='BLOCKED')?'FAIL':out.stages.some(x=>x.status==='PARTIAL')?'PARTIAL':'PASS';return out;}
 async function reconcile(){const cfg=await portfolio();const token=await googleToken();const entries=await gscSites(token);const sites=[];for(const site of cfg.sites||[]){try{sites.push(await reconcileOne(site,token,entries));}catch(e){sites.push({name:site.name,baseUrl:site.baseUrl,status:'FAIL',error:e.message,stages:[]});}}const report={generatedAt:new Date().toISOString(),summary:{pass:sites.filter(x=>x.status==='PASS').length,partial:sites.filter(x=>x.status==='PARTIAL').length,fail:sites.filter(x=>x.status==='FAIL').length,excluded:sites.filter(x=>x.status==='EXCLUDED').length},sites};await writeJson(REPORT_STORE,report);return report;}
 async function googleConfigured(){return oauthReady()&&Boolean(process.env.GOOGLE_REFRESH_TOKEN||(await storedGoogle())?.refresh_token||process.env.GOOGLE_ACCESS_TOKEN);}
-async function app(req,res){const u=new URL(req.url,ORIGIN());if(u.pathname==='/health'){const cfg=await portfolio();return json(res,200,{ok:true,version:'2.0.0',portfolioSites:cfg.sites.length,oauthClientConfigured:oauthReady(),googleAuthorized:await googleConfigured(),tokenStore:STORE,reportStore:REPORT_STORE});}
+async function app(req,res){const u=new URL(req.url,ORIGIN());if(u.pathname==='/health'){const cfg=await portfolio();return json(res,200,{ok:true,version:'2.1.0',portfolioSites:cfg.sites.length,oauthClientConfigured:oauthReady(),googleAuthorized:await googleConfigured(),tokenStore:STORE,reportStore:REPORT_STORE});}
 if(u.pathname==='/portfolio'){const cfg=await portfolio();return json(res,200,cfg);}
 if(u.pathname==='/status'){return json(res,200,await readJson(REPORT_STORE,{status:'NO_REPORT_YET'}));}
+if(u.pathname==='/performance'){
+  try{
+    const site=await portfolioSiteByInput(u.searchParams.get('site'));
+    const token=await googleToken();
+    const property=desiredProperty(site);
+    const window=performanceWindow(u.searchParams.get('days'));
+    const data=await searchAnalytics(property,token,{...window,dimensions:['query','page'],rowLimit:Math.min(25000,Math.max(1,Number(u.searchParams.get('limit')||1000)))});
+    return json(res,200,{status:'PASS',site:site.name,property,window,rows:data?.rows||[]});
+  }catch(e){return json(res,503,{status:'UNVERIFIED',error:e.message});}
+}
+if(u.pathname==='/opportunities'){
+  try{
+    const site=await portfolioSiteByInput(u.searchParams.get('site'));
+    const token=await googleToken();
+    const property=desiredProperty(site);
+    const window=performanceWindow(u.searchParams.get('days'));
+    const data=await searchAnalytics(property,token,{...window,dimensions:['query','page'],rowLimit:25000});
+    const rows=opportunityRows(data?.rows||[]).slice(0,Math.min(1000,Math.max(1,Number(u.searchParams.get('limit')||200))));
+    return json(res,200,{status:'PASS',site:site.name,property,window,count:rows.length,rows});
+  }catch(e){return json(res,503,{status:'UNVERIFIED',error:e.message});}
+}
+if(u.pathname==='/inspect'){
+  try{
+    const inspectionUrl=String(u.searchParams.get('url')||'').trim();
+    if(!/^https?:\/\//i.test(inspectionUrl))throw new Error('valid_url_required');
+    const site=await portfolioSiteByInput(u.searchParams.get('site')||new URL(inspectionUrl).hostname);
+    if(new URL(inspectionUrl).hostname.replace(/^www\./,'')!==domainOf(site.baseUrl))throw new Error('url_outside_portfolio_site');
+    const token=await googleToken();
+    const property=desiredProperty(site);
+    const result=await inspectUrl(property,inspectionUrl,token);
+    return json(res,200,{status:'PASS',site:site.name,property,inspectionUrl,result:result?.inspectionResult||result});
+  }catch(e){return json(res,503,{status:'UNVERIFIED',error:e.message});}
+}
 if(u.pathname==='/start'){try{if(!oauthReady())throw new Error('google_oauth_client_not_configured');const q=new URLSearchParams({client_id:process.env.GOOGLE_CLIENT_ID,redirect_uri:ORIGIN()+'/callback/google',response_type:'code',access_type:'offline',prompt:'consent',include_granted_scopes:'true',scope:SCOPES.join(' '),state:state()});res.writeHead(302,{location:'https://accounts.google.com/o/oauth2/v2/auth?'+q,'cache-control':'no-store'});return res.end();}catch(e){return json(res,503,{status:'CONFIG_PENDING',error:e.message});}}
 if(u.pathname==='/callback/google'){try{if(u.searchParams.get('error'))throw new Error('google_denied');verifyState(u.searchParams.get('state'));const code=u.searchParams.get('code');if(!code)throw new Error('google_code_missing');const body=new URLSearchParams({client_id:requireEnv('GOOGLE_CLIENT_ID'),client_secret:requireEnv('GOOGLE_CLIENT_SECRET'),code,redirect_uri:ORIGIN()+'/callback/google',grant_type:'authorization_code'});const r=await fetch('https://oauth2.googleapis.com/token',{method:'POST',headers:{'content-type':'application/x-www-form-urlencoded'},body});const j=await r.json();if(!r.ok||!j.access_token)throw new Error(`oauth_token_failed:${j.error_description||j.error||r.status}`);if(!j.refresh_token&&!process.env.GOOGLE_REFRESH_TOKEN)throw new Error('oauth_missing_refresh_token');if(j.refresh_token)await saveGoogle({refresh_token:j.refresh_token,scope:j.scope||SCOPES.join(' '),savedAt:new Date().toISOString()});const report=await reconcile();return page(res,200,'ASTRA GSC Bridge connecté',`<p><strong>OAuth PASS.</strong> Réconciliation portefeuille exécutée.</p><pre>${htmlEsc(JSON.stringify(report.summary,null,2))}</pre><p><a href="/status">Voir le rapport</a></p>`);}catch(e){return page(res,400,'ASTRA GSC Bridge incomplet',`<p><strong>FAIL fermé</strong>: <code>${htmlEsc(e.message)}</code></p>`);}}
 if(u.pathname==='/reconcile'&&req.method==='POST'){try{return json(res,200,await reconcile());}catch(e){return json(res,503,{status:'FAIL',error:e.message});}}
-if(u.pathname==='/'){const h=await googleConfigured();return page(res,200,'ASTRA GSC Bridge Ω',`<p>Version portefeuille 2.0.</p><p>Google OAuth client: <strong>${oauthReady()?'CONFIGURED':'MISSING'}</strong><br>Autorisation durable: <strong>${h?'READY':'MISSING'}</strong></p><p><a href="/portfolio">Portfolio</a> · <a href="/status">Dernier rapport</a>${oauthReady()?' · <a href="/start">Autoriser Google une fois</a>':''}</p>`);}
+if(u.pathname==='/'){const h=await googleConfigured();return page(res,200,'ASTRA GSC Bridge Ω',`<p>Version portefeuille 2.1 · performance GSC + opportunités + inspection URL.</p><p>Google OAuth client: <strong>${oauthReady()?'CONFIGURED':'MISSING'}</strong><br>Autorisation durable: <strong>${h?'READY':'MISSING'}</strong></p><p><a href="/portfolio">Portfolio</a> · <a href="/status">Dernier rapport</a>${oauthReady()?' · <a href="/start">Autoriser Google une fois</a>':''}</p>`);}
 return json(res,404,{error:'not_found'});}
 
 http.createServer((req,res)=>app(req,res).catch(e=>{console.error(e);if(!res.headersSent)json(res,500,{error:'internal_error'});else res.end();})).listen(PORT,'0.0.0.0',()=>console.log(`ASTRA GSC Bridge Ω v2 listening on ${PORT}`));
