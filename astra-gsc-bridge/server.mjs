@@ -13,6 +13,17 @@ const REPORT_STORE=process.env.ASTRA_REPORT_STORE||'/tmp/astra-gsc-last-report.j
 const enc=v=>Buffer.from(v).toString('base64url');
 const dec=v=>Buffer.from(v,'base64url').toString();
 const htmlEsc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+function adminKey(req){
+  const expected=String(process.env.ASTRA_BRIDGE_MASTER_KEY||'').trim();
+  if(!expected)return false;
+  const header=String(req.headers['x-astra-key']||'').trim();
+  const bearer=String(req.headers.authorization||'').replace(/^Bearer\s+/i,'').trim();
+  const supplied=header||bearer;
+  if(!supplied)return false;
+  const a=Buffer.from(expected),b=Buffer.from(supplied);
+  return a.length===b.length && crypto.timingSafeEqual(a,b);
+}
 const json=(res,status,body,headers={})=>{res.writeHead(status,{'content-type':'application/json','cache-control':'no-store',...headers});res.end(JSON.stringify(body,null,2));};
 const page=(res,status,title,body,headers={})=>{res.writeHead(status,{'content-type':'text/html; charset=utf-8','cache-control':'no-store',...headers});res.end(`<!doctype html><meta charset="utf-8"><title>${htmlEsc(title)}</title><main style="font:16px system-ui;max-width:920px;margin:42px auto;line-height:1.45"><h1>${htmlEsc(title)}</h1>${body}</main>`);};
 const requireEnv=n=>{const v=String(process.env[n]||'').trim();if(!v)throw new Error(`missing_env:${n}`);return v;};
