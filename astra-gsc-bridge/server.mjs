@@ -92,6 +92,7 @@ async function app(req,res){const u=new URL(req.url,ORIGIN());if(u.pathname==='/
 if(u.pathname==='/portfolio'){const cfg=await portfolio();return json(res,200,cfg);}
 if(u.pathname==='/status'){return json(res,200,await readJson(REPORT_STORE,{status:'NO_REPORT_YET'}));}
 if(u.pathname==='/performance'){
+  if(!adminKey(req))return json(res,401,{status:'UNVERIFIED',error:'unauthorized'});
   try{
     const site=await portfolioSiteByInput(u.searchParams.get('site'));
     const token=await googleToken();
@@ -102,6 +103,7 @@ if(u.pathname==='/performance'){
   }catch(e){return json(res,503,{status:'UNVERIFIED',error:e.message});}
 }
 if(u.pathname==='/opportunities'){
+  if(!adminKey(req))return json(res,401,{status:'UNVERIFIED',error:'unauthorized'});
   try{
     const site=await portfolioSiteByInput(u.searchParams.get('site'));
     const token=await googleToken();
@@ -113,6 +115,7 @@ if(u.pathname==='/opportunities'){
   }catch(e){return json(res,503,{status:'UNVERIFIED',error:e.message});}
 }
 if(u.pathname==='/inspect'){
+  if(!adminKey(req))return json(res,401,{status:'UNVERIFIED',error:'unauthorized'});
   try{
     const inspectionUrl=String(u.searchParams.get('url')||'').trim();
     if(!/^https?:\/\//i.test(inspectionUrl))throw new Error('valid_url_required');
