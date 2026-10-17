@@ -147,25 +147,29 @@
       "name": "El Diario del Cibao",
       "baseUrl": "https://eldiariodelcibao.com/",
       "mode": "index",
-      "propertyMode": "domain"
+      "propertyMode": "domain",
+      "dnsProvider": "dynadot"
     },
     {
       "name": "Andaluz Tarija",
       "baseUrl": "https://andaluztarija.com/",
       "mode": "index",
-      "propertyMode": "domain"
+      "propertyMode": "domain",
+      "dnsProvider": "dynadot"
     },
     {
       "name": "Avocat Belgique",
       "baseUrl": "https://avocat-belgique.com/",
       "mode": "index",
-      "propertyMode": "domain"
+      "propertyMode": "domain",
+      "dnsProvider": "dynadot"
     },
     {
       "name": "Pantomime",
       "baseUrl": "https://pantomime.org/",
       "mode": "index",
-      "propertyMode": "domain"
+      "propertyMode": "domain",
+      "dnsProvider": "dynadot"
     },
     {
       "name": "Hilizi",
@@ -190,6 +194,41 @@
       "baseUrl": "https://wine-else-artists.vercel.app/",
       "mode": "exclude",
       "propertyMode": "urlPrefix"
+    },
+    {
+      "name": "WINE ELSE",
+      "baseUrl": "https://else.wine/",
+      "mode": "index",
+      "propertyMode": "domain",
+      "dnsProvider": "dynadot"
+    },
+    {
+      "name": "Loft54",
+      "baseUrl": "https://loft54.club/",
+      "mode": "index",
+      "propertyMode": "domain",
+      "dnsProvider": "dynadot"
+    },
+    {
+      "name": "Sénèque",
+      "baseUrl": "https://seneque.info/",
+      "mode": "index",
+      "propertyMode": "domain",
+      "dnsProvider": "dynadot"
+    },
+    {
+      "name": "GamicNews",
+      "baseUrl": "https://gamicnews.com/",
+      "mode": "index",
+      "propertyMode": "domain",
+      "dnsProvider": "dynadot"
+    },
+    {
+      "name": "Pearl of Burlington",
+      "baseUrl": "https://perlofburlington.org/",
+      "mode": "index",
+      "propertyMode": "domain",
+      "dnsProvider": "dynadot"
     }
   ]
 }
