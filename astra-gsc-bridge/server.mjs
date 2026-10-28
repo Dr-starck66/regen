@@ -44,10 +44,10 @@ async function gscSites(token){const j=await gj('https://www.googleapis.com/webm
 async function addProperty(siteUrl,token){return gj(`https://www.googleapis.com/webmasters/v3/sites/${encodeURIComponent(siteUrl)}`,token,{method:'PUT'});}
 async function getProperty(siteUrl,token){return gj(`https://www.googleapis.com/webmasters/v3/sites/${encodeURIComponent(siteUrl)}`,token);}
 async function submitSitemap(siteUrl,sitemapUrl,token){return gj(`https://www.googleapis.com/webmasters/v3/sites/${encodeURIComponent(siteUrl)}/sitemaps/${encodeURIComponent(sitemapUrl)}`,token,{method:'PUT'});}
-async function searchAnalytics(siteUrl,token,{startDate,endDate,dimensions=['query','page'],rowLimit=25000,startRow=0}={}){
+async function searchAnalytics(siteUrl,token,{startDate,endDate,dimensions=['query','page'],rowLimit=25000,startRow=0,searchType='web'}={}){
   return gj(`https://www.googleapis.com/webmasters/v3/sites/${encodeURIComponent(siteUrl)}/searchAnalytics/query`,token,{
     method:'POST',
-    body:JSON.stringify({startDate,endDate,dimensions,rowLimit,startRow,dataState:'final'}),
+    body:JSON.stringify({startDate,endDate,dimensions,rowLimit,startRow,type:searchType,dataState:'final'}),
   });
 }
 async function inspectUrl(siteUrl,inspectionUrl,token){
@@ -99,9 +99,46 @@ try{const p=await getProperty(property,token);if(p?.permissionLevel==='siteUnver
 const sitemaps=site.sitemaps?.length?site.sitemaps:await discoverSitemaps(site.baseUrl);if(!sitemaps.length){out.status='PARTIAL';out.stages.push({stage:'sitemaps',status:'PARTIAL',error:'no_reachable_sitemap_found'});return out;}for(const sm of sitemaps)await submitSitemap(property,sm,token);out.stages.push({stage:'sitemaps',status:'PASS',count:sitemaps.length,sitemaps});out.status=out.stages.some(x=>x.status==='FAIL'||x.status==='BLOCKED')?'FAIL':out.stages.some(x=>x.status==='PARTIAL')?'PARTIAL':'PASS';return out;}
 async function reconcile(){const cfg=await portfolio();const token=await googleToken();const entries=await gscSites(token);const sites=[];for(const site of cfg.sites||[]){try{sites.push(await reconcileOne(site,token,entries));}catch(e){sites.push({name:site.name,baseUrl:site.baseUrl,status:'FAIL',error:e.message,stages:[]});}}const report={generatedAt:new Date().toISOString(),summary:{pass:sites.filter(x=>x.status==='PASS').length,partial:sites.filter(x=>x.status==='PARTIAL').length,fail:sites.filter(x=>x.status==='FAIL').length,excluded:sites.filter(x=>x.status==='EXCLUDED').length},sites};await writeJson(REPORT_STORE,report);return report;}
 async function googleConfigured(){return oauthReady()&&Boolean(process.env.GOOGLE_REFRESH_TOKEN||(await storedGoogle())?.refresh_token||process.env.GOOGLE_ACCESS_TOKEN);}
-async function app(req,res){const u=new URL(req.url,ORIGIN());if(u.pathname==='/health'){const cfg=await portfolio();return json(res,200,{ok:true,version:'2.1.0',portfolioSites:cfg.sites.length,oauthClientConfigured:oauthReady(),googleAuthorized:await googleConfigured(),dnsMutationsEnabled:false,tokenStore:STORE,reportStore:REPORT_STORE});}
+async function app(req,res){const u=new URL(req.url,ORIGIN());if(u.pathname==='/health'){const cfg=await portfolio();return json(res,200,{ok:true,version:'2.1.0',portfolioSites:cfg.sites.length,oauthClientConfigured:oauthReady(),googleAuthorized:await googleConfigured(),ctrEndpoint:'read-only-native-v1',dnsMutationsEnabled:false,tokenStore:STORE,reportStore:REPORT_STORE});}
 if(u.pathname==='/portfolio'){const cfg=await portfolio();return json(res,200,cfg);}
 if(u.pathname==='/status'){return json(res,200,await readJson(REPORT_STORE,{status:'NO_REPORT_YET'}));}
+if(u.pathname==='/ctr'){
+  if(!adminKey(req))return json(res,401,{status:'UNVERIFIED',error:'unauthorized'});
+  try{
+    const site=await portfolioSiteByInput(u.searchParams.get('site'));
+    const token=await googleToken();
+    const property=desiredProperty(site);
+    const rawDays=Number(u.searchParams.get('days')||28);
+    const days=Math.max(1,Math.min(90,Number.isFinite(rawDays)?rawDays:28));
+    // Leave the most recent three days out to avoid preliminary GSC observations.
+    const endMs=Date.now()-3*86400000;
+    const window={startDate:isoDay(endMs-(days-1)*86400000),endDate:isoDay(endMs)};
+    const channels={};
+    for(const [searchType,dimensions] of [
+      ['web',['page','query','device']],['discover',['page','device']]
+    ]){
+      try{
+        const rows=[]; let capped=false;
+        for(let offset=0;offset<50000;offset+=25000){
+          const data=await searchAnalytics(property,token,{...window,dimensions,rowLimit:25000,
+            startRow:offset,searchType});
+          const page=data?.rows||[];
+          rows.push(...page);
+          if(page.length<25000)break;
+          if(offset===25000)capped=true;
+        }
+        channels[searchType]={status:'PASS',rows,coverage:capped?'ROW_CAP_50000':'ROWS_RETURNED_OR_NO_IMPRESSIONS'};
+      }catch(e){channels[searchType]={status:'UNVERIFIED',reason:String(e.message||e).slice(0,180),rows:[]};}
+    }
+    const status=channels.web.status==='PASS'&&channels.discover.status==='PASS'?'PASS':
+      channels.web.status==='PASS'||channels.discover.status==='PASS'?'PARTIAL':'UNVERIFIED';
+    return json(res,status==='UNVERIFIED'?503:200,{schema:'astra-gsc-bridge/ctr-v1',
+      status,site:site.name,property,window,channels,source:'GOOGLE_SEARCH_CONSOLE_API_NATIVE',
+      costIncreaseEur:0,readOnly:true,authorization:'existing-google-oauth',
+      limits:['Google may omit anonymized queries; row cap 50,000 per search type.',
+        'CTR and ranking are observations, not evidence of editorial causal impact.']});
+  }catch(e){return json(res,503,{status:'UNVERIFIED',error:String(e.message||e).slice(0,220)});}
+}
 if(u.pathname==='/performance'){
   if(!adminKey(req))return json(res,401,{status:'UNVERIFIED',error:'unauthorized'});
   try{
