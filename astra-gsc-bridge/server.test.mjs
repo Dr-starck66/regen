@@ -40,3 +40,10 @@ test('read-only CTR endpoint rejects POST without credentials',async()=>{
  assert.equal(r.status,401);
 });
 test.after(()=>{stopped=true;child.kill('SIGTERM')});
+
+test('persisted history rejects anonymous callers',async()=>{
+ const r=await fetch(base+'/ctr/history');assert.equal(r.status,401);
+});
+test('manual native capture rejects anonymous callers',async()=>{
+ const r=await fetch(base+'/ctr/capture',{method:'POST'});assert.equal(r.status,401);
+});
