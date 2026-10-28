@@ -240,5 +240,5 @@ http.createServer((req,res)=>app(req,res).catch(e=>{console.error(e);if(!res.hea
 
 if(process.env.ASTRA_RECONCILE_INTERVAL_MS){const ms=Math.max(3600000,Number(process.env.ASTRA_RECONCILE_INTERVAL_MS)||21600000);setInterval(()=>{
   reconcile().catch(e=>console.error('reconcile',e.message));
-  captureNativeCtr().catch(e=>console.error('ctr_capture',e.message));
+  googleConfigured().then(ok=>{if(ok)return captureNativeCtr();}).catch(e=>console.error('ctr_capture',e.message));
 },ms).unref();}
